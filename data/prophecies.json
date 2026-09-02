@@ -1,0 +1,3608 @@
+{
+   "entries" : [
+      {
+         "claim_summary" : "Seed of a woman (virgin birth)",
+         "id" : "prophecy-001",
+         "nt_references" : [
+            "Gal 4:4-5",
+            "Matt 1:18"
+         ],
+         "ot_reference" : "Gen 3:15",
+         "review_status" : "unreviewed",
+         "source_id" : 1
+      },
+      {
+         "claim_summary" : "He will bruise Satan’s head",
+         "id" : "prophecy-002",
+         "nt_references" : [
+            "Heb 2:14",
+            "1John 3:8"
+         ],
+         "ot_reference" : "Gen 3:15",
+         "review_status" : "unreviewed",
+         "source_id" : 2
+      },
+      {
+         "claim_summary" : "The bodily ascension to heaven illustrated",
+         "id" : "prophecy-003",
+         "nt_references" : [
+            "Mark 16:19"
+         ],
+         "ot_reference" : "Gen 5:24",
+         "review_status" : "unreviewed",
+         "source_id" : 3
+      },
+      {
+         "claim_summary" : "The God of Shem will be the Son of Shem",
+         "id" : "prophecy-004",
+         "nt_references" : [
+            "Luke 3:36"
+         ],
+         "ot_reference" : "Gen 9:26-27",
+         "review_status" : "unreviewed",
+         "source_id" : 4
+      },
+      {
+         "claim_summary" : "Seed of Abraham will bless all nations",
+         "id" : "prophecy-005",
+         "nt_references" : [
+            "Gal 3:8",
+            "Acts 3:25-26"
+         ],
+         "ot_reference" : "Gen 12:3",
+         "review_status" : "unreviewed",
+         "source_id" : 5
+      },
+      {
+         "claim_summary" : "The Promise made to Abraham’s Seed",
+         "id" : "prophecy-006",
+         "nt_references" : [
+            "Gal 3:16"
+         ],
+         "ot_reference" : "Gen 12:7",
+         "review_status" : "unreviewed",
+         "source_id" : 6
+      },
+      {
+         "claim_summary" : "A priest after the order of Melchizedek",
+         "id" : "prophecy-007",
+         "nt_references" : [
+            "Heb 6:20"
+         ],
+         "ot_reference" : "Gen 14:18",
+         "review_status" : "unreviewed",
+         "source_id" : 7
+      },
+      {
+         "claim_summary" : "King of Peace and Righteousness",
+         "id" : "prophecy-008",
+         "nt_references" : [
+            "Heb 7:2"
+         ],
+         "ot_reference" : "Gen 14:18",
+         "review_status" : "unreviewed",
+         "source_id" : 8
+      },
+      {
+         "claim_summary" : "The Last Supper foreshadowed",
+         "id" : "prophecy-009",
+         "nt_references" : [
+            "Matt 26:26-29"
+         ],
+         "ot_reference" : "Gen 14:18",
+         "review_status" : "unreviewed",
+         "source_id" : 9
+      },
+      {
+         "claim_summary" : "Seed of Isaac (Gen 21:12)",
+         "id" : "prophecy-010",
+         "nt_references" : [
+            "Rom 9:7"
+         ],
+         "ot_reference" : "Gen 17:19",
+         "review_status" : "unreviewed",
+         "source_id" : 10
+      },
+      {
+         "claim_summary" : "The Lamb of God promised",
+         "id" : "prophecy-011",
+         "nt_references" : [
+            "John 1:29"
+         ],
+         "ot_reference" : "Gen 22:8",
+         "review_status" : "unreviewed",
+         "source_id" : 11
+      },
+      {
+         "claim_summary" : "As Isaac’s seed, will bless all nations",
+         "id" : "prophecy-012",
+         "nt_references" : [
+            "Gal 3:16"
+         ],
+         "ot_reference" : "Gen 22:18",
+         "review_status" : "unreviewed",
+         "source_id" : 12
+      },
+      {
+         "claim_summary" : "The Seed of Isaac promised as the Redeemer",
+         "id" : "prophecy-013",
+         "nt_references" : [
+            "Heb 11:18"
+         ],
+         "ot_reference" : "Gen 26:2-5",
+         "review_status" : "unreviewed",
+         "source_id" : 13
+      },
+      {
+         "claim_summary" : "The Bridge to heaven",
+         "id" : "prophecy-014",
+         "nt_references" : [
+            "John 1:51"
+         ],
+         "ot_reference" : "Gen 28:12",
+         "review_status" : "unreviewed",
+         "source_id" : 14
+      },
+      {
+         "claim_summary" : "The Seed of Jacob",
+         "id" : "prophecy-015",
+         "nt_references" : [
+            "Luke 3:34"
+         ],
+         "ot_reference" : "Gen 28:14",
+         "review_status" : "unreviewed",
+         "source_id" : 15
+      },
+      {
+         "claim_summary" : "The time of His coming",
+         "id" : "prophecy-016",
+         "nt_references" : [
+            "Luke 2:1-7",
+            "Gal 4:4"
+         ],
+         "ot_reference" : "Gen 49:10",
+         "review_status" : "unreviewed",
+         "source_id" : 16
+      },
+      {
+         "claim_summary" : "The Seed of Judah",
+         "id" : "prophecy-017",
+         "nt_references" : [
+            "Luke 3:33"
+         ],
+         "ot_reference" : "Gen 49:10",
+         "review_status" : "unreviewed",
+         "source_id" : 17
+      },
+      {
+         "claim_summary" : "Called Shiloh or One Sent",
+         "id" : "prophecy-018",
+         "nt_references" : [
+            "John 17:3"
+         ],
+         "ot_reference" : "Gen 49:10",
+         "review_status" : "unreviewed",
+         "source_id" : 18
+      },
+      {
+         "claim_summary" : "Messiah to come before Judah lost identity",
+         "id" : "prophecy-019",
+         "nt_references" : [
+            "John 11:47-52"
+         ],
+         "ot_reference" : "Gen 49:10",
+         "review_status" : "unreviewed",
+         "source_id" : 19
+      },
+      {
+         "claim_summary" : "Unto Him shall the obedience of the people be",
+         "id" : "prophecy-020",
+         "nt_references" : [
+            "John 10:16"
+         ],
+         "ot_reference" : "Gen 49:10",
+         "review_status" : "unreviewed",
+         "source_id" : 20
+      },
+      {
+         "claim_summary" : "The Great \"I AM\"",
+         "id" : "prophecy-021",
+         "nt_references" : [
+            "John 4:26",
+            "John 8:58"
+         ],
+         "ot_reference" : "Exod 3:13-15",
+         "review_status" : "unreviewed",
+         "source_id" : 21
+      },
+      {
+         "claim_summary" : "A Lamb without blemish",
+         "id" : "prophecy-022",
+         "nt_references" : [
+            "Heb 9:14",
+            "1Pet 1:19"
+         ],
+         "ot_reference" : "Exod 12:5",
+         "review_status" : "unreviewed",
+         "source_id" : 22
+      },
+      {
+         "claim_summary" : "The blood of the Lamb saves from wrath",
+         "id" : "prophecy-023",
+         "nt_references" : [
+            "Rom 5:8"
+         ],
+         "ot_reference" : "Exod 12:13",
+         "review_status" : "unreviewed",
+         "source_id" : 23
+      },
+      {
+         "claim_summary" : "Christ is our Passover",
+         "id" : "prophecy-024",
+         "nt_references" : [
+            "1Cor 5:7"
+         ],
+         "ot_reference" : "Exod 12:21-27",
+         "review_status" : "unreviewed",
+         "source_id" : 24
+      },
+      {
+         "claim_summary" : "Not a bone of the Lamb to be broken",
+         "id" : "prophecy-025",
+         "nt_references" : [
+            "John 19:31-36"
+         ],
+         "ot_reference" : "Exod 12:46",
+         "review_status" : "unreviewed",
+         "source_id" : 25
+      },
+      {
+         "claim_summary" : "His exaltation predicted as Yeshua",
+         "id" : "prophecy-026",
+         "nt_references" : [
+            "Acts 7:55-56"
+         ],
+         "ot_reference" : "Exod 15:2",
+         "review_status" : "unreviewed",
+         "source_id" : 26
+      },
+      {
+         "claim_summary" : "His Character-Holiness",
+         "id" : "prophecy-027",
+         "nt_references" : [
+            "Luke 1:35",
+            "Acts 4:27"
+         ],
+         "ot_reference" : "Exod 15:11",
+         "review_status" : "unreviewed",
+         "source_id" : 27
+      },
+      {
+         "claim_summary" : "The Spiritual Rock of Israel",
+         "id" : "prophecy-028",
+         "nt_references" : [
+            "1Cor 10:4"
+         ],
+         "ot_reference" : "Exod 17:6",
+         "review_status" : "unreviewed",
+         "source_id" : 28
+      },
+      {
+         "claim_summary" : "His Character-Merciful",
+         "id" : "prophecy-029",
+         "nt_references" : [
+            "Luke 1:72"
+         ],
+         "ot_reference" : "Exod 33:19",
+         "review_status" : "unreviewed",
+         "source_id" : 29
+      },
+      {
+         "claim_summary" : "His sacrifice a sweet smelling savor unto God",
+         "id" : "prophecy-030",
+         "nt_references" : [
+            "Eph 5:2"
+         ],
+         "ot_reference" : "Lev 1:2-9",
+         "review_status" : "unreviewed",
+         "source_id" : 30
+      },
+      {
+         "claim_summary" : "The leper cleansed-Sign to priesthood",
+         "id" : "prophecy-031",
+         "nt_references" : [
+            "Luke 5:12-14",
+            "Acts 6:7"
+         ],
+         "ot_reference" : "Lev 14:11",
+         "review_status" : "unreviewed",
+         "source_id" : 31
+      },
+      {
+         "claim_summary" : "Prefigures Christ’s once-for-all death",
+         "id" : "prophecy-032",
+         "nt_references" : [
+            "Heb 9:7-14"
+         ],
+         "ot_reference" : "Lev 16:15-17",
+         "review_status" : "unreviewed",
+         "source_id" : 32
+      },
+      {
+         "claim_summary" : "Suffering outside the Camp",
+         "id" : "prophecy-033",
+         "nt_references" : [
+            "Matt 27:33",
+            "Heb 13:11-12"
+         ],
+         "ot_reference" : "Lev 16:27",
+         "review_status" : "unreviewed",
+         "source_id" : 33
+      },
+      {
+         "claim_summary" : "The Blood-the life of the flesh",
+         "id" : "prophecy-034",
+         "nt_references" : [
+            "Matt 26:28",
+            "Mark 10:45"
+         ],
+         "ot_reference" : "Lev 17:11",
+         "review_status" : "unreviewed",
+         "source_id" : 34
+      },
+      {
+         "claim_summary" : "It is the blood that makes atonement",
+         "id" : "prophecy-035",
+         "nt_references" : [
+            "Rom 3:23-24",
+            "1John 1:7"
+         ],
+         "ot_reference" : "Lev 17:11",
+         "review_status" : "unreviewed",
+         "source_id" : 35
+      },
+      {
+         "claim_summary" : "The Drink-offering: \"If any man thirst\"",
+         "id" : "prophecy-036",
+         "nt_references" : [
+            "John 7:37"
+         ],
+         "ot_reference" : "Lev 23:36-37",
+         "review_status" : "unreviewed",
+         "source_id" : 36
+      },
+      {
+         "claim_summary" : "Not a bone of Him broken",
+         "id" : "prophecy-037",
+         "nt_references" : [
+            "John 19:31-36"
+         ],
+         "ot_reference" : "Num 9:12",
+         "review_status" : "unreviewed",
+         "source_id" : 37
+      },
+      {
+         "claim_summary" : "The serpent on a pole-Christ lifted up",
+         "id" : "prophecy-038",
+         "nt_references" : [
+            "John 3:14-18",
+            "John 12:32"
+         ],
+         "ot_reference" : "Num 21:9",
+         "review_status" : "unreviewed",
+         "source_id" : 38
+      },
+      {
+         "claim_summary" : "Time: \"I shall see him, but not now.\"",
+         "id" : "prophecy-039",
+         "nt_references" : [
+            "John 1:14",
+            "Gal 4:4"
+         ],
+         "ot_reference" : "Num 24:17",
+         "review_status" : "unreviewed",
+         "source_id" : 39
+      },
+      {
+         "claim_summary" : "\"This is of a truth that prophet\"",
+         "id" : "prophecy-040",
+         "nt_references" : [
+            "John 6:14"
+         ],
+         "ot_reference" : "Deut 18:15",
+         "review_status" : "unreviewed",
+         "source_id" : 40
+      },
+      {
+         "claim_summary" : "\"Had you believed Moses, you would believe me.\"",
+         "id" : "prophecy-041",
+         "nt_references" : [
+            "John 5:45-47"
+         ],
+         "ot_reference" : "Deut 18:15-16",
+         "review_status" : "unreviewed",
+         "source_id" : 41
+      },
+      {
+         "claim_summary" : "Sent by the Father to speak His word",
+         "id" : "prophecy-042",
+         "nt_references" : [
+            "John 8:28-29"
+         ],
+         "ot_reference" : "Deut 18:18",
+         "review_status" : "unreviewed",
+         "source_id" : 42
+      },
+      {
+         "claim_summary" : "Whoever will not hear must bear his sin",
+         "id" : "prophecy-043",
+         "nt_references" : [
+            "Acts 3:22-23"
+         ],
+         "ot_reference" : "Deut 18:19",
+         "review_status" : "unreviewed",
+         "source_id" : 43
+      },
+      {
+         "claim_summary" : "Cursed is he that hangs on a tree",
+         "id" : "prophecy-044",
+         "nt_references" : [
+            "Gal 3:10-13"
+         ],
+         "ot_reference" : "Deut 21:23",
+         "review_status" : "unreviewed",
+         "source_id" : 44
+      },
+      {
+         "claim_summary" : "The Captain of our salvation",
+         "id" : "prophecy-045",
+         "nt_references" : [
+            "Heb 2:10"
+         ],
+         "ot_reference" : "Josh 5:14-15",
+         "review_status" : "unreviewed",
+         "source_id" : 45
+      },
+      {
+         "claim_summary" : "Christ, our kinsman, has redeemed us",
+         "id" : "prophecy-046",
+         "nt_references" : [
+            "Eph 1:3-7"
+         ],
+         "ot_reference" : "Ruth 4:4-10",
+         "review_status" : "unreviewed",
+         "source_id" : 46
+      },
+      {
+         "claim_summary" : "A Faithful Priest",
+         "id" : "prophecy-047",
+         "nt_references" : [
+            "Heb 2:17",
+            "Heb 3:1-3",
+            "Heb 3:6",
+            "Heb 7:24-25"
+         ],
+         "ot_reference" : "1Sam 2:35",
+         "review_status" : "unreviewed",
+         "source_id" : 47
+      },
+      {
+         "claim_summary" : "Shall be an anointed King to the Lord",
+         "id" : "prophecy-048",
+         "nt_references" : [
+            "Matt 28:18",
+            "John 12:15"
+         ],
+         "ot_reference" : "1Sam 2:10",
+         "review_status" : "unreviewed",
+         "source_id" : 48
+      },
+      {
+         "claim_summary" : "David’s Seed",
+         "id" : "prophecy-049",
+         "nt_references" : [
+            "Matt 1:1"
+         ],
+         "ot_reference" : "2Sam 7:12",
+         "review_status" : "unreviewed",
+         "source_id" : 49
+      },
+      {
+         "claim_summary" : "His Kingdom is everlasting",
+         "id" : "prophecy-050",
+         "nt_references" : [
+            "2Pet 1:11"
+         ],
+         "ot_reference" : "2Sam 7:13",
+         "review_status" : "unreviewed",
+         "source_id" : 50
+      },
+      {
+         "claim_summary" : "The Son of God",
+         "id" : "prophecy-051",
+         "nt_references" : [
+            "Luke 1:32",
+            "Rom 1:3-4"
+         ],
+         "ot_reference" : "2Sam 7:14a",
+         "review_status" : "unreviewed",
+         "source_id" : 51
+      },
+      {
+         "claim_summary" : "David’s house established forever",
+         "id" : "prophecy-052",
+         "nt_references" : [
+            "Luke 3:31",
+            "Rev 22:16"
+         ],
+         "ot_reference" : "2Sam 7:16",
+         "review_status" : "unreviewed",
+         "source_id" : 52
+      },
+      {
+         "claim_summary" : "The bodily ascension to heaven illustrated",
+         "id" : "prophecy-053",
+         "nt_references" : [
+            "Luke 24:51"
+         ],
+         "ot_reference" : "2Kgs 2:11",
+         "review_status" : "unreviewed",
+         "source_id" : 53
+      },
+      {
+         "claim_summary" : "David’s Seed",
+         "id" : "prophecy-054",
+         "nt_references" : [
+            "Matt 1:1",
+            "Matt 9:27"
+         ],
+         "ot_reference" : "1Chr 17:11",
+         "review_status" : "unreviewed",
+         "source_id" : 54
+      },
+      {
+         "claim_summary" : "To reign on David’s throne forever",
+         "id" : "prophecy-055",
+         "nt_references" : [
+            "Luke 1:32-33"
+         ],
+         "ot_reference" : "1Chr 17:12-13",
+         "review_status" : "unreviewed",
+         "source_id" : 55
+      },
+      {
+         "claim_summary" : "\"I will be His Father, He…my Son.\"",
+         "id" : "prophecy-056",
+         "nt_references" : [
+            "Heb 1:5"
+         ],
+         "ot_reference" : "1Chr 17:13",
+         "review_status" : "unreviewed",
+         "source_id" : 56
+      },
+      {
+         "claim_summary" : "Mediator between man and God",
+         "id" : "prophecy-057",
+         "nt_references" : [
+            "1Tim 2:5"
+         ],
+         "ot_reference" : "Job 9:32-33",
+         "review_status" : "unreviewed",
+         "source_id" : 57
+      },
+      {
+         "claim_summary" : "The Resurrection predicted",
+         "id" : "prophecy-058",
+         "nt_references" : [
+            "John 5:24-29"
+         ],
+         "ot_reference" : "Job 19:23-27",
+         "review_status" : "unreviewed",
+         "source_id" : 58
+      },
+      {
+         "claim_summary" : "The enmity of kings foreordained",
+         "id" : "prophecy-059",
+         "nt_references" : [
+            "Acts 4:25-28"
+         ],
+         "ot_reference" : "Ps 2:1-3",
+         "review_status" : "unreviewed",
+         "source_id" : 59
+      },
+      {
+         "claim_summary" : "To own the title, Anointed (Christ)",
+         "id" : "prophecy-060",
+         "nt_references" : [
+            "John 1:41",
+            "Acts 2:36"
+         ],
+         "ot_reference" : "Ps 2:2",
+         "review_status" : "unreviewed",
+         "source_id" : 60
+      },
+      {
+         "claim_summary" : "His Character-Holiness",
+         "id" : "prophecy-061",
+         "nt_references" : [
+            "John 8:46",
+            "Rev 3:7"
+         ],
+         "ot_reference" : "Ps 2:6",
+         "review_status" : "unreviewed",
+         "source_id" : 61
+      },
+      {
+         "claim_summary" : "To own the title King",
+         "id" : "prophecy-062",
+         "nt_references" : [
+            "Matt 2:2"
+         ],
+         "ot_reference" : "Ps 2:6",
+         "review_status" : "unreviewed",
+         "source_id" : 62
+      },
+      {
+         "claim_summary" : "Declared the Beloved Son",
+         "id" : "prophecy-063",
+         "nt_references" : [
+            "Matt 3:17",
+            "Rom 1:4"
+         ],
+         "ot_reference" : "Ps 2:7",
+         "review_status" : "unreviewed",
+         "source_id" : 63
+      },
+      {
+         "claim_summary" : "The Crucifixion and Resurrection intimated",
+         "id" : "prophecy-064",
+         "nt_references" : [
+            "Acts 13:29-33"
+         ],
+         "ot_reference" : "Ps 2:7-8",
+         "review_status" : "unreviewed",
+         "source_id" : 64
+      },
+      {
+         "claim_summary" : "Rule the nations with a rod of iron",
+         "id" : "prophecy-065",
+         "nt_references" : [
+            "Rev 2:27",
+            "Rev 12:5",
+            "Rev 19:15"
+         ],
+         "ot_reference" : "Ps 2:8-9",
+         "review_status" : "unreviewed",
+         "source_id" : 65
+      },
+      {
+         "claim_summary" : "Life comes through faith in Him",
+         "id" : "prophecy-066",
+         "nt_references" : [
+            "John 20:31"
+         ],
+         "ot_reference" : "Ps 2:12",
+         "review_status" : "unreviewed",
+         "source_id" : 66
+      },
+      {
+         "claim_summary" : "The mouths of babes perfect His praise",
+         "id" : "prophecy-067",
+         "nt_references" : [
+            "Matt 21:16"
+         ],
+         "ot_reference" : "Ps 8:2",
+         "review_status" : "unreviewed",
+         "source_id" : 67
+      },
+      {
+         "claim_summary" : "His humiliation and exaltation",
+         "id" : "prophecy-068",
+         "nt_references" : [
+            "Heb 2:5-9"
+         ],
+         "ot_reference" : "Ps 8:5-6",
+         "review_status" : "unreviewed",
+         "source_id" : 68
+      },
+      {
+         "claim_summary" : "Judge the world in righteousness",
+         "id" : "prophecy-069",
+         "nt_references" : [
+            "Acts 17:31"
+         ],
+         "ot_reference" : "Ps 9:7-10",
+         "review_status" : "unreviewed",
+         "source_id" : 69
+      },
+      {
+         "claim_summary" : "Was not to see corruption",
+         "id" : "prophecy-070",
+         "nt_references" : [
+            "Acts 2:31",
+            "Acts 13:35"
+         ],
+         "ot_reference" : "Ps 16:10",
+         "review_status" : "unreviewed",
+         "source_id" : 70
+      },
+      {
+         "claim_summary" : "Was to arise from the dead",
+         "id" : "prophecy-071",
+         "nt_references" : [
+            "John 20:9"
+         ],
+         "ot_reference" : "Ps 16:9-11",
+         "review_status" : "unreviewed",
+         "source_id" : 71
+      },
+      {
+         "claim_summary" : "The resurrection predicted",
+         "id" : "prophecy-072",
+         "nt_references" : [
+            "Luke 24:6"
+         ],
+         "ot_reference" : "Ps 17:15",
+         "review_status" : "unreviewed",
+         "source_id" : 72
+      },
+      {
+         "claim_summary" : "The horn of salvation",
+         "id" : "prophecy-073",
+         "nt_references" : [
+            "Luke 1:69-71"
+         ],
+         "ot_reference" : "Ps 18:2-3",
+         "review_status" : "unreviewed",
+         "source_id" : 73
+      },
+      {
+         "claim_summary" : "Forsaken because of sins of others",
+         "id" : "prophecy-074",
+         "nt_references" : [
+            "2Cor 5:21"
+         ],
+         "ot_reference" : "Ps 22:1",
+         "review_status" : "unreviewed",
+         "source_id" : 74
+      },
+      {
+         "claim_summary" : "\"My God, my God, why have You forsaken me?\"",
+         "id" : "prophecy-075",
+         "nt_references" : [
+            "Matt 27:46"
+         ],
+         "ot_reference" : "Ps 22:1",
+         "review_status" : "unreviewed",
+         "source_id" : 75
+      },
+      {
+         "claim_summary" : "Darkness upon Calvary for three hours",
+         "id" : "prophecy-076",
+         "nt_references" : [
+            "Matt 27:45"
+         ],
+         "ot_reference" : "Ps 22:2",
+         "review_status" : "unreviewed",
+         "source_id" : 76
+      },
+      {
+         "claim_summary" : "They shoot out the lip and shake the head",
+         "id" : "prophecy-077",
+         "nt_references" : [
+            "Matt 27:39-44"
+         ],
+         "ot_reference" : "Ps 22:7",
+         "review_status" : "unreviewed",
+         "source_id" : 77
+      },
+      {
+         "claim_summary" : "\"He trusted in God, let Him deliver Him\"",
+         "id" : "prophecy-078",
+         "nt_references" : [
+            "Matt 27:43"
+         ],
+         "ot_reference" : "Ps 22:8",
+         "review_status" : "unreviewed",
+         "source_id" : 78
+      },
+      {
+         "claim_summary" : "Born the Savior",
+         "id" : "prophecy-079",
+         "nt_references" : [
+            "Luke 2:7"
+         ],
+         "ot_reference" : "Ps 22:9-10",
+         "review_status" : "unreviewed",
+         "source_id" : 79
+      },
+      {
+         "claim_summary" : "They seek His death",
+         "id" : "prophecy-080",
+         "nt_references" : [
+            "John 19:6"
+         ],
+         "ot_reference" : "Ps 22:12-13",
+         "review_status" : "unreviewed",
+         "source_id" : 80
+      },
+      {
+         "claim_summary" : "His blood poured out when they pierced His side",
+         "id" : "prophecy-081",
+         "nt_references" : [
+            "John 19:34"
+         ],
+         "ot_reference" : "Ps 22:14",
+         "review_status" : "unreviewed",
+         "source_id" : 81
+      },
+      {
+         "claim_summary" : "Suffered agony on Calvary",
+         "id" : "prophecy-082",
+         "nt_references" : [
+            "Mark 15:34-37"
+         ],
+         "ot_reference" : "Ps 22:14-15",
+         "review_status" : "unreviewed",
+         "source_id" : 82
+      },
+      {
+         "claim_summary" : "He thirsted",
+         "id" : "prophecy-083",
+         "nt_references" : [
+            "John 19:28"
+         ],
+         "ot_reference" : "Ps 22:15",
+         "review_status" : "unreviewed",
+         "source_id" : 83
+      },
+      {
+         "claim_summary" : "They pierced His hands and His feet",
+         "id" : "prophecy-084",
+         "nt_references" : [
+            "John 19:34-37",
+            "John 20:27"
+         ],
+         "ot_reference" : "Ps 22:16",
+         "review_status" : "unreviewed",
+         "source_id" : 84
+      },
+      {
+         "claim_summary" : "Stripped Him before the stares of men",
+         "id" : "prophecy-085",
+         "nt_references" : [
+            "Luke 23:34-35"
+         ],
+         "ot_reference" : "Ps 22:17-18",
+         "review_status" : "unreviewed",
+         "source_id" : 85
+      },
+      {
+         "claim_summary" : "They parted His garments",
+         "id" : "prophecy-086",
+         "nt_references" : [
+            "John 19:23-24"
+         ],
+         "ot_reference" : "Ps 22:18",
+         "review_status" : "unreviewed",
+         "source_id" : 86
+      },
+      {
+         "claim_summary" : "He committed Himself to God",
+         "id" : "prophecy-087",
+         "nt_references" : [
+            "Luke 23:46"
+         ],
+         "ot_reference" : "Ps 22:20-21",
+         "review_status" : "unreviewed",
+         "source_id" : 87
+      },
+      {
+         "claim_summary" : "Satanic power bruising the Redeemer’s heel",
+         "id" : "prophecy-088",
+         "nt_references" : [
+            "Heb 2:14"
+         ],
+         "ot_reference" : "Ps 22:20-21",
+         "review_status" : "unreviewed",
+         "source_id" : 88
+      },
+      {
+         "claim_summary" : "His Resurrection declared",
+         "id" : "prophecy-089",
+         "nt_references" : [
+            "John 20:17"
+         ],
+         "ot_reference" : "Ps 22:22",
+         "review_status" : "unreviewed",
+         "source_id" : 89
+      },
+      {
+         "claim_summary" : "He shall be the governor of the nations",
+         "id" : "prophecy-090",
+         "nt_references" : [
+            "Col 1:16"
+         ],
+         "ot_reference" : "Ps 22:27-28",
+         "review_status" : "unreviewed",
+         "source_id" : 90
+      },
+      {
+         "claim_summary" : "\"It is finished\"",
+         "id" : "prophecy-091",
+         "nt_references" : [
+            "John 19:30",
+            "Heb 10:10-12",
+            "Heb 10:14",
+            "Heb 10:18"
+         ],
+         "ot_reference" : "Ps 22:31",
+         "review_status" : "unreviewed",
+         "source_id" : 91
+      },
+      {
+         "claim_summary" : "\"I am the Good Shepherd\"",
+         "id" : "prophecy-092",
+         "nt_references" : [
+            "John 10:11",
+            "1Pet 2:25"
+         ],
+         "ot_reference" : "Ps 23:1",
+         "review_status" : "unreviewed",
+         "source_id" : 92
+      },
+      {
+         "claim_summary" : "His exaltation predicted",
+         "id" : "prophecy-093",
+         "nt_references" : [
+            "Acts 1:11",
+            "Phil 2:9"
+         ],
+         "ot_reference" : "Ps 24:3",
+         "review_status" : "unreviewed",
+         "source_id" : 93
+      },
+      {
+         "claim_summary" : "His resurrection predicted",
+         "id" : "prophecy-094",
+         "nt_references" : [
+            "Acts 2:32"
+         ],
+         "ot_reference" : "Ps 30:3",
+         "review_status" : "unreviewed",
+         "source_id" : 94
+      },
+      {
+         "claim_summary" : "\"Into Your hands I commit my spirit\"",
+         "id" : "prophecy-095",
+         "nt_references" : [
+            "Luke 23:46"
+         ],
+         "ot_reference" : "Ps 31:5",
+         "review_status" : "unreviewed",
+         "source_id" : 95
+      },
+      {
+         "claim_summary" : "His acquaintances fled from Him",
+         "id" : "prophecy-096",
+         "nt_references" : [
+            "Mark 14:50"
+         ],
+         "ot_reference" : "Ps 31:11",
+         "review_status" : "unreviewed",
+         "source_id" : 96
+      },
+      {
+         "claim_summary" : "They took counsel to put Him to death",
+         "id" : "prophecy-097",
+         "nt_references" : [
+            "Matt 27:1",
+            "John 11:53"
+         ],
+         "ot_reference" : "Ps 31:13",
+         "review_status" : "unreviewed",
+         "source_id" : 97
+      },
+      {
+         "claim_summary" : "\"He trusted in God, let Him deliver him\"",
+         "id" : "prophecy-098",
+         "nt_references" : [
+            "Matt 27:43"
+         ],
+         "ot_reference" : "Ps 31:14-15",
+         "review_status" : "unreviewed",
+         "source_id" : 98
+      },
+      {
+         "claim_summary" : "Not a bone of Him broken",
+         "id" : "prophecy-099",
+         "nt_references" : [
+            "John 19:31-36"
+         ],
+         "ot_reference" : "Ps 34:20",
+         "review_status" : "unreviewed",
+         "source_id" : 99
+      },
+      {
+         "claim_summary" : "False witnesses rose up against Him",
+         "id" : "prophecy-100",
+         "nt_references" : [
+            "Matt 26:59"
+         ],
+         "ot_reference" : "Ps 35:11",
+         "review_status" : "unreviewed",
+         "source_id" : 100
+      },
+      {
+         "claim_summary" : "He was hated without a cause",
+         "id" : "prophecy-101",
+         "nt_references" : [
+            "John 15:25"
+         ],
+         "ot_reference" : "Ps 35:19",
+         "review_status" : "unreviewed",
+         "source_id" : 101
+      },
+      {
+         "claim_summary" : "His friends stood afar off",
+         "id" : "prophecy-102",
+         "nt_references" : [
+            "Luke 23:49"
+         ],
+         "ot_reference" : "Ps 38:11",
+         "review_status" : "unreviewed",
+         "source_id" : 102
+      },
+      {
+         "claim_summary" : "Enemies try to entangle Him by craft",
+         "id" : "prophecy-103",
+         "nt_references" : [
+            "Mark 14:1",
+            "Matt 22:15"
+         ],
+         "ot_reference" : "Ps 38:12",
+         "review_status" : "unreviewed",
+         "source_id" : 103
+      },
+      {
+         "claim_summary" : "Silent before His accusers",
+         "id" : "prophecy-104",
+         "nt_references" : [
+            "Matt 27:12-14"
+         ],
+         "ot_reference" : "Ps 38:12-13",
+         "review_status" : "unreviewed",
+         "source_id" : 104
+      },
+      {
+         "claim_summary" : "He went about doing good",
+         "id" : "prophecy-105",
+         "nt_references" : [
+            "Acts 10:38"
+         ],
+         "ot_reference" : "Ps 38:20",
+         "review_status" : "unreviewed",
+         "source_id" : 105
+      },
+      {
+         "claim_summary" : "The joy of His resurrection predicted",
+         "id" : "prophecy-106",
+         "nt_references" : [
+            "John 20:20"
+         ],
+         "ot_reference" : "Ps 40:2-5",
+         "review_status" : "unreviewed",
+         "source_id" : 106
+      },
+      {
+         "claim_summary" : "His delight-the will of the Father",
+         "id" : "prophecy-107",
+         "nt_references" : [
+            "John 4:34",
+            "Heb 10:5-10"
+         ],
+         "ot_reference" : "Ps 40:6-8",
+         "review_status" : "unreviewed",
+         "source_id" : 107
+      },
+      {
+         "claim_summary" : "He was to preach the Righteousness in Israel",
+         "id" : "prophecy-108",
+         "nt_references" : [
+            "Matt 4:17"
+         ],
+         "ot_reference" : "Ps 40:9",
+         "review_status" : "unreviewed",
+         "source_id" : 108
+      },
+      {
+         "claim_summary" : "Confronted by adversaries in the Garden",
+         "id" : "prophecy-109",
+         "nt_references" : [
+            "John 18:4-6"
+         ],
+         "ot_reference" : "Ps 40:14",
+         "review_status" : "unreviewed",
+         "source_id" : 109
+      },
+      {
+         "claim_summary" : "Betrayed by a familiar friend",
+         "id" : "prophecy-110",
+         "nt_references" : [
+            "John 13:18"
+         ],
+         "ot_reference" : "Ps 41:9",
+         "review_status" : "unreviewed",
+         "source_id" : 110
+      },
+      {
+         "claim_summary" : "Words of Grace come from His lips",
+         "id" : "prophecy-111",
+         "nt_references" : [
+            "John 1:17",
+            "Luke 4:22"
+         ],
+         "ot_reference" : "Ps 45:2",
+         "review_status" : "unreviewed",
+         "source_id" : 111
+      },
+      {
+         "claim_summary" : "To own the title, God or Elohim",
+         "id" : "prophecy-112",
+         "nt_references" : [
+            "Heb 1:8"
+         ],
+         "ot_reference" : "Ps 45:6",
+         "review_status" : "unreviewed",
+         "source_id" : 112
+      },
+      {
+         "claim_summary" : "A special anointing by the Holy Spirit",
+         "id" : "prophecy-113",
+         "nt_references" : [
+            "Matt 3:16",
+            "Heb 1:9"
+         ],
+         "ot_reference" : "Ps 45:7",
+         "review_status" : "unreviewed",
+         "source_id" : 113
+      },
+      {
+         "claim_summary" : "Called the Christ (Messiah or Anointed)",
+         "id" : "prophecy-114",
+         "nt_references" : [
+            "Luke 2:11"
+         ],
+         "ot_reference" : "Ps 45:7-8",
+         "review_status" : "unreviewed",
+         "source_id" : 114
+      },
+      {
+         "claim_summary" : "His name remembered forever",
+         "id" : "prophecy-115",
+         "nt_references" : [
+            "Eph 1:20-21",
+            "Heb 1:8"
+         ],
+         "ot_reference" : "Ps 45:17",
+         "review_status" : "unreviewed",
+         "source_id" : 115
+      },
+      {
+         "claim_summary" : "Betrayed by a friend, not an enemy",
+         "id" : "prophecy-116",
+         "nt_references" : [
+            "John 13:18"
+         ],
+         "ot_reference" : "Ps 55:12-14",
+         "review_status" : "unreviewed",
+         "source_id" : 116
+      },
+      {
+         "claim_summary" : "Unrepentant death of the Betrayer",
+         "id" : "prophecy-117",
+         "nt_references" : [
+            "Matt 27:3-5",
+            "Acts 1:16-19"
+         ],
+         "ot_reference" : "Ps 55:15",
+         "review_status" : "unreviewed",
+         "source_id" : 117
+      },
+      {
+         "claim_summary" : "To give gifts to men",
+         "id" : "prophecy-118",
+         "nt_references" : [
+            "Eph 4:7-16"
+         ],
+         "ot_reference" : "Ps 68:18",
+         "review_status" : "unreviewed",
+         "source_id" : 118
+      },
+      {
+         "claim_summary" : "Ascended into Heaven",
+         "id" : "prophecy-119",
+         "nt_references" : [
+            "Luke 24:51"
+         ],
+         "ot_reference" : "Ps 68:18",
+         "review_status" : "unreviewed",
+         "source_id" : 119
+      },
+      {
+         "claim_summary" : "Hated without a cause",
+         "id" : "prophecy-120",
+         "nt_references" : [
+            "John 15:25"
+         ],
+         "ot_reference" : "Ps 69:4",
+         "review_status" : "unreviewed",
+         "source_id" : 120
+      },
+      {
+         "claim_summary" : "A stranger to own brethren",
+         "id" : "prophecy-121",
+         "nt_references" : [
+            "John 1:11",
+            "John 7:5"
+         ],
+         "ot_reference" : "Ps 69:8",
+         "review_status" : "unreviewed",
+         "source_id" : 121
+      },
+      {
+         "claim_summary" : "Zealous for the Lord’s House",
+         "id" : "prophecy-122",
+         "nt_references" : [
+            "John 2:17"
+         ],
+         "ot_reference" : "Ps 69:9",
+         "review_status" : "unreviewed",
+         "source_id" : 122
+      },
+      {
+         "claim_summary" : "Messiah’s anguish of soul before crucifixion",
+         "id" : "prophecy-123",
+         "nt_references" : [
+            "Matt 26:36-45"
+         ],
+         "ot_reference" : "Ps 69:14-20",
+         "review_status" : "unreviewed",
+         "source_id" : 123
+      },
+      {
+         "claim_summary" : "\"My soul is exceeding sorrowful\"",
+         "id" : "prophecy-124",
+         "nt_references" : [
+            "Matt 26:38"
+         ],
+         "ot_reference" : "Ps 69:20",
+         "review_status" : "unreviewed",
+         "source_id" : 124
+      },
+      {
+         "claim_summary" : "Given vinegar in thirst",
+         "id" : "prophecy-125",
+         "nt_references" : [
+            "Matt 27:34"
+         ],
+         "ot_reference" : "Ps 69:21",
+         "review_status" : "unreviewed",
+         "source_id" : 125
+      },
+      {
+         "claim_summary" : "The Savior given and smitten by God",
+         "id" : "prophecy-126",
+         "nt_references" : [
+            "John 17:4",
+            "John 18:11"
+         ],
+         "ot_reference" : "Ps 69:26",
+         "review_status" : "unreviewed",
+         "source_id" : 126
+      },
+      {
+         "claim_summary" : "Great persons were to visit Him",
+         "id" : "prophecy-127",
+         "nt_references" : [
+            "Matt 2:1-11"
+         ],
+         "ot_reference" : "Ps 72:10-11",
+         "review_status" : "unreviewed",
+         "source_id" : 127
+      },
+      {
+         "claim_summary" : "The corn of wheat to fall into the Ground",
+         "id" : "prophecy-128",
+         "nt_references" : [
+            "John 12:24-25"
+         ],
+         "ot_reference" : "Ps 72:16",
+         "review_status" : "unreviewed",
+         "source_id" : 128
+      },
+      {
+         "claim_summary" : "Belief on His name will produce offspring",
+         "id" : "prophecy-129",
+         "nt_references" : [
+            "John 1:12-13"
+         ],
+         "ot_reference" : "Ps 72:17",
+         "review_status" : "unreviewed",
+         "source_id" : 129
+      },
+      {
+         "claim_summary" : "All nations shall be blessed by Him",
+         "id" : "prophecy-130",
+         "nt_references" : [
+            "Gal 3:8"
+         ],
+         "ot_reference" : "Ps 72:17",
+         "review_status" : "unreviewed",
+         "source_id" : 130
+      },
+      {
+         "claim_summary" : "All nations shall call Him blessed",
+         "id" : "prophecy-131",
+         "nt_references" : [
+            "John 12:13",
+            "Rev 5:8-12"
+         ],
+         "ot_reference" : "Ps 72:17",
+         "review_status" : "unreviewed",
+         "source_id" : 131
+      },
+      {
+         "claim_summary" : "He would teach in parables",
+         "id" : "prophecy-132",
+         "nt_references" : [
+            "Matt 13:34-35"
+         ],
+         "ot_reference" : "Ps 78:1-2",
+         "review_status" : "unreviewed",
+         "source_id" : 132
+      },
+      {
+         "claim_summary" : "To speak the Wisdom of God with authority",
+         "id" : "prophecy-133",
+         "nt_references" : [
+            "Matt 7:29"
+         ],
+         "ot_reference" : "Ps 78:2b",
+         "review_status" : "unreviewed",
+         "source_id" : 133
+      },
+      {
+         "claim_summary" : "The Man of God’s right hand",
+         "id" : "prophecy-134",
+         "nt_references" : [
+            "Mark 14:61-62"
+         ],
+         "ot_reference" : "Ps 80:17",
+         "review_status" : "unreviewed",
+         "source_id" : 134
+      },
+      {
+         "claim_summary" : "The Suffering and Reproach of Calvary",
+         "id" : "prophecy-135",
+         "nt_references" : [
+            "Matt 27:26-50"
+         ],
+         "ot_reference" : "Ps 88:1-18",
+         "review_status" : "unreviewed",
+         "source_id" : 135
+      },
+      {
+         "claim_summary" : "They stood afar off and watched",
+         "id" : "prophecy-136",
+         "nt_references" : [
+            "Luke 23:49"
+         ],
+         "ot_reference" : "Ps 88:8",
+         "review_status" : "unreviewed",
+         "source_id" : 136
+      },
+      {
+         "claim_summary" : "Firstborn",
+         "id" : "prophecy-137",
+         "nt_references" : [
+            "Col 1:15-18"
+         ],
+         "ot_reference" : "Ps 89:27",
+         "review_status" : "unreviewed",
+         "source_id" : 137
+      },
+      {
+         "claim_summary" : "Emmanuel to be higher than earthly kings",
+         "id" : "prophecy-138",
+         "nt_references" : [
+            "Luke 1:32-33"
+         ],
+         "ot_reference" : "Ps 89:27",
+         "review_status" : "unreviewed",
+         "source_id" : 138
+      },
+      {
+         "claim_summary" : "David’s Seed, throne, kingdom endure forever",
+         "id" : "prophecy-139",
+         "nt_references" : [
+            "Luke 1:32-33"
+         ],
+         "ot_reference" : "Ps 89:35-37",
+         "review_status" : "unreviewed",
+         "source_id" : 139
+      },
+      {
+         "claim_summary" : "His character-Faithfulness",
+         "id" : "prophecy-140",
+         "nt_references" : [
+            "Rev 1:5",
+            "Rev 19:11"
+         ],
+         "ot_reference" : "Ps 89:36-37",
+         "review_status" : "unreviewed",
+         "source_id" : 140
+      },
+      {
+         "claim_summary" : "He is from everlasting (Micah 5:2)",
+         "id" : "prophecy-141",
+         "nt_references" : [
+            "John 1:1"
+         ],
+         "ot_reference" : "Ps 90:2",
+         "review_status" : "unreviewed",
+         "source_id" : 141
+      },
+      {
+         "claim_summary" : "Identified as Messianic, used to tempt Christ",
+         "id" : "prophecy-142",
+         "nt_references" : [
+            "Luke 4:10-11"
+         ],
+         "ot_reference" : "Ps 91:11-12",
+         "review_status" : "unreviewed",
+         "source_id" : 142
+      },
+      {
+         "claim_summary" : "His exaltation predicted",
+         "id" : "prophecy-143",
+         "nt_references" : [
+            "Acts 1:11",
+            "Eph 1:20"
+         ],
+         "ot_reference" : "Ps 97:9",
+         "review_status" : "unreviewed",
+         "source_id" : 143
+      },
+      {
+         "claim_summary" : "His character-Goodness",
+         "id" : "prophecy-144",
+         "nt_references" : [
+            "Matt 19:16-17"
+         ],
+         "ot_reference" : "Ps 100:5",
+         "review_status" : "unreviewed",
+         "source_id" : 144
+      },
+      {
+         "claim_summary" : "The Suffering and Reproach of Calvary",
+         "id" : "prophecy-145",
+         "nt_references" : [
+            "John 19:16-30"
+         ],
+         "ot_reference" : "Ps 102:1-11",
+         "review_status" : "unreviewed",
+         "source_id" : 145
+      },
+      {
+         "claim_summary" : "Messiah is the Preexistent Son",
+         "id" : "prophecy-146",
+         "nt_references" : [
+            "Heb 1:10-12"
+         ],
+         "ot_reference" : "Ps 102:25-27",
+         "review_status" : "unreviewed",
+         "source_id" : 146
+      },
+      {
+         "claim_summary" : "Ridiculed",
+         "id" : "prophecy-147",
+         "nt_references" : [
+            "Matt 27:39"
+         ],
+         "ot_reference" : "Ps 109:25",
+         "review_status" : "unreviewed",
+         "source_id" : 147
+      },
+      {
+         "claim_summary" : "Son of David",
+         "id" : "prophecy-148",
+         "nt_references" : [
+            "Matt 22:42-43"
+         ],
+         "ot_reference" : "Ps 110:1",
+         "review_status" : "unreviewed",
+         "source_id" : 148
+      },
+      {
+         "claim_summary" : "To ascend to the right-hand of the Father",
+         "id" : "prophecy-149",
+         "nt_references" : [
+            "Mark 16:19"
+         ],
+         "ot_reference" : "Ps 110:1",
+         "review_status" : "unreviewed",
+         "source_id" : 149
+      },
+      {
+         "claim_summary" : "David’s son called Lord",
+         "id" : "prophecy-150",
+         "nt_references" : [
+            "Matt 22:44-45"
+         ],
+         "ot_reference" : "Ps 110:1",
+         "review_status" : "unreviewed",
+         "source_id" : 150
+      },
+      {
+         "claim_summary" : "A priest after Melchizedek’s order",
+         "id" : "prophecy-151",
+         "nt_references" : [
+            "Heb 6:20"
+         ],
+         "ot_reference" : "Ps 110:4",
+         "review_status" : "unreviewed",
+         "source_id" : 151
+      },
+      {
+         "claim_summary" : "His character-Compassionate, Gracious, et al",
+         "id" : "prophecy-152",
+         "nt_references" : [
+            "Matt 9:36"
+         ],
+         "ot_reference" : "Ps 112:4",
+         "review_status" : "unreviewed",
+         "source_id" : 152
+      },
+      {
+         "claim_summary" : "Messiah’s Resurrection assured",
+         "id" : "prophecy-153",
+         "nt_references" : [
+            "Luke 24:5-7",
+            "1Cor 15:20"
+         ],
+         "ot_reference" : "Ps 118:17-18",
+         "review_status" : "unreviewed",
+         "source_id" : 153
+      },
+      {
+         "claim_summary" : "The rejected stone is Head of the corner",
+         "id" : "prophecy-154",
+         "nt_references" : [
+            "Matt 21:42-43"
+         ],
+         "ot_reference" : "Ps 118:22-23",
+         "review_status" : "unreviewed",
+         "source_id" : 154
+      },
+      {
+         "claim_summary" : "The Blessed One presented to Israel",
+         "id" : "prophecy-155",
+         "nt_references" : [
+            "Matt 21:9"
+         ],
+         "ot_reference" : "Ps 118:26a",
+         "review_status" : "unreviewed",
+         "source_id" : 155
+      },
+      {
+         "claim_summary" : "To come while Temple standing",
+         "id" : "prophecy-156",
+         "nt_references" : [
+            "Matt 21:12-15"
+         ],
+         "ot_reference" : "Ps 118:26b",
+         "review_status" : "unreviewed",
+         "source_id" : 156
+      },
+      {
+         "claim_summary" : "The Seed of David (the fruit of His Body)",
+         "id" : "prophecy-157",
+         "nt_references" : [
+            "Luke 1:32",
+            "Acts 2:30"
+         ],
+         "ot_reference" : "Ps 132:11",
+         "review_status" : "unreviewed",
+         "source_id" : 157
+      },
+      {
+         "claim_summary" : "He was scourged",
+         "id" : "prophecy-158",
+         "nt_references" : [
+            "Matt 27:26"
+         ],
+         "ot_reference" : "Ps 129:3",
+         "review_status" : "unreviewed",
+         "source_id" : 158
+      },
+      {
+         "claim_summary" : "The supremacy of David’s Seed amazes kings",
+         "id" : "prophecy-159",
+         "nt_references" : [
+            "Matt 2:2-6"
+         ],
+         "ot_reference" : "Ps 138:1-6",
+         "review_status" : "unreviewed",
+         "source_id" : 159
+      },
+      {
+         "claim_summary" : "The earthly ministry of Christ described",
+         "id" : "prophecy-160",
+         "nt_references" : [
+            "Luke 4:18"
+         ],
+         "ot_reference" : "Ps 147:3-6",
+         "review_status" : "unreviewed",
+         "source_id" : 160
+      },
+      {
+         "claim_summary" : "He will send the Spirit of God",
+         "id" : "prophecy-161",
+         "nt_references" : [
+            "John 16:7"
+         ],
+         "ot_reference" : "Prov 1:23",
+         "review_status" : "unreviewed",
+         "source_id" : 161
+      },
+      {
+         "claim_summary" : "Foreordained from everlasting",
+         "id" : "prophecy-162",
+         "nt_references" : [
+            "Rev 13:8",
+            "1Pet 1:19-20"
+         ],
+         "ot_reference" : "Prov 8:23",
+         "review_status" : "unreviewed",
+         "source_id" : 162
+      },
+      {
+         "claim_summary" : "The altogether lovely One",
+         "id" : "prophecy-163",
+         "nt_references" : [
+            "John 1:17"
+         ],
+         "ot_reference" : "Song 5:16",
+         "review_status" : "unreviewed",
+         "source_id" : 163
+      },
+      {
+         "claim_summary" : "He shall teach all nations",
+         "id" : "prophecy-164",
+         "nt_references" : [
+            "John 4:25"
+         ],
+         "ot_reference" : "Isa 2:3",
+         "review_status" : "unreviewed",
+         "source_id" : 164
+      },
+      {
+         "claim_summary" : "He shall judge among the nations",
+         "id" : "prophecy-165",
+         "nt_references" : [
+            "John 5:22"
+         ],
+         "ot_reference" : "Isa 2:4",
+         "review_status" : "unreviewed",
+         "source_id" : 165
+      },
+      {
+         "claim_summary" : "When Isaiah saw His glory",
+         "id" : "prophecy-166",
+         "nt_references" : [
+            "John 12:40-41"
+         ],
+         "ot_reference" : "Isa 6:1",
+         "review_status" : "unreviewed",
+         "source_id" : 166
+      },
+      {
+         "claim_summary" : "The One Sent by God",
+         "id" : "prophecy-167",
+         "nt_references" : [
+            "John 12:38-45"
+         ],
+         "ot_reference" : "Isa 6:8",
+         "review_status" : "unreviewed",
+         "source_id" : 167
+      },
+      {
+         "claim_summary" : "Parables fall on deaf ears",
+         "id" : "prophecy-168",
+         "nt_references" : [
+            "Matt 13:13-15"
+         ],
+         "ot_reference" : "Isa 6:9-10",
+         "review_status" : "unreviewed",
+         "source_id" : 168
+      },
+      {
+         "claim_summary" : "Blinded to Christ and deaf to His words",
+         "id" : "prophecy-169",
+         "nt_references" : [
+            "Acts 28:23-29"
+         ],
+         "ot_reference" : "Isa 6:9-12",
+         "review_status" : "unreviewed",
+         "source_id" : 169
+      },
+      {
+         "claim_summary" : "To be born of a virgin",
+         "id" : "prophecy-170",
+         "nt_references" : [
+            "Luke 1:35"
+         ],
+         "ot_reference" : "Isa 7:14",
+         "review_status" : "unreviewed",
+         "source_id" : 170
+      },
+      {
+         "claim_summary" : "To be Emmanuel-God with us",
+         "id" : "prophecy-171",
+         "nt_references" : [
+            "Matt 1:18-23",
+            "1Tim 3:16"
+         ],
+         "ot_reference" : "Isa 7:14",
+         "review_status" : "unreviewed",
+         "source_id" : 171
+      },
+      {
+         "claim_summary" : "Called Emmanuel",
+         "id" : "prophecy-172",
+         "nt_references" : [
+            "Matt 28:20"
+         ],
+         "ot_reference" : "Isa 8:8",
+         "review_status" : "unreviewed",
+         "source_id" : 172
+      },
+      {
+         "claim_summary" : "A stone of stumbling, a Rock of offense",
+         "id" : "prophecy-173",
+         "nt_references" : [
+            "1Pet 2:8"
+         ],
+         "ot_reference" : "Isa 8:14",
+         "review_status" : "unreviewed",
+         "source_id" : 173
+      },
+      {
+         "claim_summary" : "His ministry to begin in Galilee",
+         "id" : "prophecy-174",
+         "nt_references" : [
+            "Matt 4:12-17"
+         ],
+         "ot_reference" : "Isa 9:1-2",
+         "review_status" : "unreviewed",
+         "source_id" : 174
+      },
+      {
+         "claim_summary" : "A child born-Humanity",
+         "id" : "prophecy-175",
+         "nt_references" : [
+            "Luke 1:31"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 175
+      },
+      {
+         "claim_summary" : "A Son given-Deity",
+         "id" : "prophecy-176",
+         "nt_references" : [
+            "Luke 1:32",
+            "John 1:14",
+            "1Tim 3:16"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 176
+      },
+      {
+         "claim_summary" : "Declared to be the Son of God with power",
+         "id" : "prophecy-177",
+         "nt_references" : [
+            "Rom 1:3-4"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 177
+      },
+      {
+         "claim_summary" : "The Wonderful One, Peleh",
+         "id" : "prophecy-178",
+         "nt_references" : [
+            "Luke 4:22"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 178
+      },
+      {
+         "claim_summary" : "The Counselor, Yaatz",
+         "id" : "prophecy-179",
+         "nt_references" : [
+            "Matt 13:54"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 179
+      },
+      {
+         "claim_summary" : "The Mighty God, El Gibor",
+         "id" : "prophecy-180",
+         "nt_references" : [
+            "1Cor 1:24",
+            "Titus 2:3"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 180
+      },
+      {
+         "claim_summary" : "The Everlasting Father, Avi Adth",
+         "id" : "prophecy-181",
+         "nt_references" : [
+            "John 8:58",
+            "John 10:30"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 181
+      },
+      {
+         "claim_summary" : "The Prince of Peace, Sar Shalom",
+         "id" : "prophecy-182",
+         "nt_references" : [
+            "John 16:33"
+         ],
+         "ot_reference" : "Isa 9:6",
+         "review_status" : "unreviewed",
+         "source_id" : 182
+      },
+      {
+         "claim_summary" : "To establish an everlasting kingdom",
+         "id" : "prophecy-183",
+         "nt_references" : [
+            "Luke 1:32-33"
+         ],
+         "ot_reference" : "Isa 9:7",
+         "review_status" : "unreviewed",
+         "source_id" : 183
+      },
+      {
+         "claim_summary" : "His Character-Just",
+         "id" : "prophecy-184",
+         "nt_references" : [
+            "John 5:30"
+         ],
+         "ot_reference" : "Isa 9:7",
+         "review_status" : "unreviewed",
+         "source_id" : 184
+      },
+      {
+         "claim_summary" : "No end to his Government, Throne, and Peace",
+         "id" : "prophecy-185",
+         "nt_references" : [
+            "Luke 1:32-33"
+         ],
+         "ot_reference" : "Isa 9:7",
+         "review_status" : "unreviewed",
+         "source_id" : 185
+      },
+      {
+         "claim_summary" : "Called a Nazarene-the Branch, Netzer",
+         "id" : "prophecy-186",
+         "nt_references" : [
+            "Matt 2:23"
+         ],
+         "ot_reference" : "Isa 11:1",
+         "review_status" : "unreviewed",
+         "source_id" : 186
+      },
+      {
+         "claim_summary" : "A rod out of Jesse-Son of Jesse",
+         "id" : "prophecy-187",
+         "nt_references" : [
+            "Luke 3:23-32"
+         ],
+         "ot_reference" : "Isa 11:1",
+         "review_status" : "unreviewed",
+         "source_id" : 187
+      },
+      {
+         "claim_summary" : "Anointed One by the Spirit",
+         "id" : "prophecy-188",
+         "nt_references" : [
+            "Matt 3:16-17",
+            "Acts 10:38"
+         ],
+         "ot_reference" : "Isa 11:2",
+         "review_status" : "unreviewed",
+         "source_id" : 188
+      },
+      {
+         "claim_summary" : "His Character-Wisdom, Knowledge, et al",
+         "id" : "prophecy-189",
+         "nt_references" : [
+            "Col 2:3"
+         ],
+         "ot_reference" : "Isa 11:2",
+         "review_status" : "unreviewed",
+         "source_id" : 189
+      },
+      {
+         "claim_summary" : "He would know their thoughts",
+         "id" : "prophecy-190",
+         "nt_references" : [
+            "Luke 6:8",
+            "John 2:25"
+         ],
+         "ot_reference" : "Isa 11:3",
+         "review_status" : "unreviewed",
+         "source_id" : 190
+      },
+      {
+         "claim_summary" : "Judge in righteousness",
+         "id" : "prophecy-191",
+         "nt_references" : [
+            "Acts 17:31"
+         ],
+         "ot_reference" : "Isa 11:4",
+         "review_status" : "unreviewed",
+         "source_id" : 191
+      },
+      {
+         "claim_summary" : "Judges with the sword of His mouth",
+         "id" : "prophecy-192",
+         "nt_references" : [
+            "Rev 2:16",
+            "Rev 19:11",
+            "Rev 19:15"
+         ],
+         "ot_reference" : "Isa 11:4",
+         "review_status" : "unreviewed",
+         "source_id" : 192
+      },
+      {
+         "claim_summary" : "Character: Righteous & Faithful",
+         "id" : "prophecy-193",
+         "nt_references" : [
+            "Rev 19:11"
+         ],
+         "ot_reference" : "Isa 11:5",
+         "review_status" : "unreviewed",
+         "source_id" : 193
+      },
+      {
+         "claim_summary" : "The Gentiles seek Him",
+         "id" : "prophecy-194",
+         "nt_references" : [
+            "John 12:18-21"
+         ],
+         "ot_reference" : "Isa 11:10",
+         "review_status" : "unreviewed",
+         "source_id" : 194
+      },
+      {
+         "claim_summary" : "Called Jesus-Yeshua",
+         "id" : "prophecy-195",
+         "nt_references" : [
+            "Matt 1:21"
+         ],
+         "ot_reference" : "Isa 12:2",
+         "review_status" : "unreviewed",
+         "source_id" : 195
+      },
+      {
+         "claim_summary" : "The One given all authority to govern",
+         "id" : "prophecy-196",
+         "nt_references" : [
+            "Rev 3:7"
+         ],
+         "ot_reference" : "Isa 22:22",
+         "review_status" : "unreviewed",
+         "source_id" : 196
+      },
+      {
+         "claim_summary" : "The Resurrection predicted",
+         "id" : "prophecy-197",
+         "nt_references" : [
+            "1Cor 15:54"
+         ],
+         "ot_reference" : "Isa 25:8",
+         "review_status" : "unreviewed",
+         "source_id" : 197
+      },
+      {
+         "claim_summary" : "His power of Resurrection predicted",
+         "id" : "prophecy-198",
+         "nt_references" : [
+            "Matt 27:50-54"
+         ],
+         "ot_reference" : "Isa 26:19",
+         "review_status" : "unreviewed",
+         "source_id" : 198
+      },
+      {
+         "claim_summary" : "The Messiah is the precious corner stone",
+         "id" : "prophecy-199",
+         "nt_references" : [
+            "Acts 4:11-12"
+         ],
+         "ot_reference" : "Isa 28:16",
+         "review_status" : "unreviewed",
+         "source_id" : 199
+      },
+      {
+         "claim_summary" : "The Sure Foundation",
+         "id" : "prophecy-200",
+         "nt_references" : [
+            "1Cor 3:11",
+            "Matt 16:18"
+         ],
+         "ot_reference" : "Isa 28:16",
+         "review_status" : "unreviewed",
+         "source_id" : 200
+      },
+      {
+         "claim_summary" : "He indicated hypocritical obedience to His Word",
+         "id" : "prophecy-201",
+         "nt_references" : [
+            "Matt 15:7-9"
+         ],
+         "ot_reference" : "Isa 29:13",
+         "review_status" : "unreviewed",
+         "source_id" : 201
+      },
+      {
+         "claim_summary" : "The wise are confounded by the Word",
+         "id" : "prophecy-202",
+         "nt_references" : [
+            "1Cor 1:18-31"
+         ],
+         "ot_reference" : "Isa 29:14",
+         "review_status" : "unreviewed",
+         "source_id" : 202
+      },
+      {
+         "claim_summary" : "A Refuge-A man shall be a hiding place",
+         "id" : "prophecy-203",
+         "nt_references" : [
+            "Matt 23:37"
+         ],
+         "ot_reference" : "Isa 32:2",
+         "review_status" : "unreviewed",
+         "source_id" : 203
+      },
+      {
+         "claim_summary" : "He will come and save you",
+         "id" : "prophecy-204",
+         "nt_references" : [
+            "Matt 1:21"
+         ],
+         "ot_reference" : "Isa 35:4",
+         "review_status" : "unreviewed",
+         "source_id" : 204
+      },
+      {
+         "claim_summary" : "To have a ministry of miracles",
+         "id" : "prophecy-205",
+         "nt_references" : [
+            "Matt 11:2-6"
+         ],
+         "ot_reference" : "Isa 35:5-6",
+         "review_status" : "unreviewed",
+         "source_id" : 205
+      },
+      {
+         "claim_summary" : "Preceded by forerunner",
+         "id" : "prophecy-206",
+         "nt_references" : [
+            "John 1:23"
+         ],
+         "ot_reference" : "Isa 40:3-4",
+         "review_status" : "unreviewed",
+         "source_id" : 206
+      },
+      {
+         "claim_summary" : "\"Behold your God\"",
+         "id" : "prophecy-207",
+         "nt_references" : [
+            "John 1:36",
+            "John 19:14"
+         ],
+         "ot_reference" : "Isa 40:9",
+         "review_status" : "unreviewed",
+         "source_id" : 207
+      },
+      {
+         "claim_summary" : "He will come to reward",
+         "id" : "prophecy-208",
+         "nt_references" : [
+            "Rev 22:12"
+         ],
+         "ot_reference" : "Isa 40:10",
+         "review_status" : "unreviewed",
+         "source_id" : 208
+      },
+      {
+         "claim_summary" : "A shepherd-compassionate life-giver",
+         "id" : "prophecy-209",
+         "nt_references" : [
+            "John 10:10-18"
+         ],
+         "ot_reference" : "Isa 40:11",
+         "review_status" : "unreviewed",
+         "source_id" : 209
+      },
+      {
+         "claim_summary" : "The Servant-as a faithful, patient redeemer",
+         "id" : "prophecy-210",
+         "nt_references" : [
+            "Matt 12:18-21"
+         ],
+         "ot_reference" : "Isa 42:1-4",
+         "review_status" : "unreviewed",
+         "source_id" : 210
+      },
+      {
+         "claim_summary" : "Meek and lowly",
+         "id" : "prophecy-211",
+         "nt_references" : [
+            "Matt 11:28-30"
+         ],
+         "ot_reference" : "Isa 42:2",
+         "review_status" : "unreviewed",
+         "source_id" : 211
+      },
+      {
+         "claim_summary" : "He brings hope for the hopeless",
+         "id" : "prophecy-212",
+         "nt_references" : [
+            "John 4:1-54"
+         ],
+         "ot_reference" : "Isa 42:3",
+         "review_status" : "unreviewed",
+         "source_id" : 212
+      },
+      {
+         "claim_summary" : "The nations shall wait on His teachings",
+         "id" : "prophecy-213",
+         "nt_references" : [
+            "John 12:20-26"
+         ],
+         "ot_reference" : "Isa 42:4",
+         "review_status" : "unreviewed",
+         "source_id" : 213
+      },
+      {
+         "claim_summary" : "The Light (salvation) of the Gentiles",
+         "id" : "prophecy-214",
+         "nt_references" : [
+            "Luke 2:32"
+         ],
+         "ot_reference" : "Isa 42:6",
+         "review_status" : "unreviewed",
+         "source_id" : 214
+      },
+      {
+         "claim_summary" : "His is a worldwide compassion",
+         "id" : "prophecy-215",
+         "nt_references" : [
+            "Matt 28:19-20"
+         ],
+         "ot_reference" : "Isa 42:1-6",
+         "review_status" : "unreviewed",
+         "source_id" : 215
+      },
+      {
+         "claim_summary" : "Blind eyes opened",
+         "id" : "prophecy-216",
+         "nt_references" : [
+            "John 9:25-38"
+         ],
+         "ot_reference" : "Isa 42:7",
+         "review_status" : "unreviewed",
+         "source_id" : 216
+      },
+      {
+         "claim_summary" : "He is the only Savior",
+         "id" : "prophecy-217",
+         "nt_references" : [
+            "Acts 4:12"
+         ],
+         "ot_reference" : "Isa 43:11",
+         "review_status" : "unreviewed",
+         "source_id" : 217
+      },
+      {
+         "claim_summary" : "He will send the Spirit of God",
+         "id" : "prophecy-218",
+         "nt_references" : [
+            "John 16:7-13"
+         ],
+         "ot_reference" : "Isa 44:3",
+         "review_status" : "unreviewed",
+         "source_id" : 218
+      },
+      {
+         "claim_summary" : "He is Lord and Savior",
+         "id" : "prophecy-219",
+         "nt_references" : [
+            "Phil 3:20",
+            "Titus 2:13"
+         ],
+         "ot_reference" : "Isa 45:21-25",
+         "review_status" : "unreviewed",
+         "source_id" : 219
+      },
+      {
+         "claim_summary" : "He will be the Judge",
+         "id" : "prophecy-220",
+         "nt_references" : [
+            "John 5:22",
+            "Rom 14:11"
+         ],
+         "ot_reference" : "Isa 45:23",
+         "review_status" : "unreviewed",
+         "source_id" : 220
+      },
+      {
+         "claim_summary" : "Declares things not yet done",
+         "id" : "prophecy-221",
+         "nt_references" : [
+            "John 13:19"
+         ],
+         "ot_reference" : "Isa 46:9-10",
+         "review_status" : "unreviewed",
+         "source_id" : 221
+      },
+      {
+         "claim_summary" : "The First and the Last",
+         "id" : "prophecy-222",
+         "nt_references" : [
+            "John 1:30",
+            "Rev 1:8",
+            "Rev 1:17"
+         ],
+         "ot_reference" : "Isa 48:12",
+         "review_status" : "unreviewed",
+         "source_id" : 222
+      },
+      {
+         "claim_summary" : "He came as a Teacher",
+         "id" : "prophecy-223",
+         "nt_references" : [
+            "John 3:2"
+         ],
+         "ot_reference" : "Isa 48:16-17",
+         "review_status" : "unreviewed",
+         "source_id" : 223
+      },
+      {
+         "claim_summary" : "Called from the womb-His humanity",
+         "id" : "prophecy-224",
+         "nt_references" : [
+            "Matt 1:18"
+         ],
+         "ot_reference" : "Isa 49:1",
+         "review_status" : "unreviewed",
+         "source_id" : 224
+      },
+      {
+         "claim_summary" : "A Servant from the womb",
+         "id" : "prophecy-225",
+         "nt_references" : [
+            "Luke 1:31",
+            "Phil 2:7"
+         ],
+         "ot_reference" : "Isa 49:5",
+         "review_status" : "unreviewed",
+         "source_id" : 225
+      },
+      {
+         "claim_summary" : "He will restore Israel",
+         "id" : "prophecy-226",
+         "nt_references" : [
+            "Acts 3:19-21",
+            "Acts 15:16-17"
+         ],
+         "ot_reference" : "Isa 49:6",
+         "review_status" : "unreviewed",
+         "source_id" : 226
+      },
+      {
+         "claim_summary" : "He is Salvation for Israel",
+         "id" : "prophecy-227",
+         "nt_references" : [
+            "Luke 2:29-32"
+         ],
+         "ot_reference" : "Isa 49:6",
+         "review_status" : "unreviewed",
+         "source_id" : 227
+      },
+      {
+         "claim_summary" : "He is the Light of the Gentiles",
+         "id" : "prophecy-228",
+         "nt_references" : [
+            "John 8:12",
+            "Acts 13:47"
+         ],
+         "ot_reference" : "Isa 49:6",
+         "review_status" : "unreviewed",
+         "source_id" : 228
+      },
+      {
+         "claim_summary" : "He is Salvation unto the ends of the earth",
+         "id" : "prophecy-229",
+         "nt_references" : [
+            "Acts 15:7-18"
+         ],
+         "ot_reference" : "Isa 49:6",
+         "review_status" : "unreviewed",
+         "source_id" : 229
+      },
+      {
+         "claim_summary" : "He is despised of the Nation",
+         "id" : "prophecy-230",
+         "nt_references" : [
+            "John 1:11",
+            "John 8:48-49",
+            "John 19:14-15"
+         ],
+         "ot_reference" : "Isa 49:7",
+         "review_status" : "unreviewed",
+         "source_id" : 230
+      },
+      {
+         "claim_summary" : "Heaven is clothed in black at His humiliation",
+         "id" : "prophecy-231",
+         "nt_references" : [
+            "Luke 23:44-45"
+         ],
+         "ot_reference" : "Isa 50:3",
+         "review_status" : "unreviewed",
+         "source_id" : 231
+      },
+      {
+         "claim_summary" : "He is a learned counselor for the weary",
+         "id" : "prophecy-232",
+         "nt_references" : [
+            "Matt 7:29",
+            "Matt 11:28-29"
+         ],
+         "ot_reference" : "Isa 50:4",
+         "review_status" : "unreviewed",
+         "source_id" : 232
+      },
+      {
+         "claim_summary" : "The Servant bound willingly to obedience",
+         "id" : "prophecy-233",
+         "nt_references" : [
+            "Matt 26:39"
+         ],
+         "ot_reference" : "Isa 50:5",
+         "review_status" : "unreviewed",
+         "source_id" : 233
+      },
+      {
+         "claim_summary" : "\"I gave my back to those who struck Me\"",
+         "id" : "prophecy-234",
+         "nt_references" : [
+            "Matt 27:26"
+         ],
+         "ot_reference" : "Isa 50:6a",
+         "review_status" : "unreviewed",
+         "source_id" : 234
+      },
+      {
+         "claim_summary" : "He was smitten on the cheeks",
+         "id" : "prophecy-235",
+         "nt_references" : [
+            "Matt 26:67"
+         ],
+         "ot_reference" : "Isa 50:6b",
+         "review_status" : "unreviewed",
+         "source_id" : 235
+      },
+      {
+         "claim_summary" : "He was spat upon",
+         "id" : "prophecy-236",
+         "nt_references" : [
+            "Matt 27:30"
+         ],
+         "ot_reference" : "Isa 50:6c",
+         "review_status" : "unreviewed",
+         "source_id" : 236
+      },
+      {
+         "claim_summary" : "Published good tidings upon mountains",
+         "id" : "prophecy-237",
+         "nt_references" : [
+            "Matt 5:12",
+            "Matt 15:29",
+            "Matt 28:16"
+         ],
+         "ot_reference" : "Isa 52:7",
+         "review_status" : "unreviewed",
+         "source_id" : 237
+      },
+      {
+         "claim_summary" : "The Servant exalted",
+         "id" : "prophecy-238",
+         "nt_references" : [
+            "Acts 1:8-11",
+            "Eph 1:19-22",
+            "Phil 2:5-9"
+         ],
+         "ot_reference" : "Isa 52:13",
+         "review_status" : "unreviewed",
+         "source_id" : 238
+      },
+      {
+         "claim_summary" : "The Servant shockingly abused",
+         "id" : "prophecy-239",
+         "nt_references" : [
+            "Luke 18:31-34",
+            "Matt 26:67-68"
+         ],
+         "ot_reference" : "Isa 52:14",
+         "review_status" : "unreviewed",
+         "source_id" : 239
+      },
+      {
+         "claim_summary" : "Nations startled by message of the Servant",
+         "id" : "prophecy-240",
+         "nt_references" : [
+            "Luke 18:31-34",
+            "Matt 26:67-68"
+         ],
+         "ot_reference" : "Isa 52:15",
+         "review_status" : "unreviewed",
+         "source_id" : 240
+      },
+      {
+         "claim_summary" : "His blood shed sprinkles nations",
+         "id" : "prophecy-241",
+         "nt_references" : [
+            "Heb 9:13-14",
+            "Rev 1:5"
+         ],
+         "ot_reference" : "Isa 52:15",
+         "review_status" : "unreviewed",
+         "source_id" : 241
+      },
+      {
+         "claim_summary" : "His people would not believe Him",
+         "id" : "prophecy-242",
+         "nt_references" : [
+            "John 12:37-38"
+         ],
+         "ot_reference" : "Isa 53:1",
+         "review_status" : "unreviewed",
+         "source_id" : 242
+      },
+      {
+         "claim_summary" : "Appearance of an ordinary man",
+         "id" : "prophecy-243",
+         "nt_references" : [
+            "Phil 2:6-8"
+         ],
+         "ot_reference" : "Isa 53:2",
+         "review_status" : "unreviewed",
+         "source_id" : 243
+      },
+      {
+         "claim_summary" : "Despised",
+         "id" : "prophecy-244",
+         "nt_references" : [
+            "Luke 4:28-29"
+         ],
+         "ot_reference" : "Isa 53:3a",
+         "review_status" : "unreviewed",
+         "source_id" : 244
+      },
+      {
+         "claim_summary" : "Rejected",
+         "id" : "prophecy-245",
+         "nt_references" : [
+            "Matt 27:21-23"
+         ],
+         "ot_reference" : "Isa 53:3b",
+         "review_status" : "unreviewed",
+         "source_id" : 245
+      },
+      {
+         "claim_summary" : "Great sorrow and grief",
+         "id" : "prophecy-246",
+         "nt_references" : [
+            "Matt 26:37-38",
+            "Luke 19:41",
+            "Heb 4:15"
+         ],
+         "ot_reference" : "Isa 53:3c",
+         "review_status" : "unreviewed",
+         "source_id" : 246
+      },
+      {
+         "claim_summary" : "Men hide from being associated with Him",
+         "id" : "prophecy-247",
+         "nt_references" : [
+            "Mark 14:50-52"
+         ],
+         "ot_reference" : "Isa 53:3d",
+         "review_status" : "unreviewed",
+         "source_id" : 247
+      },
+      {
+         "claim_summary" : "He would have a healing ministry",
+         "id" : "prophecy-248",
+         "nt_references" : [
+            "Matt 8:16-17"
+         ],
+         "ot_reference" : "Isa 53:4a",
+         "review_status" : "unreviewed",
+         "source_id" : 248
+      },
+      {
+         "claim_summary" : "Thought to be cursed by God",
+         "id" : "prophecy-249",
+         "nt_references" : [
+            "Matt 26:66",
+            "Matt 27:41-43"
+         ],
+         "ot_reference" : "Isa 53:4b",
+         "review_status" : "unreviewed",
+         "source_id" : 249
+      },
+      {
+         "claim_summary" : "Bears penalty for mankind’s iniquities",
+         "id" : "prophecy-250",
+         "nt_references" : [
+            "2Cor 5:21",
+            "Heb 2:9"
+         ],
+         "ot_reference" : "Isa 53:5a",
+         "review_status" : "unreviewed",
+         "source_id" : 250
+      },
+      {
+         "claim_summary" : "His sacrifice provides peace between man and God",
+         "id" : "prophecy-251",
+         "nt_references" : [
+            "Col 1:20"
+         ],
+         "ot_reference" : "Isa 53:5b",
+         "review_status" : "unreviewed",
+         "source_id" : 251
+      },
+      {
+         "claim_summary" : "His sacrifice would heal man of sin",
+         "id" : "prophecy-252",
+         "nt_references" : [
+            "1Pet 2:24"
+         ],
+         "ot_reference" : "Isa 53:5c",
+         "review_status" : "unreviewed",
+         "source_id" : 252
+      },
+      {
+         "claim_summary" : "He would be the sin-bearer for all mankind",
+         "id" : "prophecy-253",
+         "nt_references" : [
+            "1John 2:2",
+            "1John 4:10"
+         ],
+         "ot_reference" : "Isa 53:6a",
+         "review_status" : "unreviewed",
+         "source_id" : 253
+      },
+      {
+         "claim_summary" : "God’s will that He bear sin for all mankind",
+         "id" : "prophecy-254",
+         "nt_references" : [
+            "Gal 1:4"
+         ],
+         "ot_reference" : "Isa 53:6b",
+         "review_status" : "unreviewed",
+         "source_id" : 254
+      },
+      {
+         "claim_summary" : "Oppressed and afflicted",
+         "id" : "prophecy-255",
+         "nt_references" : [
+            "Matt 27:27-31"
+         ],
+         "ot_reference" : "Isa 53:7a",
+         "review_status" : "unreviewed",
+         "source_id" : 255
+      },
+      {
+         "claim_summary" : "Silent before his accusers",
+         "id" : "prophecy-256",
+         "nt_references" : [
+            "Matt 27:12-14"
+         ],
+         "ot_reference" : "Isa 53:7b",
+         "review_status" : "unreviewed",
+         "source_id" : 256
+      },
+      {
+         "claim_summary" : "Sacrificial lamb",
+         "id" : "prophecy-257",
+         "nt_references" : [
+            "John 1:29",
+            "1Pet 1:18-19"
+         ],
+         "ot_reference" : "Isa 53:7c",
+         "review_status" : "unreviewed",
+         "source_id" : 257
+      },
+      {
+         "claim_summary" : "Confined and persecuted",
+         "id" : "prophecy-258",
+         "nt_references" : [
+            "Matt 26:47-27:31"
+         ],
+         "ot_reference" : "Isa 53:8a",
+         "review_status" : "unreviewed",
+         "source_id" : 258
+      },
+      {
+         "claim_summary" : "He would be judged",
+         "id" : "prophecy-259",
+         "nt_references" : [
+            "John 18:13-22"
+         ],
+         "ot_reference" : "Isa 53:8b",
+         "review_status" : "unreviewed",
+         "source_id" : 259
+      },
+      {
+         "claim_summary" : "Killed",
+         "id" : "prophecy-260",
+         "nt_references" : [
+            "Matt 27:35"
+         ],
+         "ot_reference" : "Isa 53:8c",
+         "review_status" : "unreviewed",
+         "source_id" : 260
+      },
+      {
+         "claim_summary" : "Dies for the sins of the world",
+         "id" : "prophecy-261",
+         "nt_references" : [
+            "1John 2:2"
+         ],
+         "ot_reference" : "Isa 53:8d",
+         "review_status" : "unreviewed",
+         "source_id" : 261
+      },
+      {
+         "claim_summary" : "Buried in a rich man’s grave",
+         "id" : "prophecy-262",
+         "nt_references" : [
+            "Matt 27:57"
+         ],
+         "ot_reference" : "Isa 53:9a",
+         "review_status" : "unreviewed",
+         "source_id" : 262
+      },
+      {
+         "claim_summary" : "Innocent and had done no violence",
+         "id" : "prophecy-263",
+         "nt_references" : [
+            "Luke 23:41",
+            "John 18:38"
+         ],
+         "ot_reference" : "Isa 53:9b",
+         "review_status" : "unreviewed",
+         "source_id" : 263
+      },
+      {
+         "claim_summary" : "No deceit in his mouth",
+         "id" : "prophecy-264",
+         "nt_references" : [
+            "1Pet 2:22"
+         ],
+         "ot_reference" : "Isa 53:9c",
+         "review_status" : "unreviewed",
+         "source_id" : 264
+      },
+      {
+         "claim_summary" : "God’s will that He die for mankind",
+         "id" : "prophecy-265",
+         "nt_references" : [
+            "John 18:11"
+         ],
+         "ot_reference" : "Isa 53:10a",
+         "review_status" : "unreviewed",
+         "source_id" : 265
+      },
+      {
+         "claim_summary" : "An offering for sin",
+         "id" : "prophecy-266",
+         "nt_references" : [
+            "Matt 20:28",
+            "Gal 3:13"
+         ],
+         "ot_reference" : "Isa 53:10b",
+         "review_status" : "unreviewed",
+         "source_id" : 266
+      },
+      {
+         "claim_summary" : "Resurrected and live forever",
+         "id" : "prophecy-267",
+         "nt_references" : [
+            "Rom 6:9"
+         ],
+         "ot_reference" : "Isa 53:10c",
+         "review_status" : "unreviewed",
+         "source_id" : 267
+      },
+      {
+         "claim_summary" : "He would prosper",
+         "id" : "prophecy-268",
+         "nt_references" : [
+            "John 17:1-5"
+         ],
+         "ot_reference" : "Isa 53:10d",
+         "review_status" : "unreviewed",
+         "source_id" : 268
+      },
+      {
+         "claim_summary" : "God fully satisfied with His suffering",
+         "id" : "prophecy-269",
+         "nt_references" : [
+            "John 12:27"
+         ],
+         "ot_reference" : "Isa 53:11a",
+         "review_status" : "unreviewed",
+         "source_id" : 269
+      },
+      {
+         "claim_summary" : "God’s servant would justify man",
+         "id" : "prophecy-270",
+         "nt_references" : [
+            "Rom 5:8-9",
+            "Rom 5:18-19"
+         ],
+         "ot_reference" : "Isa 53:11b",
+         "review_status" : "unreviewed",
+         "source_id" : 270
+      },
+      {
+         "claim_summary" : "The sin-bearer for all mankind",
+         "id" : "prophecy-271",
+         "nt_references" : [
+            "Heb 9:28"
+         ],
+         "ot_reference" : "Isa 53:11c",
+         "review_status" : "unreviewed",
+         "source_id" : 271
+      },
+      {
+         "claim_summary" : "Exalted by God because of his sacrifice",
+         "id" : "prophecy-272",
+         "nt_references" : [
+            "Matt 28:18"
+         ],
+         "ot_reference" : "Isa 53:12a",
+         "review_status" : "unreviewed",
+         "source_id" : 272
+      },
+      {
+         "claim_summary" : "He would give up his life to save mankind",
+         "id" : "prophecy-273",
+         "nt_references" : [
+            "Luke 23:46"
+         ],
+         "ot_reference" : "Isa 53:12b",
+         "review_status" : "unreviewed",
+         "source_id" : 273
+      },
+      {
+         "claim_summary" : "Numbered with the transgressors",
+         "id" : "prophecy-274",
+         "nt_references" : [
+            "Mark 15:27-28"
+         ],
+         "ot_reference" : "Isa 53:12c",
+         "review_status" : "unreviewed",
+         "source_id" : 274
+      },
+      {
+         "claim_summary" : "Sin-bearer for all mankind",
+         "id" : "prophecy-275",
+         "nt_references" : [
+            "1Pet 2:24"
+         ],
+         "ot_reference" : "Isa 53:12d",
+         "review_status" : "unreviewed",
+         "source_id" : 275
+      },
+      {
+         "claim_summary" : "Intercede to God in behalf of mankind",
+         "id" : "prophecy-276",
+         "nt_references" : [
+            "Luke 23:34",
+            "Rom 8:34"
+         ],
+         "ot_reference" : "Isa 53:12e",
+         "review_status" : "unreviewed",
+         "source_id" : 276
+      },
+      {
+         "claim_summary" : "Resurrected by God",
+         "id" : "prophecy-277",
+         "nt_references" : [
+            "Acts 13:34"
+         ],
+         "ot_reference" : "Isa 55:3",
+         "review_status" : "unreviewed",
+         "source_id" : 277
+      },
+      {
+         "claim_summary" : "A witness",
+         "id" : "prophecy-278",
+         "nt_references" : [
+            "John 18:37"
+         ],
+         "ot_reference" : "Isa 55:4a",
+         "review_status" : "unreviewed",
+         "source_id" : 278
+      },
+      {
+         "claim_summary" : "He is a leader and commander",
+         "id" : "prophecy-279",
+         "nt_references" : [
+            "Heb 2:10"
+         ],
+         "ot_reference" : "Isa 55:4b",
+         "review_status" : "unreviewed",
+         "source_id" : 279
+      },
+      {
+         "claim_summary" : "God would glorify Him",
+         "id" : "prophecy-280",
+         "nt_references" : [
+            "Acts 3:13"
+         ],
+         "ot_reference" : "Isa 55:5",
+         "review_status" : "unreviewed",
+         "source_id" : 280
+      },
+      {
+         "claim_summary" : "Intercessor between man and God",
+         "id" : "prophecy-281",
+         "nt_references" : [
+            "Matt 10:32"
+         ],
+         "ot_reference" : "Isa 59:16a",
+         "review_status" : "unreviewed",
+         "source_id" : 281
+      },
+      {
+         "claim_summary" : "He would come to provide salvation",
+         "id" : "prophecy-282",
+         "nt_references" : [
+            "John 6:40"
+         ],
+         "ot_reference" : "Isa 59:16b",
+         "review_status" : "unreviewed",
+         "source_id" : 282
+      },
+      {
+         "claim_summary" : "He would come to Zion as their Redeemer",
+         "id" : "prophecy-283",
+         "nt_references" : [
+            "Luke 2:38"
+         ],
+         "ot_reference" : "Isa 59:20",
+         "review_status" : "unreviewed",
+         "source_id" : 283
+      },
+      {
+         "claim_summary" : "He would show light to the Gentiles",
+         "id" : "prophecy-284",
+         "nt_references" : [
+            "Acts 26:23"
+         ],
+         "ot_reference" : "Isa 60:1-3",
+         "review_status" : "unreviewed",
+         "source_id" : 284
+      },
+      {
+         "claim_summary" : "The Spirit of God upon him",
+         "id" : "prophecy-285",
+         "nt_references" : [
+            "Matt 3:16-17"
+         ],
+         "ot_reference" : "Isa 61:1a",
+         "review_status" : "unreviewed",
+         "source_id" : 285
+      },
+      {
+         "claim_summary" : "The Messiah would preach the good news",
+         "id" : "prophecy-286",
+         "nt_references" : [
+            "Luke 4:16-21"
+         ],
+         "ot_reference" : "Isa 61:1b",
+         "review_status" : "unreviewed",
+         "source_id" : 286
+      },
+      {
+         "claim_summary" : "Provide freedom from the bondage of sin",
+         "id" : "prophecy-287",
+         "nt_references" : [
+            "John 8:31-36"
+         ],
+         "ot_reference" : "Isa 61:1c",
+         "review_status" : "unreviewed",
+         "source_id" : 287
+      },
+      {
+         "claim_summary" : "Proclaim a period of grace",
+         "id" : "prophecy-288",
+         "nt_references" : [
+            "Gal 4:4-5"
+         ],
+         "ot_reference" : "Isa 61:1-2a",
+         "review_status" : "unreviewed",
+         "source_id" : 288
+      },
+      {
+         "claim_summary" : "Descendant of David",
+         "id" : "prophecy-289",
+         "nt_references" : [
+            "Luke 3:23-31"
+         ],
+         "ot_reference" : "Jer 23:5-6",
+         "review_status" : "unreviewed",
+         "source_id" : 289
+      },
+      {
+         "claim_summary" : "The Messiah would be both God and Man",
+         "id" : "prophecy-290",
+         "nt_references" : [
+            "John 13:13",
+            "1Tim 3:16"
+         ],
+         "ot_reference" : "Jer 23:5-6",
+         "review_status" : "unreviewed",
+         "source_id" : 290
+      },
+      {
+         "claim_summary" : "Born of a virgin",
+         "id" : "prophecy-291",
+         "nt_references" : [
+            "Matt 1:18-20"
+         ],
+         "ot_reference" : "Jer 31:22",
+         "review_status" : "unreviewed",
+         "source_id" : 291
+      },
+      {
+         "claim_summary" : "The Messiah would be the new covenant",
+         "id" : "prophecy-292",
+         "nt_references" : [
+            "Matt 26:28"
+         ],
+         "ot_reference" : "Jer 31:31",
+         "review_status" : "unreviewed",
+         "source_id" : 292
+      },
+      {
+         "claim_summary" : "Descendant of David",
+         "id" : "prophecy-293",
+         "nt_references" : [
+            "Luke 3:23-31"
+         ],
+         "ot_reference" : "Jer 33:14-15",
+         "review_status" : "unreviewed",
+         "source_id" : 293
+      },
+      {
+         "claim_summary" : "Descendant of David",
+         "id" : "prophecy-294",
+         "nt_references" : [
+            "Matt 1:1"
+         ],
+         "ot_reference" : "Ezek 34:23-24",
+         "review_status" : "unreviewed",
+         "source_id" : 294
+      },
+      {
+         "claim_summary" : "Descendant of David",
+         "id" : "prophecy-295",
+         "nt_references" : [
+            "Luke 1:31-33"
+         ],
+         "ot_reference" : "Ezek 37:24-25",
+         "review_status" : "unreviewed",
+         "source_id" : 295
+      },
+      {
+         "claim_summary" : "The Stone that shall break the kingdoms",
+         "id" : "prophecy-296",
+         "nt_references" : [
+            "Matt 21:44"
+         ],
+         "ot_reference" : "Dan 2:44-45",
+         "review_status" : "unreviewed",
+         "source_id" : 296
+      },
+      {
+         "claim_summary" : "He would ascend into heaven",
+         "id" : "prophecy-297",
+         "nt_references" : [
+            "Acts 1:9-11"
+         ],
+         "ot_reference" : "Dan 7:13-14a",
+         "review_status" : "unreviewed",
+         "source_id" : 297
+      },
+      {
+         "claim_summary" : "Highly exalted",
+         "id" : "prophecy-298",
+         "nt_references" : [
+            "Eph 1:20-22"
+         ],
+         "ot_reference" : "Dan 7:13-14b",
+         "review_status" : "unreviewed",
+         "source_id" : 298
+      },
+      {
+         "claim_summary" : "His dominion would be everlasting",
+         "id" : "prophecy-299",
+         "nt_references" : [
+            "Luke 1:31-33"
+         ],
+         "ot_reference" : "Dan 7:13-14c",
+         "review_status" : "unreviewed",
+         "source_id" : 299
+      },
+      {
+         "claim_summary" : "To make an end to sins",
+         "id" : "prophecy-300",
+         "nt_references" : [
+            "Gal 1:3-5"
+         ],
+         "ot_reference" : "Dan 9:24a",
+         "review_status" : "unreviewed",
+         "source_id" : 300
+      },
+      {
+         "claim_summary" : "To make reconciliation for iniquity",
+         "id" : "prophecy-301",
+         "nt_references" : [
+            "Rom 5:10 2 Cor 5:18-21"
+         ],
+         "ot_reference" : "Dan 9:24a",
+         "review_status" : "unreviewed",
+         "source_id" : 301
+      },
+      {
+         "claim_summary" : "He would be holy",
+         "id" : "prophecy-302",
+         "nt_references" : [
+            "Luke 1:35"
+         ],
+         "ot_reference" : "Dan 9:24b",
+         "review_status" : "unreviewed",
+         "source_id" : 302
+      },
+      {
+         "claim_summary" : "His announcement",
+         "id" : "prophecy-303",
+         "nt_references" : [
+            "John 12:12-13"
+         ],
+         "ot_reference" : "Dan 9:25",
+         "review_status" : "unreviewed",
+         "source_id" : 303
+      },
+      {
+         "claim_summary" : "Cut off",
+         "id" : "prophecy-304",
+         "nt_references" : [
+            "Matt 16:21",
+            "Matt 21:38-39"
+         ],
+         "ot_reference" : "Dan 9:26a",
+         "review_status" : "unreviewed",
+         "source_id" : 304
+      },
+      {
+         "claim_summary" : "Die for the sins of the world",
+         "id" : "prophecy-305",
+         "nt_references" : [
+            "Heb 2:9"
+         ],
+         "ot_reference" : "Dan 9:26b",
+         "review_status" : "unreviewed",
+         "source_id" : 305
+      },
+      {
+         "claim_summary" : "Killed before the destruction of the temple",
+         "id" : "prophecy-306",
+         "nt_references" : [
+            "Matt 27:50-51"
+         ],
+         "ot_reference" : "Dan 9:26c",
+         "review_status" : "unreviewed",
+         "source_id" : 306
+      },
+      {
+         "claim_summary" : "Messiah in a glorified state",
+         "id" : "prophecy-307",
+         "nt_references" : [
+            "Rev 1:13-16"
+         ],
+         "ot_reference" : "Dan 10:5-6",
+         "review_status" : "unreviewed",
+         "source_id" : 307
+      },
+      {
+         "claim_summary" : "He would be called out of Egypt",
+         "id" : "prophecy-308",
+         "nt_references" : [
+            "Matt 2:15"
+         ],
+         "ot_reference" : "Hos 11:1",
+         "review_status" : "unreviewed",
+         "source_id" : 308
+      },
+      {
+         "claim_summary" : "He would defeat death",
+         "id" : "prophecy-309",
+         "nt_references" : [
+            "1Cor 15:55-57"
+         ],
+         "ot_reference" : "Hos 13:14",
+         "review_status" : "unreviewed",
+         "source_id" : 309
+      },
+      {
+         "claim_summary" : "Offer salvation to all mankind",
+         "id" : "prophecy-310",
+         "nt_references" : [
+            "Rom 10:9-13"
+         ],
+         "ot_reference" : "Joel 2:32",
+         "review_status" : "unreviewed",
+         "source_id" : 310
+      },
+      {
+         "claim_summary" : "Death and resurrection of Christ",
+         "id" : "prophecy-311",
+         "nt_references" : [
+            "Matt 12:40",
+            "Matt 16:4"
+         ],
+         "ot_reference" : "Jonah 1:17",
+         "review_status" : "unreviewed",
+         "source_id" : 311
+      },
+      {
+         "claim_summary" : "Born in Bethlehem",
+         "id" : "prophecy-312",
+         "nt_references" : [
+            "Matt 2:1-6"
+         ],
+         "ot_reference" : "Mic 5:2a",
+         "review_status" : "unreviewed",
+         "source_id" : 312
+      },
+      {
+         "claim_summary" : "Ruler in Israel",
+         "id" : "prophecy-313",
+         "nt_references" : [
+            "Luke 1:33"
+         ],
+         "ot_reference" : "Mic 5:2b",
+         "review_status" : "unreviewed",
+         "source_id" : 313
+      },
+      {
+         "claim_summary" : "From everlasting",
+         "id" : "prophecy-314",
+         "nt_references" : [
+            "John 8:58"
+         ],
+         "ot_reference" : "Mic 5:2c",
+         "review_status" : "unreviewed",
+         "source_id" : 314
+      },
+      {
+         "claim_summary" : "He would visit the second Temple",
+         "id" : "prophecy-315",
+         "nt_references" : [
+            "Luke 2:27-32"
+         ],
+         "ot_reference" : "Hag 2:6-9",
+         "review_status" : "unreviewed",
+         "source_id" : 315
+      },
+      {
+         "claim_summary" : "Descendant of Zerubbabel",
+         "id" : "prophecy-316",
+         "nt_references" : [
+            "Luke 2:27-32"
+         ],
+         "ot_reference" : "Hag 2:23",
+         "review_status" : "unreviewed",
+         "source_id" : 316
+      },
+      {
+         "claim_summary" : "God’s servant",
+         "id" : "prophecy-317",
+         "nt_references" : [
+            "John 17:4"
+         ],
+         "ot_reference" : "Zech 3:8",
+         "review_status" : "unreviewed",
+         "source_id" : 317
+      },
+      {
+         "claim_summary" : "Priest and King",
+         "id" : "prophecy-318",
+         "nt_references" : [
+            "Heb 8:1"
+         ],
+         "ot_reference" : "Zech 6:12-13",
+         "review_status" : "unreviewed",
+         "source_id" : 318
+      },
+      {
+         "claim_summary" : "Greeted with rejoicing in Jerusalem",
+         "id" : "prophecy-319",
+         "nt_references" : [
+            "Matt 21:8-10"
+         ],
+         "ot_reference" : "Zech 9:9a",
+         "review_status" : "unreviewed",
+         "source_id" : 319
+      },
+      {
+         "claim_summary" : "Beheld as King",
+         "id" : "prophecy-320",
+         "nt_references" : [
+            "John 12:12-13"
+         ],
+         "ot_reference" : "Zech 9:9b",
+         "review_status" : "unreviewed",
+         "source_id" : 320
+      },
+      {
+         "claim_summary" : "The Messiah would be just",
+         "id" : "prophecy-321",
+         "nt_references" : [
+            "John 5:30"
+         ],
+         "ot_reference" : "Zech 9:9c",
+         "review_status" : "unreviewed",
+         "source_id" : 321
+      },
+      {
+         "claim_summary" : "The Messiah would bring salvation",
+         "id" : "prophecy-322",
+         "nt_references" : [
+            "Luke 19:10"
+         ],
+         "ot_reference" : "Zech 9:9d",
+         "review_status" : "unreviewed",
+         "source_id" : 322
+      },
+      {
+         "claim_summary" : "The Messiah would be humble",
+         "id" : "prophecy-323",
+         "nt_references" : [
+            "Matt 11:29"
+         ],
+         "ot_reference" : "Zech 9:9e",
+         "review_status" : "unreviewed",
+         "source_id" : 323
+      },
+      {
+         "claim_summary" : "Presented to Jerusalem riding on a donkey",
+         "id" : "prophecy-324",
+         "nt_references" : [
+            "Matt 21:6-9"
+         ],
+         "ot_reference" : "Zech 9:9f",
+         "review_status" : "unreviewed",
+         "source_id" : 324
+      },
+      {
+         "claim_summary" : "The cornerstone",
+         "id" : "prophecy-325",
+         "nt_references" : [
+            "Eph 2:20"
+         ],
+         "ot_reference" : "Zech 10:4",
+         "review_status" : "unreviewed",
+         "source_id" : 325
+      },
+      {
+         "claim_summary" : "At His coming, Israel to have unfit leaders",
+         "id" : "prophecy-326",
+         "nt_references" : [
+            "Matt 23:1-4"
+         ],
+         "ot_reference" : "Zech 11:4-6a",
+         "review_status" : "unreviewed",
+         "source_id" : 326
+      },
+      {
+         "claim_summary" : "Rejection causes God to remove His protection",
+         "id" : "prophecy-327",
+         "nt_references" : [
+            "Luke 19:41-44"
+         ],
+         "ot_reference" : "Zech 11:4-6b",
+         "review_status" : "unreviewed",
+         "source_id" : 327
+      },
+      {
+         "claim_summary" : "Rejected in favor of another king",
+         "id" : "prophecy-328",
+         "nt_references" : [
+            "John 19:13-15"
+         ],
+         "ot_reference" : "Zech 11:4-6c",
+         "review_status" : "unreviewed",
+         "source_id" : 328
+      },
+      {
+         "claim_summary" : "Ministry to \"poor,\" the believing remnant",
+         "id" : "prophecy-329",
+         "nt_references" : [
+            "Matt 9:35-36"
+         ],
+         "ot_reference" : "Zech 11:7",
+         "review_status" : "unreviewed",
+         "source_id" : 329
+      },
+      {
+         "claim_summary" : "Unbelief forces Messiah to reject them",
+         "id" : "prophecy-330",
+         "nt_references" : [
+            "Matt 23:33"
+         ],
+         "ot_reference" : "Zech 11:8a",
+         "review_status" : "unreviewed",
+         "source_id" : 330
+      },
+      {
+         "claim_summary" : "Despised",
+         "id" : "prophecy-331",
+         "nt_references" : [
+            "Matt 27:20"
+         ],
+         "ot_reference" : "Zech 11:8b",
+         "review_status" : "unreviewed",
+         "source_id" : 331
+      },
+      {
+         "claim_summary" : "Stops ministering to those who rejected Him",
+         "id" : "prophecy-332",
+         "nt_references" : [
+            "Matt 13:10-11"
+         ],
+         "ot_reference" : "Zech 11:9",
+         "review_status" : "unreviewed",
+         "source_id" : 332
+      },
+      {
+         "claim_summary" : "Rejection causes God to remove protection",
+         "id" : "prophecy-333",
+         "nt_references" : [
+            "Luke 19:41-44"
+         ],
+         "ot_reference" : "Zech 11:10-11a",
+         "review_status" : "unreviewed",
+         "source_id" : 333
+      },
+      {
+         "claim_summary" : "The Messiah would be God",
+         "id" : "prophecy-334",
+         "nt_references" : [
+            "John 14:7"
+         ],
+         "ot_reference" : "Zech 11:10-11b",
+         "review_status" : "unreviewed",
+         "source_id" : 334
+      },
+      {
+         "claim_summary" : "Betrayed for thirty pieces of silver",
+         "id" : "prophecy-335",
+         "nt_references" : [
+            "Matt 26:14-15"
+         ],
+         "ot_reference" : "Zech 11:12-13a",
+         "review_status" : "unreviewed",
+         "source_id" : 335
+      },
+      {
+         "claim_summary" : "Rejected",
+         "id" : "prophecy-336",
+         "nt_references" : [
+            "Matt 26:14-15"
+         ],
+         "ot_reference" : "Zech 11:12-13b",
+         "review_status" : "unreviewed",
+         "source_id" : 336
+      },
+      {
+         "claim_summary" : "Thirty pieces of silver cast in the house of the Lord",
+         "id" : "prophecy-337",
+         "nt_references" : [
+            "Matt 27:3-5"
+         ],
+         "ot_reference" : "Zech 11:12-13c",
+         "review_status" : "unreviewed",
+         "source_id" : 337
+      },
+      {
+         "claim_summary" : "The Messiah would be God",
+         "id" : "prophecy-338",
+         "nt_references" : [
+            "John 12:45"
+         ],
+         "ot_reference" : "Zech 11:12-13d",
+         "review_status" : "unreviewed",
+         "source_id" : 338
+      },
+      {
+         "claim_summary" : "The Messiah’s body would be pierced",
+         "id" : "prophecy-339",
+         "nt_references" : [
+            "John 19:34-37"
+         ],
+         "ot_reference" : "Zech 12:10a",
+         "review_status" : "unreviewed",
+         "source_id" : 339
+      },
+      {
+         "claim_summary" : "The Messiah would be both God and man",
+         "id" : "prophecy-340",
+         "nt_references" : [
+            "John 10:30"
+         ],
+         "ot_reference" : "Zech 12:10b",
+         "review_status" : "unreviewed",
+         "source_id" : 340
+      },
+      {
+         "claim_summary" : "The Messiah would be rejected",
+         "id" : "prophecy-341",
+         "nt_references" : [
+            "John 1:11"
+         ],
+         "ot_reference" : "Zech 12:10c",
+         "review_status" : "unreviewed",
+         "source_id" : 341
+      },
+      {
+         "claim_summary" : "God’s will He die for mankind",
+         "id" : "prophecy-342",
+         "nt_references" : [
+            "John 18:11"
+         ],
+         "ot_reference" : "Zech 13:7a",
+         "review_status" : "unreviewed",
+         "source_id" : 342
+      },
+      {
+         "claim_summary" : "A violent death",
+         "id" : "prophecy-343",
+         "nt_references" : [
+            "Mark 14:27"
+         ],
+         "ot_reference" : "Zech 13:7b",
+         "review_status" : "unreviewed",
+         "source_id" : 343
+      },
+      {
+         "claim_summary" : "Both God and man",
+         "id" : "prophecy-344",
+         "nt_references" : [
+            "John 14:9"
+         ],
+         "ot_reference" : "Zech 13:7c",
+         "review_status" : "unreviewed",
+         "source_id" : 344
+      },
+      {
+         "claim_summary" : "Israel scattered as a result of rejecting Him",
+         "id" : "prophecy-345",
+         "nt_references" : [
+            "Matt 26:31-56"
+         ],
+         "ot_reference" : "Zech 13:7d",
+         "review_status" : "unreviewed",
+         "source_id" : 345
+      },
+      {
+         "claim_summary" : "He would return to the Mt. of Olives",
+         "id" : "prophecy-346",
+         "nt_references" : [
+            "Acts 1:11-12"
+         ],
+         "ot_reference" : "Zech 14:4",
+         "review_status" : "unreviewed",
+         "source_id" : 346
+      },
+      {
+         "claim_summary" : "Messenger to prepare the way for Messiah",
+         "id" : "prophecy-347",
+         "nt_references" : [
+            "Mark 1:1-8"
+         ],
+         "ot_reference" : "Mal 3:1a",
+         "review_status" : "unreviewed",
+         "source_id" : 347
+      },
+      {
+         "claim_summary" : "Sudden appearance at the temple",
+         "id" : "prophecy-348",
+         "nt_references" : [
+            "Mark 11:15-16"
+         ],
+         "ot_reference" : "Mal 3:1b",
+         "review_status" : "unreviewed",
+         "source_id" : 348
+      },
+      {
+         "claim_summary" : "Messenger of the new covenant",
+         "id" : "prophecy-349",
+         "nt_references" : [
+            "Luke 4:43"
+         ],
+         "ot_reference" : "Mal 3:1c",
+         "review_status" : "unreviewed",
+         "source_id" : 349
+      },
+      {
+         "claim_summary" : "Forerunner in spirit of Elijah",
+         "id" : "prophecy-350",
+         "nt_references" : [
+            "Matt 3:1-3",
+            "Matt 11:10-14",
+            "Matt 17:11-13"
+         ],
+         "ot_reference" : "Mal 4:5",
+         "review_status" : "unreviewed",
+         "source_id" : 350
+      },
+      {
+         "claim_summary" : "Forerunner would turn many to righteousness",
+         "id" : "prophecy-351",
+         "nt_references" : [
+            "Luke 1:16-17"
+         ],
+         "ot_reference" : "Mal 4:6",
+         "review_status" : "unreviewed",
+         "source_id" : 351
+      }
+   ],
+   "entry_count" : 351,
+   "generated_from" : "https://chartingthebible.org/articles/60-351-ot-prophesies-fulfilled-in-jesus.html",
+   "schema_version" : 1,
+   "title" : "Christian claims of Old Testament prophecies fulfilled by Jesus"
+}
