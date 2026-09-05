@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nonprophet.app/schemas/publication.schema.json",
+  "title": "Non-Prophet publication registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "entries"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_id", "state", "scheduled_date", "published_url", "social_ids"],
+        "properties": {
+          "claim_id": {"type":"string","pattern":"^prophecy-[0-9]{3}$"},
+          "state": {"enum":["withheld","scheduled","published","withdrawn"]},
+          "scheduled_date": {"type":["string","null"],"pattern":"^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+          "published_url": {"type":["string","null"]},
+          "social_ids": {
+            "type":"object",
+            "additionalProperties":{"type":"string"},
+            "propertyNames":{"enum":["youtube","tiktok","instagram","bluesky"]}
+          }
+        }
+      }
+    }
+  }
+}

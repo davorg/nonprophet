@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "claim_id": "prophecy-002",
-  "status": "adversarial_review_complete",
+  "status": "ready_to_publish",
   "claim": {
     "precise": "Genesis 3:15 predicts that Jesus will defeat Satan, fulfilled by the Son of God's destruction of the devil and his works in Hebrews 2:14 and 1 John 3:8.",
     "type": "nt_rereading",

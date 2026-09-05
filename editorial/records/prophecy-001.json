@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "claim_id": "prophecy-001",
-  "status": "adversarial_review_complete",
+  "status": "ready_to_publish",
   "claim": {
     "precise": "Genesis 3:15 predicts Jesus' virgin birth by describing the serpent's conqueror as the woman's seed rather than a man's.",
     "type": "textual_translation",

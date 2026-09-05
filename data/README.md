@@ -7,6 +7,7 @@
 - `reference-audit.json` records corrections, parse failures, repeated references,
   clause segments and cross-chapter ranges.
 - `scripture/bsb-v5.9.json` is the pinned, normalized BSB verse-and-note store.
+- `publication.json` controls release state independently of editorial readiness.
 - `SOURCES.md` documents provenance and reuse considerations.
 - `../config/bible_books.json` defines canonical book metadata and source
   abbreviations.

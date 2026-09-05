@@ -36,6 +36,12 @@ ajv validate \
   -s schemas/editorial-record.schema.json \
   -d editorial/templates/claim-record.json
 
+ajv validate \
+  --spec=draft2020 \
+  --strict=true \
+  -s schemas/publication.schema.json \
+  -d data/publication.json
+
 for record in editorial/records/*.json; do
   ajv validate \
     --spec=draft2020 \

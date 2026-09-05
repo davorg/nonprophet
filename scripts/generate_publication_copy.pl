@@ -28,6 +28,8 @@ sub yaml_string { return $json->encode($_[0] // '') }
 
 my $claims = read_json("$root/data/claims.json");
 my %claims_by_id = map { $_->{id} => $_ } @{$claims->{entries}};
+my $publication = read_json("$root/data/publication.json");
+my %publication_by_id = map { $_->{claim_id} => $_ } @{$publication->{entries}};
 my @record_paths = sort glob "$root/editorial/records/*.json";
 make_path("$root/docs/_claims", "$root/social/carousels");
 
@@ -40,7 +42,8 @@ for my $record_path (@record_paths) {
 
     my $website = $copy->{website};
     my $number = 0 + ($id =~ /([0-9]+)$/)[0];
-    my $published = $record->{status} eq 'ready_to_publish' ? 'true' : 'false';
+    my $publication_state = $publication_by_id{$id}{state} // 'withheld';
+    my $published = $publication_state eq 'published' ? 'true' : 'false';
     my $ot_text = join ' ', map { $_->{text} } @{$claim->{ot_text}{verses}};
     my $ot_note = join ' ', map { @{$_->{notes}} } @{$claim->{ot_text}{verses}};
     my @frontmatter = (
@@ -52,6 +55,7 @@ for my $record_path (@record_paths) {
         'robots: ' . yaml_string($published eq 'true' ? 'index, follow' : 'noindex, nofollow'),
         "claim_number: $number",
         'editorial_status: ' . yaml_string($record->{status}),
+        'publication_state: ' . yaml_string($publication_state),
         'summary: ' . yaml_string($website->{summary}),
         'ot_reference: ' . yaml_string($claim->{ot_passage}{source}),
         'ot_text: ' . yaml_string($ot_text),

@@ -18,12 +18,16 @@ sub read_json {
 
 my $claims = read_json("$root/data/claims.json");
 my %claim_ids = map { $_->{id} => 1 } @{$claims->{entries}};
+my $publication = read_json("$root/data/publication.json");
+my %publication_ids;
+my %editorial_status;
 my @errors;
 my $records = 0;
 
 for my $path (sort glob "$root/editorial/records/*.json") {
     my $record = read_json($path);
     my $id = $record->{claim_id};
+    $editorial_status{$id} = $record->{status};
     $records++;
     push @errors, "$id: unknown canonical claim" unless $claim_ids{$id};
 
@@ -69,6 +73,22 @@ for my $path (sort glob "$root/editorial/records/*.json") {
         push @errors, "$id: ready record requires publication copy" unless length($copy->{title} // '');
         push @errors, "$id: ready record still requires human review" if $record->{human_review}{required};
         push @errors, "$id: ready record has unchecked sources" if grep { !$_->{checked} } @{$record->{sources}};
+    }
+}
+
+for my $entry (@{$publication->{entries}}) {
+    my $id = $entry->{claim_id};
+    push @errors, "$id: duplicate publication entry" if $publication_ids{$id}++;
+    push @errors, "$id: publication entry has no editorial record" unless $editorial_status{$id};
+    if ($entry->{state} eq 'published') {
+        push @errors, "$id: published before editorial readiness"
+            unless ($editorial_status{$id} // '') eq 'ready_to_publish';
+        push @errors, "$id: published without URL" unless length($entry->{published_url} // '');
+    }
+    if ($entry->{state} eq 'scheduled') {
+        push @errors, "$id: scheduled before editorial readiness"
+            unless ($editorial_status{$id} // '') eq 'ready_to_publish';
+        push @errors, "$id: scheduled without date" unless length($entry->{scheduled_date} // '');
     }
 }
 
