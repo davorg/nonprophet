@@ -1,2 +1,4 @@
 {"claim_id":"prophecy-005","details":{"batch":"genesis-12"},"epoch":1788619665,"event":"start","schema_version":1,"stage":"total","timestamp":"2026-09-05T14:47:45Z"}
 {"claim_id":"prophecy-005","details":{},"epoch":1788619665,"event":"start","schema_version":1,"stage":"research","timestamp":"2026-09-05T14:47:45Z"}
+{"claim_id":"prophecy-005","details":{"exclude":1,"reason":"instrumentation_setup"},"epoch":1788619764,"event":"stop","schema_version":1,"stage":"research","timestamp":"2026-09-05T14:49:24Z"}
+{"claim_id":"prophecy-005","details":{"exclude":1,"reason":"instrumentation_setup"},"epoch":1788619764,"event":"stop","schema_version":1,"stage":"total","timestamp":"2026-09-05T14:49:24Z"}

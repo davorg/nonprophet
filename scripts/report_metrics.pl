@@ -41,6 +41,7 @@ for my $event (sort { $a->{epoch} <=> $b->{epoch} } @events) {
     } elsif ($event->{event} eq 'stop') {
         my $start = shift @{$open{$key} // []};
         die "Stop without start for $event->{claim_id} $event->{stage}\n" unless $start;
+        next if $event->{details}{exclude};
         my $seconds = $event->{epoch} - $start->{epoch};
         $claim_stage_seconds{$event->{stage}}{$event->{claim_id}} += $seconds;
         for my $name (keys %{$event->{details}}) {
@@ -89,9 +90,11 @@ for my $stage (sort keys %claim_stage_seconds) {
 print "\nConstrained resources (recorded values only)\n";
 for my $name (sort keys %resources) {
     my @values = values %{$resources{$name}};
-    my $mean = @values ? sum(@values) / @values : 0;
-    printf "  %-22s total=%.0f mean/observed-claim=%.1f", $name, sum(@values), $mean;
-    printf " projected-remaining=%.0f", $mean * $remaining if @values;
+    my @completed_values = map { $resources{$name}{$_} // 0 } keys %completed;
+    my $mean = @completed_values ? sum(@completed_values) / @completed_values : 0;
+    printf "  %-22s total=%.0f", $name, sum(@values);
+    printf " mean/completed-claim=%.1f projected-remaining=%.0f",
+        $mean, $mean * $remaining if @completed_values;
     print "\n";
 }
 print "  Primary-agent tokens are unknown unless the runtime exposes and records them.\n";

@@ -35,6 +35,9 @@ invent unavailable measurements. In particular, record `review_tokens` when the
 independent review runtime reports them; record `primary_tokens` only if the primary
 runtime exposes an actual value.
 
+If a timer accidentally includes unrelated work, stop it with `exclude=1`. The raw
+event remains auditable but is omitted from aggregates.
+
 ## Reporting
 
 ```sh
