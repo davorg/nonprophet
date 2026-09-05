@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nonprophet.app/schemas/editorial-record.schema.json",
+  "title": "Non-Prophet editorial record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "claim_id", "status", "claim", "context", "strongest_case", "critical_case", "textual_issues", "verdict", "sources", "reviews", "human_review", "publication_copy"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "claim_id": {"type": "string", "pattern": "^prophecy-[0-9]{3}$"},
+    "status": {"enum": ["seeded", "claim_defined", "strong_case_complete", "critical_case_complete", "adversarial_review_complete", "human_review_required", "ready_to_publish"]},
+    "claim": {
+      "type": "object", "additionalProperties": false,
+      "required": ["precise", "type", "scope_notes"],
+      "properties": {
+        "precise": {"type": "string"},
+        "type": {"enum": ["prediction", "nt_rereading", "nt_typology", "later_christian_typology", "genealogy", "thematic_parallel", "textual_translation", "source_error"]},
+        "scope_notes": {"type": "string"}
+      }
+    },
+    "context": {
+      "type": "object", "additionalProperties": false,
+      "required": ["summary", "shared_context_id"],
+      "properties": {"summary": {"type": "string"}, "shared_context_id": {"type": ["string", "null"]}}
+    },
+    "strongest_case": {"$ref": "#/$defs/argument"},
+    "critical_case": {"$ref": "#/$defs/argument"},
+    "textual_issues": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["issue", "significance", "source_ids"],
+        "properties": {
+          "issue": {"type": "string", "minLength": 1},
+          "significance": {"enum": ["none", "minor", "material", "decisive"]},
+          "source_ids": {"$ref": "#/$defs/source_ids"}
+        }
+      }
+    },
+    "verdict": {
+      "type": "object", "additionalProperties": false,
+      "required": ["category", "summary", "confidence"],
+      "properties": {
+        "category": {"enum": ["unassessed", "plausible_prediction", "plausible_typology_not_prediction", "retrospective_rereading", "thematic_parallel_only", "depends_on_disputed_text_or_translation", "insufficiently_specific", "source_claim_incorrect", "mixed_or_indeterminate"]},
+        "summary": {"type": "string"},
+        "confidence": {"enum": ["unassessed", "low", "medium", "high"]}
+      }
+    },
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "reviews": {"type": "array", "items": {"$ref": "#/$defs/review"}},
+    "human_review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["required", "questions"],
+      "properties": {"required": {"type": "boolean"}, "questions": {"type": "array", "items": {"type": "string", "minLength": 1}}}
+    },
+    "publication_copy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["title", "website", "carousel"],
+      "properties": {
+        "title": {"type": "string"}, "website": {"type": "string"},
+        "carousel": {
+          "type": "array", "maxItems": 3,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["heading", "body", "alt_text"],
+            "properties": {"heading": {"type": "string"}, "body": {"type": "string"}, "alt_text": {"type": "string"}}
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^src-[a-z0-9-]+$"}},
+    "argument": {
+      "type": "object", "additionalProperties": false,
+      "required": ["summary", "reasoning", "source_ids"],
+      "properties": {"summary": {"type": "string"}, "reasoning": {"type": "array", "items": {"type": "string", "minLength": 1}}, "source_ids": {"$ref": "#/$defs/source_ids"}}
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "tier", "stance", "type", "title", "author", "publisher", "url", "locator", "accessed", "checked"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^src-[a-z0-9-]+$"},
+        "tier": {"enum": [1, 2, 3, 4]},
+        "stance": {"enum": ["christian_case", "critical_case", "background", "primary_text"]},
+        "type": {"enum": ["biblical_text", "critical_edition", "monograph", "commentary", "journal_article", "reference_work", "institutional", "popular_apologetic", "web_article", "other"]},
+        "title": {"type": "string", "minLength": 1}, "author": {"type": "string"}, "publisher": {"type": "string"},
+        "url": {"type": ["string", "null"]}, "locator": {"type": "string"},
+        "accessed": {"type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+        "checked": {"type": "boolean"}, "notes": {"type": "string"}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["reviewer", "model", "date", "prompt_version", "objections"],
+      "properties": {
+        "reviewer": {"enum": ["adversarial_llm", "human"]}, "model": {"type": ["string", "null"]},
+        "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}, "prompt_version": {"type": ["string", "null"]},
+        "raw_output_path": {"type": ["string", "null"]},
+        "objections": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["objection", "disposition", "reason"],
+            "properties": {"objection": {"type": "string", "minLength": 1}, "disposition": {"enum": ["pending", "accepted", "partly_accepted", "rejected"]}, "reason": {"type": "string"}}
+          }
+        }
+      }
+    }
+  }
+}

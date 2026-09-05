@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-001",
+  "status": "seeded",
+  "claim": {"precise": "", "type": "prediction", "scope_notes": ""},
+  "context": {"summary": "", "shared_context_id": null},
+  "strongest_case": {"summary": "", "reasoning": [], "source_ids": []},
+  "critical_case": {"summary": "", "reasoning": [], "source_ids": []},
+  "textual_issues": [],
+  "verdict": {"category": "unassessed", "summary": "", "confidence": "unassessed"},
+  "sources": [],
+  "reviews": [],
+  "human_review": {"required": false, "questions": []},
+  "publication_copy": {"title": "", "website": "", "carousel": []}
+}

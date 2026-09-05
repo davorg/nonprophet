@@ -28,6 +28,12 @@ ajv validate \
   -s schemas/claims.schema.json \
   -d data/claims.json
 
+ajv validate \
+  --spec=draft2020 \
+  --strict=true \
+  -s schemas/editorial-record.schema.json \
+  -d editorial/templates/claim-record.json
+
 jq -e '
   .seed_entry_count == 351 and
   .normalized_entry_count == 351 and
