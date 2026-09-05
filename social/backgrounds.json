@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "backgrounds": [
+    {
+      "id": "alexander-psiuk-cczug9CpFpU",
+      "asset": "docs/assets/images/carousel/alexander-psiuk-cczug9CpFpU.jpg",
+      "creator": "Alexander Psiuk",
+      "creator_handle": "alexdeloy",
+      "source_url": "https://unsplash.com/photos/cczug9CpFpU",
+      "downloaded": "2026-09-05",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "description": "Desert dunes beneath a wide blue sky"
+    }
+  ]
+}
