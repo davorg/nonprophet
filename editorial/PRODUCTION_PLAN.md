@@ -22,6 +22,11 @@ For each passage group:
 6. prepare article copy and a four-slide social-media script;
 7. mark the claim ready only when sources and quotations are verified.
 
+Record stage timings and constrained-resource counts throughout this workflow using
+the event ledger described in [METRICS.md](METRICS.md). Start the `total` timer before
+research and stop it only after rendering and validation. Never substitute estimated
+token counts for values actually reported by a runtime.
+
 ## Separation of content and presentation
 
 Complete the durable editorial content first:

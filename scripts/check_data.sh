@@ -10,6 +10,8 @@ perl -c scripts/import_bsb.pl
 perl -c scripts/normalize_references.pl
 perl -c scripts/check_editorial.pl
 perl -c scripts/generate_publication_copy.pl
+perl -c scripts/track_claim.pl
+perl -c scripts/report_metrics.pl
 perl scripts/normalize_references.pl \
   data/prophecies.json \
   config/bible_books.json \
@@ -51,6 +53,7 @@ for record in editorial/records/*.json; do
 done
 
 perl scripts/check_editorial.pl
+perl scripts/report_metrics.pl --check
 
 jq -e '
   .seed_entry_count == 351 and
