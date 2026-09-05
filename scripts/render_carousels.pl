@@ -90,7 +90,9 @@ for my $manifest_path (@manifests) {
         for my $index (0 .. $#{$manifest->{slides}}) {
             my $slide = $manifest->{slides}[$index];
             my @heading = wrap_text($slide->{heading}, $format->{heading_limit});
-            my @body = wrap_text($slide->{body}, $format->{body_limit});
+            my $is_scripture = ($slide->{type} // '') eq 'scripture';
+            my $body_limit = $format->{body_limit} - ($is_scripture ? 6 : 0);
+            my @body = wrap_text($slide->{body}, $body_limit);
             die "$id $format_name slide " . ($index + 1) . " heading is too long\n" if @heading > 3;
             die "$id $format_name slide " . ($index + 1) . " body is too long\n" if @body > 9;
             my $divider_y = $format->{heading_y} + @heading * $format->{heading_spacing};
@@ -100,8 +102,8 @@ for my $manifest_path (@manifests) {
             my $slide_number = $index + 1;
             my $credit = xml_escape("Photo: $background->{creator} / Unsplash");
             my $panel_right = $format->{panel_x} + $format->{panel_w};
-            my $body_family = ($slide->{type} // '') eq 'scripture' ? 'Noto Serif' : 'Noto Sans';
-            my $body_weight = ($slide->{type} // '') eq 'scripture' ? '600' : '450';
+            my $body_family = $is_scripture ? 'Noto Serif' : 'Noto Sans';
+            my $body_weight = $is_scripture ? '600' : '450';
 
             my ($svg_fh, $svg_path) = tempfile('nonprophet-carousel-XXXXXX', SUFFIX => '.svg', DIR => '/tmp', UNLINK => 1);
             binmode $svg_fh, ':encoding(UTF-8)';
