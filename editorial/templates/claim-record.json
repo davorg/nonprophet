@@ -11,5 +11,9 @@
   "sources": [],
   "reviews": [],
   "human_review": {"required": false, "questions": []},
-  "publication_copy": {"title": "", "website": "", "carousel": []}
+  "publication_copy": {
+    "title": "",
+    "website": {"description":"","summary":"","christian_case":"","critical_case":"","verdict_label":"","verdict":""},
+    "carousel": []
+  }
 }

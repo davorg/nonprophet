@@ -8,6 +8,8 @@ cd "$repo_dir"
 perl -c scripts/import_prophecies.pl
 perl -c scripts/import_bsb.pl
 perl -c scripts/normalize_references.pl
+perl -c scripts/check_editorial.pl
+perl -c scripts/generate_publication_copy.pl
 perl scripts/normalize_references.pl \
   data/prophecies.json \
   config/bible_books.json \
@@ -41,6 +43,8 @@ for record in editorial/records/*.json; do
     -s schemas/editorial-record.schema.json \
     -d "$record"
 done
+
+perl scripts/check_editorial.pl
 
 jq -e '
   .seed_entry_count == 351 and

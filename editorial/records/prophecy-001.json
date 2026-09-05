@@ -71,5 +71,20 @@
     }
   ],
   "human_review": {"required":false,"questions":[]},
-  "publication_copy": {"title":"","website":"","carousel":[]}
+  "publication_copy": {
+    "title":"Does ‘her offspring’ predict the virgin birth?",
+    "website": {
+      "description":"A fair examination of the claim that Genesis 3:15 predicts Jesus' virgin birth.",
+      "summary":"Christians have called Genesis 3:15 the first gospel. But does its reference to the woman's offspring actually predict a virgin birth?",
+      "christian_case":"Many Christians read this as the Bible's first promise of a deliverer. The serpent has brought sin and death into the story, but a future offspring of the woman will strike its head. Some evangelical interpreters argue that the singular grammar and the developing ‘seed’ theme in Genesis point toward one representative victor. Read alongside Matthew's account of Jesus' conception by the Holy Spirit and Paul's description of him as ‘born of a woman,’ the unusual phrase ‘her seed’ is then taken as a veiled anticipation of the virgin birth. This is a cumulative Christian reading: no single phrase carries the whole case.",
+      "critical_case":"The narrower virgin-birth claim goes beyond what Genesis says. The verse contrasts the woman with the serpent and her offspring with the serpent's; it never says that the offspring has no human father. Genesis itself speaks of Hagar's offspring (16:10) and Rebekah's offspring (24:60) without implying miraculous conception. The Hebrew word can refer collectively to descendants, and even an individual reading would identify a future person—not the manner of his conception. Neither Galatians 4:4 nor Matthew 1:18 cites Genesis 3:15. Later Christian texts and Eve–Mary typology can give the verse a meaningful canonical role, but that is different from finding the virgin birth predicted in its original wording.",
+      "verdict_label":"Later typology, not a virgin-birth prediction",
+      "verdict":"Genesis 3:15 can support a Christian messianic or typological reading. Its wording does not independently predict a virgin birth; virgin conception is explicit in the later birth narratives, not in the phrase ‘her offspring.’"
+    },
+    "carousel": [
+      {"heading":"Does ‘her offspring’ predict a virgin birth?","body":"Genesis 3:15 says the woman's offspring will strike the serpent's head. Some Christians see the unusual phrase as the Bible's first hint of Jesus' birth without a human father.","alt_text":"Slide one asks whether Genesis 3:15's reference to the woman's offspring predicts the virgin birth."},
+      {"heading":"The strongest Christian case","body":"Read across the whole Bible, the promised ‘seed’ narrows toward one deliverer. Matthew describes Jesus' conception by the Holy Spirit, and Galatians calls him ‘born of a woman.’ Together, Christians read Genesis as a veiled first promise.","alt_text":"Slide two summarizes the canonical Christian argument connecting the promised offspring with Jesus."},
+      {"heading":"A later reading—not a prediction","body":"Genesis never says the child has no human father. It also speaks of Hagar's and Rebekah's offspring without implying virgin births. The verse can work as Christian typology, but the miraculous conception comes from the later birth narratives—not Genesis 3:15.","alt_text":"Slide three explains that female-associated offspring language does not itself imply virgin conception."}
+    ]
+  }
 }

@@ -57,7 +57,7 @@
       "type": "object", "additionalProperties": false,
       "required": ["title", "website", "carousel"],
       "properties": {
-        "title": {"type": "string"}, "website": {"type": "string"},
+        "title": {"type": "string"}, "website": {"$ref": "#/$defs/website_copy"},
         "carousel": {
           "type": "array", "maxItems": 3,
           "items": {
@@ -70,6 +70,15 @@
     }
   },
   "$defs": {
+    "website_copy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["description", "summary", "christian_case", "critical_case", "verdict_label", "verdict"],
+      "properties": {
+        "description": {"type": "string"}, "summary": {"type": "string"},
+        "christian_case": {"type": "string"}, "critical_case": {"type": "string"},
+        "verdict_label": {"type": "string"}, "verdict": {"type": "string"}
+      }
+    },
     "source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^src-[a-z0-9-]+$"}},
     "argument": {
       "type": "object", "additionalProperties": false,

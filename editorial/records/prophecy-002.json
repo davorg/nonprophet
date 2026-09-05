@@ -74,5 +74,20 @@
     }
   ],
   "human_review": {"required":false,"questions":[]},
-  "publication_copy": {"title":"","website":"","carousel":[]}
+  "publication_copy": {
+    "title":"Does Genesis predict Jesus defeating Satan?",
+    "website": {
+      "description":"A fair examination of the claim that Genesis 3:15 predicts Jesus' defeat of Satan.",
+      "summary":"Christians often identify the garden serpent with Satan and its promised opponent with Jesus. How much of that is actually present in Genesis?",
+      "christian_case":"The serpent is no ordinary background animal: it speaks, deceives the humans, and directly opposes God's command. Some Christian scholars argue that Genesis' developing ‘seed’ theme and the singular head-striker point toward one representative deliverer. Later texts complete the picture. Hebrews says Jesus destroyed the devil through his death; 1 John says the Son appeared to destroy the devil's works; Revelation names the devil as ‘the ancient serpent’; and Romans echoes Satan being crushed underfoot. On a canonical reading, these texts disclose the full identity of figures introduced in Genesis.",
+      "critical_case":"That is a coherent later reading, but Genesis itself does not name Satan, Jesus, or a Messiah. It calls the extraordinary speaking serpent a created animal, and the surrounding judgments explain features of ordinary life—including hostility between humans and snakes. The same Hebrew verb describes the blows to head and heel. A head strike may sound more decisive, but a venomous bite may also be fatal; the wording does not guarantee a one-sided final victory. Hebrews 2:14 and 1 John 3:8 fit the theme but do not demonstrably quote Genesis 3:15. Revelation, Romans, and earlier Jewish interpretation show how the association developed; they do not make those identities explicit in the earlier passage.",
+      "verdict_label":"A coherent canonical rereading",
+      "verdict":"The identification of the serpent with Satan and Jesus as its conqueror is a meaningful Jewish and Christian development. It works better as later canonical rereading or typology than as a specific prediction identifiable from Genesis 3:15 alone."
+    },
+    "carousel": [
+      {"heading":"Did Genesis predict Satan's defeat?","body":"Genesis 3:15 describes the woman's offspring striking the serpent's head. Christians often read this as Jesus defeating Satan through his death and resurrection.","alt_text":"Slide one introduces the claim that Genesis 3:15 predicts Jesus defeating Satan."},
+      {"heading":"The strongest Christian case","body":"The serpent opposes God, and one promised offspring strikes its head. Later texts say Jesus destroys the devil, call the devil ‘the ancient serpent,’ and picture Satan crushed underfoot. Read canonically, the connections are powerful.","alt_text":"Slide two summarizes the biblical links Christians use to identify Jesus and Satan in Genesis 3:15."},
+      {"heading":"Strong typology, weak prediction","body":"Genesis names neither Satan nor Jesus, and its immediate setting also explains human hostility toward snakes. Later biblical texts make the theological identification meaningful—but they reveal a developed reading, not a specific prediction plainly present in Genesis itself.","alt_text":"Slide three distinguishes a meaningful canonical reading from an explicit original prediction."}
+    ]
+  }
 }

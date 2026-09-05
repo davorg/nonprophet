@@ -1,0 +1,24 @@
+{
+   "claim_id" : "prophecy-002",
+   "editorial_status" : "adversarial_review_complete",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Slide one introduces the claim that Genesis 3:15 predicts Jesus defeating Satan.",
+         "body" : "Genesis 3:15 describes the woman's offspring striking the serpent's head. Christians often read this as Jesus defeating Satan through his death and resurrection.",
+         "heading" : "Did Genesis predict Satan's defeat?"
+      },
+      {
+         "alt_text" : "Slide two summarizes the biblical links Christians use to identify Jesus and Satan in Genesis 3:15.",
+         "body" : "The serpent opposes God, and one promised offspring strikes its head. Later texts say Jesus destroys the devil, call the devil ‘the ancient serpent,’ and picture Satan crushed underfoot. Read canonically, the connections are powerful.",
+         "heading" : "The strongest Christian case"
+      },
+      {
+         "alt_text" : "Slide three distinguishes a meaningful canonical reading from an explicit original prediction.",
+         "body" : "Genesis names neither Satan nor Jesus, and its immediate setting also explains human hostility toward snakes. Later biblical texts make the theological identification meaningful—but they reveal a developed reading, not a specific prediction plainly present in Genesis itself.",
+         "heading" : "Strong typology, weak prediction"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-002/",
+   "title" : "Does Genesis predict Jesus defeating Satan?"
+}
