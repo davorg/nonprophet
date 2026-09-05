@@ -6,7 +6,7 @@
       {
          "alt_text" : "The BSB text of Gen 3:15: And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
          "body" : "“And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.”",
-         "heading" : "Gen 3:15 · BSB",
+         "heading" : "Gen 3:15",
          "type" : "scripture"
       },
       {
@@ -29,5 +29,6 @@
       }
    ],
    "source_url" : "https://nonprophet.app/claims/prophecy-001/",
-   "title" : "Does ‘her offspring’ predict the virgin birth?"
+   "title" : "Does ‘her offspring’ predict the virgin birth?",
+   "verdict_category" : "source_claim_incorrect"
 }

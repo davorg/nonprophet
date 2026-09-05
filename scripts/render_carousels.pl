@@ -77,6 +77,17 @@ my %formats = (
     },
 );
 
+my %verdict_labels = (
+    plausible_prediction => 'PLAUSIBLE PREDICTION',
+    plausible_typology_not_prediction => 'TYPOLOGY, NOT PREDICTION',
+    retrospective_rereading => 'RETROSPECTIVE REREADING',
+    thematic_parallel_only => 'THEMATIC PARALLEL',
+    depends_on_disputed_text_or_translation => 'DISPUTED TEXT OR TRANSLATION',
+    insufficiently_specific => 'INSUFFICIENTLY SPECIFIC',
+    source_claim_incorrect => 'SOURCE CLAIM INCORRECT',
+    mixed_or_indeterminate => 'MIXED OR INDETERMINATE',
+);
+
 for my $manifest_path (@manifests) {
     my $manifest = read_json($manifest_path);
     my $id = $manifest->{claim_id};
@@ -104,6 +115,20 @@ for my $manifest_path (@manifests) {
             my $panel_right = $format->{panel_x} + $format->{panel_w};
             my $body_family = $is_scripture ? 'Noto Serif' : 'Noto Sans';
             my $body_weight = $is_scripture ? '600' : '450';
+            my $supplement = '';
+            if ($is_scripture) {
+                my $citation_y = $format->{footer_y} - 82;
+                $supplement = qq{<text x="$format->{text_x}" y="$citation_y" fill="#66707a" font-family="Noto Sans" font-size="22" font-weight="600">Text: Berean Standard Bible (BSB) · Public domain</text>};
+            } elsif ($slide_number == $total_slides) {
+                my $verdict_label = $verdict_labels{$manifest->{verdict_category}}
+                    // die "$id has no display label for verdict $manifest->{verdict_category}\n";
+                my $pill_y = $format->{footer_y} - 126;
+                my $pill_text_y = $pill_y + 38;
+                my $pill_width = 58 + length($verdict_label) * 16;
+                my $pill_text_x = $format->{text_x} + 29;
+                $supplement = qq{<rect x="$format->{text_x}" y="$pill_y" width="$pill_width" height="58" rx="29" fill="#bd3e28"/>
+<text x="$pill_text_x" y="$pill_text_y" fill="#fffefd" font-family="Noto Sans" font-size="21" font-weight="750" letter-spacing="1.5">$verdict_label</text>};
+            }
 
             my ($svg_fh, $svg_path) = tempfile('nonprophet-carousel-XXXXXX', SUFFIX => '.svg', DIR => '/tmp', UNLINK => 1);
             binmode $svg_fh, ':encoding(UTF-8)';
@@ -114,6 +139,7 @@ for my $manifest_path (@manifests) {
 <text fill="#061a2b" font-family="Noto Serif" font-size="$format->{heading_size}" font-weight="700">$heading_svg</text>
 <line x1="$format->{text_x}" y1="$divider_y" x2="$format->{text_right}" y2="$divider_y" stroke="#061a2b" stroke-opacity="0.18" stroke-width="2"/>
 <text fill="#243746" font-family="$body_family" font-size="$format->{body_size}" font-weight="$body_weight">$body_svg</text>
+$supplement
 <text x="$format->{text_x}" y="$format->{footer_y}" fill="#061a2b" font-family="Noto Serif" font-size="34" font-weight="700">nonprophet.app</text>
 <text x="$format->{text_right}" y="$format->{footer_y}" text-anchor="end" fill="#bd3e28" font-family="Noto Sans" font-size="28" font-weight="700">$slide_number / $total_slides</text>
 <text x="$format->{text_x}" y="$format->{credit_y}" fill="#66707a" font-family="Noto Sans" font-size="19">$credit</text>

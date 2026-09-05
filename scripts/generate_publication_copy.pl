@@ -81,7 +81,7 @@ for my $record_path (@record_paths) {
     my @slides = (
         {
             type => 'scripture',
-            heading => $claim->{ot_passage}{source} . ' · BSB',
+            heading => $claim->{ot_passage}{source},
             body => '“' . $copy->{scripture_excerpt} . '”',
             alt_text => "The BSB text of $claim->{ot_passage}{source}: $copy->{scripture_excerpt}",
         },
@@ -93,6 +93,7 @@ for my $record_path (@record_paths) {
         editorial_status => $record->{status},
         title => $copy->{title},
         source_url => "https://nonprophet.app/claims/$id/",
+        verdict_category => $record->{verdict}{category},
         slides => \@slides,
     }));
 }
