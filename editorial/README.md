@@ -12,7 +12,9 @@ One JSON file per claim will live in `records/`, named with its claim ID. Start 
 4. Make the critical case with appropriate scholarly support.
 5. Record translation and textual issues separately.
 6. Assign a calibrated verdict under `VERDICT_GUIDE.md`.
-7. Run `ADVERSARIAL_REVIEW_PROMPT.md` through a different model.
+7. Generate a compact packet with `../scripts/generate_review_packet.pl`, inspect its
+   selected context, then run it through `../scripts/run_adversarial_review.sh` using
+   a different model without repository or web access.
 8. Verify and dispose of every objection.
 9. Select a readable BSB excerpt and draft exactly three purpose-written editorial
    slides; the generator prepends the scripture as slide one.

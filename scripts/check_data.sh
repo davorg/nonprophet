@@ -12,6 +12,8 @@ perl -c scripts/check_editorial.pl
 perl -c scripts/generate_publication_copy.pl
 perl -c scripts/track_claim.pl
 perl -c scripts/report_metrics.pl
+perl -c scripts/generate_review_packet.pl
+bash -n scripts/run_adversarial_review.sh
 perl scripts/normalize_references.pl \
   data/prophecies.json \
   config/bible_books.json \

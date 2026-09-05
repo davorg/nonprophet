@@ -27,6 +27,12 @@ the event ledger described in [METRICS.md](METRICS.md). Start the `total` timer 
 research and stop it only after rendering and validation. Never substitute estimated
 token counts for values actually reported by a runtime.
 
+Generate a bounded adversarial-review packet containing the complete pre-review
+record, its canonical cited texts, and only the contextual verses deliberately
+selected by the drafting editor. Preserve the exact prompt and raw response. The
+reviewing model must not browse or inspect the repository; it should flag missing
+evidence for resolution by the drafting editor.
+
 ## Separation of content and presentation
 
 Complete the durable editorial content first:

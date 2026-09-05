@@ -50,6 +50,17 @@ for my $path (sort glob "$root/editorial/records/*.json") {
         my @model_reviews = grep { $_->{reviewer} eq 'adversarial_llm' } @{$record->{reviews}};
         push @errors, "$id: status requires adversarial review" unless @model_reviews;
         for my $review (@model_reviews) {
+            if (($review->{prompt_version} // '') =~ /^([2-9]|[1-9][0-9]+)$/) {
+                for my $field (qw(prompt_path raw_output_path)) {
+                    my $relative = $review->{$field} // '';
+                    push @errors, "$id: prompt v2+ review requires $field"
+                        unless length $relative;
+                    push @errors, "$id: unsafe $field"
+                        if $relative =~ m{(?:^/|(?:^|/)\.\.(?:/|$))};
+                    push @errors, "$id: missing $field $relative"
+                        if length($relative) && !-f "$root/$relative";
+                }
+            }
             for my $objection (@{$review->{objections}}) {
                 push @errors, "$id: unresolved review objection" if $objection->{disposition} eq 'pending';
             }

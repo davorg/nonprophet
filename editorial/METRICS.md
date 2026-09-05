@@ -35,6 +35,33 @@ invent unavailable measurements. In particular, record `review_tokens` when the
 independent review runtime reports them; record `primary_tokens` only if the primary
 runtime exposes an actual value.
 
+For adversarial reviews, also record the generated packet size and its conservative
+token approximation:
+
+```sh
+perl scripts/generate_review_packet.pl prophecy-007 --verse Ps.110.4
+wc -c editorial/review-prompts/prophecy-007-adversarial-2026-09-05.md
+perl scripts/track_claim.pl stop prophecy-007 adversarial_review \
+  review_tokens=9000 review_prompt_bytes=18000 review_packet_estimated_tokens=4500
+```
+
+The exact generated prompt is committed under `editorial/review-prompts/`; the exact
+model response goes under `editorial/reviews/`. Record both paths in the editorial
+review object (`prompt_path` and `raw_output_path`). The reviewing model must use only
+the packet. This makes before/after token comparisons meaningful.
+
+After selecting and generating any extra context, use the bounded runner:
+
+```sh
+scripts/run_adversarial_review.sh prophecy-007 gpt-5.5 --dry-run
+scripts/run_adversarial_review.sh prophecy-007 gpt-5.5
+```
+
+It runs the reviewer from an empty temporary workspace, saves the exact final
+response, and records its timer, packet bytes, estimated input size, output bytes,
+and runtime-reported total tokens. Do not start a separate `adversarial_review` timer
+when using the runner.
+
 If a timer accidentally includes unrelated work, stop it with `exclude=1`. The raw
 event remains auditable but is omitted from aggregates.
 

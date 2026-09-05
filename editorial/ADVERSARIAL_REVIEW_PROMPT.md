@@ -1,4 +1,4 @@
-# Adversarial review prompt v1
+# Adversarial review prompt v2
 
 Use this with a model different from the drafting model. Save the exact populated
 prompt and raw response; record provider/model identity and date.
@@ -14,7 +14,13 @@ prompt and raw response; record provider/model identity and date.
 > each objection, say whether it could materially change the verdict and what evidence
 > would resolve it. Do not invent citations or rewrite the article.
 >
-> [INSERT COMPLETE EDITORIAL RECORD AND CITED PASSAGES]
+> Work only from the review packet below. Do not browse, open repository files, or
+> use tools. If evidence needed for a judgment is absent, identify the omission
+> rather than searching for it. This boundary is part of the review design: it makes
+> resource use measurable and prevents unrelated corpus material influencing the
+> review.
+>
+> {{REVIEW_MATERIAL}}
 
 The drafting model verifies every objection against texts and sources, then records
 it as `accepted`, `partly_accepted` or `rejected` with a reason. A model's assertion
