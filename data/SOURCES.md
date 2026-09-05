@@ -23,3 +23,14 @@ sources. The importer is retained so the derivation is reproducible and auditabl
 contains 1,046 structured promise records under CC0 1.0, including 69 tagged
 `Messiah`. It is useful for gap analysis, but it does not provide the New Testament
 fulfilment mappings needed as the primary Non-Prophet corpus.
+
+## Berean Standard Bible
+
+- Upstream: [BSB Publishing](https://github.com/BSB-publishing/bsb2usfm)
+- Pinned release: `v5.9`, published 2026-08-13
+- Imported asset: `BSB_usj.zip`
+- Licence: [Public Domain](https://berean.bible/terms.htm)
+- Purpose: displayed OT/NT text, reference validation and translation notes
+
+The exact upstream checksum and reproducible import instructions are recorded in
+[`data/scripture/README.md`](scripture/README.md).

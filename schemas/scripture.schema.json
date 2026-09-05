@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nonprophet.app/schemas/scripture.schema.json",
+  "title": "Pinned BSB verse store",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "translation",
+    "abbreviation",
+    "release",
+    "source_url",
+    "source_sha256",
+    "license",
+    "license_url",
+    "attribution",
+    "verse_count",
+    "books",
+    "verses"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "translation": {"const": "Berean Standard Bible"},
+    "abbreviation": {"const": "BSB"},
+    "release": {"const": "v5.9"},
+    "source_url": {"type": "string", "pattern": "^https://"},
+    "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "license": {"const": "Public Domain"},
+    "license_url": {"type": "string", "pattern": "^https://"},
+    "attribution": {"type": "string", "minLength": 1},
+    "verse_count": {"const": 31086},
+    "books": {
+      "type": "array",
+      "minItems": 66,
+      "maxItems": 66,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["osis", "name", "testament", "verse_count"],
+        "properties": {
+          "osis": {"type": "string", "pattern": "^[1-3]?[A-Za-z]+$"},
+          "name": {"type": "string", "minLength": 1},
+          "testament": {"enum": ["OT", "NT"]},
+          "verse_count": {"type": "integer", "minimum": 1}
+        }
+      }
+    },
+    "verses": {
+      "type": "object",
+      "minProperties": 31086,
+      "maxProperties": 31086,
+      "propertyNames": {"pattern": "^[1-3]?[A-Za-z]+\\.[0-9]+\\.[0-9]+$"},
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "notes"],
+        "properties": {
+          "text": {"type": "string", "minLength": 1},
+          "notes": {"type": "array", "items": {"type": "string", "minLength": 1}}
+        }
+      }
+    }
+  }
+}

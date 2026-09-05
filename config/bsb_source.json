@@ -1,0 +1,15 @@
+{
+  "translation": "Berean Standard Bible",
+  "abbreviation": "BSB",
+  "release": "v5.9",
+  "published_at": "2026-08-13T16:22:11Z",
+  "asset": "BSB_usj.zip",
+  "expected_verse_count": 31086,
+  "download_url": "https://github.com/BSB-publishing/bsb2usfm/releases/download/v5.9/BSB_usj.zip",
+  "sha256": "686d68bd3a42dde8682123dc4e66a495e7ae96d5d4fbe4bcf37e5e3df0abcc0c",
+  "release_url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+  "upstream_repository": "https://github.com/BSB-publishing/bsb2usfm",
+  "license": "Public Domain",
+  "license_url": "https://berean.bible/terms.htm",
+  "attribution": "The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with Bible Hub, Discovery Bible, OpenBible.com, and the Berean Bible Translation Committee. This text of God's Word has been dedicated to the public domain."
+}

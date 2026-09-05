@@ -6,6 +6,7 @@
 - `claims.json` is generated from it with structured, normalized references.
 - `reference-audit.json` records corrections, parse failures, repeated references,
   clause segments and cross-chapter ranges.
+- `scripture/bsb-v5.9.json` is the pinned, normalized BSB verse-and-note store.
 - `SOURCES.md` documents provenance and reuse considerations.
 - `../config/bible_books.json` defines canonical book metadata and source
   abbreviations.
@@ -26,7 +27,7 @@ The check:
 
 1. verifies the Perl import and normalization scripts compile;
 2. regenerates normalized claims and the reference audit;
-3. validates `claims.json` against its JSON Schema using `ajv`;
+3. validates the BSB store and `claims.json` against their JSON Schemas using `ajv`;
 4. asserts expected corpus counts and zero unhandled reference errors.
 
 Required local commands are Perl, `jq`, and the `ajv` CLI. The normalizer uses only
@@ -53,6 +54,7 @@ Clause suffixes such as `Isa 53:8a` describe portions of verses in the source li
 not standard versification. They are preserved as segments and explicitly flagged
 for mapping to the exact BSB clause during editorial review.
 
-Syntactic validation is complete. Chapter and verse boundary validation will be
-added when the pinned BSB corpus is imported, because that dataset will be the
-project's canonical versification source.
+Chapter and verse boundary validation is performed against the pinned BSB corpus.
+Two cited verses—Acts 28:29 and Mark 15:28—are absent from the BSB's critical-text
+versification and are retained as explicit audit flags rather than treated as invalid
+source references.

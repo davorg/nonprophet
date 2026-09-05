@@ -6,9 +6,9 @@ use utf8;
 use JSON::PP;
 use open qw(:std :encoding(UTF-8));
 
-my ($seed_path, $books_path, $claims_path, $audit_path) = @ARGV;
-die "Usage: $0 SEED_JSON BOOKS_JSON CLAIMS_JSON AUDIT_JSON\n"
-    unless $seed_path && $books_path && $claims_path && $audit_path;
+my ($seed_path, $books_path, $scripture_path, $claims_path, $audit_path) = @ARGV;
+die "Usage: $0 SEED_JSON BOOKS_JSON SCRIPTURE_JSON CLAIMS_JSON AUDIT_JSON\n"
+    unless $seed_path && $books_path && $scripture_path && $claims_path && $audit_path;
 
 sub read_json {
     my ($path) = @_;
@@ -28,6 +28,7 @@ sub write_json {
 
 my $seed = read_json($seed_path);
 my $book_data = read_json($books_path);
+my $scripture = read_json($scripture_path);
 my %books = map { $_->{source_abbreviation} => $_ } @{$book_data->{books}};
 
 die "Expected a 66-book canon\n" unless keys(%books) == 66;
@@ -42,6 +43,16 @@ my $segment_count = 0;
 my $cross_chapter_count = 0;
 my @segment_details;
 my @cross_chapter_details;
+my @versification_omissions;
+my %cited_verses;
+my $cited_verse_occurrences = 0;
+
+my %chapter_verses;
+for my $osis (keys %{$scripture->{verses}}) {
+    my ($book, $chapter, $verse) = $osis =~ /^([1-3]?[A-Za-z]+)\.(\d+)\.(\d+)$/;
+    die "Invalid scripture verse key $osis\n" unless defined $book;
+    $chapter_verses{$book}{$chapter}{$verse} = 1;
+}
 
 sub parse_reference {
     my ($source, $expected_testament, $claim_id, $field) = @_;
@@ -159,6 +170,86 @@ sub parse_reference {
     };
 }
 
+sub scripture_for_reference {
+    my ($reference, $claim_id, $field) = @_;
+    return unless $reference;
+
+    my $book = $reference->{book_osis};
+    my $start = $reference->{start};
+    my $end = $reference->{end};
+    my @selected;
+
+    for my $chapter ($start->{chapter} .. $end->{chapter}) {
+        my @available = sort { $a <=> $b } keys %{$chapter_verses{$book}{$chapter} // {}};
+        unless (@available) {
+            push @errors, {
+                claim_id => $claim_id,
+                field    => $field,
+                source   => $reference->{source},
+                error    => 'missing_scripture_chapter',
+                chapter  => $chapter,
+            };
+            next;
+        }
+
+        my $first = $chapter == $start->{chapter} ? $start->{verse} : $available[0];
+        my $last = $chapter == $end->{chapter} ? $end->{verse} : $available[-1];
+
+        for my $verse ($first .. $last) {
+            my $osis = "$book.$chapter.$verse";
+            unless (exists $scripture->{verses}{$osis}) {
+                push @versification_omissions, {
+                    claim_id => $claim_id,
+                    field    => $field,
+                    source   => $reference->{source},
+                    osis     => $osis,
+                };
+                next;
+            }
+            my $record = $scripture->{verses}{$osis};
+            push @selected, {
+                osis   => $osis,
+                number => $verse,
+                text   => $record->{text},
+                notes  => $record->{notes},
+            };
+            $cited_verses{$osis}++;
+            $cited_verse_occurrences++;
+        }
+    }
+
+    my $start_osis = "$book.$start->{chapter}.$start->{verse}";
+    my $end_osis = "$book.$end->{chapter}.$end->{verse}";
+    for my $endpoint ([$start_osis, 'start'], [$end_osis, 'end']) {
+        unless (exists $scripture->{verses}{$endpoint->[0]}) {
+            my ($endpoint_book, $endpoint_chapter, $endpoint_verse) =
+                $endpoint->[0] =~ /^([1-3]?[A-Za-z]+)\.(\d+)\.(\d+)$/;
+            my @chapter = sort { $a <=> $b }
+                keys %{$chapter_verses{$endpoint_book}{$endpoint_chapter} // {}};
+            if (!@chapter || $endpoint_verse < $chapter[0]
+                || $endpoint_verse > $chapter[-1]) {
+                push @errors, {
+                    claim_id => $claim_id,
+                    field    => $field,
+                    source   => $reference->{source},
+                    error    => 'scripture_endpoint_out_of_bounds',
+                    endpoint => $endpoint->[1],
+                    osis     => $endpoint->[0],
+                };
+            }
+        }
+    }
+
+    return {
+        translation => $scripture->{abbreviation},
+        release     => $scripture->{release},
+        selection   => ($start->{segment} || $end->{segment})
+            ? 'full_verse_pending_segment_mapping'
+            : 'complete_reference',
+        verses      => \@selected,
+    };
+}
+
 my @claims;
 my %claim_ids;
 my %source_ids;
@@ -168,6 +259,7 @@ for my $entry (@{$seed->{entries}}) {
     $raw_source_occurrences{$entry->{ot_reference}}++;
     $raw_source_occurrences{$_}++ for @{$entry->{nt_references}};
     my $ot = parse_reference($entry->{ot_reference}, 'OT', $entry->{id}, 'ot_reference');
+    my $ot_text = scripture_for_reference($ot, $entry->{id}, 'ot_reference');
     my @nt_sources = @{$entry->{nt_references}};
 
     # The source page omitted a separator between these two references. Keep the
@@ -184,9 +276,15 @@ for my $entry (@{$seed->{entries}}) {
     }
 
     my @nt;
+    my @nt_texts;
     for my $source (@nt_sources) {
         my $parsed = parse_reference($source, 'NT', $entry->{id}, 'nt_references');
-        push @nt, $parsed if $parsed;
+        if ($parsed) {
+            push @nt, $parsed;
+            push @nt_texts, scripture_for_reference(
+                $parsed, $entry->{id}, 'nt_references'
+            );
+        }
     }
 
     push @claims, {
@@ -195,7 +293,9 @@ for my $entry (@{$seed->{entries}}) {
         seed_claim    => $entry->{claim_summary},
         review_status => $entry->{review_status},
         ot_passage    => $ot,
+        ot_text       => $ot_text,
         nt_passages   => \@nt,
+        nt_texts      => \@nt_texts,
     };
 }
 
@@ -230,6 +330,10 @@ my $audit = {
     errors                  => \@errors,
     segmented_reference_details => \@segment_details,
     cross_chapter_reference_details => \@cross_chapter_details,
+    cited_verse_occurrences => $cited_verse_occurrences,
+    unique_cited_verses => scalar(keys %cited_verses),
+    versification_omission_count => scalar(@versification_omissions),
+    versification_omissions => \@versification_omissions,
     duplicate_references    => \@duplicate_references,
 };
 

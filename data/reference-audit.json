@@ -1,4 +1,5 @@
 {
+   "cited_verse_occurrences" : 1594,
    "correction_count" : 1,
    "corrections" : [
       {
@@ -894,7 +895,23 @@
       }
    ],
    "segmented_references" : 87,
+   "unique_cited_verses" : 1147,
    "unique_corrected_source_strings" : 680,
    "unique_normalized" : 680,
-   "unique_raw_source_strings" : 679
+   "unique_raw_source_strings" : 679,
+   "versification_omission_count" : 2,
+   "versification_omissions" : [
+      {
+         "claim_id" : "prophecy-169",
+         "field" : "nt_references",
+         "osis" : "Acts.28.29",
+         "source" : "Acts 28:23-29"
+      },
+      {
+         "claim_id" : "prophecy-274",
+         "field" : "nt_references",
+         "osis" : "Mark.15.28",
+         "source" : "Mark 15:27-28"
+      }
+   ]
 }
