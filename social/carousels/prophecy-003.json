@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-003",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 5:24: Enoch walked with God, and then he was no more, because God had taken him away.",
+         "body" : "“Enoch walked with God, and then he was no more, because God had taken him away.”",
+         "heading" : "Gen 5:24",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim that Enoch's disappearance foreshadows Jesus' ascension.",
+         "body" : "Genesis says God took Enoch. The New Testament says Jesus was taken into heaven. Some Christians see Enoch's mysterious departure as an early illustration of Christ's ascension.",
+         "heading" : "Did Enoch foreshadow the ascension?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the Christian typological case based on Enoch's exception to death and Hebrews 11:5.",
+         "body" : "Enoch alone escapes Genesis 5's repeated ‘and he died.’ Hebrews says he was taken so that he did not see death. Typology need not be a verbal prediction: this exceptional departure can serve as an early pattern of bodily translation into God's presence.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three concludes that Enoch provides plausible typology but not a direct prediction of Jesus.",
+         "body" : "Genesis never describes heaven or a body rising. Enoch avoids death; Jesus dies, rises, then ascends. No New Testament text calls Jesus' ascension a fulfilment of Enoch's story. The link works as later Christian typology—not as a prediction in Genesis.",
+         "heading" : "A real parallel—with limits",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-003/",
+   "title" : "Does Enoch's disappearance foreshadow Jesus' ascension?",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

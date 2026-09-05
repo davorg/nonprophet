@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-003",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Enoch's being taken by God in Genesis 5:24 prefigures or illustrates Jesus' bodily ascension into heaven.",
+    "type": "later_christian_typology",
+    "scope_notes": "The inherited claim says 'illustrated', so the strongest fair version is typology rather than a direct predictive prophecy. Those categories are evaluated separately."
+  },
+  "context": {
+    "summary": "Genesis 5 is a genealogy structured by repeated notices of death. Enoch is exceptional: he walks with God, then is no more because God takes him. Genesis does not say where he goes or describe a body rising. Hebrews 11:5 later interprets the episode as Enoch being taken so that he did not see death.",
+    "shared_context_id": "genesis-5-24"
+  },
+  "strongest_case": {
+    "summary": "Christian typology sees Enoch's exceptional removal from earthly life into God's presence as an early pattern of ascent. Hebrews makes explicit that Enoch did not experience death, and the NT describes Jesus as taken into heaven and exalted. The correspondence can function as a theological preview even without a verbal prediction.",
+    "reasoning": [
+      "Against the genealogy's repeated 'and he died' formula, Enoch's unexplained removal is deliberately exceptional and naturally invited later interpretation.",
+      "Hebrews 11:5 follows the Greek tradition and says Enoch was taken so that he did not see death, firmly establishing this reading within the Christian canon.",
+      "Mark 16:19 says Jesus was taken into heaven; Luke 24:51 and Acts 1:9 provide additional Lukan witnesses to the ascension. Christian typologists therefore see a recognizable ascent pattern shared by Enoch and Jesus.",
+      "A. W. Pink explicitly identifies Enoch as a type of Christ's ascension, demonstrating that this is a documented Christian reading rather than a defence invented for the seed list."
+    ],
+    "source_ids": ["src-pink-redeemers-return", "src-bsb-v59"]
+  },
+  "critical_case": {
+    "summary": "The parallel is plausible as later Christian typology, especially when Genesis is read with Hebrews 11:5. Its limits should not be confused with failure: Genesis 5:24 neither predicts another person's ascent nor explicitly describes Enoch rising bodily into heaven. Enoch avoids death in Hebrews, whereas Jesus dies, rises, and is then exalted.",
+    "reasoning": [
+      "Genesis says only that God 'took' Enoch and that he was no more. Shaul Bar documents the genuine ambiguity and argues from comparable Hebrew usage that both expressions can euphemistically describe death; bodily ascent is a later interpretive development.",
+      "Hebrews 11:5 establishes a no-death translation reading for Christians and can reasonably support the inference that Enoch was taken bodily. It discusses Enoch as an example of faith, however, not as a prophecy or type of Jesus' ascension.",
+      "The similarities are broad and the differences substantial: Enoch is taken without dying, while Jesus' ascension follows death and resurrection and carries claims of enthronement and continuing lordship absent from Genesis.",
+      "Mark 16:19 lies in the Longer Ending, which James Kelhoffer treats as an early addition and interpretation of Mark. Nicholas Lunn presents a serious minority defence of its originality. Either way, Luke 24 and Acts 1 mean the ascension tradition does not depend on this disputed verse.",
+      "No cited NT text presents Jesus' ascension as fulfilment of Enoch's translation. That limits the specificity of the comparison but does not invalidate later theological typology."
+    ],
+    "source_ids": ["src-bar-2023", "src-kelhoffer-2022", "src-lunn-2014", "src-bsb-v59"]
+  },
+  "textual_issues": [
+    {
+      "issue": "The MT says Enoch 'was no more' because God 'took' him; neither bodily movement nor heaven is explicit. The LXX says he was not found because God transferred him, language echoed and expanded in Hebrews 11:5.",
+      "significance": "material",
+      "source_ids": ["src-bar-2023", "src-bsb-v59"]
+    },
+    {
+      "issue": "Mark 16:19 belongs to Mark 16:9-20. Most modern textual critics regard this Longer Ending as secondary, though it is ancient and a scholarly minority defends its originality.",
+      "significance": "material",
+      "source_ids": ["src-kelhoffer-2022", "src-lunn-2014"]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Enoch's exceptional removal provides a plausible Christian illustration of bodily translation into God's presence when Genesis is read with Hebrews. It is not a prediction of Jesus: Genesis names no future figure, bodily ascent is not explicit there, and the cited NT texts do not present Jesus' ascension as fulfilment of Enoch's story.",
+    "confidence": "high"
+  },
+  "sources": [
+    {"id":"src-pink-redeemers-return","tier":3,"stance":"christian_case","type":"monograph","title":"The Redeemer's Return","author":"Arthur W. Pink","publisher":"Bible Hub electronic library","url":"https://biblehub.com/library/pink/the_redeemers_return/4_the_fact_of_the.htm","locator":"chapter 4, paragraph listing OT types","accessed":"2026-09-05","checked":true,"notes":"Explicitly states that Enoch typifies Christ's ascension."},
+    {"id":"src-bar-2023","tier":1,"stance":"critical_case","type":"journal_article","title":"Enoch and Elijah: Ascent to Heaven?","author":"Shaul Bar","publisher":"Jewish Bible Quarterly 51.4","url":"https://www.jewishbible.org/articles/enoch-and-elijah-ascent-to-heaven/","locator":"pp. 237-244, especially Enoch section and conclusion","accessed":"2026-09-05","checked":true,"notes":"Documents lexical ambiguity, death interpretation, and later development of bodily-ascent traditions."},
+    {"id":"src-kelhoffer-2022","tier":1,"stance":"critical_case","type":"journal_article","title":"The End of the Beginning: Mark's Longer Ending (16:9-20) and the Adaptation of the Markan Storyline","author":"James A. Kelhoffer","publisher":"Comparative Oriental Manuscript Studies Bulletin 8","url":"https://doi.org/10.25592/uhhfdm.12445","locator":"pp. 421-437","accessed":"2026-09-05","checked":true,"notes":"Treats the Longer Ending as an addition by an early interpreter/reviser of Mark."},
+    {"id":"src-lunn-2014","tier":1,"stance":"background","type":"monograph","title":"The Original Ending of Mark: A New Case for the Authenticity of Mark 16:9-20","author":"Nicholas P. Lunn","publisher":"James Clarke & Co","url":"https://doi.org/10.2307/j.ctt1cgf5pt","locator":"book description; chapters 2-10","accessed":"2026-09-05","checked":true,"notes":"Serious minority case defending the Longer Ending's originality; included to avoid overstating consensus as certainty."},
+    {"id":"src-bsb-v59","tier":1,"stance":"primary_text","type":"biblical_text","title":"Berean Standard Bible v5.9","author":"BSB Publishing","publisher":"BSB Publishing","url":"https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9","locator":"Genesis 5:24 and note; Hebrews 11:5; Mark 16:19; Luke 24:51; Acts 1:9-11","accessed":"2026-09-05","checked":true,"notes":"Project display text and comparison passages."}
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"1","raw_output_path":"editorial/reviews/prophecy-003-adversarial-2026-09-05.md",
+      "objections": [
+        {"objection":"Luke and Acts should not be called independent ascension narratives.","disposition":"accepted","reason":"Reworded as additional Lukan witnesses."},
+        {"objection":"Do not require explicit NT authorization for a later Christian typology.","disposition":"accepted","reason":"The critical case now treats lack of NT fulfilment language only as a limit on specificity, not as invalidating typology."},
+        {"objection":"Separate the claim as typological illustration from a direct prediction.","disposition":"accepted","reason":"The verdict now gives the illustration an explicitly positive judgment while separately denying direct prediction."},
+        {"objection":"Give Hebrews 11:5's canonical no-death reading greater positive weight.","disposition":"accepted","reason":"The strongest judgment now expressly depends on Genesis read with Hebrews and concedes a reasonable bodily-translation inference."},
+        {"objection":"Compare clearer ascension and exaltation antecedents such as Elijah, Psalm 68 and Daniel 7.","disposition":"partly_accepted","reason":"This is useful comparative context but not necessary to decide the narrow Enoch claim; the related source claims will receive their own individual audits."},
+        {"objection":"Do not imply that bodily translation is impossible.","disposition":"accepted","reason":"The record consistently says it is not explicit in Genesis and now acknowledges that Hebrews reasonably supports the inference."},
+        {"objection":"Narrow the wording about the absence of NT fulfilment identification.","disposition":"accepted","reason":"Reworded to the cited NT texts and used only to describe the comparison's limits."}
+      ]
+    }
+  ],
+  "human_review": {"required":false,"questions":[]},
+  "publication_copy": {
+    "title":"Does Enoch's disappearance foreshadow Jesus' ascension?",
+    "scripture_excerpt":"Enoch walked with God, and then he was no more, because God had taken him away.",
+    "website":{
+      "description":"A fair examination of the claim that Enoch's translation in Genesis 5:24 foreshadows Jesus' ascension.",
+      "summary":"Genesis says God took Enoch; the New Testament says Jesus was taken into heaven. Is that fulfilled prophecy—or a later theological pattern?",
+      "christian_case":"Genesis 5 repeatedly closes each life with ‘and he died.’ Enoch is the striking exception: he walks with God and then God takes him. Hebrews 11:5 interprets this to mean that Enoch did not see death. The New Testament later describes Jesus being taken into heaven and exalted at God's right hand. Christian typology does not require the earlier text to make a verbal prediction; it finds real people and events that anticipate a fuller reality in Christ. On that basis, Enoch's translation can serve as an early image of bodily departure into God's presence. A. W. Pink, for example, explicitly presented Enoch as a type of Christ's ascension.",
+      "critical_case":"The comparison has limits. Genesis never says that Enoch rose bodily or went to heaven: it says only that he was no more because God took him. Hebrews supplies the no-death reading for Christians, but uses Enoch as an example of faith—not as a prophecy about Jesus. The two stories also move differently. Enoch is taken without dying; Jesus dies, is raised, and then ascends to enthronement. Mark 16:19 states the parallel most neatly, but belongs to Mark's disputed Longer Ending; Luke and Acts still preserve the ascension independently of that verse. None of these texts says Jesus' ascension fulfils Enoch's story. The link is therefore a broad theological analogy, not an advance prediction with an identified future fulfilment.",
+      "verdict_label":"Plausible typology—not a prediction",
+      "verdict":"Read with Hebrews, Enoch's exceptional removal is a plausible Christian illustration of bodily translation into God's presence. It does not predict Jesus' ascension: that connection is a meaningful later typology rather than the stated message of Genesis 5:24."
+    },
+    "carousel":[
+      {"heading":"Did Enoch foreshadow the ascension?","body":"Genesis says God took Enoch. The New Testament says Jesus was taken into heaven. Some Christians see Enoch's mysterious departure as an early illustration of Christ's ascension.","alt_text":"Slide one introduces the claim that Enoch's disappearance foreshadows Jesus' ascension."},
+      {"heading":"The strongest Christian case","body":"Enoch alone escapes Genesis 5's repeated ‘and he died.’ Hebrews says he was taken so that he did not see death. Typology need not be a verbal prediction: this exceptional departure can serve as an early pattern of bodily translation into God's presence.","alt_text":"Slide two presents the Christian typological case based on Enoch's exception to death and Hebrews 11:5."},
+      {"heading":"A real parallel—with limits","body":"Genesis never describes heaven or a body rising. Enoch avoids death; Jesus dies, rises, then ascends. No New Testament text calls Jesus' ascension a fulfilment of Enoch's story. The link works as later Christian typology—not as a prediction in Genesis.","alt_text":"Slide three concludes that Enoch provides plausible typology but not a direct prediction of Jesus."}
+    ]
+  }
+}
