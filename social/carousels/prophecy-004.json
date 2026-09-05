@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-004",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 9:26-27: Blessed be the LORD, the God of Shem! May Canaan be the servant of Shem. May God expand the territory of Japheth; may he dwell in the tents of Shem.",
+         "body" : "“Blessed be the LORD, the God of Shem! May Canaan be the servant of Shem. May God expand the territory of Japheth; may he dwell in the tents of Shem.”",
+         "heading" : "Gen 9:26-27",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim connecting the God of Shem with Jesus' ancestry.",
+         "body" : "Noah calls YHWH ‘the God of Shem.’ Luke later includes Shem in Jesus' genealogy. Some Christian lists combine the two into a prediction of God becoming a human descendant of Shem.",
+         "heading" : "Will Shem's God become Shem's son?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the Christian canonical argument from Shem through Abraham and Israel to Jesus.",
+         "body" : "Genesis traces Shem's line toward Abraham and Israel. Verse 27 may even picture God dwelling in Shem's tents. Luke places Jesus in that family line. For Christians who identify Jesus as God incarnate, those threads form a meaningful canonical pattern.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three explains why the Christian connection goes beyond what Noah's oracle predicts.",
+         "body" : "Genesis says YHWH is Shem's God; it never says God will become Shem's descendant. Even divine presence in Shem's tents is not human birth. Luke supplies Jesus' ancestry without calling it fulfilment. The incarnation link is later Christian interpretation, not Noah's stated prediction.",
+         "heading" : "A connection—but not that prediction",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-004/",
+   "title" : "Does Noah predict that God will become Shem's descendant?",
+   "verdict_category" : "source_claim_incorrect"
+}
