@@ -1,0 +1,32 @@
+---
+layout: default
+body_class: claim-page
+---
+<div class="page claim-shell">
+  {% include site-header.html %}
+  <main id="main-content" class="claim-main">
+    <article>
+      <header class="claim-header">
+        <p class="eyebrow">Claim {{ page.claim_number }}</p>
+        <h1>{{ page.title }}</h1>
+        <p class="claim-summary">{{ page.summary }}</p>
+      </header>
+      <section class="scripture-card" aria-labelledby="ot-text">
+        <div class="section-heading"><h2 id="ot-text">The Old Testament text</h2><span>{{ page.ot_reference }} · BSB</span></div>
+        <blockquote>{{ page.ot_text }}</blockquote>
+        {% if page.ot_note %}<p class="text-note"><strong>Translation note:</strong> {{ page.ot_note }}</p>{% endif %}
+      </section>
+      <section class="argument christian-case" aria-labelledby="christian-case">
+        <p class="section-number" aria-hidden="true">01</p><div><h2 id="christian-case">Why Christians see a prophecy</h2>{{ page.christian_case | markdownify }}</div>
+      </section>
+      <section class="argument critical-case" aria-labelledby="critical-case">
+        <p class="section-number" aria-hidden="true">02</p><div><h2 id="critical-case">Why it is less convincing</h2>{{ page.critical_case | markdownify }}</div>
+      </section>
+      <section class="verdict" aria-labelledby="verdict">
+        <p class="verdict-label">Our assessment</p><h2 id="verdict">{{ page.verdict_label }}</h2><p>{{ page.verdict }}</p>
+      </section>
+      <section class="sources" aria-labelledby="sources"><h2 id="sources">Sources and further reading</h2>{{ content }}</section>
+    </article>
+  </main>
+  {% include footer.html %}
+</div>
