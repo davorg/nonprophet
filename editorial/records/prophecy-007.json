@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-007",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 14:18 introduces Melchizedek as a priest-king whose order anticipates Jesus's eternal priesthood, as developed through Psalm 110:4 and Hebrews 5-7.",
+    "type": "nt_typology",
+    "scope_notes": "Genesis does not itself use the phrase ‘order of Melchizedek’ or predict a later priest. The strongest Christian claim is therefore the canonical sequence Genesis 14 → Psalm 110 → Hebrews, not Genesis 14:18 in isolation."
+  },
+  "context": {
+    "summary": "After Abram rescues Lot and defeats a coalition of kings, Melchizedek—king of Salem and priest of God Most High—brings bread and wine, blesses Abram, and receives a tenth. Psalm 110:4 later addresses a royal figure as ‘a priest forever in the order of Melchizedek.’ Hebrews repeatedly quotes that psalm and uses Genesis's sparse portrait to explain Jesus's non-Levitical, enduring priesthood.",
+    "shared_context_id": "melchizedek"
+  },
+  "strongest_case": {
+    "summary": "This is a strong whole-Bible typology. Genesis supplies an unusual righteous priest-king outside Levi; Psalm 110 turns his pattern into a sworn promise about an enduring royal priest; Hebrews explicitly identifies Jesus as its fulfilment. The case rests on a cumulative canonical trajectory, not on Genesis 14 alone functioning as a coded prediction.",
+    "reasoning": [
+      "Genesis explicitly calls Melchizedek both king and priest, a combination that provides a fitting pattern for Jesus's royal priesthood.",
+      "Psalm 110:4—not Genesis 14:18—contains the forward-looking divine oath about a priest forever after Melchizedek's order.",
+      "Hebrews 5:5-10, 6:20 and 7:11-28 explicitly applies Psalm 110:4 to Jesus and contrasts his enduring priesthood with hereditary Levitical office.",
+      "Hebrews 7:3 says Melchizedek is ‘made like’ or ‘resembling’ the Son of God. That wording naturally supports typology: the scriptural portrait is shaped as an analogue of Christ, not necessarily an appearance of Christ himself."
+    ],
+    "source_ids": [
+      "src-carson-melchizedek",
+      "src-dore-2011",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The canonical Christian reading is explicit and coherent, but the alleged prediction is not located in Genesis 14:18. Genesis narrates a contemporary priest blessing Abram; it gives no future oracle, ‘order,’ eternal tenure, or reference to Jesus. Those elements enter with Psalm 110 and Hebrews. The result is substantial NT typology and fulfilment of Psalm 110, not a Jesus prediction made by Genesis.",
+    "reasoning": [
+      "Genesis 14:18 is narrative, not an oracle: Melchizedek is already a priest of God Most High and performs actions within Abram's story.",
+      "The phrase ‘priest forever in the order of Melchizedek’ comes from Psalm 110:4. Citing only Genesis leaves out the passage that actually supplies futurity and permanence.",
+      "Hebrews constructs its comparison from both texts and even from Genesis's narrative silences, such as its unrecorded genealogy and death. This is an interpretive argument, not information explicitly asserted in Genesis.",
+      "A typological correspondence need not be dismissed because it is retrospective. It can be theologically meaningful while carrying less evidential force than a specific prediction identifiable before the claimed event."
+    ],
+    "source_ids": [
+      "src-dore-2011",
+      "src-carson-melchizedek",
+      "src-meissner-2018",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The key predictive wording belongs to Psalm 110:4, while the inherited source cites Genesis 14:18. Hebrews itself repeatedly quotes the psalm before expounding Genesis.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-carson-melchizedek",
+        "src-bsb-v59"
+      ]
+    },
+    {
+      "issue": "Hebrews 7:3 describes Melchizedek as resembling the Son of God; Genesis's failure to record parents, genealogy, birth or death is used literarily and does not state that the historical figure was literally eternal.",
+      "significance": "material",
+      "source_ids": [
+        "src-dore-2011",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Genesis's priest-king provides a genuine and unusually important Christian type of Jesus. Psalm 110 supplies the forward-looking eternal-priest promise, and Hebrews explicitly applies it to Christ. That makes the canonical case strong typology—and Christian fulfilment of Psalm 110—but Genesis 14:18 itself contains no verbal prediction of a future Melchizedek-like priest.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-carson-melchizedek",
+      "tier": 2,
+      "stance": "christian_case",
+      "type": "other",
+      "title": "Genesis 14 and Psalm 110 in Hebrews 7",
+      "author": "D. A. Carson",
+      "publisher": "The Gospel Coalition",
+      "url": "https://www.thegospelcoalition.org/sermon/genesis-14-and-psalm-110-in-hebrews-7/",
+      "locator": "Genesis 14, Psalm 110 and Hebrews 7 exposition",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Strong evangelical presentation of the canonical trajectory and its typological logic."
+    },
+    {
+      "id": "src-dore-2011",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Secundum ordinem Melchisedech",
+      "author": "Joseph Doré",
+      "publisher": "Revue des sciences religieuses 85.1",
+      "url": "https://doi.org/10.4000/rsr.1971",
+      "locator": "pp. 1-26; abstract and Hebrews 7 analysis",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Treats resemblance to Melchizedek and contrast with Aaron as central to Hebrews's presentation of Christ's unique priesthood."
+    },
+    {
+      "id": "src-meissner-2018",
+      "tier": 1,
+      "stance": "background",
+      "type": "monograph",
+      "title": "Melchizedek in Jewish Apocalyptic Literature",
+      "author": "Stefan Meissner",
+      "publisher": "LMU Munich",
+      "url": "https://epub.ub.uni-muenchen.de/62762/",
+      "locator": "abstract and discussion of Genesis 14, Psalm 110 and Hebrews",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Places Hebrews's creative use of the biblical Melchizedek traditions within wider Second Temple interpretation."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 14:18-20; Psalm 110:1-4; Hebrews 5:5-10; 6:20; 7:1-28",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and canonical comparison passages."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm",
+      "model": "GPT-5.5",
+      "date": "2026-09-05",
+      "prompt_version": "2",
+      "prompt_path": "editorial/review-prompts/prophecy-007-adversarial-2026-09-05.md",
+      "raw_output_path": "editorial/reviews/prophecy-007-adversarial-2026-09-05-raw.md",
+      "objections": [
+        {"objection":"Calling Psalm 110 ‘the prediction’ assumes an original setting the packet did not establish.","disposition":"accepted","reason":"Changed the public label and analysis to ‘forward-looking promise’ while retaining Hebrews's explicit application."},
+        {"objection":"‘Conceals’ can imply bad faith by the source list.","disposition":"accepted","reason":"Replaced it with neutral wording: ‘leaves out.’"},
+        {"objection":"The critique could understate Genesis's providential role in canonical typology.","disposition":"accepted","reason":"The verdict now affirms genuine, unusually important typology and limits only the claim of verbal prediction in Genesis."},
+        {"objection":"More original-context work on Psalm 110 and Second Temple reception could affect its classification.","disposition":"partly_accepted","reason":"Relevant to a future Psalm 110 claim, but not needed to establish that the wording is absent from Genesis 14."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Did Genesis predict Jesus as a Melchizedek priest?",
+    "scripture_excerpt": "Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+    "website": {
+      "description": "A fair examination of the claim that Melchizedek's priesthood in Genesis predicts Jesus.",
+      "summary": "Hebrews calls Jesus a priest forever in Melchizedek's order. Is that prediction actually in Genesis?",
+      "christian_case": "The Christian case is a cumulative one. Genesis introduces the striking figure of Melchizedek: both king and priest, outside the later tribe of Levi, blessing Abraham and receiving his tenth. Psalm 110 then contains God's sworn declaration that a royal figure will be ‘a priest forever in the order of Melchizedek.’ Hebrews repeatedly quotes that verse and argues that Jesus has an enduring priesthood grounded in indestructible life rather than ancestry. Genesis supplies the pattern, Psalm 110 turns it toward the future, and Hebrews identifies its culmination. This is not a random resemblance invented from one word; it is an explicit New Testament interpretation of a developing canonical theme.",
+      "critical_case": "Genesis 14:18 does not say that another priest will come. It narrates what an existing priest-king does in Abraham's lifetime. The crucial words ‘priest forever in the order of Melchizedek’ appear centuries later in Psalm 110:4, not Genesis. Hebrews combines the two passages and draws meaning even from details Genesis leaves unrecorded, such as Melchizedek's ancestry and death. That is sophisticated scriptural typology. It may also support a Christian claim that Jesus fulfils Psalm 110, but it cannot make Genesis 14 itself a specific advance prediction.",
+      "verdict_label": "Strong typology; the future promise is in Psalm 110",
+      "verdict": "Genesis provides the priest-king who becomes a genuine Christian type of Jesus. Psalm 110 supplies the future, eternal-priest promise, and Hebrews explicitly applies it to Christ. The canonical case is strong; the citation of Genesis alone as a fulfilled prediction is not."
+    },
+    "carousel": [
+      {
+        "heading": "Did Genesis predict Jesus's priesthood?",
+        "body": "Genesis introduces Melchizedek, king of Salem and priest of God Most High. Hebrews says Jesus became a high priest forever ‘in the order of Melchizedek.’",
+        "alt_text": "Slide one introduces the claim connecting Melchizedek's priesthood with Jesus."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "Genesis supplies an unusual priest-king. Psalm 110 promises a royal priest forever in his order. Hebrews explicitly applies that promise to Jesus, whose priesthood depends on indestructible life—not Levitical ancestry.",
+        "alt_text": "Slide two presents the canonical Christian trajectory from Genesis through Psalm 110 to Hebrews."
+      },
+      {
+        "heading": "A strong type—but note the source",
+        "body": "Genesis narrates a priest already serving; it contains no verbal forecast. The future oath and ‘order of Melchizedek’ come from Psalm 110:4. Hebrews builds a serious typology from both texts, but the prediction is not in Genesis 14:18.",
+        "alt_text": "Slide three explains that the predictive element comes from Psalm 110 rather than Genesis."
+      }
+    ]
+  }
+}

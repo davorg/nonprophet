@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-009",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 14:18: Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+         "body" : "“Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—”",
+         "heading" : "Gen 14:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the proposed link between Melchizedek's bread and wine and the Last Supper.",
+         "body" : "Melchizedek—a priest and king—brings bread and wine. Jesus later gives bread and wine as his body and covenant blood. Christians have long read the first scene as a preview of the second.",
+         "heading" : "Did this meal predict the Last Supper?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the historic Christian Eucharistic typology.",
+         "body" : "Hebrews already makes Melchizedek a model for Christ's priesthood. Early Christian writers then saw his bread and wine as Eucharistic prefiguration—a reading the Catholic Catechism preserves today.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three explains why the Eucharistic association is typology rather than prediction.",
+         "body" : "Genesis says he ‘brought out’ food; it describes no sacrifice or future meal. Matthew never mentions Melchizedek—and Hebrews discusses him at length without using the bread and wine. The symbolism is historic and plausible, but retrospective.",
+         "heading" : "A later link, not a forecast",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-009/",
+   "title" : "Did Melchizedek foreshadow the Last Supper?",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

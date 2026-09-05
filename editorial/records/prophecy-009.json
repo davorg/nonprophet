@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-009",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Melchizedek's bringing out bread and wine in Genesis 14:18 prefigures Jesus's institution of the Eucharist at the Last Supper.",
+    "type": "later_christian_typology",
+    "scope_notes": "Matthew 26 does not cite or allude explicitly to Melchizedek. The strongest form is the historic ecclesial claim that the earlier priestly action prefigures the Eucharistic offering, rather than a direct NT fulfilment claim."
+  },
+  "context": {
+    "summary": "Melchizedek brings bread and wine after Abram's victory, blesses Abram, and receives a tenth. At the Last Supper Jesus identifies bread and a cup of wine with his body and covenant blood. Hebrews develops Melchizedek's priesthood at length but never mentions his bread and wine. Early Christian and especially Catholic tradition nevertheless reads the pairing as Eucharistic prefiguration.",
+    "shared_context_id": "melchizedek"
+  },
+  "strongest_case": {
+    "summary": "The typology has real historical and theological pedigree. The same unusual Genesis character is both priest and king, and the very elements he brings are those Jesus gives sacramental significance. Christian tradition integrates this correspondence with Psalm 110 and Hebrews's identification of Christ's priesthood with Melchizedek's order.",
+    "reasoning": [
+      "Genesis explicitly places bread and wine in the hands of a priest-king, while the Last Supper makes bread and wine central signs of Jesus's self-offering.",
+      "Hebrews independently establishes Melchizedek as a major model for Christ's priesthood, making a sacramental reading of his action less arbitrary than matching two isolated meals.",
+      "The reading is ancient rather than a modern proof-text: Clement of Alexandria, Ambrose and Augustine are among early Christian interpreters discussed by Vandergriff.",
+      "The Catholic Catechism carefully calls the action a ‘prefiguring’ of the Church's offering. That is a typological claim and need not pretend Genesis's human author announced the Last Supper explicitly."
+    ],
+    "source_ids": [
+      "src-vandergriff-2020",
+      "src-ccc-1333",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The resemblance is visible, but no New Testament author makes it. Genesis says Melchizedek ‘brought out’ bread and wine, not that he sacrificed or attached body-and-blood meaning to them; the food naturally refreshes Abram's returning party. Matthew places the Last Supper in its Passion and Passover setting, and Hebrews omits the elements even while exploiting many other Genesis details. This supports a later liturgical typology, not predictive evidence.",
+    "reasoning": [
+      "The Hebrew verb means to bring or bring out; Genesis neither calls the bread and wine a sacrifice nor says what Melchizedek does with them.",
+      "Matthew 26:26-29 does not name Melchizedek, quote Genesis 14, or use fulfilment language. Its immediate narrative context is Jesus's final meal and coming death.",
+      "Hebrews 7 retells Genesis 14 and builds an extensive Christological case from Melchizedek's titles, blessing, tithe and missing genealogy, but does not use the bread and wine; that silence limits rather than disproves the proposed connection.",
+      "The shared elements alone do not specify the later sacramental meanings of body, blood and covenant. The priestly identity and historic ecclesial tradition enrich the parallel, but the correspondence remains too nonspecific to function as a prior prediction."
+    ],
+    "source_ids": [
+      "src-vandergriff-2020",
+      "src-ccc-1333",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Genesis 14:18 says Melchizedek ‘brought out’ bread and wine; it does not call them an offering or sacrifice. Some ecclesial translations and interpretations supply sacrificial force from the wider priestly context.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-ccc-1333",
+        "src-vandergriff-2020",
+        "src-bsb-v59"
+      ]
+    },
+    {
+      "issue": "Neither Matthew's Last Supper narrative nor Hebrews's detailed Melchizedek exposition connects the Genesis bread and wine with Jesus's bread and cup.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "A priest-king bringing bread and wine is a natural and historically important Christian prefiguration of the Eucharist, especially once Hebrews has linked Melchizedek's priesthood with Christ. But Genesis describes no sacrifice or future event, and neither Matthew nor Hebrews makes the bread-and-wine connection. It is defensible later typology, not fulfilled predictive prophecy.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-vandergriff-2020",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "Melchizedek and the Eucharist? Rediscovering Eucharistic Interpretations of the Bread and Wine in Genesis 14",
+      "author": "Kenneth A. Vandergriff",
+      "publisher": "Review & Expositor 117.4",
+      "url": "https://doi.org/10.1177/0034637320972727",
+      "locator": "pp. 549-554; abstract and early Christian interpretations",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Documents and advocates recovery of Eucharistic readings in Clement, Ambrose and Augustine."
+    },
+    {
+      "id": "src-ccc-1333",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "institutional",
+      "title": "Catechism of the Catholic Church, §1333",
+      "author": "Catholic Church",
+      "publisher": "The Holy See",
+      "url": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_one/article_3/iii_the_eucharist_in_the_economy_of_salvation.html",
+      "locator": "§1333",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Official formulation that Melchizedek's gesture prefigures the Church's Eucharistic offering."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 14:18-20; Matthew 26:26-29; Hebrews 7:1-10",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and comparison showing no explicit NT connection between the elements."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"2",
+      "prompt_path":"editorial/review-prompts/prophecy-009-adversarial-2026-09-05.md",
+      "raw_output_path":"editorial/reviews/prophecy-009-adversarial-2026-09-05-raw.md",
+      "objections":[
+        {"objection":"Hebrews's silence cannot prove that the Eucharistic connection was unavailable or illegitimate.","disposition":"accepted","reason":"The analysis now says the silence limits rather than disproves the connection."},
+        {"objection":"The article could apply a predictive standard to a claim properly framed as typology.","disposition":"accepted","reason":"The verdict positively rates the historic typology and limits only its use as predictive evidence."},
+        {"objection":"‘Later ecclesial’ wording may sound dismissive of ancient Christian reception.","disposition":"accepted","reason":"Public copy consistently describes the reading as historic, ancient and plausible."},
+        {"objection":"The claim that bread and wine were ordinary staples is unsourced in the packet.","disposition":"accepted","reason":"Removed the social-historical assertion and made the narrower textual point about absent sacramental meanings."},
+        {"objection":"The packet could include Psalm 110 and primary patristic excerpts.","disposition":"partly_accepted","reason":"These would enrich reception history but would not alter the distinction between historic typology and a prediction stated in Genesis."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Did Melchizedek foreshadow the Last Supper?",
+    "scripture_excerpt": "Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+    "website": {
+      "description": "A fair examination of Melchizedek's bread and wine as a prefiguration of the Last Supper.",
+      "summary": "A priest-king brings bread and wine; Jesus later gives bread and wine at his final meal. Is that prophecy or hindsight?",
+      "christian_case": "The parallel is more substantial than two menus. Melchizedek is the Bible's mysterious priest-king, and Hebrews explicitly uses his priesthood as a model for Christ's. Genesis places bread and wine in his hands; at the Last Supper Jesus gives those same elements definitive meaning as his body and covenant blood. Early Christian writers including Clement, Ambrose and Augustine developed the Eucharistic reading, and the Catholic Catechism still calls Melchizedek's gesture a prefiguring of the Church's offering. Properly stated, this is historic sacramental typology: God can pattern an earlier event toward a later fulfilment even without a verbal prediction.",
+      "critical_case": "Genesis says only that Melchizedek ‘brought out’ bread and wine after Abram returned from battle. It never calls the food a sacrifice or connects it with body, blood, covenant or a future meal. Matthew's Last Supper account neither names Melchizedek nor quotes Genesis. Hebrews examines Melchizedek's story in detail—his titles, blessing, tithe and absent genealogy—yet says nothing about his bread and wine. That silence cannot disprove the historic Christian interpretation, but it confirms that the Eucharistic meaning comes from reading the two scenes typologically rather than from a connection stated by the New Testament.",
+      "verdict_label": "Historic Eucharistic typology—not prediction",
+      "verdict": "The priest-king and the shared bread and wine make a natural, ancient Christian prefiguration of the Eucharist. Genesis predicts no Last Supper, and neither Matthew nor Hebrews makes the connection. The claim works as later ecclesial typology, not as fulfilled predictive evidence."
+    },
+    "carousel": [
+      {
+        "heading": "Did this meal predict the Last Supper?",
+        "body": "Melchizedek—a priest and king—brings bread and wine. Jesus later gives bread and wine as his body and covenant blood. Christians have long read the first scene as a preview of the second.",
+        "alt_text": "Slide one introduces the proposed link between Melchizedek's bread and wine and the Last Supper."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "Hebrews already makes Melchizedek a model for Christ's priesthood. Early Christian writers then saw his bread and wine as Eucharistic prefiguration—a reading the Catholic Catechism preserves today.",
+        "alt_text": "Slide two presents the historic Christian Eucharistic typology."
+      },
+      {
+        "heading": "A later link, not a forecast",
+        "body": "Genesis says he ‘brought out’ food; it describes no sacrifice or future meal. Matthew never mentions Melchizedek—and Hebrews discusses him at length without using the bread and wine. The symbolism is historic and plausible, but retrospective.",
+        "alt_text": "Slide three explains why the Eucharistic association is typology rather than prediction."
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-008",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Melchizedek's name and title—interpreted in Hebrews as ‘king of righteousness’ and ‘king of peace’—foreshadow Jesus as the righteous, peace-giving king.",
+    "type": "nt_typology",
+    "scope_notes": "Hebrews 7:2 explicitly supplies the wordplay but does not call it a fulfilled prediction. The claim is evaluated as authorial typology based on names and roles."
+  },
+  "context": {
+    "summary": "Genesis calls Melchizedek king of Salem and priest of God Most High. Hebrews 7 retells the episode and interprets his name as ‘king of righteousness’ and king of Salem as ‘king of peace,’ using the ordered titles within its larger comparison between Melchizedek and the Son.",
+    "shared_context_id": "melchizedek"
+  },
+  "strongest_case": {
+    "summary": "The connection is not merely modern apologetic association: Hebrews itself draws attention to the meanings of Melchizedek and Salem while explaining his resemblance to the Son. Righteousness, peace, kingship and priesthood form a coherent theological portrait that Christians see fully realised in Jesus.",
+    "reasoning": [
+      "Hebrews 7:2 explicitly interprets the two expressions and immediately places them within its christological Melchizedek argument.",
+      "Genesis really does present one person as both king of Salem and priest of God Most High, so the typology starts from textual features rather than an invented biography.",
+      "Psalm 110 joins Davidic kingship with Melchizedek-like priesthood, giving Hebrews a canonical bridge from the Genesis figure to its royal-priestly Christology.",
+      "Typology does not require every feature to have been a verbal prediction; names and offices can acquire representative significance within a later canonical reading."
+    ],
+    "source_ids": [
+      "src-dore-2011",
+      "src-carson-melchizedek",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Hebrews offers a transparent symbolic interpretation of an earlier character's name and city, not evidence that Genesis predicted a future person. The etymology of Melchizedek is not entirely unambiguous, ‘Salem’ is a place-name, and Genesis applies both expressions to Melchizedek himself. Connecting their ideals specifically to Jesus depends on Hebrews's later literary-theological construction.",
+    "reasoning": [
+      "Genesis 14 says Melchizedek is king of Salem; it does not say a future Messiah will bear either title.",
+      "Hebrews signals interpretation—‘first, his name means ... then also ... means’—rather than quoting a Genesis oracle about Jesus.",
+      "The conventional ‘king of righteousness’ construal is the one Hebrews uses, but Hebrew names with malki can also be analysed as ‘my king is ...’; this lexical question does not undo Hebrews's wordplay but weakens claims of a uniquely encoded prediction.",
+      "Righteousness and peace are broad royal and religious ideals. Their evidential specificity comes only from their placement inside Hebrews's wider Melchizedek argument."
+    ],
+    "source_ids": [
+      "src-dore-2011",
+      "src-meissner-2018",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Hebrews 7:2's ‘king of righteousness’ is an interpretive rendering of the name Melchizedek; alternative grammatical analyses such as ‘my king is righteousness’ are possible.",
+      "significance": "material",
+      "source_ids": [
+        "src-meissner-2018",
+        "src-bsb-v59"
+      ]
+    },
+    {
+      "issue": "‘King of peace’ is Hebrews's interpretation of the place-name Salem, not a title explicitly assigned by Genesis.",
+      "significance": "material",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Hebrews explicitly turns Melchizedek's name and royal title into a christological portrait, so the connection is genuine NT typology. Genesis applies those words to its own priest-king and makes no forecast about Jesus. The symbolism is coherent but retrospective, not a specific fulfilled prediction.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-dore-2011",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Secundum ordinem Melchisedech",
+      "author": "Joseph Doré",
+      "publisher": "Revue des sciences religieuses 85.1",
+      "url": "https://doi.org/10.4000/rsr.1971",
+      "locator": "pp. 1-26; abstract and Hebrews 7 analysis",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Analyses righteousness, peace, kingship and priesthood in Hebrews's comparison with Christ."
+    },
+    {
+      "id": "src-carson-melchizedek",
+      "tier": 2,
+      "stance": "christian_case",
+      "type": "other",
+      "title": "Genesis 14 and Psalm 110 in Hebrews 7",
+      "author": "D. A. Carson",
+      "publisher": "The Gospel Coalition",
+      "url": "https://www.thegospelcoalition.org/sermon/genesis-14-and-psalm-110-in-hebrews-7/",
+      "locator": "Genesis 14, Psalm 110 and Hebrews 7 exposition",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Strong evangelical account of the titles within Hebrews's canonical typology."
+    },
+    {
+      "id": "src-meissner-2018",
+      "tier": 1,
+      "stance": "background",
+      "type": "monograph",
+      "title": "Melchizedek in Jewish Apocalyptic Literature",
+      "author": "Stefan Meissner",
+      "publisher": "LMU Munich",
+      "url": "https://epub.ub.uni-muenchen.de/62762/",
+      "locator": "abstract and biblical tradition chapters",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Provides history-of-interpretation context for creative uses of the Melchizedek traditions."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 14:18-20; Psalm 110:4; Hebrews 7:1-3",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and canonical comparison passages."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"2",
+      "prompt_path":"editorial/review-prompts/prophecy-008-adversarial-2026-09-05.md",
+      "raw_output_path":"editorial/reviews/prophecy-008-adversarial-2026-09-05-raw.md",
+      "objections":[
+        {"objection":"Do not frame an explicitly typological claim as though proponents assert a secret code.","disposition":"accepted","reason":"Removed ‘hidden in the names’ framing and made the rejection apply only to direct forecast."},
+        {"objection":"Psalm 110 and Hebrews 7:3 make the canonical link stronger than wordplay alone.","disposition":"accepted","reason":"Both are prominent in the strongest case and the verdict explicitly affirms New Testament typology."},
+        {"objection":"‘Reinterprets’ may sound like distortion.","disposition":"accepted","reason":"Changed the carousel to ‘reads those features typologically.’"},
+        {"objection":"The alternative parsing of Melchizedek needs direct lexical evidence.","disposition":"partly_accepted","reason":"It remains a qualified textual note, not an accusation of error and not a basis for the verdict."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Did ‘king of righteousness and peace’ predict Jesus?",
+    "scripture_excerpt": "Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+    "website": {
+      "description": "A fair examination of Melchizedek's titles as a supposed prophecy of Jesus.",
+      "summary": "Hebrews reads Melchizedek as ‘king of righteousness’ and ‘king of peace.’ Did Genesis encode a prediction of Jesus?",
+      "christian_case": "Hebrews itself—not merely a later apologist—points to the symbolism. It interprets Melchizedek's name as ‘king of righteousness’ and his rule over Salem as ‘king of peace,’ then develops his resemblance to the Son of God. Genesis also combines kingship and priesthood in this one striking figure, while Psalm 110 later uses Melchizedek as the model for an enduring royal priest. Within that larger argument, righteousness, peace, kingship and priesthood make an unusually coherent portrait of Jesus. As typology, the case has explicit New Testament support.",
+      "critical_case": "Genesis calls the ancient figure Melchizedek and king of the place Salem; both descriptions refer to him in his own story. It never says that a future person will be called a king of righteousness or peace. Hebrews openly tells readers that it is interpreting the words, then uses them symbolically inside its argument about Christ. Even the exact parsing of the Hebrew name is debatable, although Hebrews's chosen wordplay is clear. Righteousness and peace are also broad royal ideals rather than unique identifiers. The link is genuine Christian interpretation, but it becomes Jesus-specific only retrospectively.",
+      "verdict_label": "Explicit NT typology—not a forecast",
+      "verdict": "Hebrews genuinely and explicitly uses Melchizedek's name and title to illuminate Jesus. Genesis itself describes its own priest-king without making a verbal forecast about Jesus. This is strong New Testament typology rather than direct prediction."
+    },
+    "carousel": [
+      {
+        "heading": "Did these royal titles predict Jesus?",
+        "body": "Hebrews interprets Melchizedek as ‘king of righteousness’ and king of Salem as ‘king of peace’—qualities Christians associate with Jesus.",
+        "alt_text": "Slide one introduces the claim based on Melchizedek's name and title."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "Hebrews itself highlights the symbolism while comparing Melchizedek with the Son of God. King, priest, righteousness and peace form a coherent portrait within its larger argument about Jesus.",
+        "alt_text": "Slide two presents Hebrews's explicit christological use of Melchizedek's titles."
+      },
+      {
+        "heading": "Interpretation, not prediction",
+        "body": "Genesis applies the name and place-title to Melchizedek himself. It says nothing about a future bearer. Hebrews openly reads those features typologically in relation to Christ—a genuine NT connection, but not a verbal forecast in Genesis.",
+        "alt_text": "Slide three distinguishes Hebrews's typology from a prediction in Genesis."
+      }
+    ]
+  }
+}

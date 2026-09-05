@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-007",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 14:18: Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+         "body" : "“Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—”",
+         "heading" : "Gen 14:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim connecting Melchizedek's priesthood with Jesus.",
+         "body" : "Genesis introduces Melchizedek, king of Salem and priest of God Most High. Hebrews says Jesus became a high priest forever ‘in the order of Melchizedek.’",
+         "heading" : "Did Genesis predict Jesus's priesthood?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the canonical Christian trajectory from Genesis through Psalm 110 to Hebrews.",
+         "body" : "Genesis supplies an unusual priest-king. Psalm 110 promises a royal priest forever in his order. Hebrews explicitly applies that promise to Jesus, whose priesthood depends on indestructible life—not Levitical ancestry.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three explains that the predictive element comes from Psalm 110 rather than Genesis.",
+         "body" : "Genesis narrates a priest already serving; it contains no verbal forecast. The future oath and ‘order of Melchizedek’ come from Psalm 110:4. Hebrews builds a serious typology from both texts, but the prediction is not in Genesis 14:18.",
+         "heading" : "A strong type—but note the source",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-007/",
+   "title" : "Did Genesis predict Jesus as a Melchizedek priest?",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

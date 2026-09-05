@@ -45,14 +45,22 @@ for my $event (sort { $a->{epoch} <=> $b->{epoch} } @events) {
         my $seconds = $event->{epoch} - $start->{epoch};
         $claim_stage_seconds{$event->{stage}}{$event->{claim_id}} += $seconds;
         for my $name (keys %{$event->{details}}) {
+            next if $name eq 'correction';
             my $value = $event->{details}{$name};
             $resources{$name}{$event->{claim_id}} += $value
                 if !ref($value) && $value =~ /^-?(?:\d+(?:\.\d+)?|\.\d+)$/;
         }
-    } elsif ($event->{event} eq 'mark'
-        && $event->{stage} eq 'checkpoint'
-        && ($event->{details}{status} // '') eq 'complete') {
-        $completed{$event->{claim_id}} = 1;
+    } elsif ($event->{event} eq 'mark') {
+        if ($event->{stage} eq 'checkpoint'
+            && ($event->{details}{status} // '') eq 'complete') {
+            $completed{$event->{claim_id}} = 1;
+        }
+        for my $name (keys %{$event->{details}}) {
+            next if $name eq 'correction';
+            my $value = $event->{details}{$name};
+            $resources{$name}{$event->{claim_id}} += $value
+                if !ref($value) && $value =~ /^-?(?:\d+(?:\.\d+)?|\.\d+)$/;
+        }
     }
 }
 

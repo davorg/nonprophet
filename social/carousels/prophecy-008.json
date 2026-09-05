@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-008",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 14:18: Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+         "body" : "“Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—”",
+         "heading" : "Gen 14:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim based on Melchizedek's name and title.",
+         "body" : "Hebrews interprets Melchizedek as ‘king of righteousness’ and king of Salem as ‘king of peace’—qualities Christians associate with Jesus.",
+         "heading" : "Did these royal titles predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents Hebrews's explicit christological use of Melchizedek's titles.",
+         "body" : "Hebrews itself highlights the symbolism while comparing Melchizedek with the Son of God. King, priest, righteousness and peace form a coherent portrait within its larger argument about Jesus.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three distinguishes Hebrews's typology from a prediction in Genesis.",
+         "body" : "Genesis applies the name and place-title to Melchizedek himself. It says nothing about a future bearer. Hebrews openly reads those features typologically in relation to Christ—a genuine NT connection, but not a verbal forecast in Genesis.",
+         "heading" : "Interpretation, not prediction",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-008/",
+   "title" : "Did ‘king of righteousness and peace’ predict Jesus?",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

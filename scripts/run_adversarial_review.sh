@@ -57,7 +57,7 @@ if (( review_status != 0 )); then
   exit "$review_status"
 fi
 
-reported_tokens=$(awk '/^tokens used$/ { getline; tokens=$1 } END { print tokens }' "$review_log")
+reported_tokens=$(awk '/^tokens used$/ { getline; tokens=$1 } END { gsub(/,/, "", tokens); print tokens }' "$review_log")
 response_bytes=$(wc -c < "$response")
 metrics=(review_calls=1 review_prompt_bytes="$prompt_bytes"
   review_packet_estimated_tokens="$prompt_tokens" review_output_bytes="$response_bytes")
