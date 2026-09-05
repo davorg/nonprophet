@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-002",
+  "status": "adversarial_review_complete",
+  "claim": {
+    "precise": "Genesis 3:15 predicts that Jesus will defeat Satan, fulfilled by the Son of God's destruction of the devil and his works in Hebrews 2:14 and 1 John 3:8.",
+    "type": "nt_rereading",
+    "scope_notes": "The inherited wording compresses three moves: serpent to Satan, offspring to Jesus, and head-strike to decisive defeat. The verdict assesses original-context prediction separately from later canonical rereading and theological fulfilment."
+  },
+  "context": {
+    "summary": "Genesis 3:14-19 addresses the serpent, woman and man after the garden transgression. Verse 15 announces enmity between serpent and woman and their offspring, expressed as reciprocal blows to head and heel. Later Jewish and Christian texts increasingly identify the serpent with cosmic evil or the devil.",
+    "shared_context_id": "genesis-3-15"
+  },
+  "strongest_case": {
+    "summary": "A canonical Christian case reads the serpent as more than an ordinary animal and the singular offspring as the climax of a developing Genesis promise. Jesus' death defeats the devil in Hebrews 2:14 and his mission destroys the devil's works in 1 John 3:8; Revelation's 'ancient serpent' and Romans 16:20 make the Genesis connection more explicit than the inherited citations do.",
+    "reasoning": [
+      "The speaking serpent opposes God's command, so evangelical interpreters argue that an evil power stands behind the animal even though Genesis does not name Satan.",
+      "The masculine singular pronoun and wider seed theme in Genesis permit, and on C. John Collins's reading favor, an individual who ultimately fights the serpent.",
+      "A head blow is naturally read as decisive compared with a heel blow, supporting an eventual victory rather than endless parity.",
+      "Hebrews 2:14 and 1 John 3:8 assign destruction of the devil or his works to Jesus. Revelation 12:9 and 20:2 identify the devil as the ancient serpent, while Romans 16:20 echoes crushing Satan under feet."
+    ],
+    "source_ids": ["src-august-2017", "src-collins-1997", "src-zhakevich-2022"]
+  },
+  "critical_case": {
+    "summary": "This is a coherent later Christian rereading, but not a prediction identifiable in Genesis 3:15's original context. The passage calls the extraordinary speaking serpent a created animal and at minimum explains human-snake hostility; it names neither Satan nor Jesus. Head-versus-heel imagery permits a victory reading but does not settle it. The cited NT passages express Jesus' defeat of the devil without a demonstrable direct citation of Genesis 3:15.",
+    "reasoning": [
+      "Genesis 3:1 calls the serpent a beast of the field, and the bodily curses and head/heel attacks fit an aetiology of snakes and humans. Identification with Satan is first explicit in later literature.",
+      "The same Hebrew verb describes both blows, so translating it 'crush' and 'strike' is interpretive. The different targets still matter: a head blow plausibly sounds more decisive than a heel blow, though a venomous bite may also be fatal.",
+      "Collective offspring and singular grammatical agreement are compatible; the individual reading is debated and does not independently identify Jesus.",
+      "Hebrews 2:14 and 1 John 3:8 lack a quotation formula and share no distinctive wording sufficient to demonstrate direct allusion, though their theme fits the later reading. Revelation and Romans document the canonical association much more strongly.",
+      "Wisdom 2:24 attests a Jewish identification of the Eden serpent with the devil before or around the emergence of Christianity; later Targums also spiritualize the conflict. This shows the rereading was not simply invented by Christians, but it remains later reception rather than the explicit sense of Genesis."
+    ],
+    "source_ids": ["src-day-2015", "src-net-genesis-3-15", "src-lewis-1991", "src-collins-1997"]
+  },
+  "textual_issues": [
+    {
+      "issue": "The Hebrew verb shuph is repeated for both attacks. BSB's 'crush'/'strike' is possible but interpretive; its own note offers 'bruise' twice.",
+      "significance": "material",
+      "source_ids": ["src-bsb-v59", "src-net-genesis-3-15"]
+    },
+    {
+      "issue": "The LXX uses a masculine pronoun with neuter sperma. Some take this as an individual or messianic interpretation; others regard it as an overly literal rendering of the Hebrew pronoun.",
+      "significance": "material",
+      "source_ids": ["src-august-2017", "src-day-2015"]
+    }
+  ],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "The identification of the serpent with Satan and Jesus as his conqueror is a coherent, textually grounded later Jewish and Christian development. Genesis 3:15's original context does not specify either figure or unambiguously predict that messianic event, so this works better as canonical rereading or typology than as advance identification.",
+    "confidence": "high"
+  },
+  "sources": [
+    {"id":"src-august-2017","tier":1,"stance":"christian_case","type":"journal_article","title":"The Messianic Hope of Genesis: The Protoevangelium and Patriarchal Promises","author":"Jared M. August","publisher":"Themelios 42.1","url":"https://www.thegospelcoalition.org/themelios/article/the-messianic-hope-of-genesis-the-protoevangelium-and-patriarchal-promises/","locator":"sections 3-5","accessed":"2026-09-05","checked":true,"notes":"Cumulative evangelical case for an individual messianic reading."},
+    {"id":"src-collins-1997","tier":1,"stance":"christian_case","type":"journal_article","title":"A Syntactical Note (Genesis 3:15): Is the Woman's Seed Singular or Plural?","author":"C. John Collins","publisher":"Tyndale Bulletin 48.1","url":"https://www.tyndalebulletin.org/article/30353.pdf","locator":"pp. 139-148, especially pp. 145-148","accessed":"2026-09-05","checked":true,"notes":"Argues that the syntax permits an individual conqueror, while qualifying the larger conclusion."},
+    {"id":"src-zhakevich-2022","tier":1,"stance":"christian_case","type":"journal_article","title":"Genesis 3:15 in the New Testament and in the Pentateuchal Targums: Enmity as a Spiritual Conflict","author":"Iosif J. Zhakevich","publisher":"Journal of Biblical and Theological Studies 7.1","url":"https://jbtsonline.org/2022/06/genesis-315-in-the-new-testament-and-in-the-pentateuchal-targums-enmity-as-a-spiritual-conflict-by-iosif-j-zhakevich/","locator":"article abstract and argument","accessed":"2026-09-05","checked":true,"notes":"Argues Revelation and Targums attest spiritual-conflict reception of Genesis 3:15."},
+    {"id":"src-day-2015","tier":1,"stance":"critical_case","type":"monograph","title":"The Serpent in the Garden of Eden and its Background","author":"John Day","publisher":"The Bible and Interpretation; adapted from From Creation to Babel","url":"https://bibleinterp.arizona.edu/comment/963","locator":"paras. 19-20, 48-55","accessed":"2026-09-05","checked":true,"notes":"Argues for original snake-human aetiology and later Satan/messianic identification."},
+    {"id":"src-net-genesis-3-15","tier":2,"stance":"critical_case","type":"commentary","title":"NET Bible notes on Genesis 3:15","author":"NET Bible translators","publisher":"Biblical Studies Press","url":"https://classic.net.bible.org/verse.php?book=Gen&chapter=3&tab=commentaries&theme=false&verse=15","locator":"translation and study notes 3-6","accessed":"2026-09-05","checked":true,"notes":"Documents collective grammar, repeated verb and aetiological reading."},
+    {"id":"src-lewis-1991","tier":1,"stance":"background","type":"journal_article","title":"The Woman's Seed (Gen 3:15)","author":"Jack P. Lewis","publisher":"Journal of the Evangelical Theological Society 34.3","url":"https://etsjets.org/wp-content/uploads/2010/07/files_JETS-PDFs_34_34-3_34-3-pp299-319_JETS.pdf","locator":"pp. 299-319","accessed":"2026-09-05","checked":true,"notes":"Historical survey of literal, collective, messianic and virgin-birth readings."},
+    {"id":"src-bsb-v59","tier":1,"stance":"primary_text","type":"biblical_text","title":"Berean Standard Bible v5.9","author":"BSB Publishing","publisher":"BSB Publishing","url":"https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9","locator":"Genesis 3:15; Hebrews 2:14; 1 John 3:8; Romans 16:20; Revelation 12:9 and 20:2","accessed":"2026-09-05","checked":true,"notes":"Project display text and canonical comparison passages."}
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"1","raw_output_path":"editorial/reviews/prophecy-002-adversarial-2026-09-05.md",
+      "objections": [
+        {"objection":"State which meaning of prediction the verdict evaluates.","disposition":"accepted","reason":"Scope now separates original-context prediction, canonical rereading and theological fulfilment."},
+        {"objection":"Do not infer equal severity merely from repeated shuph.","disposition":"accepted","reason":"Critical argument now concedes the plausible head/heel asymmetry and potentially fatal bite."},
+        {"objection":"The speaking serpent should not be reduced to an ordinary animal.","disposition":"accepted","reason":"Reworded as an extraordinary speaking created animal and made the aetiological conclusion a minimum rather than exhaustive reading."},
+        {"objection":"Give Romans, Revelation and Jewish reception greater weight.","disposition":"accepted","reason":"The reasoning now distinguishes their strong support for later association from evidence of original semantic content; Wisdom 2:24 is added."},
+        {"objection":"Trace the claim's three transformations separately.","disposition":"accepted","reason":"Added explicitly to scope_notes."},
+        {"objection":"No quotation formula does not rule out NT allusion.","disposition":"accepted","reason":"Reframed around the lack of distinctive wording sufficient to demonstrate allusion while conceding thematic fit."},
+        {"objection":"The LXX pronoun matters to reception history.","disposition":"accepted","reason":"Raised its significance from minor to material while retaining the dispute over what it proves."},
+        {"objection":"Retrospective rereading should not read as wholly negative.","disposition":"accepted","reason":"Verdict now explicitly calls the development coherent and textually grounded."}
+      ]
+    }
+  ],
+  "human_review": {"required":false,"questions":[]},
+  "publication_copy": {"title":"","website":"","carousel":[]}
+}

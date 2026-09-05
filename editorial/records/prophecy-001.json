@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-001",
+  "status": "adversarial_review_complete",
+  "claim": {
+    "precise": "Genesis 3:15 predicts Jesus' virgin birth by describing the serpent's conqueror as the woman's seed rather than a man's.",
+    "type": "textual_translation",
+    "scope_notes": "This is narrower than the general Christian claim that Genesis 3:15 anticipates a messianic deliverer. Here 'predicts' means that virgin conception is stated or strongly implied by the prior text, not merely disclosed through a later canonical or typological reading."
+  },
+  "context": {
+    "summary": "Genesis 3:14-19 addresses the serpent, woman and man after the garden transgression. Verse 15 announces continuing enmity between the serpent and woman and between their offspring, expressed as blows to head and heel. The passage names neither a Messiah nor a miraculous conception.",
+    "shared_context_id": "genesis-3-15"
+  },
+  "strongest_case": {
+    "summary": "On a canonical Christian reading, the unusual emphasis on the woman's offspring converges with the singular conqueror, the later biblical development of the promised seed, Galatians 4's 'born of a woman', and Matthew's account of conception by the Holy Spirit. The phrase can therefore be read as an early, initially veiled anticipation of the virgin birth.",
+    "reasoning": [
+      "Evangelical interpreters argue that Genesis as a whole narrows the promised offspring toward an individual deliverer, rather than leaving Genesis 3:15 as an isolated snake aetiology.",
+      "A direct apologetic version argues that calling the victor the woman's seed is exceptional and therefore anticipates birth without a human father.",
+      "Galatians 4:4 calls Jesus 'born of a woman', while Matthew 1:18 explicitly narrates conception through the Holy Spirit; together they supply the proposed Christian fulfilment."
+    ],
+    "source_ids": ["src-august-2017", "src-morris-defenders"]
+  },
+  "critical_case": {
+    "summary": "Even granting a possible later messianic reading, 'her offspring' does not predict a virgin birth. In context it contrasts the descendants of the woman with those of the serpent, and Hebrew can describe descendants through women without implying conception without a father. Galatians 4:4 stresses ordinary human and legal condition, not Genesis 3:15, while Matthew supplies the virgin-conception detail independently.",
+    "reasoning": [
+      "The immediate contrast is woman/serpent and her offspring/its offspring; mentioning the woman serves that parallel and does not state that no man is involved. Genesis 16:10 speaks of Hagar's offspring and 24:60 of Rebekah's offspring without implying virgin conception.",
+      "The Hebrew zera can be collective, and its masculine singular agreement does not by itself identify one future male. Even C. John Collins's individualizing syntactical case expressly leaves the larger messianic question to other considerations.",
+      "Jack P. Lewis's historical survey distinguishes a messianic interpretation from the additional claim of virgin-birth prediction and concludes that the former does not entail the latter.",
+      "Neither Galatians 4:4-5 nor Matthew 1:18 identifies Genesis 3:15 as its source. 'Born of a woman' is not intrinsically a description of virgin birth.",
+      "Revelation's woman, child and dragon, Romans 16:20, and later Eve/Mary interpretation strengthen a canonical or typological reception of Genesis 3:15. They do not make virgin conception part of the earlier verse's semantic content."
+    ],
+    "source_ids": ["src-lewis-1991", "src-day-2015", "src-net-genesis-3-15", "src-collins-1997"]
+  },
+  "textual_issues": [
+    {
+      "issue": "BSB renders the masculine singular pronoun as 'He' and the repeated Hebrew verb differently as 'crush' and 'strike'. Its note acknowledges 'bruise' in both clauses. Neither choice demonstrates virgin conception.",
+      "significance": "material",
+      "source_ids": ["src-bsb-v59", "src-net-genesis-3-15"]
+    }
+  ],
+  "verdict": {
+    "category": "source_claim_incorrect",
+    "summary": "Genesis 3:15 can support a later Christian messianic or typological reading, but its wording does not independently predict a virgin birth. Virgin conception is explicit in the later Christian birth narratives, not in the phrase 'her offspring'.",
+    "confidence": "high"
+  },
+  "sources": [
+    {"id":"src-august-2017","tier":1,"stance":"christian_case","type":"journal_article","title":"The Messianic Hope of Genesis: The Protoevangelium and Patriarchal Promises","author":"Jared M. August","publisher":"Themelios 42.1","url":"https://www.thegospelcoalition.org/themelios/article/the-messianic-hope-of-genesis-the-protoevangelium-and-patriarchal-promises/","locator":"sections 3-5","accessed":"2026-09-05","checked":true,"notes":"Strong cumulative case for an individual messianic reading; does not establish virgin birth from Genesis 3:15 alone."},
+    {"id":"src-morris-defenders","tier":3,"stance":"christian_case","type":"popular_apologetic","title":"The New Defender's Study Bible: note on Genesis 3:15, 'her seed'","author":"Henry M. Morris","publisher":"Institute for Creation Research","url":"https://www.icr.org/books/defenders/87","locator":"Genesis 3:15 note","accessed":"2026-09-05","checked":true,"notes":"Explicitly makes the unusual-phrase-to-virgin-birth argument."},
+    {"id":"src-lewis-1991","tier":1,"stance":"critical_case","type":"journal_article","title":"The Woman's Seed (Gen 3:15)","author":"Jack P. Lewis","publisher":"Journal of the Evangelical Theological Society 34.3","url":"https://etsjets.org/wp-content/uploads/2010/07/files_JETS-PDFs_34_34-3_34-3-pp299-319_JETS.pdf","locator":"pp. 299-319, especially conclusion p. 319","accessed":"2026-09-05","checked":true,"notes":"Historical survey distinguishing general messianic and specifically virgin-birth readings."},
+    {"id":"src-day-2015","tier":1,"stance":"critical_case","type":"monograph","title":"The Serpent in the Garden of Eden and its Background","author":"John Day","publisher":"The Bible and Interpretation; adapted from From Creation to Babel","url":"https://bibleinterp.arizona.edu/comment/963","locator":"paras. 19-20, 48-55","accessed":"2026-09-05","checked":true,"notes":"Argues original aetiological meaning and later Satan/messianic identification."},
+    {"id":"src-net-genesis-3-15","tier":2,"stance":"critical_case","type":"commentary","title":"NET Bible notes on Genesis 3:15","author":"NET Bible translators","publisher":"Biblical Studies Press","url":"https://classic.net.bible.org/verse.php?book=Gen&chapter=3&tab=commentaries&theme=false&verse=15","locator":"translation and study notes 3-6","accessed":"2026-09-05","checked":true,"notes":"Documents collective grammar, repeated verb and aetiological reading."},
+    {"id":"src-collins-1997","tier":1,"stance":"background","type":"journal_article","title":"A Syntactical Note (Genesis 3:15): Is the Woman's Seed Singular or Plural?","author":"C. John Collins","publisher":"Tyndale Bulletin 48.1","url":"https://www.tyndalebulletin.org/article/30353.pdf","locator":"pp. 139-148, especially pp. 145-148","accessed":"2026-09-05","checked":true,"notes":"Strong individualizing syntactical case, with explicit qualifications about context and the larger messianic question."},
+    {"id":"src-bsb-v59","tier":1,"stance":"primary_text","type":"biblical_text","title":"Berean Standard Bible v5.9","author":"BSB Publishing","publisher":"BSB Publishing","url":"https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9","locator":"Genesis 3:15-16; 16:10; 24:60; Matthew 1:18; Galatians 4:4-5; Romans 16:20; Revelation 12","accessed":"2026-09-05","checked":true,"notes":"Project display text and canonical comparison passages."}
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm",
+      "model": "GPT-5.5",
+      "date": "2026-09-05",
+      "prompt_version": "1",
+      "raw_output_path": "editorial/reviews/prophecy-001-adversarial-2026-09-05.md",
+      "objections": [
+        {"objection":"Verify that the named Christian source makes the narrow virgin-birth inference.","disposition":"accepted","reason":"Morris explicitly makes that inference; the broader August source is not represented as doing so."},
+        {"objection":"Provide female-associated zera examples that do not imply virgin conception.","disposition":"accepted","reason":"Added Genesis 16:10 and 24:60 and expanded the BSB locator."},
+        {"objection":"Answer the possibility that 'her seed' is rhetorically marked.","disposition":"partly_accepted","reason":"The wording may be marked and can contribute to a canonical reading, but unusualness alone does not imply absence of a father; the argument now says so more precisely."},
+        {"objection":"Make the project's definition of prediction explicit.","disposition":"accepted","reason":"Added the evidential standard to scope_notes."},
+        {"objection":"Acknowledge stronger canonical and reception evidence.","disposition":"accepted","reason":"Added Revelation 12, Romans 16:20, Hebrews/1 John context and later Eve/Mary reception while preserving the semantic distinction."},
+        {"objection":"Expand version and reception history.","disposition":"partly_accepted","reason":"The BSB/MT issue and later reception are now acknowledged; a detailed Vulgate history is not material to this narrow verdict and belongs in long-form notes if published."},
+        {"objection":"Use neutral wording for where virgin conception is explicit.","disposition":"accepted","reason":"Reworded the verdict without implying a historical judgment about invention."}
+      ]
+    }
+  ],
+  "human_review": {"required":false,"questions":[]},
+  "publication_copy": {"title":"","website":"","carousel":[]}
+}
