@@ -13,6 +13,7 @@
   "human_review": {"required": false, "questions": []},
   "publication_copy": {
     "title": "",
+    "scripture_excerpt": "",
     "website": {"description":"","summary":"","christian_case":"","critical_case":"","verdict_label":"","verdict":""},
     "carousel": []
   }

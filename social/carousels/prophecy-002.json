@@ -4,19 +4,28 @@
    "schema_version" : 1,
    "slides" : [
       {
+         "alt_text" : "The BSB text of Gen 3:15: And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
+         "body" : "“And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.”",
+         "heading" : "Gen 3:15 · BSB",
+         "type" : "scripture"
+      },
+      {
          "alt_text" : "Slide one introduces the claim that Genesis 3:15 predicts Jesus defeating Satan.",
          "body" : "Genesis 3:15 describes the woman's offspring striking the serpent's head. Christians often read this as Jesus defeating Satan through his death and resurrection.",
-         "heading" : "Did Genesis predict Satan's defeat?"
+         "heading" : "Did Genesis predict Satan's defeat?",
+         "type" : "editorial"
       },
       {
          "alt_text" : "Slide two summarizes the biblical links Christians use to identify Jesus and Satan in Genesis 3:15.",
          "body" : "The serpent opposes God, and one promised offspring strikes its head. Later texts say Jesus destroys the devil, call the devil ‘the ancient serpent,’ and picture Satan crushed underfoot. Read canonically, the connections are powerful.",
-         "heading" : "The strongest Christian case"
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
       },
       {
          "alt_text" : "Slide three distinguishes a meaningful canonical reading from an explicit original prediction.",
          "body" : "Genesis names neither Satan nor Jesus, and its immediate setting also explains human hostility toward snakes. Later biblical texts make the theological identification meaningful—but they reveal a developed reading, not a specific prediction plainly present in Genesis itself.",
-         "heading" : "Strong typology, weak prediction"
+         "heading" : "Strong typology, weak prediction",
+         "type" : "editorial"
       }
    ],
    "source_url" : "https://nonprophet.app/claims/prophecy-002/",

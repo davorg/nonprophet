@@ -81,6 +81,7 @@ for my $manifest_path (@manifests) {
     my $manifest = read_json($manifest_path);
     my $id = $manifest->{claim_id};
     my ($claim_number) = $id =~ /([0-9]+)$/;
+    my $total_slides = scalar @{$manifest->{slides}};
     for my $format_name (sort keys %formats) {
         my $format = $formats{$format_name};
         my $output_dir = "$root/social/rendered/$id/$format_name";
@@ -99,6 +100,8 @@ for my $manifest_path (@manifests) {
             my $slide_number = $index + 1;
             my $credit = xml_escape("Photo: $background->{creator} / Unsplash");
             my $panel_right = $format->{panel_x} + $format->{panel_w};
+            my $body_family = ($slide->{type} // '') eq 'scripture' ? 'Noto Serif' : 'Noto Sans';
+            my $body_weight = ($slide->{type} // '') eq 'scripture' ? '600' : '450';
 
             my ($svg_fh, $svg_path) = tempfile('nonprophet-carousel-XXXXXX', SUFFIX => '.svg', DIR => '/tmp', UNLINK => 1);
             binmode $svg_fh, ':encoding(UTF-8)';
@@ -108,9 +111,9 @@ for my $manifest_path (@manifests) {
 <text x="$format->{text_x}" y="$format->{label_y}" fill="#bd3e28" font-family="Noto Sans" font-size="25" font-weight="700" letter-spacing="4">NON-PROPHET · CLAIM $claim_number</text>
 <text fill="#061a2b" font-family="Noto Serif" font-size="$format->{heading_size}" font-weight="700">$heading_svg</text>
 <line x1="$format->{text_x}" y1="$divider_y" x2="$format->{text_right}" y2="$divider_y" stroke="#061a2b" stroke-opacity="0.18" stroke-width="2"/>
-<text fill="#243746" font-family="Noto Sans" font-size="$format->{body_size}" font-weight="450">$body_svg</text>
+<text fill="#243746" font-family="$body_family" font-size="$format->{body_size}" font-weight="$body_weight">$body_svg</text>
 <text x="$format->{text_x}" y="$format->{footer_y}" fill="#061a2b" font-family="Noto Serif" font-size="34" font-weight="700">nonprophet.app</text>
-<text x="$format->{text_right}" y="$format->{footer_y}" text-anchor="end" fill="#bd3e28" font-family="Noto Sans" font-size="28" font-weight="700">$slide_number / 3</text>
+<text x="$format->{text_right}" y="$format->{footer_y}" text-anchor="end" fill="#bd3e28" font-family="Noto Sans" font-size="28" font-weight="700">$slide_number / $total_slides</text>
 <text x="$format->{text_x}" y="$format->{credit_y}" fill="#66707a" font-family="Noto Sans" font-size="19">$credit</text>
 </svg>};
             close $svg_fh;

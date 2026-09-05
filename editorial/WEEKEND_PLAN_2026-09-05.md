@@ -91,7 +91,7 @@ Keep research notes and source quotations separate from concise publication copy
 ### E. Publishing proof
 
 - Generate one claim page from structured content.
-- Generate a three-slide carousel from the same record.
+- Generate a four-slide carousel from the same record.
 - Ensure long/short copy is separated rather than truncated blindly.
 - Include attribution, source links, accessibility text and responsive rendering.
 - Produce one representative difficult claim, not merely the easiest visual example.
@@ -142,7 +142,7 @@ intermediate artefact retained.
 **09:00–12:30**
 
 - Generate the first real claim page from reviewed structured content.
-- Build the reusable three-slide carousel template.
+- Build the reusable four-slide carousel template.
 - Verify mobile layout, accessibility, citations and image attribution handling.
 - Keep the current coming-soon page available until publication is intentional.
 

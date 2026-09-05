@@ -55,9 +55,11 @@
     },
     "publication_copy": {
       "type": "object", "additionalProperties": false,
-      "required": ["title", "website", "carousel"],
+      "required": ["title", "scripture_excerpt", "website", "carousel"],
       "properties": {
-        "title": {"type": "string"}, "website": {"$ref": "#/$defs/website_copy"},
+        "title": {"type": "string"},
+        "scripture_excerpt": {"type": "string"},
+        "website": {"$ref": "#/$defs/website_copy"},
         "carousel": {
           "type": "array", "maxItems": 3,
           "items": {

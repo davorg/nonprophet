@@ -76,6 +76,7 @@
   "human_review": {"required":false,"questions":[]},
   "publication_copy": {
     "title":"Does Genesis predict Jesus defeating Satan?",
+    "scripture_excerpt":"And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
     "website": {
       "description":"A fair examination of the claim that Genesis 3:15 predicts Jesus' defeat of Satan.",
       "summary":"Christians often identify the garden serpent with Satan and its promised opponent with Jesus. How much of that is actually present in Genesis?",

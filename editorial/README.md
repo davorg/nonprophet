@@ -14,7 +14,8 @@ One JSON file per claim will live in `records/`, named with its claim ID. Start 
 6. Assign a calibrated verdict under `VERDICT_GUIDE.md`.
 7. Run `ADVERSARIAL_REVIEW_PROMPT.md` through a different model.
 8. Verify and dispose of every objection.
-9. Draft long website copy and exactly three purpose-written carousel slides.
+9. Select a readable BSB excerpt and draft exactly three purpose-written editorial
+   slides; the generator prepends the scripture as slide one.
 10. Mark ready only after all quality gates in `PRODUCTION_PLAN.md` pass.
 
 `SOURCE_STANDARDS.md` defines source tiers and minimum evidence. The JSON Schema is

@@ -19,7 +19,7 @@ For each passage group:
 3. process each claim through the full editorial review protocol;
 4. run the independent adversarial review using a different model;
 5. resolve review findings and flag genuine deadlocks for human review;
-6. prepare article copy and a three-slide social-media script;
+6. prepare article copy and a four-slide social-media script;
 7. mark the claim ready only when sources and quotations are verified.
 
 ## Separation of content and presentation
@@ -32,7 +32,7 @@ Complete the durable editorial content first:
 - critical assessment;
 - sources and review record;
 - website copy;
-- three-slide carousel copy.
+- four-slide carousel copy: scripture, claim, strongest case, and assessment.
 
 ## Display translation
 

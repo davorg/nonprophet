@@ -78,13 +78,22 @@ for my $record_path (@record_paths) {
     push @source_lines, '', 'Biblical quotations are from the Berean Standard Bible (BSB), public domain.', '';
     write_text("$root/docs/_claims/$id.md", join("\n", @frontmatter, @source_lines));
 
+    my @slides = (
+        {
+            type => 'scripture',
+            heading => $claim->{ot_passage}{source} . ' · BSB',
+            body => '“' . $copy->{scripture_excerpt} . '”',
+            alt_text => "The BSB text of $claim->{ot_passage}{source}: $copy->{scripture_excerpt}",
+        },
+        map { +{ %$_, type => 'editorial' } } @{$copy->{carousel}},
+    );
     write_text("$root/social/carousels/$id.json", JSON::PP->new->canonical->pretty->encode({
         schema_version => 1,
         claim_id => $id,
         editorial_status => $record->{status},
         title => $copy->{title},
         source_url => "https://nonprophet.app/claims/$id/",
-        slides => $copy->{carousel},
+        slides => \@slides,
     }));
 }
 

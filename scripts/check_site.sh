@@ -23,8 +23,8 @@ test -f "$site_check_dir/preview/claims/prophecy-002/index.html"
 rg -q '<h1 id="page-title">Non-Prophet</h1>' "$site_check_dir/public/index.html"
 rg -q 'Why Christians see a prophecy' "$site_check_dir/preview/claims/prophecy-001/index.html"
 rg -q 'Why it is less convincing' "$site_check_dir/preview/claims/prophecy-001/index.html"
-jq -e '.slides | length == 3' "$repo_dir/social/carousels/prophecy-001.json" >/dev/null
-jq -e '.slides | length == 3' "$repo_dir/social/carousels/prophecy-002.json" >/dev/null
+jq -e '.slides | length == 4 and .slides[0].type == "scripture"' "$repo_dir/social/carousels/prophecy-001.json" >/dev/null
+jq -e '.slides | length == 4 and .slides[0].type == "scripture"' "$repo_dir/social/carousels/prophecy-002.json" >/dev/null
 identify "$repo_dir"/social/rendered/prophecy-*/instagram/slide-*.jpg | \
   awk '$3 != "1080x1350" { exit 1 }'
 identify "$repo_dir"/social/rendered/prophecy-*/vertical/slide-*.jpg | \

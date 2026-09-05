@@ -58,7 +58,8 @@ for my $path (sort glob "$root/editorial/records/*.json") {
 
     my $copy = $record->{publication_copy};
     if (length($copy->{title} // '')) {
-        push @errors, "$id: publication copy must have exactly three slides" unless @{$copy->{carousel}} == 3;
+        push @errors, "$id: publication copy must have exactly three editorial slides" unless @{$copy->{carousel}} == 3;
+        push @errors, "$id: publication copy requires a scripture excerpt" unless length($copy->{scripture_excerpt} // '');
         for my $field (qw(description summary christian_case critical_case verdict_label verdict)) {
             push @errors, "$id: website copy missing $field" unless length($copy->{website}{$field} // '');
         }

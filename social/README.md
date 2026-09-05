@@ -1,6 +1,7 @@
 # Social assets
 
-`carousels/` contains generated three-slide copy derived from the editorial records.
+`carousels/` contains generated four-slide copy derived from the editorial records:
+the BSB passage, precise claim, strongest Christian case, and assessment.
 `backgrounds.json` records image provenance and licence metadata. Each claim under
 `rendered/` contains two visual masters:
 
