@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-005",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 12:3: I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.",
+         "body" : "“I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.”",
+         "heading" : "Gen 12:3",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim that Genesis 12:3 predicts worldwide blessing through Jesus.",
+         "body" : "God tells Abraham that every family of the earth will be blessed through him. Galatians calls this advance gospel, and Christians identify Jesus as the descendant who brings that blessing.",
+         "heading" : "Does Genesis promise Jesus will bless the nations?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the Christian canonical connection between the Abrahamic promise and Jesus.",
+         "body" : "Genesis develops one promise: worldwide blessing through Abraham and later through his offspring. Galatians explicitly says Christ brings Abraham's blessing to the Gentiles by faith. Acts applies the offspring promise to God's raised servant.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three distinguishes Genesis's broad promise from the New Testament's specific christological reading.",
+         "body" : "Genesis 12:3 says ‘through you’—Abraham—not ‘through your offspring.’ It promises worldwide blessing but never defines it as faith in Jesus. Galatians makes that later Christian interpretation explicit; Acts draws its offspring wording most directly from Genesis 22:18.",
+         "heading" : "Explicit rereading, not an explicit name",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-005/",
+   "title" : "Does Genesis promise Jesus will bless every nation?",
+   "verdict_category" : "retrospective_rereading"
+}

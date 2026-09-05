@@ -74,9 +74,14 @@ my @completed_totals = sort { $a <=> $b }
 if (@completed_totals) {
     my @values = @completed_totals;
     my $mean = sum(@values) / @values;
-    my $median = $values[int(@values / 2)];
+    my $middle = int(@values / 2);
+    my $median = @values % 2
+        ? $values[$middle]
+        : ($values[$middle - 1] + $values[$middle]) / 2;
     printf "Mean elapsed per claim: %.1f min; median: %.1f min\n", $mean / 60, $median / 60;
     printf "Projected remaining elapsed work: %.1f hours\n", $remaining * $mean / 3600;
+    print "Projection warning: fewer than 10 measured claims; treat as directional only\n"
+        if @values < 10;
 } else {
     print "Elapsed-time projection: unavailable until one instrumented claim completes\n";
 }

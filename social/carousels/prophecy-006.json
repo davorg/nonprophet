@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-006",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 12:7: Then the LORD appeared to Abram and said, ‘I will give this land to your offspring.’",
+         "body" : "“Then the LORD appeared to Abram and said, ‘I will give this land to your offspring.’”",
+         "heading" : "Gen 12:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces Paul's singular-offspring argument about Christ.",
+         "body" : "Genesis promises land to Abraham's ‘offspring.’ Paul says Scripture did not say ‘offsprings’ but one ‘offspring’—Christ. It sounds like a grammatical prediction. Is it?",
+         "heading" : "Does one ‘offspring’ mean Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the Christian corporate-representation reading of Christ and Abraham's seed.",
+         "body" : "Paul reads all the Abrahamic promises together. They climax in one representative Messiah, and everyone united with Christ becomes Abraham's seed. The one and the many belong together—not as a spelling trick, but as corporate fulfilment.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three explains that offspring is a collective singular and classifies Paul's reading as later canonical interpretation.",
+         "body" : "Genesis compares this same ‘offspring’ with uncountable dust and stars. Its singular form normally includes many descendants, so grammar alone cannot identify Jesus. Paul offers an explicit, serious canonical rereading—not a singular-person prediction hidden in Genesis 12:7.",
+         "heading" : "The noun is singular—and collective",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-006/",
+   "title" : "Does ‘offspring’ secretly mean one person—Jesus?",
+   "verdict_category" : "retrospective_rereading"
+}

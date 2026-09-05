@@ -4,6 +4,8 @@
     {"claim_id":"prophecy-001","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
     {"claim_id":"prophecy-002","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
     {"claim_id":"prophecy-003","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
-    {"claim_id":"prophecy-004","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}}
+    {"claim_id":"prophecy-004","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-005","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-006","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}}
   ]
 }
