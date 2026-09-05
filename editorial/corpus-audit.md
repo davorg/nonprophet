@@ -48,3 +48,14 @@ These controlled categories are adopted under the decisions recorded in
 6. Submit each completed argument to the independent adversarial review defined in
    [REVIEW_PROTOCOL.md](REVIEW_PROTOCOL.md), resolve its objections, and flag only
    genuine deadlocks for human review.
+
+## Reference normalization: 5 September 2026
+
+The first audit step is complete at the syntactic level. All 792 raw reference
+occurrences were processed. One malformed source value was explicitly split into two
+references, producing 793 normalized occurrences with no unhandled parse errors.
+
+The audit preserves 87 source-defined clause segments (for example `Isa 53:8a`) for
+manual mapping to exact BSB text and supports the corpus's one cross-chapter range.
+Chapter and verse boundary validation will follow the pinned BSB import. Rebuild and
+validation instructions are in [`data/README.md`](../data/README.md).

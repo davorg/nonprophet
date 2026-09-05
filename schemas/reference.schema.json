@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nonprophet.app/schemas/reference.schema.json",
+  "title": "Normalized Bible passage reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source",
+    "normalized",
+    "osis",
+    "testament",
+    "book",
+    "book_osis",
+    "book_order",
+    "start",
+    "end"
+  ],
+  "properties": {
+    "source": {"type": "string", "minLength": 1},
+    "normalized": {"type": "string", "minLength": 1},
+    "osis": {"type": "string", "minLength": 1},
+    "testament": {"enum": ["OT", "NT"]},
+    "book": {"type": "string", "minLength": 1},
+    "book_osis": {"type": "string", "pattern": "^[1-3]?[A-Za-z]+$"},
+    "book_order": {"type": "integer", "minimum": 1, "maximum": 66},
+    "start": {"$ref": "#/$defs/point"},
+    "end": {"$ref": "#/$defs/point"}
+  },
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chapter", "verse", "segment"],
+      "properties": {
+        "chapter": {"type": "integer", "minimum": 1},
+        "verse": {"type": "integer", "minimum": 1},
+        "segment": {"type": ["string", "null"], "pattern": "^[a-z]$"}
+      }
+    }
+  }
+}

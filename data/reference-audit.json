@@ -1,0 +1,900 @@
+{
+   "correction_count" : 1,
+   "corrections" : [
+      {
+         "claim_id" : "prophecy-301",
+         "corrected_to" : [
+            "Rom 5:10",
+            "2Cor 5:18-21"
+         ],
+         "field" : "nt_references",
+         "reason" : "missing_reference_separator_and_noncanonical_book_spacing",
+         "source" : "Rom 5:10 2 Cor 5:18-21"
+      }
+   ],
+   "cross_chapter_reference_details" : [
+      {
+         "claim_id" : "prophecy-258",
+         "field" : "nt_references",
+         "source" : "Matt 26:47-27:31"
+      }
+   ],
+   "cross_chapter_references" : 1,
+   "duplicate_references" : [
+      {
+         "normalized" : "Isaiah 9:6",
+         "occurrences" : 8
+      },
+      {
+         "normalized" : "Genesis 49:10",
+         "occurrences" : 5
+      },
+      {
+         "normalized" : "Luke 1:32-33",
+         "occurrences" : 5
+      },
+      {
+         "normalized" : "Isaiah 49:6",
+         "occurrences" : 4
+      },
+      {
+         "normalized" : "1 Timothy 3:16",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Genesis 14:18",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Isaiah 9:7",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "John 18:11",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "John 19:31-36",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "John 1:11",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "John 8:58",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Luke 1:32",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Luke 1:35",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Luke 23:46",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Matthew 1:1",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Psalms 110:1",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Psalms 72:17",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "Revelation 19:11",
+         "occurrences" : 3
+      },
+      {
+         "normalized" : "1 John 2:2",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "1 Peter 2:24",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "2 Corinthians 5:21",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Acts 10:38",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Acts 17:31",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Acts 1:11",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Daniel 9:24a",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Galatians 3:16",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Galatians 3:8",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Galatians 4:4",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Galatians 4:4-5",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Genesis 3:15",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Hebrews 1:8",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Hebrews 2:10",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Hebrews 2:14",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Hebrews 2:9",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Hebrews 6:20",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Isaiah 11:1",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Isaiah 11:2",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Isaiah 11:4",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Isaiah 28:16",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Isaiah 52:15",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Isaiah 7:14",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Jeremiah 23:5-6",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 10:30",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 12:12-13",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 13:18",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 15:25",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 17:4",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 19:34-37",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 1:14",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 1:17",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 1:29",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 5:22",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "John 5:30",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Leviticus 17:11",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 18:31-34",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 19:41-44",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 1:31",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 1:31-33",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 23:49",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 24:51",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 2:27-32",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 3:23-31",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Luke 4:22",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Mark 16:19",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 1:18",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 1:21",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 26:14-15",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 26:28",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 26:67-68",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 27:12-14",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 27:26",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 27:3-5",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 27:43",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 28:18",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 3:16-17",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Matthew 7:29",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Psalms 22:1",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Psalms 22:20-21",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Psalms 2:6",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Psalms 68:18",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Psalms 89:27",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Revelation 19:15",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Revelation 1:5",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Revelation 3:7",
+         "occurrences" : 2
+      },
+      {
+         "normalized" : "Romans 1:3-4",
+         "occurrences" : 2
+      }
+   ],
+   "error_count" : 0,
+   "errors" : [],
+   "normalized_entry_count" : 351,
+   "normalized_reference_occurrences" : 793,
+   "raw_reference_occurrences" : 792,
+   "schema_version" : 1,
+   "seed_entry_count" : 351,
+   "segmented_reference_details" : [
+      {
+         "claim_id" : "prophecy-051",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "2Sam 7:14a"
+      },
+      {
+         "claim_id" : "prophecy-133",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Ps 78:2b"
+      },
+      {
+         "claim_id" : "prophecy-155",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Ps 118:26a"
+      },
+      {
+         "claim_id" : "prophecy-156",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Ps 118:26b"
+      },
+      {
+         "claim_id" : "prophecy-234",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 50:6a"
+      },
+      {
+         "claim_id" : "prophecy-235",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 50:6b"
+      },
+      {
+         "claim_id" : "prophecy-236",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 50:6c"
+      },
+      {
+         "claim_id" : "prophecy-244",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:3a"
+      },
+      {
+         "claim_id" : "prophecy-245",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:3b"
+      },
+      {
+         "claim_id" : "prophecy-246",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:3c"
+      },
+      {
+         "claim_id" : "prophecy-247",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:3d"
+      },
+      {
+         "claim_id" : "prophecy-248",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:4a"
+      },
+      {
+         "claim_id" : "prophecy-249",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:4b"
+      },
+      {
+         "claim_id" : "prophecy-250",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:5a"
+      },
+      {
+         "claim_id" : "prophecy-251",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:5b"
+      },
+      {
+         "claim_id" : "prophecy-252",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:5c"
+      },
+      {
+         "claim_id" : "prophecy-253",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:6a"
+      },
+      {
+         "claim_id" : "prophecy-254",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:6b"
+      },
+      {
+         "claim_id" : "prophecy-255",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:7a"
+      },
+      {
+         "claim_id" : "prophecy-256",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:7b"
+      },
+      {
+         "claim_id" : "prophecy-257",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:7c"
+      },
+      {
+         "claim_id" : "prophecy-258",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:8a"
+      },
+      {
+         "claim_id" : "prophecy-259",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:8b"
+      },
+      {
+         "claim_id" : "prophecy-260",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:8c"
+      },
+      {
+         "claim_id" : "prophecy-261",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:8d"
+      },
+      {
+         "claim_id" : "prophecy-262",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:9a"
+      },
+      {
+         "claim_id" : "prophecy-263",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:9b"
+      },
+      {
+         "claim_id" : "prophecy-264",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:9c"
+      },
+      {
+         "claim_id" : "prophecy-265",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:10a"
+      },
+      {
+         "claim_id" : "prophecy-266",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:10b"
+      },
+      {
+         "claim_id" : "prophecy-267",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:10c"
+      },
+      {
+         "claim_id" : "prophecy-268",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:10d"
+      },
+      {
+         "claim_id" : "prophecy-269",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:11a"
+      },
+      {
+         "claim_id" : "prophecy-270",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:11b"
+      },
+      {
+         "claim_id" : "prophecy-271",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:11c"
+      },
+      {
+         "claim_id" : "prophecy-272",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:12a"
+      },
+      {
+         "claim_id" : "prophecy-273",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:12b"
+      },
+      {
+         "claim_id" : "prophecy-274",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:12c"
+      },
+      {
+         "claim_id" : "prophecy-275",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:12d"
+      },
+      {
+         "claim_id" : "prophecy-276",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 53:12e"
+      },
+      {
+         "claim_id" : "prophecy-278",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 55:4a"
+      },
+      {
+         "claim_id" : "prophecy-279",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 55:4b"
+      },
+      {
+         "claim_id" : "prophecy-281",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 59:16a"
+      },
+      {
+         "claim_id" : "prophecy-282",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 59:16b"
+      },
+      {
+         "claim_id" : "prophecy-285",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 61:1a"
+      },
+      {
+         "claim_id" : "prophecy-286",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 61:1b"
+      },
+      {
+         "claim_id" : "prophecy-287",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 61:1c"
+      },
+      {
+         "claim_id" : "prophecy-288",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Isa 61:1-2a"
+      },
+      {
+         "claim_id" : "prophecy-297",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 7:13-14a"
+      },
+      {
+         "claim_id" : "prophecy-298",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 7:13-14b"
+      },
+      {
+         "claim_id" : "prophecy-299",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 7:13-14c"
+      },
+      {
+         "claim_id" : "prophecy-300",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 9:24a"
+      },
+      {
+         "claim_id" : "prophecy-301",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 9:24a"
+      },
+      {
+         "claim_id" : "prophecy-302",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 9:24b"
+      },
+      {
+         "claim_id" : "prophecy-304",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 9:26a"
+      },
+      {
+         "claim_id" : "prophecy-305",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 9:26b"
+      },
+      {
+         "claim_id" : "prophecy-306",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Dan 9:26c"
+      },
+      {
+         "claim_id" : "prophecy-312",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Mic 5:2a"
+      },
+      {
+         "claim_id" : "prophecy-313",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Mic 5:2b"
+      },
+      {
+         "claim_id" : "prophecy-314",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Mic 5:2c"
+      },
+      {
+         "claim_id" : "prophecy-319",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 9:9a"
+      },
+      {
+         "claim_id" : "prophecy-320",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 9:9b"
+      },
+      {
+         "claim_id" : "prophecy-321",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 9:9c"
+      },
+      {
+         "claim_id" : "prophecy-322",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 9:9d"
+      },
+      {
+         "claim_id" : "prophecy-323",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 9:9e"
+      },
+      {
+         "claim_id" : "prophecy-324",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 9:9f"
+      },
+      {
+         "claim_id" : "prophecy-326",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:4-6a"
+      },
+      {
+         "claim_id" : "prophecy-327",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:4-6b"
+      },
+      {
+         "claim_id" : "prophecy-328",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:4-6c"
+      },
+      {
+         "claim_id" : "prophecy-330",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:8a"
+      },
+      {
+         "claim_id" : "prophecy-331",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:8b"
+      },
+      {
+         "claim_id" : "prophecy-333",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:10-11a"
+      },
+      {
+         "claim_id" : "prophecy-334",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:10-11b"
+      },
+      {
+         "claim_id" : "prophecy-335",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:12-13a"
+      },
+      {
+         "claim_id" : "prophecy-336",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:12-13b"
+      },
+      {
+         "claim_id" : "prophecy-337",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:12-13c"
+      },
+      {
+         "claim_id" : "prophecy-338",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 11:12-13d"
+      },
+      {
+         "claim_id" : "prophecy-339",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 12:10a"
+      },
+      {
+         "claim_id" : "prophecy-340",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 12:10b"
+      },
+      {
+         "claim_id" : "prophecy-341",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 12:10c"
+      },
+      {
+         "claim_id" : "prophecy-342",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 13:7a"
+      },
+      {
+         "claim_id" : "prophecy-343",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 13:7b"
+      },
+      {
+         "claim_id" : "prophecy-344",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 13:7c"
+      },
+      {
+         "claim_id" : "prophecy-345",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Zech 13:7d"
+      },
+      {
+         "claim_id" : "prophecy-347",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Mal 3:1a"
+      },
+      {
+         "claim_id" : "prophecy-348",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Mal 3:1b"
+      },
+      {
+         "claim_id" : "prophecy-349",
+         "field" : "ot_reference",
+         "flag" : "source_clause_segment_requires_text_mapping",
+         "source" : "Mal 3:1c"
+      }
+   ],
+   "segmented_references" : 87,
+   "unique_corrected_source_strings" : 680,
+   "unique_normalized" : 680,
+   "unique_raw_source_strings" : 679
+}
