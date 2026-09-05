@@ -1,9 +1,11 @@
 # Social assets
 
 `carousels/` contains generated three-slide copy derived from the editorial records.
-`backgrounds.json` records image provenance and licence metadata. `rendered/` contains
-1080×1350 JPEG output suitable for Instagram's portrait carousel format and reuse on
-the other project channels.
+`backgrounds.json` records image provenance and licence metadata. Each claim under
+`rendered/` contains two visual masters:
+
+- `instagram/`: 1080×1350 (4:5), also suitable for Bluesky;
+- `vertical/`: 1080×1920 (9:16), with a shared TikTok/YouTube safe area.
 
 Regenerate copy and images from the repository root:
 

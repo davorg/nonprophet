@@ -25,7 +25,9 @@ rg -q 'Why Christians see a prophecy' "$site_check_dir/preview/claims/prophecy-0
 rg -q 'Why it is less convincing' "$site_check_dir/preview/claims/prophecy-001/index.html"
 jq -e '.slides | length == 3' "$repo_dir/social/carousels/prophecy-001.json" >/dev/null
 jq -e '.slides | length == 3' "$repo_dir/social/carousels/prophecy-002.json" >/dev/null
-identify "$repo_dir"/social/rendered/prophecy-*/slide-*.jpg | \
+identify "$repo_dir"/social/rendered/prophecy-*/instagram/slide-*.jpg | \
   awk '$3 != "1080x1350" { exit 1 }'
+identify "$repo_dir"/social/rendered/prophecy-*/vertical/slide-*.jpg | \
+  awk '$3 != "1080x1920" { exit 1 }'
 
 echo "Jekyll site checks passed"
