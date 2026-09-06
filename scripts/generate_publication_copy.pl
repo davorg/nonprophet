@@ -30,6 +30,15 @@ my $claims = read_json("$root/data/claims.json");
 my %claims_by_id = map { $_->{id} => $_ } @{$claims->{entries}};
 my $publication = read_json("$root/data/publication.json");
 my %publication_by_id = map { $_->{claim_id} => $_ } @{$publication->{entries}};
+my %book_names = (
+    Gen => 'Genesis', Exod => 'Exodus', Lev => 'Leviticus', Num => 'Numbers',
+    Deut => 'Deuteronomy', Josh => 'Joshua', Ruth => 'Ruth', '1Sam' => '1 Samuel',
+    '2Sam' => '2 Samuel', '2Kgs' => '2 Kings', '1Chr' => '1 Chronicles',
+    Job => 'Job', Ps => 'Psalms', Prov => 'Proverbs', Song => 'Song of Songs',
+    Isa => 'Isaiah', Jer => 'Jeremiah', Ezek => 'Ezekiel', Dan => 'Daniel',
+    Hos => 'Hosea', Joel => 'Joel', Jonah => 'Jonah', Mic => 'Micah',
+    Hag => 'Haggai', Zech => 'Zechariah', Mal => 'Malachi',
+);
 my @record_paths = sort glob "$root/editorial/records/*.json";
 make_path("$root/docs/_claims", "$root/social/carousels");
 
@@ -43,7 +52,10 @@ for my $record_path (@record_paths) {
     my $website = $copy->{website};
     my $number = 0 + ($id =~ /([0-9]+)$/)[0];
     my $publication_state = $publication_by_id{$id}{state} // 'withheld';
+    my $publication_date = $publication_by_id{$id}{scheduled_date};
     my $published = $publication_state eq 'published' ? 'true' : 'false';
+    my ($book_abbreviation) = $claim->{ot_passage}{source} =~ /^(\S+)/;
+    my $book = $book_names{$book_abbreviation} // $book_abbreviation;
     my $ot_text = join ' ', map { $_->{text} } @{$claim->{ot_text}{verses}};
     my $ot_note = join ' ', map { @{$_->{notes}} } @{$claim->{ot_text}{verses}};
     my @frontmatter = (
@@ -56,6 +68,9 @@ for my $record_path (@record_paths) {
         "claim_number: $number",
         'editorial_status: ' . yaml_string($record->{status}),
         'publication_state: ' . yaml_string($publication_state),
+        'publication_date: ' . yaml_string($publication_date),
+        'book: ' . yaml_string($book),
+        'verdict_category: ' . yaml_string($record->{verdict}{category}),
         'summary: ' . yaml_string($website->{summary}),
         'ot_reference: ' . yaml_string($claim->{ot_passage}{source}),
         'ot_text: ' . yaml_string($ot_text),

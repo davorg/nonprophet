@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for item in site.html_pages %}{% unless item.robots contains 'noindex' %}<url><loc>{{ item.url | absolute_url | xml_escape }}</loc></url>{% endunless %}{% endfor %}{% assign claims = site.claims | where: 'publication_state', 'published' %}{% for claim in claims %}<url><loc>{{ claim.url | absolute_url | xml_escape }}</loc><lastmod>{{ claim.publication_date | date_to_xmlschema }}</lastmod></url>{% endfor %}</urlset>

@@ -12,7 +12,9 @@ perl "$repo_dir/scripts/render_carousels.pl"
 jekyll build --source "$repo_dir/docs" --destination "$site_check_dir/public"
 test -f "$site_check_dir/public/index.html"
 test -f "$site_check_dir/public/assets/css/site.css"
-test ! -e "$site_check_dir/public/claims/prophecy-001/index.html"
+test -f "$site_check_dir/public/claims/prophecy-001/index.html"
+test -f "$site_check_dir/public/claims/prophecy-004/index.html"
+test ! -e "$site_check_dir/public/claims/prophecy-005/index.html"
 
 jekyll build --unpublished \
   --source "$repo_dir/docs" \
@@ -20,7 +22,10 @@ jekyll build --unpublished \
 test -f "$site_check_dir/preview/claims/prophecy-001/index.html"
 test -f "$site_check_dir/preview/claims/prophecy-002/index.html"
 
-rg -q '<h1 id="page-title">Non-Prophet</h1>' "$site_check_dir/public/index.html"
+rg -q 'Claim 4' "$site_check_dir/public/index.html"
+rg -q 'https://nonprophet.app/assets/images/og-default.png' "$site_check_dir/public/index.html"
+rg -q 'Claim 1' "$site_check_dir/public/claims/index.html"
+! rg -q 'Claim 5' "$site_check_dir/public/claims/index.html"
 rg -q 'Why Christians see a prophecy' "$site_check_dir/preview/claims/prophecy-001/index.html"
 rg -q 'Why it is less convincing' "$site_check_dir/preview/claims/prophecy-001/index.html"
 jq -e '(.slides | length == 4) and (.slides[0].type == "scripture")' "$repo_dir/social/carousels/prophecy-001.json" >/dev/null

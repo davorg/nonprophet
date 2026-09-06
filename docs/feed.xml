@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>{{ site.title | xml_escape }}</title><link href="{{ '/feed.xml' | absolute_url }}" rel="self"/><link href="{{ '/' | absolute_url }}"/><id>{{ '/' | absolute_url }}</id><updated>{{ site.time | date_to_xmlschema }}</updated><subtitle>{{ site.description | xml_escape }}</subtitle>{% assign claims = site.claims | where: 'publication_state', 'published' | sort: 'claim_number' | reverse %}{% for claim in claims limit: 20 %}<entry><title>{{ claim.title | xml_escape }}</title><link href="{{ claim.url | absolute_url }}"/><id>{{ claim.url | absolute_url }}</id><published>{{ claim.publication_date | date_to_xmlschema }}</published><updated>{{ claim.publication_date | date_to_xmlschema }}</updated><summary>{{ claim.summary | xml_escape }}</summary></entry>{% endfor %}</feed>

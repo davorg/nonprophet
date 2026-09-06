@@ -1,0 +1,4 @@
+---
+layout: content
+---
+{% assign claims = site.claims | where: 'publication_state', 'published' | where: 'verdict_category', page.verdict_category | sort: 'claim_number' %}<div class="claim-list">{% for claim in claims %}{% include claim-card.html claim=claim %}{% endfor %}</div>

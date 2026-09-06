@@ -1,0 +1,12 @@
+---
+layout: default
+body_class: content-page
+---
+<div class="page site-shell">
+  {% include site-header.html %}
+  <main id="main-content" class="content-main">
+    <header class="page-header"><p class="eyebrow">{{ page.eyebrow }}</p><h1>{{ page.title }}</h1>{% if page.intro %}<p>{{ page.intro }}</p>{% endif %}</header>
+    <div class="prose">{{ content }}</div>
+  </main>
+  {% include footer.html %}
+</div>

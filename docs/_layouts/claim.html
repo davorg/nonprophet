@@ -26,6 +26,13 @@ body_class: claim-page
         <p class="verdict-label">Our assessment</p><h2 id="verdict">{{ page.verdict_label }}</h2><p>{{ page.verdict }}</p>
       </section>
       <section class="sources" aria-labelledby="sources"><h2 id="sources">Sources and further reading</h2>{{ content }}</section>
+      {% assign published_claims = site.claims | where: 'publication_state', 'published' | sort: 'claim_number' %}
+      {% for item in published_claims %}{% if item.claim_number == page.claim_number %}{% assign position = forloop.index0 %}{% endif %}{% endfor %}
+      {% assign previous_position = position | minus: 1 %}{% assign next_position = position | plus: 1 %}
+      <nav class="claim-navigation" aria-label="Claim navigation">
+        {% if previous_position >= 0 %}{% assign previous_claim = published_claims[previous_position] %}<a rel="prev" href="{{ previous_claim.url | relative_url }}"><span>Previous claim</span>{{ previous_claim.title }}</a>{% else %}<span></span>{% endif %}
+        {% if next_position < published_claims.size %}{% assign next_claim = published_claims[next_position] %}<a rel="next" href="{{ next_claim.url | relative_url }}"><span>Next claim</span>{{ next_claim.title }}</a>{% endif %}
+      </nav>
     </article>
   </main>
   {% include footer.html %}

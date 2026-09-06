@@ -1,0 +1,12 @@
+source_claim_incorrect:
+  label: Source claim incorrect
+  description: The popular claim misstates what its cited text actually says.
+retrospective_rereading:
+  label: Retrospective rereading
+  description: The connection depends on reading a later Christian conclusion back into an earlier text.
+plausible_typology_not_prediction:
+  label: Plausible typology, not prediction
+  description: The comparison can work as a theological pattern, but the earlier text does not make a prediction.
+insufficiently_specific:
+  label: Insufficiently specific
+  description: The wording is too broad to identify Jesus or the claimed event in advance.

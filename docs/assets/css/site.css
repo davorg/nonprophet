@@ -19,8 +19,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 a { color: var(--accent); text-underline-offset: .18em; }
+.skip-link { position: fixed; z-index: 10; top: .5rem; left: .5rem; padding: .65rem 1rem; color: var(--white); background: var(--ink); transform: translateY(-150%); }
+.skip-link:focus { transform: translateY(0); }
 .page { width: min(100% - 2rem, 76rem); min-height: 100vh; margin-inline: auto; }
-.landing-shell, .claim-shell { display: grid; grid-template-rows: auto 1fr auto; }
+.landing-shell, .claim-shell, .site-shell { display: grid; grid-template-rows: auto 1fr auto; }
 .landing-main { display: grid; place-items: center; padding: clamp(3rem, 8vh, 6rem) 0 clamp(2.5rem, 6vh, 4rem); text-align: center; }
 .hero { display: flex; width: 100%; flex-direction: column; align-items: center; }
 .eyebrow { margin: 0 0 .8rem; color: var(--accent); font-size: clamp(.75rem, 1.4vw, .9rem); font-weight: 750; letter-spacing: .18em; text-transform: uppercase; }
@@ -30,6 +32,9 @@ a { color: var(--accent); text-underline-offset: .18em; }
 .artwork-frame img { display: block; width: 100%; height: auto; border-radius: 50%; }
 .site-header { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
 .site-header p { margin: 0; color: var(--muted); font-size: .85rem; }
+.site-nav { display: flex; align-items: center; gap: clamp(.8rem, 2.4vw, 1.6rem); }
+.site-nav a { color: var(--ink); font-size: .86rem; font-weight: 650; text-decoration: none; }
+.site-nav a:hover { color: var(--accent); }
 .wordmark { color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 1.55rem; font-weight: 700; letter-spacing: -.035em; text-decoration: none; }
 .claim-main { width: min(100%, 52rem); margin-inline: auto; padding: clamp(3rem, 8vw, 6rem) 0; }
 .claim-header { margin-bottom: clamp(2.5rem, 6vw, 4.5rem); }
@@ -50,6 +55,44 @@ blockquote { margin: 1.5rem 0 0; font-family: Georgia, "Times New Roman", serif;
 .verdict p:last-child { margin: 1rem 0 0; line-height: 1.65; }
 .sources { margin-top: clamp(3rem, 7vw, 5rem); padding-top: 2rem; border-top: 1px solid var(--line); }
 .sources li { margin-bottom: .9rem; font-size: .98rem; }
+.home-main, .content-main { padding: clamp(3rem, 7vw, 5.5rem) 0; }
+.home-intro { max-width: 58rem; margin-bottom: clamp(3rem, 7vw, 5rem); }
+.home-intro h1, .page-header h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.8rem, 7.5vw, 6.2rem); line-height: .96; letter-spacing: -.05em; }
+.home-intro > p:last-child, .page-header > p:last-child { max-width: 48rem; margin: 1.4rem 0 0; color: var(--muted); font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.1rem, 2.2vw, 1.35rem); line-height: 1.6; }
+.section-kicker { margin: 0 0 1rem; color: var(--accent); font-size: .78rem; letter-spacing: .15em; text-transform: uppercase; }
+.claim-card { display: flex; flex-direction: column; padding: 1.5rem; border: 1px solid var(--line); border-radius: 1rem; background: rgba(255,255,255,.68); box-shadow: 0 .8rem 2.2rem rgba(39,29,15,.05); }
+.claim-card-featured { padding: clamp(1.8rem, 5vw, 3.5rem); background: var(--ink); color: var(--white); }
+.claim-card-meta { display: flex; justify-content: space-between; gap: 1rem; color: var(--accent); font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.claim-card-featured .claim-card-meta { color: #f0a28f; }
+.claim-card h3 { margin: 1rem 0 .8rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.45rem, 2.7vw, 2.2rem); line-height: 1.12; }
+.claim-card-featured h3 { max-width: 18ch; font-size: clamp(2.2rem, 5vw, 4.4rem); }
+.claim-card h3 a { color: inherit; text-decoration: none; }
+.claim-card h3 a::after { content: " →"; color: var(--accent); }
+.claim-card > p { flex: 1; margin: 0 0 1.5rem; color: var(--muted); line-height: 1.55; }
+.claim-card-featured > p { max-width: 46rem; color: #dce2e6; font-size: 1.08rem; }
+.claim-card footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: .75rem; }
+.claim-card-featured footer { color: #bac5cc; }
+.verdict-pill { display: inline-flex; width: fit-content; padding: .35rem .65rem; border-radius: 999px; color: var(--accent); background: rgba(189,62,40,.1); font-weight: 750; }
+.claim-card-featured .verdict-pill { color: #ffd5ca; background: rgba(189,62,40,.32); }
+.recent-section { margin-top: clamp(3.5rem, 8vw, 6rem); }
+.index-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.2rem; }
+.index-heading h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 2rem; }
+.card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.page-header { max-width: 58rem; margin-bottom: clamp(2.5rem, 6vw, 4rem); }
+.prose { max-width: 52rem; }
+.prose h2 { margin: 3rem 0 1rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.7rem, 3vw, 2.3rem); }
+.prose h3 { margin: 2rem 0 .6rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; }
+.prose p { font-family: Georgia, "Times New Roman", serif; font-size: 1.08rem; line-height: 1.75; }
+.claim-list { display: grid; gap: 1rem; }
+.taxonomy-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.taxonomy-card { display: grid; gap: .5rem; padding: 1.5rem; border: 1px solid var(--line); border-radius: 1rem; color: var(--ink); background: rgba(255,255,255,.68); text-decoration: none; }
+.taxonomy-card strong { font-family: Georgia, "Times New Roman", serif; font-size: 1.5rem; }
+.taxonomy-card span { color: var(--accent); font-size: .78rem; font-weight: 750; text-transform: uppercase; }
+.taxonomy-card small { color: var(--muted); line-height: 1.5; }
+.claim-navigation { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.claim-navigation a { padding: 1rem; color: var(--ink); background: rgba(255,255,255,.65); text-decoration: none; }
+.claim-navigation a:last-child { text-align: right; }
+.claim-navigation span { display: block; margin-bottom: .4rem; color: var(--accent); font-size: .72rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.4rem 0 1.75rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
 .site-footer p { margin: 0; letter-spacing: .025em; }
 .socials { display: flex; gap: .55rem; }
@@ -59,8 +102,13 @@ blockquote { margin: 1.5rem 0 0; font-family: Georgia, "Times New Roman", serif;
 @media (max-width: 34rem) {
   .page { width: min(100% - 1.4rem, 76rem); }
   .site-footer { flex-direction: column; }
-  .site-header p { display: none; }
+  .site-header { align-items: flex-start; }
+  .site-nav { flex-wrap: wrap; justify-content: flex-end; gap: .5rem .8rem; }
+  .site-nav a { font-size: .78rem; }
   .argument { grid-template-columns: 1fr; gap: .5rem; }
   .section-heading { align-items: flex-start; flex-direction: column; }
+  .card-grid, .taxonomy-grid { grid-template-columns: 1fr; }
+  .claim-card footer { align-items: flex-start; flex-direction: column; }
 }
+@media (min-width: 34.01rem) and (max-width: 52rem) { .card-grid { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { .socials a { transition: none; } }

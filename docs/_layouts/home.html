@@ -1,17 +1,16 @@
 ---
 layout: default
-body_class: landing-page
+body_class: home-page
 ---
-<div class="page landing-shell">
-  <main class="landing-main">
-    <section class="hero" aria-labelledby="page-title">
-      <p class="eyebrow">A new perspective</p>
-      <h1 id="page-title">Non-Prophet</h1>
-      <p class="subtitle">Coming soon</p>
-      <div class="artwork-frame">
-        <img src="{{ '/assets/images/nonprophet.png' | relative_url }}" alt="An illustrated prophet holding a sign with a question mark" width="1254" height="1254">
-      </div>
-    </section>
+{% assign published_claims = site.claims | where: 'publication_state', 'published' | sort: 'claim_number' | reverse %}
+<div class="page site-shell">
+  {% include site-header.html %}
+  <main id="main-content" class="home-main">
+    <header class="home-intro"><p class="eyebrow">Testing prophecy claims fairly</p><h1>What does the text actually say?</h1><p>Christians identify hundreds of Old Testament passages as prophecies fulfilled by Jesus. We examine their strongest case—one claim at a time.</p></header>
+    {% if published_claims.size > 0 %}{% assign latest = published_claims.first %}
+      <section aria-labelledby="latest-heading"><h2 id="latest-heading" class="section-kicker">Latest claim</h2>{% include claim-card.html claim=latest featured=true %}</section>
+      {% if published_claims.size > 1 %}<section class="recent-section" aria-labelledby="recent-heading"><div class="index-heading"><h2 id="recent-heading">More recent claims</h2><a href="{{ '/claims/' | relative_url }}">View all claims</a></div><div class="card-grid">{% for claim in published_claims limit: 3 offset: 1 %}{% include claim-card.html claim=claim %}{% endfor %}</div></section>{% endif %}
+    {% endif %}
   </main>
   {% include footer.html %}
 </div>
