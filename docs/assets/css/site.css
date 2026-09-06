@@ -77,7 +77,8 @@ blockquote { margin: 1.5rem 0 0; font-family: Georgia, "Times New Roman", serif;
 .verdict-pill { display: inline-flex; width: fit-content; padding: .35rem .65rem; border-radius: 999px; color: var(--accent); background: rgba(189,62,40,.1); font-weight: 750; text-decoration: none; }
 .verdict-pill:hover { text-decoration: underline; }
 .claim-card-featured .verdict-pill { color: #ffd5ca; background: rgba(189,62,40,.32); }
-.verdict > .verdict-pill { margin-bottom: 1rem; color: #ffd5ca; background: rgba(189,62,40,.32); font-size: .78rem; }
+.verdict > .verdict-pill { margin-bottom: 1rem; color: var(--ink); background: #fff0e8; font-size: .78rem; }
+.verdict > .verdict-pill:hover { color: var(--ink); background: var(--white); }
 .recent-section { margin-top: clamp(3.5rem, 8vw, 6rem); }
 .index-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.2rem; }
 .index-heading h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 2rem; }
