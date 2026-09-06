@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-020",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 49:10: The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+         "body" : "“The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.”",
+         "heading" : "Gen 49:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: Nations and one flock",
+         "body" : "Genesis 49:10 describes the allegiance of nations. John 10:16 describes other sheep hearing Jesus’s voice and becoming one flock under one shepherd. Christians connect these pictures of a people gathered under one ruler.",
+         "heading" : "Nations and one flock",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: A coherent messianic reading",
+         "body" : "Several readings of Genesis retain an international horizon, and early Jewish interpretation is messianic. Read as a gathering beyond Israel, Jesus’s other sheep fit the hope of peoples united under Judah’s promised ruler.",
+         "heading" : "A coherent messianic reading",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: A parallel with limits",
+         "body" : "John does not cite Genesis, and one listening flock is not identical to international political obedience. The connection supports a Christian theological reading but does not uniquely identify Jesus through a testable prediction.",
+         "heading" : "A parallel with limits",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-020/",
+   "title" : "Do Jesus’s “other sheep” fulfil the allegiance of the nations?",
+   "verdict_category" : "thematic_parallel_only"
+}

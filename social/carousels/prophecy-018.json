@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-018",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 49:10: The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+         "body" : "“The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.”",
+         "heading" : "Gen 49:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: A predicted name for Jesus?",
+         "body" : "The BSB reads “until Shiloh comes.” John 17:3 calls Jesus the one God sent. The proposed fulfilment equates Shiloh with “One Sent.”",
+         "heading" : "A predicted name for Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: How the connection arises",
+         "body" : "A coming ruler fits a messianic reading, and the audit traces the “sent” interpretation to the Vulgate’s rendering. Christians can connect that translation tradition with Jesus’s mission from God.",
+         "heading" : "How the connection arises",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The equation is not established",
+         "body" : "Shiloh is disputed, and “sent” is not a secure Hebrew meaning. Other readings concern tribute or rightful possession. John neither names Jesus Shiloh nor cites Genesis, so it does not establish fulfilment of a predicted name.",
+         "heading" : "The equation is not established",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-018/",
+   "title" : "Is “Shiloh” a name meaning “One Sent”?",
+   "verdict_category" : "depends_on_disputed_text_or_translation"
+}

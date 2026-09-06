@@ -7,7 +7,7 @@ robots: "index, follow"
 claim_number: 1
 editorial_status: "ready_to_publish"
 publication_state: "published"
-publication_date: "2026-09-04"
+publication_date: "2026-09-03"
 book: "Genesis"
 verdict_category: "source_claim_incorrect"
 summary: "Christians have called Genesis 3:15 the first gospel. But does its reference to the woman's offspring actually predict a virgin birth?"

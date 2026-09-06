@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-017",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 49:10 establishes Judah as the ruling tribe, and Luke 3:33 presents Jesus as a descendant of Judah who meets that ancestral qualification.",
+    "type": "genealogy",
+    "scope_notes": "The inherited title “The Seed of Judah” is an ancestry claim. Genesis 49:10 mentions neither seed nor a birth; identifying one descendant as the promised ruler requires a further messianic argument."
+  },
+  "context": {
+    "summary": "Genesis 49:8–12 is Jacob’s poetic blessing of Judah. His brothers bow to him; leonine strength, continuing rule, the response of nations and extraordinary abundance follow. Verse 10 concerns Judahite rule, but its central phrase can be read as Shiloh coming, the arrival of a rightful ruler, or tribute coming to Judah. The shared audit records an early Jewish messianic reading in 4Q252, so messianic reception is not solely a Christian innovation.",
+    "shared_context_id": "genesis-49"
+  },
+  "strongest_case": {
+    "summary": "Judah is explicitly the focus of the blessing, and the scepter and staff describe ruling authority. Luke 3:33 includes Judah in Jesus’s genealogy, providing an explicit ancestral fit within Luke’s narrative. The early Jewish Davidic-messianic reading documented in 4Q252 strengthens the relevance of that family connection. Christians can therefore regard Jesus’s Judahite descent as a genuine qualification for the promised ruler, within their broader account of his messiahship.",
+    "reasoning": [
+      "Judahite rule is present even though the interpretation of the central phrase is disputed.",
+      "Luke’s genealogy explicitly names Judah.",
+      "Early Davidic-messianic reception makes the genealogical connection relevant to a Christian cumulative case."
+    ],
+    "source_ids": [
+      "src-jfb-gen49",
+      "src-charlesworth-4q252",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Genesis 49:10 speaks of Judah’s rule rather than predicting the birth of a particular descendant. Luke supplies a genealogical assertion, not an explicit fulfilment citation of this verse. Judahite ancestry describes a broad class and cannot by itself distinguish Jesus from other descendants. The disputed Shiloh phrase affects the individual-messianic reading, although it does not remove Judah from the blessing. Ancestral compatibility is therefore stronger than unique predictive identification.",
+    "reasoning": [
+      "“Seed” is the inherited claim’s wording, not the wording of Genesis 49:10.",
+      "The original blessing concerns tribal and dynastic rule.",
+      "Meeting a shared ancestry condition is not sufficient to establish the identity of the promised ruler."
+    ],
+    "source_ids": [
+      "src-net-gen49",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The BSB reads “until Shiloh comes” but notes “until the one to whom tribute belongs.” The shared audit also documents “until he comes to whom it belongs,” “until tribute comes to him,” and the Septuagint’s things stored up for him. These alternatives affect whether an individual arrival is in view; no reading independently identifies Jesus.",
+      "significance": "material",
+      "source_ids": [
+        "src-net-gen49",
+        "src-vanderkooij-gen49",
+        "src-steiner-2013",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "insufficiently_specific",
+    "summary": "Luke presents Jesus as a descendant of Judah, matching a real tribal qualification in the blessing and contributing to a cumulative Christian messianic case. Ancestry alone does not uniquely predict Jesus or establish that he fulfils Judah’s promised rule.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-net-gen49",
+      "tier": 2,
+      "stance": "background",
+      "type": "commentary",
+      "title": "Genesis 49:10: translation and textual notes",
+      "author": "NET Bible translators",
+      "publisher": "NET Bible",
+      "url": "https://classic.net.bible.org/verse.php?book=Gen&chapter=49&tab=commentaries&verse=10",
+      "locator": "Genesis 49:10, translation and textual notes",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents competing constructions of the central phrase."
+    },
+    {
+      "id": "src-vanderkooij-gen49",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "The Septuagint of Gen 49,10",
+      "author": "Arie van der Kooij",
+      "publisher": "",
+      "url": "https://www.arievanderkooij.org/downloads/Arie_van_der_Kooij-0135.pdf",
+      "locator": "Discussion of Genesis 49:10 in the Septuagint",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit records the Greek wording about things stored up and the expectation of nations."
+    },
+    {
+      "id": "src-charlesworth-4q252",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "monograph",
+      "title": "The Bible and the Dead Sea Scrolls",
+      "author": "James H. Charlesworth et al.",
+      "publisher": "",
+      "url": "https://rexresearch1.com/DeadSeaScrolls/BibleDeadSeaScrolls1Charlesworth.pdf",
+      "locator": "pp. 389–390; Genesis 49:10 and 4Q252",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents an early Jewish Davidic-messianic interpretation; it does not identify Jesus."
+    },
+    {
+      "id": "src-steiner-2013",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Four Inner-Biblical Interpretations of Genesis 49:10",
+      "author": "Richard C. Steiner",
+      "publisher": "Journal of Biblical Literature 132.1 (2013)",
+      "url": "https://media.alhatorah.org/1Bereshit/49/Inner-Biblical%20-%20Richard%20Steiner%20-%20JBL%20132.pdf",
+      "locator": "pp. 33–60",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Listed in the shared audit for the verse’s interpretive alternatives; no additional source-specific conclusions inferred."
+    },
+    {
+      "id": "src-jfb-gen49",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "commentary",
+      "title": "A Commentary, Critical, Practical, and Explanatory on the Old and New Testaments: Genesis 49",
+      "author": "Robert Jamieson, A. R. Fausset, and David Brown",
+      "publisher": "Bible Hub electronic edition",
+      "url": "https://biblehub.com/commentaries/jfb/genesis/49.htm",
+      "locator": "comments on Genesis 49:8–10",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "A named Christian commentary arguing that the Messiah sprang from Judah and listing ‘the seed’ among proposed senses of Shiloh."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 49:8–12; Luke 3:23–38, especially 3:33",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Passages and Genesis 49:10 footnotes checked against the local data/scripture/bsb-v5.9.json store. Shared external-source findings are limited to editorial/audit-genesis-49.md."
+    }
+  ],
+  "reviews": [{
+    "reviewer": "adversarial_llm", "model": "GPT-5.5", "date": "2026-09-06", "prompt_version": "2",
+    "prompt_path": "editorial/review-prompts/prophecy-017-adversarial-2026-09-06.md",
+    "raw_output_path": "editorial/reviews/prophecy-017-adversarial-2026-09-06-raw.md",
+    "objections": [
+      {"objection": "Calling the genealogy dynastic continuity overstates what Luke 3:33 alone establishes.", "disposition": "accepted", "reason": "The verdict now describes Judahite ancestry as one contribution to a cumulative messianic case, without asserting a legal succession mechanism."},
+      {"objection": "Non-unique ancestry does not answer the stronger cumulative Judahite-Davidic case.", "disposition": "accepted", "reason": "The strongest case grants the cumulative relevance; non-uniqueness is retained only as a limit on this item as an individual prediction."},
+      {"objection": "Early messianic reception must not be confused with the original meaning or proof about Jesus.", "disposition": "accepted", "reason": "The article treats 4Q252 as reception evidence and explicitly says it does not identify Jesus."}
+    ]
+  }],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Does Judahite ancestry identify the Messiah?",
+    "scripture_excerpt": "The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+    "website": {
+      "description": "An examination of Genesis 49:10 and the claim: Genesis 49:10 establishes Judah as the ruling tribe, and Luke 3:33 presents Jesus as a descendant of Judah who meets that ancestral qualification.",
+      "summary": "Luke places Jesus in Judah’s family. Genesis associates Judah with rule, but how specific is the match?",
+      "christian_case": "Judah is explicitly the focus of the blessing, and the scepter and staff describe ruling authority. Luke 3:33 includes Judah in Jesus’s genealogy, providing an explicit ancestral fit within Luke’s narrative. The early Jewish Davidic-messianic reading documented in 4Q252 strengthens the relevance of that family connection. Christians can therefore regard Jesus’s Judahite descent as a genuine qualification for the promised ruler, within their broader account of his messiahship.",
+      "critical_case": "Genesis 49:10 speaks of Judah’s rule rather than predicting the birth of a particular descendant. Luke supplies a genealogical assertion, not an explicit fulfilment citation of this verse. Judahite ancestry describes a broad class and cannot by itself distinguish Jesus from other descendants. The disputed Shiloh phrase affects the individual-messianic reading, although it does not remove Judah from the blessing. Ancestral compatibility is therefore stronger than unique predictive identification.",
+      "verdict_label": "Ancestral fit; insufficiently specific prediction",
+      "verdict": "Luke presents Jesus as a descendant of Judah, matching a real tribal qualification in the blessing and contributing to a cumulative Christian messianic case. Ancestry alone does not uniquely predict Jesus or establish that he fulfils Judah’s promised rule."
+    },
+    "carousel": [
+      {
+        "heading": "Jesus in Judah’s family",
+        "body": "Genesis gives Judah the scepter; Luke’s genealogy names Judah among Jesus’s ancestors. The inherited claim calls this “The Seed of Judah,” although Genesis 49:10 does not use “seed.”",
+        "alt_text": "Slide 1: Jesus in Judah’s family"
+      },
+      {
+        "heading": "A real ancestral qualification",
+        "body": "The blessing concerns Judahite rule, and an early Jewish reading gives it a Davidic-messianic horizon. Within Luke’s narrative, Jesus belongs to the relevant family. Christians can include this in a broader case for his messiahship.",
+        "alt_text": "Slide 2: A real ancestral qualification"
+      },
+      {
+        "heading": "Ancestry alone cannot identify him",
+        "body": "Judah has many descendants. Genesis does not predict a particular birth, and Luke does not cite the verse as fulfilled. The connection establishes ancestral compatibility, while identifying Jesus as the ruler requires further argument.",
+        "alt_text": "Slide 3: Ancestry alone cannot identify him"
+      }
+    ]
+  }
+}

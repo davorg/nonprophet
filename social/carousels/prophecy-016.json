@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-016",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 49:10: The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+         "body" : "“The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.”",
+         "heading" : "Gen 49:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: An “until” clause, but what date?",
+         "body" : "Genesis says Judah’s scepter will remain “until Shiloh comes.” Luke narrates Jesus’s birth, and Galatians says the time had fully come. The proposed link is a prediction of when the Messiah would arrive.",
+         "heading" : "An “until” clause, but what date?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The strongest Christian case",
+         "body" : "Read as a coming ruler, the verse suggests continuity until the Messiah arrives. Early Jewish messianic interpretation supports that horizon; Luke’s Davidic setting and Paul’s language of divine timing fit a Christian reading.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The deadline is missing",
+         "body" : "Genesis gives a sequence but no agreed historical definition of the scepter’s departure. Its central phrase is also disputed. The cited New Testament texts do not establish that missing endpoint, so the timing claim cannot be demonstrated.",
+         "heading" : "The deadline is missing",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-016/",
+   "title" : "Does Genesis set a deadline for Jesus’s birth?",
+   "verdict_category" : "insufficiently_specific"
+}

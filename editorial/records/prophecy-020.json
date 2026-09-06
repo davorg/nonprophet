@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-020",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 49:10 anticipates the allegiance of peoples to Judah’s ruler, and John 10:16 depicts Jesus fulfilling that international gathering through one flock under one shepherd.",
+    "type": "thematic_parallel",
+    "scope_notes": "Evaluate a broad canonical messianic connection rather than assuming that listening to a shepherd is identical to political obedience or that the verse uniquely predicts the later church."
+  },
+  "context": {
+    "summary": "Genesis 49:8–12 is Jacob’s poetic blessing of Judah. His brothers bow to him; leonine strength, continuing rule, the response of nations and extraordinary abundance follow. Verse 10 concerns Judahite rule, but its central phrase can be read as Shiloh coming, the arrival of a rightful ruler, or tribute coming to Judah. The shared audit records an early Jewish messianic reading in 4Q252, so messianic reception is not solely a Christian innovation.",
+    "shared_context_id": "genesis-49"
+  },
+  "strongest_case": {
+    "summary": "The BSB explicitly gives the coming figure the allegiance of nations, and an international horizon survives in several readings documented by the audit. Early Jewish messianic interpretation supports relating Judah’s rule to an expected Messiah. In John 10:16 Jesus brings other sheep into one flock under one shepherd, and they listen to his voice. Read as a gathering that reaches beyond Israel, this offers a coherent Christian picture of peoples united under the Messiah. It is the strongest broad canonical connection among these five claims.",
+    "reasoning": [
+      "The nations’ response is a substantive feature of the verse, not simply an invented later motif.",
+      "Early Jewish Davidic-messianic reception supports the royal horizon of a Christian reading.",
+      "John’s other sheep, listening and single shepherd provide a coherent gathering-and-allegiance analogy."
+    ],
+    "source_ids": [
+      "src-jfb-gen49",
+      "src-charlesworth-4q252",
+      "src-bsb-v59",
+      "src-net-gen49"
+    ]
+  },
+  "critical_case": {
+    "summary": "John 10:16 does not cite Genesis 49:10 or explicitly equate its other sheep with the nations in Judah’s blessing. Its image is one flock listening to a shepherd, not a report of international political obedience. Genesis’s disputed central phrase also affects whether allegiance belongs to a coming individual or Judah more broadly. The texts support a theological comparison, but they do not supply a unique identifying criterion or an independently testable account of completed worldwide rule.",
+    "reasoning": [
+      "A shared gathering motif does not itself establish direct literary dependence or fulfilment.",
+      "The international interpretation of John’s other sheep is part of the Christian synthesis, not an explicit Genesis citation.",
+      "Listening within one flock and the allegiance of nations overlap thematically without being identical descriptions."
+    ],
+    "source_ids": [
+      "src-net-gen49",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The BSB reads “until Shiloh comes” but notes “until the one to whom tribute belongs.” The shared audit also documents “until he comes to whom it belongs,” “until tribute comes to him,” and the Septuagint’s things stored up for him. These alternatives affect whether an individual arrival is in view; no reading independently identifies Jesus.",
+      "significance": "material",
+      "source_ids": [
+        "src-net-gen49",
+        "src-vanderkooij-gen49",
+        "src-steiner-2013",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "thematic_parallel_only",
+    "summary": "The nations’ allegiance and Jesus’s one flock form a strong broad Christian messianic connection. John does not explicitly interpret Genesis, and the pastoral image does not establish the promised international rule as a uniquely verifiable fulfilment. The verdict limits the predictive claim, not the coherence of the canonical reading.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-net-gen49",
+      "tier": 2,
+      "stance": "background",
+      "type": "commentary",
+      "title": "Genesis 49:10: translation and textual notes",
+      "author": "NET Bible translators",
+      "publisher": "NET Bible",
+      "url": "https://classic.net.bible.org/verse.php?book=Gen&chapter=49&tab=commentaries&verse=10",
+      "locator": "Genesis 49:10, translation and textual notes",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents competing constructions of the central phrase."
+    },
+    {
+      "id": "src-vanderkooij-gen49",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "The Septuagint of Gen 49,10",
+      "author": "Arie van der Kooij",
+      "publisher": "",
+      "url": "https://www.arievanderkooij.org/downloads/Arie_van_der_Kooij-0135.pdf",
+      "locator": "Discussion of Genesis 49:10 in the Septuagint",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit records the Greek wording about things stored up and the expectation of nations."
+    },
+    {
+      "id": "src-charlesworth-4q252",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "monograph",
+      "title": "The Bible and the Dead Sea Scrolls",
+      "author": "James H. Charlesworth et al.",
+      "publisher": "",
+      "url": "https://rexresearch1.com/DeadSeaScrolls/BibleDeadSeaScrolls1Charlesworth.pdf",
+      "locator": "pp. 389–390; Genesis 49:10 and 4Q252",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents an early Jewish Davidic-messianic interpretation; it does not identify Jesus."
+    },
+    {
+      "id": "src-steiner-2013",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Four Inner-Biblical Interpretations of Genesis 49:10",
+      "author": "Richard C. Steiner",
+      "publisher": "Journal of Biblical Literature 132.1 (2013)",
+      "url": "https://media.alhatorah.org/1Bereshit/49/Inner-Biblical%20-%20Richard%20Steiner%20-%20JBL%20132.pdf",
+      "locator": "pp. 33–60",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Listed in the shared audit for the verse’s interpretive alternatives; no additional source-specific conclusions inferred."
+    },
+    {
+      "id": "src-jfb-gen49",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "commentary",
+      "title": "A Commentary, Critical, Practical, and Explanatory on the Old and New Testaments: Genesis 49",
+      "author": "Robert Jamieson, A. R. Fausset, and David Brown",
+      "publisher": "Bible Hub electronic edition",
+      "url": "https://biblehub.com/commentaries/jfb/genesis/49.htm",
+      "locator": "comment on Genesis 49:10",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "A named Christian commentary identifies Shiloh as the Messiah and treats the gathering of the peoples to him as fulfilled after his coming."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 49:8–12; John 10:16",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Passages and Genesis 49:10 footnotes checked against the local data/scripture/bsb-v5.9.json store. Shared external-source findings are limited to editorial/audit-genesis-49.md."
+    }
+  ],
+  "reviews": [{
+    "reviewer": "adversarial_llm", "model": "GPT-5.5", "date": "2026-09-06", "prompt_version": "2",
+    "prompt_path": "editorial/review-prompts/prophecy-020-adversarial-2026-09-06.md",
+    "raw_output_path": "editorial/reviews/prophecy-020-adversarial-2026-09-06-raw.md",
+    "objections": [
+      {"objection": "John's other sheep may represent Gentiles, making the international connection stronger than a loose verbal echo.", "disposition": "accepted", "reason": "The strongest case grants this conditional canonical reading; the critique addresses its limited value as a unique, testable prediction."},
+      {"objection": "Royal allegiance and pastoral flock imagery are different but can express the same messianic hope.", "disposition": "accepted", "reason": "The article calls the connection coherent and limits only the claim that John demonstrates fulfilment of Genesis."},
+      {"objection": "Original meaning, Jewish reception, and Christian typology should remain distinct.", "disposition": "accepted", "reason": "The final copy distinguishes the disputed Genesis wording, early messianic reception, and the later Johannine theological comparison."}
+    ]
+  }],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Do Jesus’s “other sheep” fulfil the allegiance of the nations?",
+    "scripture_excerpt": "The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+    "website": {
+      "description": "An examination of Genesis 49:10 and the claim: Genesis 49:10 anticipates the allegiance of peoples to Judah’s ruler, and John 10:16 depicts Jesus fulfilling that international gathering through one flock under one shepherd.",
+      "summary": "Genesis pictures nations responding to Judah’s ruler. John pictures one flock listening to Jesus. The themes fit, but are they a testable prediction?",
+      "christian_case": "The BSB explicitly gives the coming figure the allegiance of nations, and an international horizon survives in several readings documented by the audit. Early Jewish messianic interpretation supports relating Judah’s rule to an expected Messiah. In John 10:16 Jesus brings other sheep into one flock under one shepherd, and they listen to his voice. Read as a gathering that reaches beyond Israel, this offers a coherent Christian picture of peoples united under the Messiah. It is the strongest broad canonical connection among these five claims.",
+      "critical_case": "John 10:16 does not cite Genesis 49:10 or explicitly equate its other sheep with the nations in Judah’s blessing. Its image is one flock listening to a shepherd, not a report of international political obedience. Genesis’s disputed central phrase also affects whether allegiance belongs to a coming individual or Judah more broadly. The texts support a theological comparison, but they do not supply a unique identifying criterion or an independently testable account of completed worldwide rule.",
+      "verdict_label": "Coherent messianic parallel; limited predictive evidence",
+      "verdict": "The nations’ allegiance and Jesus’s one flock form a strong broad Christian messianic connection. John does not explicitly interpret Genesis, and the pastoral image does not establish the promised international rule as a uniquely verifiable fulfilment. The verdict limits the predictive claim, not the coherence of the canonical reading."
+    },
+    "carousel": [
+      {
+        "heading": "Nations and one flock",
+        "body": "Genesis 49:10 describes the allegiance of nations. John 10:16 describes other sheep hearing Jesus’s voice and becoming one flock under one shepherd. Christians connect these pictures of a people gathered under one ruler.",
+        "alt_text": "Slide 1: Nations and one flock"
+      },
+      {
+        "heading": "A coherent messianic reading",
+        "body": "Several readings of Genesis retain an international horizon, and early Jewish interpretation is messianic. Read as a gathering beyond Israel, Jesus’s other sheep fit the hope of peoples united under Judah’s promised ruler.",
+        "alt_text": "Slide 2: A coherent messianic reading"
+      },
+      {
+        "heading": "A parallel with limits",
+        "body": "John does not cite Genesis, and one listening flock is not identical to international political obedience. The connection supports a Christian theological reading but does not uniquely identify Jesus through a testable prediction.",
+        "alt_text": "Slide 3: A parallel with limits"
+      }
+    ]
+  }
+}

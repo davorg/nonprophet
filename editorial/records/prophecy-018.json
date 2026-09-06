@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-018",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 49:10 calls the coming Messiah “Shiloh,” understood as “One Sent,” and John 17:3 fulfils this title by describing Jesus as sent by God.",
+    "type": "textual_translation",
+    "scope_notes": "Distinguish the possible messianic interpretation of Shiloh from the stronger lexical equation “Shiloh means One Sent” and the claim that John applies that name to Jesus."
+  },
+  "context": {
+    "summary": "Genesis 49:8–12 is Jacob’s poetic blessing of Judah. His brothers bow to him; leonine strength, continuing rule, the response of nations and extraordinary abundance follow. Verse 10 concerns Judahite rule, but its central phrase can be read as Shiloh coming, the arrival of a rightful ruler, or tribute coming to Judah. The shared audit records an early Jewish messianic reading in 4Q252, so messianic reception is not solely a Christian innovation.",
+    "shared_context_id": "genesis-49"
+  },
+  "strongest_case": {
+    "summary": "The BSB’s main text presents Shiloh as someone who comes and receives the allegiance of nations. Together with early Jewish messianic reception, this permits a Christian identification of the coming ruler with Jesus. The shared audit associates the “sent” interpretation with the Vulgate’s rendering, and John 17:3 explicitly describes Jesus as sent by God. That translation tradition supplies a route for the Christian association, even though the Hebrew derivation remains a separate question.",
+    "reasoning": [
+      "The BSB main reading permits Shiloh to function as a name or title.",
+      "Early Jewish messianic reception supports a messianic trajectory without specifying Jesus.",
+      "John’s sending language can resonate with the Vulgate-associated interpretation documented in the audit."
+    ],
+    "source_ids": [
+      "src-jfb-gen49",
+      "src-charlesworth-4q252",
+      "src-bsb-v59",
+      "src-net-gen49"
+    ]
+  },
+  "critical_case": {
+    "summary": "The central phrase has several substantial competing readings, including tribute and rightful possession. No biblical text independently establishes Shiloh as a name for the Messiah. The audit specifically rejects “sent” as a secure Hebrew etymology and associates it with the Vulgate’s rendering. John 17:3 uses ordinary mission language: it neither calls Jesus Shiloh nor cites Genesis 49:10. A traditional translation association therefore cannot establish the asserted Hebrew name prediction.",
+    "reasoning": [
+      "A contested rendering cannot be treated as an undisputed proper name.",
+      "The meaning “One Sent” is not established by the Hebrew term.",
+      "John 17:3 describes a mission rather than naming Jesus Shiloh or interpreting Genesis."
+    ],
+    "source_ids": [
+      "src-net-gen49",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The BSB reads “until Shiloh comes” but notes “until the one to whom tribute belongs.” The shared audit also documents “until he comes to whom it belongs,” “until tribute comes to him,” and the Septuagint’s things stored up for him. These alternatives affect whether an individual arrival is in view; no reading independently identifies Jesus.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-net-gen49",
+        "src-vanderkooij-gen49",
+        "src-steiner-2013",
+        "src-bsb-v59"
+      ]
+    },
+    {
+      "issue": "The audit associates “One Sent” with the Vulgate’s rendering rather than a secure Hebrew etymology. John 17:3 supplies sending language but no Shiloh title or Genesis citation.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-net-gen49",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "depends_on_disputed_text_or_translation",
+    "summary": "Reading Shiloh messianically is a possible interpretation within a genuine messianic reception history. Calling it a predicted name meaning “One Sent” goes further than the linguistic evidence, and John 17:3 does not supply the missing identification.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-net-gen49",
+      "tier": 2,
+      "stance": "background",
+      "type": "commentary",
+      "title": "Genesis 49:10: translation and textual notes",
+      "author": "NET Bible translators",
+      "publisher": "NET Bible",
+      "url": "https://classic.net.bible.org/verse.php?book=Gen&chapter=49&tab=commentaries&verse=10",
+      "locator": "Genesis 49:10, translation and textual notes",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents competing constructions of the central phrase."
+    },
+    {
+      "id": "src-vanderkooij-gen49",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "The Septuagint of Gen 49,10",
+      "author": "Arie van der Kooij",
+      "publisher": "",
+      "url": "https://www.arievanderkooij.org/downloads/Arie_van_der_Kooij-0135.pdf",
+      "locator": "Discussion of Genesis 49:10 in the Septuagint",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit records the Greek wording about things stored up and the expectation of nations."
+    },
+    {
+      "id": "src-charlesworth-4q252",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "monograph",
+      "title": "The Bible and the Dead Sea Scrolls",
+      "author": "James H. Charlesworth et al.",
+      "publisher": "",
+      "url": "https://rexresearch1.com/DeadSeaScrolls/BibleDeadSeaScrolls1Charlesworth.pdf",
+      "locator": "pp. 389–390; Genesis 49:10 and 4Q252",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents an early Jewish Davidic-messianic interpretation; it does not identify Jesus."
+    },
+    {
+      "id": "src-steiner-2013",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Four Inner-Biblical Interpretations of Genesis 49:10",
+      "author": "Richard C. Steiner",
+      "publisher": "Journal of Biblical Literature 132.1 (2013)",
+      "url": "https://media.alhatorah.org/1Bereshit/49/Inner-Biblical%20-%20Richard%20Steiner%20-%20JBL%20132.pdf",
+      "locator": "pp. 33–60",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Listed in the shared audit for the verse’s interpretive alternatives; no additional source-specific conclusions inferred."
+    },
+    {
+      "id": "src-jfb-gen49",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "commentary",
+      "title": "A Commentary, Critical, Practical, and Explanatory on the Old and New Testaments: Genesis 49",
+      "author": "Robert Jamieson, A. R. Fausset, and David Brown",
+      "publisher": "Bible Hub electronic edition",
+      "url": "https://biblehub.com/commentaries/jfb/genesis/49.htm",
+      "locator": "comment on Genesis 49:10",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "A named Christian commentary explicitly lists ‘the sent’ with John 17:3 as one interpretation of Shiloh and identifies the figure as the Messiah."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 49:8–12; John 17:3",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Passages and Genesis 49:10 footnotes checked against the local data/scripture/bsb-v5.9.json store. Shared external-source findings are limited to editorial/audit-genesis-49.md."
+    }
+  ],
+  "reviews": [{
+    "reviewer": "adversarial_llm", "model": "GPT-5.5", "date": "2026-09-06", "prompt_version": "2",
+    "prompt_path": "editorial/review-prompts/prophecy-018-adversarial-2026-09-06.md",
+    "raw_output_path": "editorial/reviews/prophecy-018-adversarial-2026-09-06-raw.md",
+    "objections": [
+      {"objection": "The article should acknowledge that ‘the sent’ is a documented Christian interpretation, not dismiss it as invented.", "disposition": "accepted", "reason": "The strongest case expressly presents the JFB and Vulgate-associated tradition before testing its Hebrew basis."},
+      {"objection": "John 17:3 may participate in a theological fulfilment pattern without citing Genesis.", "disposition": "accepted", "reason": "The article grants a traditional typological association while distinguishing it from the claim that Genesis predicted a name meaning ‘One Sent’."},
+      {"objection": "The competing readings of Genesis 49:10 materially weaken the lexical claim.", "disposition": "accepted", "reason": "The translation dispute is central to both the critical case and the verdict category."}
+    ]
+  }],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Is “Shiloh” a name meaning “One Sent”?",
+    "scripture_excerpt": "The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+    "website": {
+      "description": "An examination of Genesis 49:10 and the claim: Genesis 49:10 calls the coming Messiah “Shiloh,” understood as “One Sent,” and John 17:3 fulfils this title by describing Jesus as sent by God.",
+      "summary": "Genesis’s disputed word and John’s language of sending can be linked devotionally. Do they establish a predicted name?",
+      "christian_case": "The BSB’s main text presents Shiloh as someone who comes and receives the allegiance of nations. Together with early Jewish messianic reception, this permits a Christian identification of the coming ruler with Jesus. The shared audit associates the “sent” interpretation with the Vulgate’s rendering, and John 17:3 explicitly describes Jesus as sent by God. That translation tradition supplies a route for the Christian association, even though the Hebrew derivation remains a separate question.",
+      "critical_case": "The central phrase has several substantial competing readings, including tribute and rightful possession. No biblical text independently establishes Shiloh as a name for the Messiah. The audit specifically rejects “sent” as a secure Hebrew etymology and associates it with the Vulgate’s rendering. John 17:3 uses ordinary mission language: it neither calls Jesus Shiloh nor cites Genesis 49:10. A traditional translation association therefore cannot establish the asserted Hebrew name prediction.",
+      "verdict_label": "Disputed title; unsupported “One Sent” equation",
+      "verdict": "Reading Shiloh messianically is a possible interpretation within a genuine messianic reception history. Calling it a predicted name meaning “One Sent” goes further than the linguistic evidence, and John 17:3 does not supply the missing identification."
+    },
+    "carousel": [
+      {
+        "heading": "A predicted name for Jesus?",
+        "body": "The BSB reads “until Shiloh comes.” John 17:3 calls Jesus the one God sent. The proposed fulfilment equates Shiloh with “One Sent.”",
+        "alt_text": "Slide 1: A predicted name for Jesus?"
+      },
+      {
+        "heading": "How the connection arises",
+        "body": "A coming ruler fits a messianic reading, and the audit traces the “sent” interpretation to the Vulgate’s rendering. Christians can connect that translation tradition with Jesus’s mission from God.",
+        "alt_text": "Slide 2: How the connection arises"
+      },
+      {
+        "heading": "The equation is not established",
+        "body": "Shiloh is disputed, and “sent” is not a secure Hebrew meaning. Other readings concern tribute or rightful possession. John neither names Jesus Shiloh nor cites Genesis, so it does not establish fulfilment of a predicted name.",
+        "alt_text": "Slide 3: The equation is not established"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-019",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 49:10: The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+         "body" : "“The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.”",
+         "heading" : "Gen 49:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: A deadline before identity disappears?",
+         "body" : "The claim says the Messiah must come before Judah loses its identity. Genesis 49:10 actually speaks of the scepter and staff; John 11 describes leaders fearing Roman intervention.",
+         "heading" : "A deadline before identity disappears?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The strongest Christian connection",
+         "body" : "A messianic reading can connect Judah’s continuity with the arrival of its ruler. John portrays Jesus while national institutions still operate, and interprets Caiaphas’s words as prophecy about Jesus’s saving death and gathering of God’s children.",
+         "heading" : "The strongest Christian connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The cited texts do not set that deadline",
+         "body" : "Rule is not the same as tribal identity. Genesis defines no loss of identity, and John’s prophecy concerns death and gathering. Turning these passages into an identity deadline adds a condition neither passage states.",
+         "heading" : "The cited texts do not set that deadline",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-019/",
+   "title" : "Did the Messiah have to come before Judah lost its identity?",
+   "verdict_category" : "source_claim_incorrect"
+}

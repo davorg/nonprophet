@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-016",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 49:10 sets the time of the Messiah’s coming, fulfilled by Jesus’s birth as narrated in Luke 2:1–7 and described as the fullness of time in Galatians 4:4.",
+    "type": "prediction",
+    "scope_notes": "Assess the claimed chronological prediction separately from the broader expectation of Judahite messianic rule. Neither the birth narrative nor the phrase “time had fully come” supplies Genesis’s missing deadline."
+  },
+  "context": {
+    "summary": "Genesis 49:8–12 is Jacob’s poetic blessing of Judah. His brothers bow to him; leonine strength, continuing rule, the response of nations and extraordinary abundance follow. Verse 10 concerns Judahite rule, but its central phrase can be read as Shiloh coming, the arrival of a rightful ruler, or tribute coming to Judah. The shared audit records an early Jewish messianic reading in 4Q252, so messianic reception is not solely a Christian innovation.",
+    "shared_context_id": "genesis-49"
+  },
+  "strongest_case": {
+    "summary": "On an individual-ruler reading, Judah retains the scepter until the expected ruler arrives. The early Jewish interpretation in 4Q252 supports a Davidic-messianic horizon. Luke places Jesus’s birth in a historical setting and identifies Joseph with David’s house; Galatians describes God sending His Son when the time had fully come. Christians can read these together as the arrival of Judah’s promised ruler at God’s appointed time.",
+    "reasoning": [
+      "The “until” clause supplies a temporal relationship if the disputed phrase refers to a coming individual.",
+      "4Q252 supports an early Jewish messianic interpretation of Judah’s rule.",
+      "Luke 2 links the birth setting to David’s house, while Galatians 4:4 affirms divine timing."
+    ],
+    "source_ids": [
+      "src-jfb-gen49",
+      "src-charlesworth-4q252",
+      "src-bsb-v59",
+      "src-net-gen49"
+    ]
+  },
+  "critical_case": {
+    "summary": "Genesis can express a sequence without naming a calendar date, but it does not define the event that counts as the scepter departing. A deadline at Jesus’s birth requires an additional account of how Judahite rule continued through foreign and non-Davidic governments and when it ended. The tribute reading need not describe a Messiah’s arrival at all. Luke 2 and Galatians 4:4 do not cite this verse or establish the missing chronological link. Their statements about Jesus’s birth and divine timing do not demonstrate a deadline derived from Genesis.",
+    "reasoning": [
+      "An “until” clause is not itself a dated prediction.",
+      "Selecting a historical loss of the scepter requires criteria that Genesis does not provide.",
+      "The cited New Testament passages offer no explicit interpretation of Genesis 49:10 or determinate historical endpoint for it."
+    ],
+    "source_ids": [
+      "src-net-gen49",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The BSB reads “until Shiloh comes” but notes “until the one to whom tribute belongs.” The shared audit also documents “until he comes to whom it belongs,” “until tribute comes to him,” and the Septuagint’s things stored up for him. These alternatives affect whether an individual arrival is in view; no reading independently identifies Jesus.",
+      "significance": "material",
+      "source_ids": [
+        "src-net-gen49",
+        "src-vanderkooij-gen49",
+        "src-steiner-2013",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "insufficiently_specific",
+    "summary": "A Christian reading can connect Judah’s expected ruler with Jesus and affirm divine timing. Genesis 49:10 does not supply a determinate deadline against which Jesus’s birth can be tested. The chronological fulfilment claim exceeds the evidence.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-net-gen49",
+      "tier": 2,
+      "stance": "background",
+      "type": "commentary",
+      "title": "Genesis 49:10: translation and textual notes",
+      "author": "NET Bible translators",
+      "publisher": "NET Bible",
+      "url": "https://classic.net.bible.org/verse.php?book=Gen&chapter=49&tab=commentaries&verse=10",
+      "locator": "Genesis 49:10, translation and textual notes",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents competing constructions of the central phrase."
+    },
+    {
+      "id": "src-vanderkooij-gen49",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "The Septuagint of Gen 49,10",
+      "author": "Arie van der Kooij",
+      "publisher": "",
+      "url": "https://www.arievanderkooij.org/downloads/Arie_van_der_Kooij-0135.pdf",
+      "locator": "Discussion of Genesis 49:10 in the Septuagint",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit records the Greek wording about things stored up and the expectation of nations."
+    },
+    {
+      "id": "src-charlesworth-4q252",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "monograph",
+      "title": "The Bible and the Dead Sea Scrolls",
+      "author": "James H. Charlesworth et al.",
+      "publisher": "",
+      "url": "https://rexresearch1.com/DeadSeaScrolls/BibleDeadSeaScrolls1Charlesworth.pdf",
+      "locator": "pp. 389–390; Genesis 49:10 and 4Q252",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Shared audit documents an early Jewish Davidic-messianic interpretation; it does not identify Jesus."
+    },
+    {
+      "id": "src-steiner-2013",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Four Inner-Biblical Interpretations of Genesis 49:10",
+      "author": "Richard C. Steiner",
+      "publisher": "Journal of Biblical Literature 132.1 (2013)",
+      "url": "https://media.alhatorah.org/1Bereshit/49/Inner-Biblical%20-%20Richard%20Steiner%20-%20JBL%20132.pdf",
+      "locator": "pp. 33–60",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Listed in the shared audit for the verse’s interpretive alternatives; no additional source-specific conclusions inferred."
+    },
+    {
+      "id": "src-jfb-gen49",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "commentary",
+      "title": "A Commentary, Critical, Practical, and Explanatory on the Old and New Testaments: Genesis 49",
+      "author": "Robert Jamieson, A. R. Fausset, and David Brown",
+      "publisher": "Bible Hub electronic edition",
+      "url": "https://biblehub.com/commentaries/jfb/genesis/49.htm",
+      "locator": "comment on Genesis 49:10",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "A named Christian commentary presenting the strongest combined case: Shiloh is the Messiah, possible senses include ‘the sent’ and ‘the seed’, Judah's rule persists until his coming, and the peoples gather to him."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 49:8–12; Luke 2:1–7; Galatians 4:4",
+      "accessed": "2026-09-06",
+      "checked": true,
+      "notes": "Passages and Genesis 49:10 footnotes checked against the local data/scripture/bsb-v5.9.json store. Shared external-source findings are limited to editorial/audit-genesis-49.md."
+    }
+  ],
+  "reviews": [{
+    "reviewer": "adversarial_llm", "model": "GPT-5.5", "date": "2026-09-06", "prompt_version": "2",
+    "prompt_path": "editorial/review-prompts/prophecy-016-adversarial-2026-09-06.md",
+    "raw_output_path": "editorial/reviews/prophecy-016-adversarial-2026-09-06-raw.md",
+    "objections": [
+      {"objection": "A chronological prediction need not state a calendar date; the scepter could supply a historical condition.", "disposition": "accepted", "reason": "The critique now grants conditional timing and focuses on the absence of a defined, historically established endpoint."},
+      {"objection": "The strongest case should state the traditional claim that Judah retained recognizable authority until the Messiah.", "disposition": "accepted", "reason": "The strongest case states that reading, while noting that applying it requires criteria and a defensible chronology."},
+      {"objection": "Luke and Galatians may function as canonical fulfilment context without calculating Genesis.", "disposition": "accepted", "reason": "The article permits that theological reading and limits its conclusion to a demonstrable chronological claim."},
+      {"objection": "Possible problems with Luke's census chronology should be investigated.", "disposition": "rejected", "reason": "The claim under review depends on Genesis's alleged deadline, not on using Luke's census to date the birth; introducing that separate debate would not resolve this claim."}
+    ]
+  }],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Does Genesis set a deadline for Jesus’s birth?",
+    "scripture_excerpt": "The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+    "website": {
+      "description": "An examination of Genesis 49:10 and the claim: Genesis 49:10 sets the time of the Messiah’s coming, fulfilled by Jesus’s birth as narrated in Luke 2:1–7 and described as the fullness of time in Galatians 4:4.",
+      "summary": "The verse has an “until” clause. Does that establish when Jesus had to come?",
+      "christian_case": "On an individual-ruler reading, Judah retains the scepter until the expected ruler arrives. The early Jewish interpretation in 4Q252 supports a Davidic-messianic horizon. Luke places Jesus’s birth in a historical setting and identifies Joseph with David’s house; Galatians describes God sending His Son when the time had fully come. Christians can read these together as the arrival of Judah’s promised ruler at God’s appointed time.",
+      "critical_case": "Genesis can express a sequence without naming a calendar date, but it does not define the event that counts as the scepter departing. A deadline at Jesus’s birth requires an additional account of how Judahite rule continued through foreign and non-Davidic governments and when it ended. The tribute reading need not describe a Messiah’s arrival at all. Luke 2 and Galatians 4:4 do not cite this verse or establish the missing chronological link. Their statements about Jesus’s birth and divine timing do not demonstrate a deadline derived from Genesis.",
+      "verdict_label": "Messianic expectation; no demonstrable deadline",
+      "verdict": "A Christian reading can connect Judah’s expected ruler with Jesus and affirm divine timing. Genesis 49:10 does not supply a determinate deadline against which Jesus’s birth can be tested. The chronological fulfilment claim exceeds the evidence."
+    },
+    "carousel": [
+      {
+        "heading": "An “until” clause, but what date?",
+        "body": "Genesis says Judah’s scepter will remain “until Shiloh comes.” Luke narrates Jesus’s birth, and Galatians says the time had fully come. The proposed link is a prediction of when the Messiah would arrive.",
+        "alt_text": "Slide 1: An “until” clause, but what date?"
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "Read as a coming ruler, the verse suggests continuity until the Messiah arrives. Early Jewish messianic interpretation supports that horizon; Luke’s Davidic setting and Paul’s language of divine timing fit a Christian reading.",
+        "alt_text": "Slide 2: The strongest Christian case"
+      },
+      {
+        "heading": "The deadline is missing",
+        "body": "Genesis gives a sequence but no agreed historical definition of the scepter’s departure. Its central phrase is also disputed. The cited New Testament texts do not establish that missing endpoint, so the timing claim cannot be demonstrated.",
+        "alt_text": "Slide 3: The deadline is missing"
+      }
+    ]
+  }
+}

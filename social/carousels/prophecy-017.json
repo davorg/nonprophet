@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-017",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 49:10: The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.",
+         "body" : "“The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.”",
+         "heading" : "Gen 49:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: Jesus in Judah’s family",
+         "body" : "Genesis gives Judah the scepter; Luke’s genealogy names Judah among Jesus’s ancestors. The inherited claim calls this “The Seed of Judah,” although Genesis 49:10 does not use “seed.”",
+         "heading" : "Jesus in Judah’s family",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: A real ancestral qualification",
+         "body" : "The blessing concerns Judahite rule, and an early Jewish reading gives it a Davidic-messianic horizon. Within Luke’s narrative, Jesus belongs to the relevant family. Christians can include this in a broader case for his messiahship.",
+         "heading" : "A real ancestral qualification",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: Ancestry alone cannot identify him",
+         "body" : "Judah has many descendants. Genesis does not predict a particular birth, and Luke does not cite the verse as fulfilled. The connection establishes ancestral compatibility, while identifying Jesus as the ruler requires further argument.",
+         "heading" : "Ancestry alone cannot identify him",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-017/",
+   "title" : "Does Judahite ancestry identify the Messiah?",
+   "verdict_category" : "insufficiently_specific"
+}
