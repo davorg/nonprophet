@@ -40,7 +40,7 @@ jobs:
         run: perl scripts/check_editorial.pl
 
       - name: Install Jekyll
-        run: gem install jekyll -v 3.10.0 --no-document
+        run: gem install jekyll -v 3.10.0 kramdown-parser-gfm --no-document
 
       - name: Build site
         run: jekyll build --source docs --destination _site
