@@ -25,3 +25,9 @@ files say so in their front matter and should not be edited directly.
 A claim appears publicly only when its entry in `data/publication.json` has state
 `published`. The site also generates `/feed.xml`, `/sitemap.xml`, and social
 metadata using the default Open Graph image in `docs/assets/images/`.
+
+The `Publish daily claim` GitHub Actions workflow runs at 03:05 UTC. It publishes
+the lowest-numbered withheld claim whose editorial record is ready, rebuilds and
+deploys the site, and opens an issue when fewer than five reviewed claims remain.
+It can also be run manually. Test queue selection without changing files with
+`scripts/publish_next_claim.pl --dry-run`.

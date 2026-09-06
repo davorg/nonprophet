@@ -6,6 +6,15 @@
     {"claim_id":"prophecy-003","state":"published","scheduled_date":"2026-09-06","published_url":"https://nonprophet.app/claims/prophecy-003/","social_ids":{}},
     {"claim_id":"prophecy-004","state":"published","scheduled_date":"2026-09-06","published_url":"https://nonprophet.app/claims/prophecy-004/","social_ids":{}},
     {"claim_id":"prophecy-005","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
-    {"claim_id":"prophecy-006","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}}
+    {"claim_id":"prophecy-006","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-007","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-008","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-009","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-010","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-011","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-012","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-013","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-014","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}},
+    {"claim_id":"prophecy-015","state":"withheld","scheduled_date":null,"published_url":null,"social_ids":{}}
   ]
 }

@@ -10,6 +10,7 @@ perl -c scripts/import_bsb.pl
 perl -c scripts/normalize_references.pl
 perl -c scripts/check_editorial.pl
 perl -c scripts/generate_publication_copy.pl
+perl -c scripts/publish_next_claim.pl
 perl -c scripts/track_claim.pl
 perl -c scripts/report_metrics.pl
 perl -c scripts/generate_review_packet.pl

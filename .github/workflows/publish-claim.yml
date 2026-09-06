@@ -1,0 +1,79 @@
+name: Publish daily claim
+
+on:
+  schedule:
+    - cron: "5 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: publish-daily-claim
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Publish next reviewed claim
+        id: publish
+        run: perl scripts/publish_next_claim.pl >> "$GITHUB_OUTPUT"
+
+      - name: Regenerate publication files
+        if: steps.publish.outputs.claim_id != ''
+        run: perl scripts/generate_publication_copy.pl
+
+      - name: Validate editorial and publication state
+        run: perl scripts/check_editorial.pl
+
+      - name: Install Jekyll
+        run: gem install jekyll -v 3.10.0 --no-document
+
+      - name: Build site
+        run: jekyll build --source docs --destination _site
+
+      - name: Commit publication
+        if: steps.publish.outputs.claim_id != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/publication.json docs/_claims
+          git commit -m "Publish ${{ steps.publish.outputs.claim_id }}"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Warn when publication queue is low
+        if: steps.publish.outputs.low == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REMAINING: ${{ steps.publish.outputs.remaining }}
+        run: |
+          echo "::warning::Only $REMAINING reviewed claims remain in the publication queue."
+          existing=$(gh issue list --state open --search 'Publication queue is running low in:title' --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh issue create \
+              --title "Publication queue is running low" \
+              --body "Only $REMAINING reviewed claims remain ready for daily publication. Please prepare another batch."
+          fi

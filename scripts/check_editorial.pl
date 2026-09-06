@@ -104,5 +104,10 @@ for my $entry (@{$publication->{entries}}) {
     }
 }
 
+for my $id (sort keys %editorial_status) {
+    push @errors, "$id: ready record is missing from publication registry"
+        if $editorial_status{$id} eq 'ready_to_publish' && !$publication_ids{$id};
+}
+
 die join("\n", @errors) . "\n" if @errors;
 print "Editorial checks passed for $records records\n";
