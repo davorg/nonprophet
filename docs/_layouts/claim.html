@@ -23,7 +23,8 @@ body_class: claim-page
         <p class="section-number" aria-hidden="true">02</p><div><h2 id="critical-case">Why it is less convincing</h2>{{ page.critical_case | markdownify }}</div>
       </section>
       <section class="verdict" aria-labelledby="verdict">
-        <p class="verdict-label">Our assessment</p><h2 id="verdict">{{ page.verdict_label }}</h2><p>{{ page.verdict }}</p>
+        {% assign verdict = site.data.verdicts[page.verdict_category] %}{% assign verdict_slug = page.verdict_category | replace: '_', '-' %}
+        <p class="verdict-label">Our assessment</p><a class="verdict-pill" href="{{ '/verdicts/' | append: verdict_slug | append: '/' | relative_url }}" aria-label="View all claims with verdict: {{ verdict.label }}">{{ verdict.label }}</a><h2 id="verdict">{{ page.verdict_label }}</h2><p>{{ page.verdict }}</p>
       </section>
       <section class="sources" aria-labelledby="sources"><h2 id="sources">Sources and further reading</h2>{{ content }}</section>
       {% assign published_claims = site.claims | where: 'publication_state', 'published' | sort: 'claim_number' %}

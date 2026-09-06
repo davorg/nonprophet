@@ -1,7 +1,7 @@
-{% assign claim = include.claim %}{% assign verdict = site.data.verdicts[claim.verdict_category] %}
+{% assign claim = include.claim %}{% assign verdict = site.data.verdicts[claim.verdict_category] %}{% assign verdict_slug = claim.verdict_category | replace: '_', '-' %}
 <article class="claim-card{% if include.featured %} claim-card-featured{% endif %}">
   <div class="claim-card-meta"><span>Claim {{ claim.claim_number }}</span><span>{{ claim.ot_reference }}</span></div>
   <h3><a href="{{ claim.url | relative_url }}">{{ claim.title }}</a></h3>
   <p>{{ claim.summary }}</p>
-  <footer><span class="verdict-pill">{{ verdict.label | default: claim.verdict_label }}</span><time datetime="{{ claim.publication_date }}">{{ claim.publication_date | date: '%-d %B %Y' }}</time></footer>
+  <footer><a class="verdict-pill" href="{{ '/verdicts/' | append: verdict_slug | append: '/' | relative_url }}" aria-label="View all claims with verdict: {{ verdict.label | default: claim.verdict_label }}">{{ verdict.label | default: claim.verdict_label }}</a><time datetime="{{ claim.publication_date }}">{{ claim.publication_date | date: '%-d %B %Y' }}</time></footer>
 </article>
