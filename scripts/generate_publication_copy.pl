@@ -39,6 +39,14 @@ my %book_names = (
     Hos => 'Hosea', Joel => 'Joel', Jonah => 'Jonah', Mic => 'Micah',
     Hag => 'Haggai', Zech => 'Zechariah', Mal => 'Malachi',
 );
+my %ebible_codes = (
+    Gen => 'GEN', Exod => 'EXO', Lev => 'LEV', Num => 'NUM', Deut => 'DEU',
+    Josh => 'JOS', Ruth => 'RUT', '1Sam' => '1SA', '2Sam' => '2SA',
+    '2Kgs' => '2KI', '1Chr' => '1CH', Job => 'JOB', Ps => 'PSA',
+    Prov => 'PRO', Song => 'SNG', Isa => 'ISA', Jer => 'JER', Ezek => 'EZK',
+    Dan => 'DAN', Hos => 'HOS', Joel => 'JOL', Jonah => 'JON', Mic => 'MIC',
+    Hag => 'HAG', Zech => 'ZEC', Mal => 'MAL',
+);
 my @record_paths = sort glob "$root/editorial/records/*.json";
 make_path("$root/docs/_claims", "$root/social/carousels");
 
@@ -56,6 +64,9 @@ for my $record_path (@record_paths) {
     my $published = $publication_state eq 'published' ? 'true' : 'false';
     my ($book_abbreviation) = $claim->{ot_passage}{source} =~ /^(\S+)/;
     my $book = $book_names{$book_abbreviation} // $book_abbreviation;
+    my ($chapter, $verse) = $claim->{ot_passage}{source} =~ /\s(\d+):(\d+)/;
+    my $ebible_code = $ebible_codes{$book_abbreviation} // die "No eBible code for $book_abbreviation\n";
+    my $ot_text_url = sprintf 'https://ebible.org/engbsb/%s%02d.htm#V%d', $ebible_code, $chapter, $verse;
     my $ot_text = join ' ', map { $_->{text} } @{$claim->{ot_text}{verses}};
     my $ot_note = join ' ', map { @{$_->{notes}} } @{$claim->{ot_text}{verses}};
     my @frontmatter = (
@@ -73,6 +84,7 @@ for my $record_path (@record_paths) {
         'verdict_category: ' . yaml_string($record->{verdict}{category}),
         'summary: ' . yaml_string($website->{summary}),
         'ot_reference: ' . yaml_string($claim->{ot_passage}{source}),
+        'ot_text_url: ' . yaml_string($ot_text_url),
         'ot_text: ' . yaml_string($ot_text),
         'ot_note: ' . yaml_string($ot_note),
         'christian_case: ' . yaml_string($website->{christian_case}),

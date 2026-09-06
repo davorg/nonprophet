@@ -12,7 +12,7 @@ body_class: claim-page
         <p class="claim-summary">{{ page.summary }}</p>
       </header>
       <section class="scripture-card" aria-labelledby="ot-text">
-        <div class="section-heading"><h2 id="ot-text">The Old Testament text</h2><span>{{ page.ot_reference }} · BSB</span></div>
+        <div class="section-heading"><h2 id="ot-text">The Old Testament text</h2><a href="{{ page.ot_text_url }}" target="_blank" rel="noopener noreferrer" aria-label="Read {{ page.ot_reference }} in the Berean Standard Bible">{{ page.ot_reference }} · BSB <span aria-hidden="true">↗</span></a></div>
         <blockquote>{{ page.ot_text }}</blockquote>
         {% if page.ot_note %}<p class="text-note"><strong>Translation note:</strong> {{ page.ot_note }}</p>{% endif %}
       </section>

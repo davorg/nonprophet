@@ -28,6 +28,7 @@ rg -q 'Claim 1' "$site_check_dir/public/claims/index.html"
 ! rg -q 'Claim 5' "$site_check_dir/public/claims/index.html"
 rg -q 'Why Christians see a prophecy' "$site_check_dir/preview/claims/prophecy-001/index.html"
 rg -q 'Why it is less convincing' "$site_check_dir/preview/claims/prophecy-001/index.html"
+rg -q 'href="https://ebible.org/engbsb/GEN03.htm#V15"' "$site_check_dir/public/claims/prophecy-001/index.html"
 jq -e '(.slides | length == 4) and (.slides[0].type == "scripture")' "$repo_dir/social/carousels/prophecy-001.json" >/dev/null
 jq -e '(.slides | length == 4) and (.slides[0].type == "scripture")' "$repo_dir/social/carousels/prophecy-002.json" >/dev/null
 identify "$repo_dir"/social/rendered/prophecy-*/instagram/slide-*.jpg | \
