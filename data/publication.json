@@ -3,21 +3,21 @@
       {
          "claim_id" : "prophecy-001",
          "published_url" : "https://nonprophet.app/claims/prophecy-001/",
-         "scheduled_date" : "2026-09-06",
+         "scheduled_date" : "2026-09-04",
          "social_ids" : {},
          "state" : "published"
       },
       {
          "claim_id" : "prophecy-002",
          "published_url" : "https://nonprophet.app/claims/prophecy-002/",
-         "scheduled_date" : "2026-09-06",
+         "scheduled_date" : "2026-09-04",
          "social_ids" : {},
          "state" : "published"
       },
       {
          "claim_id" : "prophecy-003",
          "published_url" : "https://nonprophet.app/claims/prophecy-003/",
-         "scheduled_date" : "2026-09-06",
+         "scheduled_date" : "2026-09-05",
          "social_ids" : {},
          "state" : "published"
       },
@@ -30,10 +30,10 @@
       },
       {
          "claim_id" : "prophecy-005",
-         "published_url" : "https://nonprophet.app/claims/prophecy-005/",
-         "scheduled_date" : "2026-09-06",
+         "published_url" : null,
+         "scheduled_date" : null,
          "social_ids" : {},
-         "state" : "published"
+         "state" : "withheld"
       },
       {
          "claim_id" : "prophecy-006",

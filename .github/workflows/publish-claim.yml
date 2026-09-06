@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "5 3 * * *"
   workflow_dispatch:
+    inputs:
+      publish_claim:
+        description: Publish the next claim before deploying
+        type: boolean
+        default: true
 
 concurrency:
   group: publish-daily-claim
@@ -30,6 +35,7 @@ jobs:
 
       - name: Publish next reviewed claim
         id: publish
+        if: github.event_name == 'schedule' || inputs.publish_claim
         run: perl scripts/publish_next_claim.pl >> "$GITHUB_OUTPUT"
 
       - name: Regenerate publication files

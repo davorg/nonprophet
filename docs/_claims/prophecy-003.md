@@ -7,7 +7,7 @@ robots: "index, follow"
 claim_number: 3
 editorial_status: "ready_to_publish"
 publication_state: "published"
-publication_date: "2026-09-06"
+publication_date: "2026-09-05"
 book: "Genesis"
 verdict_category: "plausible_typology_not_prediction"
 summary: "Genesis says God took Enoch; the New Testament says Jesus was taken into heaven. Is that fulfilled prophecy—or a later theological pattern?"

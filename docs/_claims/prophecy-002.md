@@ -7,7 +7,7 @@ robots: "index, follow"
 claim_number: 2
 editorial_status: "ready_to_publish"
 publication_state: "published"
-publication_date: "2026-09-06"
+publication_date: "2026-09-04"
 book: "Genesis"
 verdict_category: "retrospective_rereading"
 summary: "Christians often identify the garden serpent with Satan and its promised opponent with Jesus. How much of that is actually present in Genesis?"
