@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-014",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Jesus's promise of angels ascending and descending on the Son of Man deliberately reworks Jacob's ladder vision, presenting Jesus as the meeting point between heaven and earth.",
+    "type": "nt_typology",
+    "scope_notes": "John 1:51 is a strong verbal allusion, though it does not use the noun ladder or fulfilment language. Scholarly proposals differ over whether Jesus replaces the ladder, Jacob, Bethel, or combines several motifs."
+  },
+  "context": {
+    "summary": "Fleeing from Esau, Jacob dreams of a stairway or ladder between earth and heaven with angels ascending and descending; God stands above or beside it and renews the ancestral promises. Jacob calls the place God's house and heaven's gate. John 1:51 repeats the distinctive angel movement but places it ‘on the Son of Man.’",
+    "shared_context_id": "jacob-bethel"
+  },
+  "strongest_case": {
+    "summary": "The verbal echo is unmistakable and Jesus himself is the new element occupying the position associated with access between realms. John's prologue already presents the Word becoming flesh and revealing God, so reading the Son of Man as the locus of divine-human communion fits both Genesis's imagery and Johannine theology.",
+    "reasoning": [
+      "The rare paired phrase ‘angels of God ascending and descending’ closely reproduces Genesis 28:12 and strongly establishes deliberate allusion.",
+      "John relocates the angelic movement ‘on the Son of Man,’ making Jesus central to the promised open-heaven vision without specifying a simple one-to-one replacement.",
+      "Jacob's interpretation of the site as God's house and heaven's gate coheres with John's themes of Jesus as divine presence and access.",
+      "Christian interpreters can call this fulfilment or typology without claiming that Jacob consciously predicted the name Jesus."
+    ],
+    "source_ids": [
+      "src-kim-2015",
+      "src-steyn-2015",
+      "src-reformation-john151",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Genesis narrates a dream assuring Jacob of God's presence, land and descendants; it does not predict a future human bridge. John unquestionably reuses its imagery, but what Jesus replaces is debated, and adding detailed ‘ladder equals mediator’ theology can outrun the allusion. This is one of the list's strongest NT reinterpretations, not a prediction recoverable from Genesis alone.",
+    "reasoning": [
+      "Genesis's immediate recipient is Jacob, and the following divine speech concerns his journey and ancestral promises.",
+      "John changes the image: it mentions no ladder, Bethel or gate, and places the angelic movement on the Son of Man.",
+      "Van der Watt warns that interpreters often import Jacob, ladder and Bethel themes beyond what John 1:51 itself states.",
+      "The deliberate allusion supports christological rereading with high confidence; it does not show that Genesis's original narrative encoded an independently identifiable Messiah."
+    ],
+    "source_ids": [
+      "src-van-der-watt-2016",
+      "src-steyn-2015",
+      "src-kim-2015",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The Hebrew sullam may be rendered ladder or stairway. John 1:51 does not repeat the noun; its decisive link is the angels ascending and descending.",
+      "significance": "minor",
+      "source_ids": [
+        "src-steyn-2015",
+        "src-bsb-v59"
+      ]
+    },
+    {
+      "issue": "Interpretations variously make the Son of Man correspond to the ladder, Jacob, the place of revelation or a combination; the allusion is clearer than any single detailed mapping.",
+      "significance": "material",
+      "source_ids": [
+        "src-van-der-watt-2016",
+        "src-kim-2015"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "John deliberately and strikingly reapplies Jacob's open-heaven vision to the Son of Man, making this strong authorial Christian typology. Genesis itself reassures Jacob and predicts no future bridge-person. Jesus as the meeting point of heaven and earth is a compelling Johannine interpretation, not the original forecast of Genesis 28:12.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-kim-2015",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "John 1:51 and the Motif of Jacob's Ladder in Genesis 28:12",
+      "author": "Jaesoon Kim",
+      "publisher": "HTS Teologiese Studies 71.3",
+      "url": "https://repository.up.ac.za/items/13184025-6f39-4c9f-879b-55944e3f39c4",
+      "locator": "abstract and full article",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Argues that John uses Jacob's vision to present Jesus as apocalyptic Son of Man and fulfilment of the promise."
+    },
+    {
+      "id": "src-steyn-2015",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "The Text Form of LXX Genesis 28:12 by Philo of Alexandria and in the Jesus-Logion of John 1:51",
+      "author": "Gert J. Steyn",
+      "publisher": "In die Skriflig 49.2",
+      "url": "https://indieskriflig.org.za/index.php/skriflig/article/view/1945/3370",
+      "locator": "comparison of Genesis 28:12 LXX and John 1:51",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Examines the textual allusion and identifies revelation/connection between heaven and earth as the comparison."
+    },
+    {
+      "id": "src-van-der-watt-2016",
+      "tier": 1,
+      "stance": "critical_case",
+      "type": "journal_article",
+      "title": "Intertextuality and Over-Interpretation: References to Genesis 28:12 in John 1:51?",
+      "author": "Jan van der Watt",
+      "publisher": "In die Skriflig 50.3",
+      "url": "https://indieskriflig.org.za/index.php/skriflig/article/view/2114/0",
+      "locator": "full article and conclusion",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Accepts the intertextual question while warning against importing unmentioned ladder, Jacob and Bethel details."
+    },
+    {
+      "id": "src-reformation-john151",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "commentary",
+      "title": "Reformation Study Bible: John 1:51",
+      "author": "Ligonier Ministries",
+      "publisher": "Bible Gateway electronic edition",
+      "url": "https://www.biblegateway.com/resources/reformation-study-bible/John.1.51",
+      "locator": "note on John 1:51",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "States the classic Christian view that Jesus is the reality to which Jacob's stairway pointed."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 28:10-17; John 1:43-51",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and allusion comparison."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"2",
+      "prompt_path":"editorial/review-prompts/prophecy-014-adversarial-2026-09-05.md",
+      "raw_output_path":"editorial/reviews/prophecy-014-adversarial-2026-09-05-raw.md",
+      "objections":[
+        {"objection":"Saying Jesus simply replaces the ladder overstates a debated mapping.","disposition":"accepted","reason":"Now says John relocates the angelic movement onto the Son of Man without insisting on one mapping."},
+        {"objection":"The wider Johannine theology invoked was not included in the review packet.","disposition":"partly_accepted","reason":"The publication stays focused on the explicit allusion; the prologue connection is a modest contextual observation, not a verdict premise."},
+        {"objection":"‘Exact movement’ and ‘creative’ may overstate or sound loaded.","disposition":"accepted","reason":"Changed the public language to ‘distinctive movement’ and ‘deliberate reuse.’"},
+        {"objection":"Rejecting direct prediction must not imply rejection of authoritative Christian typology.","disposition":"accepted","reason":"The verdict calls this one of the list's strongest New Testament typologies."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Did Jacob's ladder predict Jesus as heaven's bridge?",
+    "scripture_excerpt": "And Jacob had a dream about a ladder that rested on the earth with its top reaching up to heaven, and God's angels were going up and down the ladder.",
+    "website": {
+      "description": "A fair examination of Jacob's ladder and Jesus's reuse of the vision in John 1:51.",
+      "summary": "Jesus repeats the vision's distinctive angel movement but places it on himself. Is that fulfilment?",
+      "christian_case": "John's link is exceptionally strong. Jesus promises an open heaven and ‘the angels of God ascending and descending on the Son of Man,’ closely repeating the most distinctive words of Jacob's dream. Genesis's ladder joins earth and heaven; Jacob calls the place God's house and heaven's gate. John relocates the angelic movement onto Jesus, making him central without insisting on one exact mapping. That fits the Gospel's portrait of the Word made flesh. Christian interpreters therefore see Jesus as the true locus of divine presence and access to heaven.",
+      "critical_case": "Genesis's dream first assures a frightened Jacob that God is present and will give his family land, descendants and protection. It says nothing about a future human bridge. John deliberately transforms the scene: he mentions no ladder, Jacob, Bethel or gate and puts the angels' movement ‘on the Son of Man.’ Scholars disagree over whether Jesus corresponds to the ladder, Jacob, the holy place or several motifs, warning that detailed mappings can outrun the text. The reuse is unmistakable; the original prediction is not.",
+      "verdict_label": "Strong explicit typology—not original prediction",
+      "verdict": "John deliberately reapplies Jacob's open-heaven vision to Jesus, making this one of the list's strongest New Testament typologies. Genesis itself addresses Jacob's situation without verbally predicting a future mediator. The christological meaning comes through John's deliberate, explicit reuse."
+    },
+    "carousel": [
+      {
+        "heading": "Did Jacob's ladder predict Jesus?",
+        "body": "Jacob sees angels ascending and descending between earth and heaven. Jesus repeats that distinctive movement—but says the angels will ascend and descend on the Son of Man.",
+        "alt_text": "Slide one introduces John's striking reuse of Jacob's ladder vision."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "The verbal echo is unmistakable. John relocates the angels' movement onto the Son of Man, making Jesus central to the open-heaven scene. Christians therefore see him as the meeting point of heaven and earth.",
+        "alt_text": "Slide two presents Jesus as the fulfilment of the ladder's mediating imagery."
+      },
+      {
+        "heading": "Deliberate reuse, not an original forecast",
+        "body": "Genesis reassures Jacob about God's presence, land and family. It predicts no future bridge-person. John transforms the image, and scholars debate its exact mapping. The typology is strong precisely because John makes it—not because Genesis states it.",
+        "alt_text": "Slide three distinguishes John's explicit typology from Genesis's original meaning."
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-015",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 28:14 continues the worldwide Abrahamic promise through Jacob's offspring, and Luke identifies Jesus as a descendant in that line.",
+    "type": "genealogy",
+    "scope_notes": "The inherited phrase ‘Seed of Jacob’ does not specify whether it claims ancestry, representative fulfilment or worldwide blessing. The strongest modest version is genealogy; the stronger christological blessing claim requires the broader New Testament promise argument."
+  },
+  "context": {
+    "summary": "At Bethel God promises Jacob descendants like dust, expansion in every direction, and blessing for all families through Jacob and his offspring. Luke's genealogy lists Jesus through Jacob, Isaac and Abraham. Galatians applies the repeated Abrahamic blessing-and-seed complex to Christ, though it does not cite Genesis 28:14 specifically.",
+    "shared_context_id": "jacob-bethel"
+  },
+  "strongest_case": {
+    "summary": "Genesis explicitly carries the ancestral promise through Jacob, the father of Israel, and Luke deliberately locates Jesus within that salvation-historical family. Combined with the New Testament's christological reading of the repeated Abrahamic promise, Jesus can be presented as the representative Israelite descendant through whom worldwide blessing reaches beyond Israel.",
+    "reasoning": [
+      "Genesis 28:14 really includes both a vast collective posterity and worldwide blessing through Jacob and his offspring.",
+      "Luke 3:34 explicitly names Jacob in Jesus's genealogy and extends the line through Abraham to Adam, supporting Luke's universal horizon.",
+      "Popović argues that Luke's genealogy connects Jesus with Abraham within salvation history, rather than serving as an incidental name list.",
+      "Galatians supplies a canonical Christian rationale for focusing the repeated seed promise in Christ, though it does not make Genesis 28:14 a standalone prediction."
+    ],
+    "source_ids": [
+      "src-popovic-2006",
+      "src-usccb-luke3",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Genesis immediately defines Jacob's offspring as a multitude spreading across the land, not one distant individual. Luke's genealogy supplies ancestry rather than citing or interpreting Genesis 28:14. Descent from Jacob is shared by the people of Israel and cannot uniquely identify Jesus; applying the worldwide blessing to him requires a separate, later christological argument.",
+    "reasoning": [
+      "The dust simile and four-direction expansion make the collective national reference explicit.",
+      "Jesus's placement after Jacob in Luke confirms the Gospel's claimed line, but genealogy reports descent rather than fulfilment of this oracle.",
+      "The criterion is extremely nonspecific: every Israelite belongs to Jacob's broad descendant class.",
+      "Genesis includes blessing through both Jacob (‘you’) and his offspring, leaving collective family vocation available without an exclusive individual Messiah."
+    ],
+    "source_ids": [
+      "src-popovic-2006",
+      "src-usccb-luke3",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "insufficiently_specific",
+    "summary": "Luke explicitly presents Jesus as a descendant of Jacob, so the modest genealogy claim succeeds within Luke's narrative. Genesis 28:14 promises a multitude and worldwide family blessing and does not uniquely predict Jesus. This is covenantal continuity and later christological interpretation, not a distinctive fulfilled prophecy.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-popovic-2006",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "Jesus and Abraham in the Context of Luke's Genealogy (Lk 3:23-38)",
+      "author": "Anto Popović",
+      "publisher": "Bogoslovska smotra 76.3",
+      "url": "https://hrcak.srce.hr/index.php/23827",
+      "locator": "pp. 551-572; abstract and genealogy analysis",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Treats Jesus's ancestral placement as salvation-historical connection with Abraham."
+    },
+    {
+      "id": "src-usccb-luke3",
+      "tier": 2,
+      "stance": "background",
+      "type": "institutional",
+      "title": "Luke, Chapter 3: Study Note on 3:23-38",
+      "author": "United States Conference of Catholic Bishops",
+      "publisher": "USCCB",
+      "url": "https://bible.usccb.org/bible/luke/3",
+      "locator": "note on Luke 3:23-38",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Explains Luke's extension beyond Abraham to Adam as an expression of universalism and divine sonship."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 28:13-15; Luke 3:23-38; Galatians 3:16, 29",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and genealogical/canonical comparison."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"2",
+      "prompt_path":"editorial/review-prompts/prophecy-015-adversarial-2026-09-05.md",
+      "raw_output_path":"editorial/reviews/prophecy-015-adversarial-2026-09-05-raw.md",
+      "objections":[
+        {"objection":"Distinguish Genesis's collective original referent from representative Christian fulfilment.","disposition":"accepted","reason":"The article affirms the representative canonical reading and limits its negative conclusion to unique prediction."},
+        {"objection":"Non-unique ancestry does not answer the stronger representative-Messiah case.","disposition":"accepted","reason":"The strongest case includes Jesus as representative Israelite; non-uniqueness assesses genealogy only as predictive evidence."},
+        {"objection":"Lack of explicit fulfilment language is not required for all New Testament typology.","disposition":"accepted","reason":"The critical point is narrower: Luke supplies genealogy rather than a citation or interpretation of Genesis 28:14."},
+        {"objection":"The public verdict could sound as though it rejects every category of fulfilment.","disposition":"accepted","reason":"Reworded it to affirm covenantal fulfilment while distinguishing it from unique predictive identification."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Does being Jacob's descendant fulfil a prophecy?",
+    "scripture_excerpt": "Your descendants will be like the dust of the earth...All the families of the earth will be blessed through you and your offspring.",
+    "website": {
+      "description": "A fair examination of Jesus as the promised offspring of Jacob in Genesis 28.",
+      "summary": "Luke lists Jesus in Jacob's family. But Genesis promises a multitude—does one descendant fulfil it?",
+      "christian_case": "Genesis carries Abraham's worldwide promise forward through Jacob: a great family will spread in every direction, and all families will be blessed through Jacob and his offspring. Luke explicitly places Jesus in the line Jacob–Isaac–Abraham, then extends his genealogy to Adam, fitting the Gospel's universal scope. Elsewhere the New Testament centres the Abrahamic blessing in Christ. Christians can therefore present Jesus as Israel's representative descendant through whom the family promise reaches the nations. His place in the ancestral line is an explicit part of Luke's story.",
+      "critical_case": "Genesis immediately describes Jacob's offspring as numerous as the dust and spreading across the land. It is promising a people, not uniquely identifying one descendant. Luke asserts that Jesus belongs to this line but provides genealogy rather than a citation or interpretation of Genesis 28:14. That ancestry criterion is shared across Israel, so it cannot distinguish Jesus by itself. Connecting worldwide blessing specifically with him depends on the later representative-Christ argument, not on genealogy alone.",
+      "verdict_label": "Explicit ancestry; insufficiently specific prophecy",
+      "verdict": "Luke explicitly presents Jesus as Jacob's descendant, so the modest ancestry claim works within the Gospel. Christian theology can also view him as the representative heir through whom the blessing reaches the nations. Genesis itself promises a multitude rather than uniquely identifying him: covenantal fulfilment is stronger here than predictive evidence."
+    },
+    "carousel": [
+      {
+        "heading": "Does Jacob's ‘offspring’ mean Jesus?",
+        "body": "Genesis promises Jacob descendants like dust and worldwide blessing through his offspring. Luke later includes Jesus in the line Jacob, Isaac and Abraham.",
+        "alt_text": "Slide one introduces the claim that Jesus is Jacob's promised offspring."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "The covenant passes through Jacob, and Luke deliberately places Jesus in that salvation-historical family. Read with the wider New Testament, Jesus becomes Israel's representative descendant bringing blessing to the nations.",
+        "alt_text": "Slide two presents the Christian covenantal and genealogical case."
+      },
+      {
+        "heading": "A family line isn't a unique prediction",
+        "body": "Genesis explicitly promises a multitude spreading across the land. Luke confirms Jesus's ancestry but does not interpret this verse. The basic criterion is shared across Israel; identifying Jesus as the representative blessing-bearer requires a later argument.",
+        "alt_text": "Slide three explains why descent from Jacob is too broad to predict Jesus uniquely."
+      }
+    ]
+  }
+}

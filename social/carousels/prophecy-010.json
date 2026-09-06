@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-010",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 17:19: I will establish My covenant with him as an everlasting covenant for his descendants after him.",
+         "body" : "“I will establish My covenant with him as an everlasting covenant for his descendants after him.”",
+         "heading" : "Gen 17:19",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim that Jesus fulfils the promised line through Isaac.",
+         "body" : "God says Sarah will bear Isaac and establishes the covenant with his descendants. Luke later lists Jesus in the line of Jacob, Isaac and Abraham.",
+         "heading" : "Did Isaac's covenant line predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the Christian case for covenant continuity through Isaac to Jesus.",
+         "body" : "Genesis deliberately carries the covenant through Isaac rather than Ishmael. Romans calls Isaac's family the children of promise, and Luke explicitly locates Jesus in that same covenant ancestry.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three distinguishes a genuine genealogy from a specific predictive prophecy.",
+         "body" : "Genesis predicts Isaac, then many descendants—not one named Messiah. Romans discusses who counts as God's promised people; it never calls Jesus the fulfilment of this verse. Luke establishes ancestry, but many descendants share it.",
+         "heading" : "Ancestry is not unique identification",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-010/",
+   "title" : "Did Isaac's covenant line predict Jesus?",
+   "verdict_category" : "insufficiently_specific"
+}

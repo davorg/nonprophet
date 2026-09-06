@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-011",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Abraham's statement that God will provide the lamb, followed by the substitute for Isaac, foreshadows Jesus as the Lamb of God who dies in humanity's place.",
+    "type": "later_christian_typology",
+    "scope_notes": "John 1:29 does not cite Genesis 22. The strongest claim is substitutionary Isaac/ram typology within the wider biblical lamb motif, not that Genesis's immediate referent was secretly Jesus."
+  },
+  "context": {
+    "summary": "When Isaac asks where the sacrificial lamb is, Abraham replies that God will provide it. An angel stops Abraham, and he sacrifices a ram caught by its horns instead of Isaac. John later calls Jesus ‘the Lamb of God, who takes away the sin of the world.’ Christian readers connect the beloved son, divine provision and substitution, although John's lamb image also evokes Passover, Isaiah 53 and sacrificial practice generally.",
+    "shared_context_id": "binding-of-isaac"
+  },
+  "strongest_case": {
+    "summary": "Genesis 22 supplies a powerful theological pattern: a beloved son faces death, God provides a substitute, and the place is named ‘The LORD Will Provide.’ John applies sacrificial-lamb language to Jesus. Serious Christian interpreters acknowledge that Abraham did not consciously foresee the cross while holding that the event providentially anticipates God's ultimate provision.",
+    "reasoning": [
+      "The narrative itself emphasises divine provision and substitution: the ram is offered ‘in place of’ Isaac.",
+      "The language of son, love, sacrifice and God-provided victim creates several mutually reinforcing correspondences with Christian accounts of Jesus's death.",
+      "D. A. Carson explicitly distinguishes Abraham's knowledge from canonical typology: Abraham need not have foreseen the cross for his words to acquire fuller significance.",
+      "John's Lamb of God title can draw on a network of sacrificial images; Genesis 22 can contribute without being its exclusive source."
+    ],
+    "source_ids": [
+      "src-carson-gen22",
+      "src-adeyemi-2021",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Genesis answers the sacrificial need inside its own story: God provides a ram for Isaac's burnt offering. Isaac is spared, while Hebrews later describes his figurative return from death. John gives no explicit signal uniquely identifying Genesis 22 as the source of ‘Lamb of God’; Passover, Isaiah's servant and ordinary sin offerings are complementary backgrounds. The result is rich later typology, not a direct promise of Jesus.",
+    "reasoning": [
+      "Genesis 22:13 identifies the supplied animal as a ram and explicitly says it replaces Isaac.",
+      "Abraham's reply answers Isaac's immediate question about that day's offering; the narrative supplies an immediate fulfilment and names the site for God's provision.",
+      "John 1:29 neither quotes Genesis nor mentions Isaac, Moriah or the binding.",
+      "The title ‘Lamb of God’ has multiple plausible scriptural backgrounds, so the link cannot uniquely establish authorial intent or advance prediction.",
+      "The typology remains meaningful despite differences: types are analogical patterns, not one-to-one forecasts."
+    ],
+    "source_ids": [
+      "src-nortje-meyer-2015",
+      "src-adeyemi-2021",
+      "src-carson-gen22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Abraham says God will provide a lamb, but the animal actually supplied in Genesis 22:13 is a ram. The difference need not defeat typology, but it prevents a simple literal-fulfilment claim.",
+      "significance": "material",
+      "source_ids": [
+        "src-bsb-v59",
+        "src-carson-gen22"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "The beloved son, God-provided substitute and sacrificial setting form a substantial, historic Christian type of Jesus. Genesis immediately fulfils the saying with a ram in Isaac's place, and John never identifies this scene as the source of ‘Lamb of God.’ The connection is plausible typology, not an explicit promise predicting Jesus.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-carson-gen22",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "web_article",
+      "title": "Read the Bible: Genesis 22, Matthew 21, Nehemiah 11, and Acts 21",
+      "author": "D. A. Carson",
+      "publisher": "The Gospel Coalition",
+      "url": "https://www.thegospelcoalition.org/devotionals/read-the-bible/genesis-22-matthew-21-nehemiah-11-acts-21/",
+      "locator": "Genesis 22 devotional",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Argues that Abraham did not foresee the cross but spoke better than he knew within canonical fulfilment."
+    },
+    {
+      "id": "src-adeyemi-2021",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "Soteriology in the Gospel of John",
+      "author": "Femi Adeyemi",
+      "publisher": "Themelios 46.3",
+      "url": "https://www.thegospelcoalition.org/themelios/article/soteriology-in-the-gospel-of-john/",
+      "locator": "discussion of John 1:29 and note 43",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Treats Genesis 22, Passover and Isaiah 53 as backgrounds to John's lamb metaphor and describes Jesus as the substituting ram figure."
+    },
+    {
+      "id": "src-nortje-meyer-2015",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Ancient Art, Rhetoric and the Lamb of God Metaphor in John 1:29 and 1:36",
+      "author": "Lilly Nortjé-Meyer",
+      "publisher": "HTS Teologiese Studies 71.1",
+      "url": "https://hts.org.za/index.php/hts/article/view/2889/5841",
+      "locator": "discussion of Aqedah and alternative backgrounds",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Discusses Genesis 22 as a proposed background while arguing for a broader shepherd/son metaphor."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 22:1-14; John 1:29, 36; Isaiah 53:7; 1 Corinthians 5:7",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and comparison passages."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"2",
+      "prompt_path":"editorial/review-prompts/prophecy-011-adversarial-2026-09-05.md",
+      "raw_output_path":"editorial/reviews/prophecy-011-adversarial-2026-09-05-raw.md",
+      "objections":[
+        {"objection":"Saying the ram simply fulfils Abraham's ‘lamb’ wording compresses a real animal difference.","disposition":"accepted","reason":"The record now says Genesis answers the immediate sacrificial need and retains the lamb/ram tension."},
+        {"objection":"John may intentionally gather several sacrificial backgrounds, including Genesis 22.","disposition":"accepted","reason":"Changed ‘no signal’ to no explicit signal uniquely identifying Genesis and treats the backgrounds as complementary."},
+        {"objection":"Hebrews 11:19 strengthens the resurrection-like Christian reading of Isaac.","disposition":"accepted","reason":"Added Hebrews's figurative return from death without confusing it with Genesis's plot."},
+        {"objection":"Genesis 22:14 may support prospective Christian extension beyond the ram.","disposition":"partly_accepted","reason":"Divine provision and the place-name are already central; reception history would strengthen typology, not direct prediction."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Did Abraham promise Jesus as God's lamb?",
+    "scripture_excerpt": "Abraham answered, ‘God Himself will provide the lamb for the burnt offering, my son.’",
+    "website": {
+      "description": "A fair examination of Genesis 22 as a prophecy of Jesus, the Lamb of God.",
+      "summary": "God provides a substitute for Isaac; John calls Jesus the Lamb of God. Is that prediction or typology?",
+      "christian_case": "Genesis 22 offers more than an isolated animal word. Abraham's beloved son climbs the mountain under a sentence of death; Abraham trusts that God will provide; and at the decisive moment God supplies a sacrificial victim in Isaac's place. Christians see that whole pattern culminating when God gives his own beloved Son as the final substitute. John calls Jesus ‘the Lamb of God, who takes away the sin of the world.’ Strong interpreters need not claim Abraham consciously saw Jesus: D. A. Carson explicitly says he did not foresee the cross, while arguing that his words acquire a fuller providential significance within the completed biblical story.",
+      "critical_case": "Genesis answers Isaac's immediate sacrificial need within the scene. The animal God provides is a ram, sacrificed instead of Isaac, and Abraham names the place for that provision. Jesus is not mentioned. John 1:29 never explicitly identifies the binding, and ‘Lamb of God’ can gather Genesis, Passover, Isaiah's suffering servant and Israel's sacrificial system together. Isaac is spared, though Hebrews later calls his return figurative receipt from death; Jesus dies. Those differences do not destroy typology. They do show why the episode cannot function as a literal, uniquely identifiable promise of Jesus.",
+      "verdict_label": "Powerful typology—not explicit prediction",
+      "verdict": "The beloved son, divine provision and substitute victim create a substantial Christian type of Jesus. But Genesis fulfils Abraham's words with a ram in Isaac's place, and John never names this scene. The connection is powerful later typology rather than an explicit promise predicting Jesus."
+    },
+    "carousel": [
+      {
+        "heading": "Did God promise Jesus as the lamb?",
+        "body": "Abraham says God will provide the lamb. A ram then dies instead of Isaac. John later calls Jesus ‘the Lamb of God, who takes away the sin of the world.’",
+        "alt_text": "Slide one introduces the link between God's provision in Genesis 22 and John's Lamb of God."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "A beloved son faces death; God provides a substitute; the victim dies in the son's place. Christians see the whole pattern—not just one word—as anticipating God's ultimate provision in Jesus.",
+        "alt_text": "Slide two presents the substitutionary Christian typology of Isaac and Jesus."
+      },
+      {
+        "heading": "The story supplies its own answer",
+        "body": "Genesis provides a ram for that day's offering. John never cites Isaac, and his lamb image may also evoke Passover and Isaiah 53. This is powerful, coherent typology—but not a uniquely identifiable prediction.",
+        "alt_text": "Slide three distinguishes Genesis's immediate resolution from later Christian typology."
+      }
+    ]
+  }
+}

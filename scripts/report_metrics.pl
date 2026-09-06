@@ -55,8 +55,13 @@ for my $event (sort { $a->{epoch} <=> $b->{epoch} } @events) {
             && ($event->{details}{status} // '') eq 'complete') {
             $completed{$event->{claim_id}} = 1;
         }
+        if ($event->{stage} eq 'total'
+            && ($event->{details}{recovered_seconds} // '') =~ /^\d+$/) {
+            $claim_stage_seconds{total}{$event->{claim_id}}
+                += $event->{details}{recovered_seconds};
+        }
         for my $name (keys %{$event->{details}}) {
-            next if $name eq 'correction';
+            next if $name eq 'correction' || $name eq 'recovered_seconds';
             my $value = $event->{details}{$name};
             $resources{$name}{$event->{claim_id}} += $value
                 if !ref($value) && $value =~ /^-?(?:\d+(?:\.\d+)?|\.\d+)$/;

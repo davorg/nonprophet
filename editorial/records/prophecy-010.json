@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-010",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 17:19 establishes Isaac as the covenant line through which Jesus would eventually descend.",
+    "type": "genealogy",
+    "scope_notes": "The inherited wording is only ‘Seed of Isaac’ and cites Romans 9:7, which quotes Genesis 21:12 to discuss promise and election. The strongest Jesus-specific version adds Luke's genealogy; ancestry and predictive identification are assessed separately."
+  },
+  "context": {
+    "summary": "God promises Abraham that Sarah will bear Isaac and that the covenant will continue with Isaac's descendants. Romans 9 cites the related Genesis 21:12 wording to distinguish children of promise from physical descent alone. Luke 3 lists Jesus in the line Jacob–Isaac–Abraham.",
+    "shared_context_id": "isaac-covenant-line"
+  },
+  "strongest_case": {
+    "summary": "The canonical line is real and important: Genesis deliberately narrows Abraham's covenant succession to Isaac rather than Ishmael; it then runs through Jacob, Judah and David, and Luke identifies Jesus within that line. Christian theology can therefore say Jesus comes through the promised Isaac branch rather than appearing without covenantal continuity.",
+    "reasoning": [
+      "Genesis 17:19-21 explicitly distinguishes Isaac as the bearer of the covenant from Ishmael, who is also promised blessing and descendants.",
+      "Romans 9:7-9 treats Isaac's birth as an example of God's promise determining the covenant family rather than biology alone.",
+      "Luke 3:34 explicitly places Jesus's recorded genealogy through Jacob, Isaac and Abraham.",
+      "As a canonical genealogy claim, this does not depend on pretending that Genesis 17 names Jesus."
+    ],
+    "source_ids": [
+      "src-carson-gen17",
+      "src-popovic-2006",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Genesis predicts Isaac and a continuing community of descendants, not Jesus as one uniquely identifiable descendant. Romans 9 is discussing God's freedom in defining the people of promise and does not claim that Jesus fulfils Genesis 17:19. Luke supplies the later genealogy. The ancestry claim is internally explicit in Luke, but it is far too broad to operate as a distinctive prediction.",
+    "reasoning": [
+      "The stated near-term fulfilment is Isaac's birth; the covenant is then with his plural descendants after him.",
+      "Romans 9:7 quotes Genesis 21:12, not Genesis 17:19, and verses 8-13 apply the principle to children of promise and to Jacob over Esau.",
+      "Neither Genesis 17 nor Romans 9 identifies a Messiah in this verse.",
+      "Countless descendants belong to Isaac's line. A later genealogy can establish membership in that large class but does not show that this text predicted one particular member."
+    ],
+    "source_ids": [
+      "src-carson-gen17",
+      "src-popovic-2006",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Romans 9:7 quotes Genesis 21:12 (‘through Isaac your offspring will be reckoned’), whereas the inherited OT citation is Genesis 17:19. The passages express the same narrowing of the covenant line but are not the same text.",
+      "significance": "material",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "insufficiently_specific",
+    "summary": "Genesis genuinely narrows Abraham's covenant line to Isaac, and Luke explicitly places Jesus in that ancestry. Romans uses the Isaac promise to discuss election, not to announce a Jesus prophecy. Descent through a vast lineage is a true Christian genealogy claim but not a sufficiently specific prediction of Jesus.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-carson-gen17",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "web_article",
+      "title": "Read the Bible: Genesis 17, Matthew 16, Nehemiah 6, and Acts 16",
+      "author": "D. A. Carson",
+      "publisher": "The Gospel Coalition",
+      "url": "https://www.thegospelcoalition.org/devotionals/read-the-bible/genesis-17-matthew-16-nehemiah-6-acts-16/",
+      "locator": "Genesis 17 devotional",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "States that the covenant line passes through Isaac while Ishmael also receives blessing."
+    },
+    {
+      "id": "src-popovic-2006",
+      "tier": 1,
+      "stance": "background",
+      "type": "journal_article",
+      "title": "Jesus and Abraham in the Context of Luke's Genealogy (Lk 3:23-38)",
+      "author": "Anto Popović",
+      "publisher": "Bogoslovska smotra 76.3",
+      "url": "https://hrcak.srce.hr/index.php/23827",
+      "locator": "pp. 551-572; abstract and genealogy analysis",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Analyses Luke's connection of Jesus with Abraham within salvation history."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 17:18-21; 21:12; Romans 9:6-13; Luke 3:23-38",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and citation comparison."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm",
+      "model": "GPT-5.5",
+      "date": "2026-09-05",
+      "prompt_version": "2",
+      "prompt_path": "editorial/review-prompts/prophecy-010-adversarial-2026-09-05.md",
+      "raw_output_path": "editorial/reviews/prophecy-010-adversarial-2026-09-05-raw.md",
+      "objections": [
+        {"objection":"Do not treat covenantal genealogy as though its advocate necessarily claims a direct one-verse prediction.","disposition":"accepted","reason":"The article affirms covenantal continuity and limits its negative judgment to predictive specificity."},
+        {"objection":"‘Millions’ is not supported within the packet.","disposition":"accepted","reason":"Changed the carousel to the supported formulation ‘many descendants.’"},
+        {"objection":"Romans's broader christological context might strengthen canonical fulfilment.","disposition":"partly_accepted","reason":"This could enrich covenant theology but does not make Romans 9:7 identify Jesus as the fulfilment of Genesis 17:19."},
+        {"objection":"The Genesis 17/Genesis 21 source mismatch needs explicit annotation.","disposition":"accepted","reason":"It is prominent in the scope note, textual issue and public critical case."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Did Isaac's covenant line predict Jesus?",
+    "scripture_excerpt": "I will establish My covenant with him as an everlasting covenant for his descendants after him.",
+    "website": {
+      "description": "A fair examination of Isaac's covenant line as a supposed prophecy of Jesus.",
+      "summary": "Jesus is listed as Isaac's descendant. Does belonging to the promised family count as fulfilled prophecy?",
+      "christian_case": "Genesis does make a consequential choice: although Abraham has more than one son, God's covenant is established through Sarah's son Isaac. Romans 9 treats that promised birth as evidence that covenant membership depends on God's promise rather than physical descent alone. Luke's genealogy later places Jesus explicitly in the line Jacob–Isaac–Abraham. Christians can therefore locate Jesus within the same promised covenant history instead of treating him as detached from Israel's story. The genealogy is not invented from a vague resemblance; it states the relationship directly.",
+      "critical_case": "Genesis 17:19 first predicts Isaac's own birth and then speaks of a covenant with his descendants. It does not single out Jesus from that enormous lineage. Romans 9:7 actually quotes Genesis 21:12, and Paul's subject is God's definition of the people of promise—not Jesus's fulfilment of Genesis 17. Luke supplies the ancestry much later. If Luke's genealogy is accepted, Jesus is indeed in Isaac's line; but membership in a vast class is not a distinctive prediction of one member.",
+      "verdict_label": "True genealogy; nonspecific prophecy",
+      "verdict": "Genesis genuinely makes Isaac the covenant line, and Luke explicitly includes Jesus in that ancestry. Romans uses the promise to discuss election, not to identify a messianic prediction. The genealogy claim can be true while the prophecy claim remains far too broad."
+    },
+    "carousel": [
+      {
+        "heading": "Did Isaac's covenant line predict Jesus?",
+        "body": "God says Sarah will bear Isaac and establishes the covenant with his descendants. Luke later lists Jesus in the line of Jacob, Isaac and Abraham.",
+        "alt_text": "Slide one introduces the claim that Jesus fulfils the promised line through Isaac."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "Genesis deliberately carries the covenant through Isaac rather than Ishmael. Romans calls Isaac's family the children of promise, and Luke explicitly locates Jesus in that same covenant ancestry.",
+        "alt_text": "Slide two presents the Christian case for covenant continuity through Isaac to Jesus."
+      },
+      {
+        "heading": "Ancestry is not unique identification",
+        "body": "Genesis predicts Isaac, then many descendants—not one named Messiah. Romans discusses who counts as God's promised people; it never calls Jesus the fulfilment of this verse. Luke establishes ancestry, but many descendants share it.",
+        "alt_text": "Slide three distinguishes a genuine genealogy from a specific predictive prophecy."
+      }
+    ]
+  }
+}

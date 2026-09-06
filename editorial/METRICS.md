@@ -65,6 +65,15 @@ when using the runner.
 If a timer accidentally includes unrelated work, stop it with `exclude=1`. The raw
 event remains auditable but is omitted from aggregates.
 
+If an enforced interruption leaves a timer open across a long idle period, exclude
+that interval. When the active portion can be recovered from adjacent timestamped
+events, record it explicitly rather than losing it from the total:
+
+```sh
+perl scripts/track_claim.pl mark prophecy-010 total recovered_seconds=551 \
+  reason=runtime_limit_recovery
+```
+
 ## Reporting
 
 ```sh

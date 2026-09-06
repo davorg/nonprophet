@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-013",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 26:2-5: I will make your descendants as numerous as the stars in the sky...and through your offspring all nations of the earth will be blessed.",
+         "body" : "“I will make your descendants as numerous as the stars in the sky...and through your offspring all nations of the earth will be blessed.”",
+         "heading" : "Gen 26:2-5",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim that Genesis 26 promises the Redeemer through Isaac.",
+         "body" : "Genesis renews Abraham's promises through Isaac. Hebrews recalls that Isaac's line must continue. Christian lists sometimes say these verses promise Jesus as Redeemer.",
+         "heading" : "Was Isaac's offspring promised as the Redeemer?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the broader canonical Christian promise trajectory.",
+         "body" : "Land, countless descendants and worldwide blessing pass through Isaac. Galatians later centres the Abrahamic promise in Christ. Across the whole canon, Jesus can be presented as the line's redemptive culmination.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three explains the incorrect proof-text mapping and added Redeemer language.",
+         "body" : "Genesis promises a multitude, not one identified saviour. Hebrews 11:18 quotes Genesis 21:12—not Genesis 26—and discusses Abraham's faith that Isaac's family line would survive. The explicit christological identification comes from elsewhere.",
+         "heading" : "The citations don't say ‘Redeemer’",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-013/",
+   "title" : "Does Genesis call Isaac's descendant the Redeemer?",
+   "verdict_category" : "source_claim_incorrect"
+}

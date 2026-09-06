@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-015",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 28:14: Your descendants will be like the dust of the earth...All the families of the earth will be blessed through you and your offspring.",
+         "body" : "“Your descendants will be like the dust of the earth...All the families of the earth will be blessed through you and your offspring.”",
+         "heading" : "Gen 28:14",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the claim that Jesus is Jacob's promised offspring.",
+         "body" : "Genesis promises Jacob descendants like dust and worldwide blessing through his offspring. Luke later includes Jesus in the line Jacob, Isaac and Abraham.",
+         "heading" : "Does Jacob's ‘offspring’ mean Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the Christian covenantal and genealogical case.",
+         "body" : "The covenant passes through Jacob, and Luke deliberately places Jesus in that salvation-historical family. Read with the wider New Testament, Jesus becomes Israel's representative descendant bringing blessing to the nations.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three explains why descent from Jacob is too broad to predict Jesus uniquely.",
+         "body" : "Genesis explicitly promises a multitude spreading across the land. Luke confirms Jesus's ancestry but does not interpret this verse. The basic criterion is shared across Israel; identifying Jesus as the representative blessing-bearer requires a later argument.",
+         "heading" : "A family line isn't a unique prediction",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-015/",
+   "title" : "Does being Jacob's descendant fulfil a prophecy?",
+   "verdict_category" : "insufficiently_specific"
+}

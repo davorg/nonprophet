@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-014",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 28:12: And Jacob had a dream about a ladder that rested on the earth with its top reaching up to heaven, and God's angels were going up and down the ladder.",
+         "body" : "“And Jacob had a dream about a ladder that rested on the earth with its top reaching up to heaven, and God's angels were going up and down the ladder.”",
+         "heading" : "Gen 28:12",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces John's striking reuse of Jacob's ladder vision.",
+         "body" : "Jacob sees angels ascending and descending between earth and heaven. Jesus repeats that distinctive movement—but says the angels will ascend and descend on the Son of Man.",
+         "heading" : "Did Jacob's ladder predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents Jesus as the fulfilment of the ladder's mediating imagery.",
+         "body" : "The verbal echo is unmistakable. John relocates the angels' movement onto the Son of Man, making Jesus central to the open-heaven scene. Christians therefore see him as the meeting point of heaven and earth.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three distinguishes John's explicit typology from Genesis's original meaning.",
+         "body" : "Genesis reassures Jacob about God's presence, land and family. It predicts no future bridge-person. John transforms the image, and scholars debate its exact mapping. The typology is strong precisely because John makes it—not because Genesis states it.",
+         "heading" : "Deliberate reuse, not an original forecast",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-014/",
+   "title" : "Did Jacob's ladder predict Jesus as heaven's bridge?",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-011",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 22:8: Abraham answered, ‘God Himself will provide the lamb for the burnt offering, my son.’",
+         "body" : "“Abraham answered, ‘God Himself will provide the lamb for the burnt offering, my son.’”",
+         "heading" : "Gen 22:8",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the link between God's provision in Genesis 22 and John's Lamb of God.",
+         "body" : "Abraham says God will provide the lamb. A ram then dies instead of Isaac. John later calls Jesus ‘the Lamb of God, who takes away the sin of the world.’",
+         "heading" : "Did God promise Jesus as the lamb?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the substitutionary Christian typology of Isaac and Jesus.",
+         "body" : "A beloved son faces death; God provides a substitute; the victim dies in the son's place. Christians see the whole pattern—not just one word—as anticipating God's ultimate provision in Jesus.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three distinguishes Genesis's immediate resolution from later Christian typology.",
+         "body" : "Genesis provides a ram for that day's offering. John never cites Isaac, and his lamb image may also evoke Passover and Isaiah 53. This is powerful, coherent typology—but not a uniquely identifiable prediction.",
+         "heading" : "The story supplies its own answer",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-011/",
+   "title" : "Did Abraham promise Jesus as God's lamb?",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-012",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Gen 22:18: And through your offspring all nations of the earth will be blessed, because you have obeyed My voice.",
+         "body" : "“And through your offspring all nations of the earth will be blessed, because you have obeyed My voice.”",
+         "heading" : "Gen 22:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide one introduces the worldwide offspring promise and its application to Jesus in Acts.",
+         "body" : "Genesis says every nation will be blessed through Abraham's offspring. Acts quotes the promise and says God sent Jesus to bless people by turning them from wrongdoing.",
+         "heading" : "Does this promise specifically predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide two presents the explicit New Testament christological application.",
+         "body" : "This verse really does join ‘offspring’ with worldwide blessing. Acts directly applies it to Jesus, and Galatians calls Christ the representative seed through whom Abraham's blessing reaches the nations.",
+         "heading" : "The strongest Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide three explains the collective meaning of offspring and later representative rereading.",
+         "body" : "The previous verse calls this same offspring as numerous as stars and sand. Genesis names no individual Messiah. Acts and Galatians provide a serious later focus on Christ—but grammar alone never singled him out.",
+         "heading" : "One word can describe a multitude",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-012/",
+   "title" : "Does Genesis 22 predict Jesus blessing every nation?",
+   "verdict_category" : "retrospective_rereading"
+}

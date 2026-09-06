@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-013",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Genesis 26 renews the Abrahamic promise through Isaac's offspring, which Christian canonical interpretation sees culminating in Jesus the Redeemer.",
+    "type": "nt_rereading",
+    "scope_notes": "The word and role ‘Redeemer’ appear in neither Genesis 26:2-5 nor Hebrews 11:18. Hebrews quotes Genesis 21:12 while explaining Abraham's faith at the binding. The strongest form must draw on the wider promise-to-Christ argument, not the cited pair alone."
+  },
+  "context": {
+    "summary": "God repeats to Isaac promises of land, numerous descendants and worldwide blessing through his offspring. Hebrews 11:17-19 recalls God's earlier statement that Abraham's offspring would be reckoned through Isaac to explain why Abraham trusted God could preserve or raise Isaac. Galatians, not the cited Hebrews verse, supplies the explicit identification of Abraham's representative seed with Christ.",
+    "shared_context_id": "isaac-covenant-line"
+  },
+  "strongest_case": {
+    "summary": "Genesis intentionally transmits the same worldwide Abrahamic mission through Isaac's family. Within Christian canonical theology, Jesus stands in that line and becomes the representative descendant through whom the nations receive redemption. Hebrews reinforces the indispensable promise-line through Isaac, while Galatians supplies the missing christological identification.",
+    "reasoning": [
+      "Genesis 26:3-4 explicitly renews land, innumerable offspring and worldwide blessing with Isaac.",
+      "Hebrews 11:17-19 makes the Isaac promise central to Abraham's faith that death could not defeat God's commitment.",
+      "Galatians 3 reads the repeated Abrahamic promise complex as centred in Christ and extended to all who belong to him.",
+      "A fair canonical defence can therefore locate redemption at the trajectory's Christian culmination, while conceding that ‘Redeemer’ is not the wording of either cited text."
+    ],
+    "source_ids": [
+      "src-derouchie-meyer-2010",
+      "src-meyer-heb1118",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The inherited claim overstates both citations. Genesis 26 promises Isaac land, many descendants and a worldwide blessing vocation; it never calls one descendant a Redeemer. Hebrews 11:18 quotes Genesis 21:12, not Genesis 26, and its point is Abraham's faith that the promised line through Isaac would survive. Jesus and redemption enter only through other New Testament arguments.",
+    "reasoning": [
+      "Genesis 26:4 immediately describes the offspring as numerous as the stars, making its collective family reference explicit.",
+      "The promise concerns lands and worldwide blessing and gives no mechanism of redemption or individual messianic description.",
+      "Hebrews 11:18's wording comes from Genesis 21:12 and refers to the necessity of Isaac surviving for Abraham's posterity.",
+      "Galatians can support a later representative-Christ rereading, but importing that separate argument does not make Hebrews 11:18 say ‘Redeemer.’"
+    ],
+    "source_ids": [
+      "src-meyer-heb1118",
+      "src-derouchie-meyer-2010",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Hebrews 11:18 quotes Genesis 21:12 rather than Genesis 26:2-5; both concern the Isaac promise line, but the inherited cross-reference is indirect.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-meyer-heb1118",
+        "src-bsb-v59"
+      ]
+    },
+    {
+      "issue": "Genesis 26:4 uses a collective offspring explicitly compared with numerous stars. Neither cited passage contains the term or role ‘Redeemer.’",
+      "significance": "decisive",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "source_claim_incorrect",
+    "summary": "Christian theology can coherently trace the Abrahamic promise through Isaac to Christ and worldwide redemption. But the inherited claim adds ‘Redeemer’ to texts that do not say it, and Hebrews 11:18 quotes Genesis 21:12 rather than Genesis 26. The broader canonical conclusion is possible; the claimed proof-text correspondence is incorrect.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-derouchie-meyer-2010",
+      "tier": 1,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "Christ or Family as the ‘Seed’ of Promise? An Evaluation of N. T. Wright on Galatians 3:16",
+      "author": "Jason S. DeRouchie and Jason C. Meyer",
+      "publisher": "Southern Baptist Journal of Theology 14.3",
+      "url": "https://cf.sbts.edu/equip/uploads/2024/01/SBJT-V14-N.3_Complete.pdf",
+      "locator": "pp. 36-48",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Develops the strongest canonical Christian case for the repeated Genesis promises culminating in a representative Messiah."
+    },
+    {
+      "id": "src-meyer-heb1118",
+      "tier": 2,
+      "stance": "background",
+      "type": "commentary",
+      "title": "Meyer's NT Commentary: Hebrews 11:18",
+      "author": "Heinrich August Wilhelm Meyer",
+      "publisher": "Bible Hub electronic edition",
+      "url": "https://biblehub.com/commentaries/hebrews/11-18.htm",
+      "locator": "Meyer's NT Commentary section",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Identifies Genesis 21:12 as the quotation and explains posterity founded through Isaac."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 21:12; 26:2-5; Galatians 3:16, 29; Hebrews 11:17-19",
+      "accessed": "2026-09-05",
+      "checked": true,
+      "notes": "Project display text and direct citation comparison."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer":"adversarial_llm","model":"GPT-5.5","date":"2026-09-05","prompt_version":"2",
+      "prompt_path":"editorial/review-prompts/prophecy-013-adversarial-2026-09-05.md",
+      "raw_output_path":"editorial/reviews/prophecy-013-adversarial-2026-09-05-raw.md",
+      "objections":[
+        {"objection":"The seed-list label may compress a broader canonical trajectory rather than assert a direct proof-text.","disposition":"partly_accepted","reason":"The strongest case grants that trajectory, while the verdict addresses the cited correspondence and added ‘Redeemer’ wording."},
+        {"objection":"Do not imply that collective offspring excludes representative christological interpretation.","disposition":"accepted","reason":"The record allows Christ as representative culmination and objects only that the cited texts do not specify him."},
+        {"objection":"‘This claimed correspondence is not’ could deny the broader theology's coherence.","disposition":"accepted","reason":"Reworded the public verdict to say the cited pair does not establish the specific claim."},
+        {"objection":"‘The Jesus claim comes from elsewhere’ is reductive.","disposition":"accepted","reason":"Changed it to ‘the explicit christological identification comes from elsewhere.’"}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Does Genesis call Isaac's descendant the Redeemer?",
+    "scripture_excerpt": "I will make your descendants as numerous as the stars in the sky...and through your offspring all nations of the earth will be blessed.",
+    "website": {
+      "description": "A fair examination of the claim that Genesis 26 promises the Redeemer through Isaac.",
+      "summary": "Genesis renews the worldwide promise through Isaac. But do the cited texts actually call his descendant the Redeemer?",
+      "christian_case": "Genesis 26 deliberately carries Abraham's covenant forward through Isaac: land, descendants as numerous as the stars and blessing for all nations through his offspring. Hebrews 11 shows how indispensable that line was—Abraham trusted that God could even raise Isaac because the promised family had to come through him. Galatians later identifies Christ as the representative seed within the Abrahamic promise. Read across the canon, Christians can coherently say that the promise transmitted through Isaac culminates in Jesus and worldwide redemption.",
+      "critical_case": "That conclusion requires passages beyond the two cited. Genesis 26 promises land, a multitude of descendants and worldwide blessing; it never uses the word ‘Redeemer’ or singles out one descendant. Hebrews 11:18 quotes Genesis 21:12, not Genesis 26, and explains Abraham's confidence that the family line through Isaac would survive. It does not identify Jesus or redemption. Galatians supplies the later christological argument, but importing it cannot turn these particular verses into a direct Redeemer prediction.",
+      "verdict_label": "Broader theology; incorrect proof-text claim",
+      "verdict": "The covenant trajectory through Isaac can be read christologically, but neither cited passage promises a figure called the Redeemer. Hebrews quotes a different Genesis verse to explain Abraham's faith. The broader Christian theology may be coherent; this cited pair does not establish the specific claim."
+    },
+    "carousel": [
+      {
+        "heading": "Was Isaac's offspring promised as the Redeemer?",
+        "body": "Genesis renews Abraham's promises through Isaac. Hebrews recalls that Isaac's line must continue. Christian lists sometimes say these verses promise Jesus as Redeemer.",
+        "alt_text": "Slide one introduces the claim that Genesis 26 promises the Redeemer through Isaac."
+      },
+      {
+        "heading": "The strongest Christian case",
+        "body": "Land, countless descendants and worldwide blessing pass through Isaac. Galatians later centres the Abrahamic promise in Christ. Across the whole canon, Jesus can be presented as the line's redemptive culmination.",
+        "alt_text": "Slide two presents the broader canonical Christian promise trajectory."
+      },
+      {
+        "heading": "The citations don't say ‘Redeemer’",
+        "body": "Genesis promises a multitude, not one identified saviour. Hebrews 11:18 quotes Genesis 21:12—not Genesis 26—and discusses Abraham's faith that Isaac's family line would survive. The explicit christological identification comes from elsewhere.",
+        "alt_text": "Slide three explains the incorrect proof-text mapping and added Redeemer language."
+      }
+    ]
+  }
+}
