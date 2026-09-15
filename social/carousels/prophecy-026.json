@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-026",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 15:2: The LORD is my strength and my song, and He has become my salvation.",
+         "body" : "“The LORD is my strength and my song, and He has become my salvation.”",
+         "heading" : "Exod 15:2",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: The proposed salvation-name and exaltation connections.",
+         "body" : "Exodus says the LORD became Israel's 'salvation'. Jesus's Hebrew name shares that word's root. Stephen later sees Jesus at God's right hand.",
+         "heading" : "A name hidden in a song?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: Christian salvation theology connects the passages.",
+         "body" : "Matthew explains Jesus's name through his saving mission. Christians can see God's rescue at the sea as a pattern of the salvation they see in Jesus.",
+         "heading" : "The strongest connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The lexical and contextual limits.",
+         "body" : "Exodus uses a common noun: 'salvation', not the name Yeshua. Israel exalts God in praise; that is not Stephen's right-hand scene. The song celebrates rescue already accomplished.",
+         "heading" : "But the Hebrew matters",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-026/",
+   "title" : "Is ‘salvation’ Jesus's name?",
+   "verdict_category" : "depends_on_disputed_text_or_translation"
+}

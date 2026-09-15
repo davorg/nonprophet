@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-027",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 15:11: Who among the gods is like You, O LORD? Who is like You — majestic in holiness, revered with praises, performing wonders?",
+         "body" : "“Who among the gods is like You, O LORD? Who is like You — majestic in holiness, revered with praises, performing wonders?”",
+         "heading" : "Exod 15:11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: The holy-character claim and its NT parallels.",
+         "body" : "Exodus praises the LORD as 'majestic in holiness'. Luke calls Jesus the Holy One, and Acts calls him God's holy servant.",
+         "heading" : "A holy Messiah?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The strongest theological character argument.",
+         "body" : "Christians see Jesus embodying God's holy saving character. A named advocate argues that a Savior able to redeem others must be holy.",
+         "heading" : "The Christian reading",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: Original referent and genre.",
+         "body" : "Exodus praises the LORD's rescue from Egypt. Jesus may embody that divine holiness, but the hymn itself does not describe a future Messiah.",
+         "heading" : "But the hymn addresses God",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-027/",
+   "title" : "Whose holiness is this?",
+   "verdict_category" : "thematic_parallel_only"
+}

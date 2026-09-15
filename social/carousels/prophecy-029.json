@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-029",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 33:19: I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.",
+         "body" : "“I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.”",
+         "heading" : "Exod 33:19",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: The mercy-word correspondence.",
+         "body" : "God tells Moses he will show mercy and compassion. Luke later says mercy will be shown to Israel's fathers as Davidic salvation arrives.",
+         "heading" : "Mercy foretold?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The Christ-mediated covenant-mercy case.",
+         "body" : "Luke's hymn speaks of a Davidic horn of salvation. A commentator reads its mercy as salvation by Christ: a meaningful theological connection.",
+         "heading" : "Christ brings God's mercy",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The grammatical and direct-citation evidence.",
+         "body" : "God speaks in Exodus and is the one showing mercy in Luke. Romans quotes Exodus as God's own words. Jesus may mediate mercy, but this pair is not a Jesus-character forecast.",
+         "heading" : "Check the speaker",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-029/",
+   "title" : "Who shows mercy?",
+   "verdict_category" : "source_claim_incorrect"
+}

@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-030",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Lev 1:2-9: a burnt offering, a food offering, a pleasing aroma to the LORD.",
+         "body" : "“a burnt offering, a food offering, a pleasing aroma to the LORD.”",
+         "heading" : "Lev 1:2-9",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: The ritual phrase and its Christological reuse.",
+         "body" : "Leviticus calls a burnt offering 'a pleasing aroma to the LORD'. Ephesians calls Christ's self-giving a fragrant sacrificial offering to God.",
+         "heading" : "A fragrant sacrifice",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The strongest ritual-typology case.",
+         "body" : "A named commentator links Ephesians to Leviticus 1:9. Christians can see Christ's self-giving as a culmination of accepted-offering imagery.",
+         "heading" : "An intentional connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: Recurrence and original ritual function.",
+         "body" : "Leviticus gives rules for repeated offerings; the aroma phrase occurs elsewhere too. Ephesians reuses the image, but Leviticus 1 alone is not a unique prediction.",
+         "heading" : "A recurring formula",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-030/",
+   "title" : "A pleasing aroma",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

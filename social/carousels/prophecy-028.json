@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-028",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 17:6: Behold, I will stand there before you by the rock at Horeb. And when you strike the rock, water will come out of it for the people to drink.",
+         "body" : "“Behold, I will stand there before you by the rock at Horeb. And when you strike the rock, water will come out of it for the people to drink.”",
+         "heading" : "Exod 17:6",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: Paul's explicit Christ-rock identification.",
+         "body" : "Israel drinks water from a rock at Horeb. Paul later says their spiritual rock 'was Christ'. This connection is explicit in the New Testament.",
+         "heading" : "‘That rock was Christ’",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: Canonical divine-presence and typological reasoning.",
+         "body" : "God stands by the rock; Israel asks if the LORD is with them. Later biblical poems call God Israel's Rock. Christians read Paul's line as Christ's presence in the wilderness.",
+         "heading" : "A serious Christian case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: Original narrative limits.",
+         "body" : "Exodus recounts water for a present emergency; Numbers tells of another rock. Neither names a future Messiah. Paul's canonical identification is strong, but not a standalone forecast.",
+         "heading" : "Was Exodus forecasting?",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-028/",
+   "title" : "Paul says the rock was Christ",
+   "verdict_category" : "plausible_typology_not_prediction"
+}
