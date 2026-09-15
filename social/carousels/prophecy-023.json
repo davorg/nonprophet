@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-023",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 12:13: The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you.",
+         "body" : "“The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you.”",
+         "heading" : "Exod 12:13",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: Passover blood and Christ's death are compared.",
+         "body" : "Exodus says marked Israelite houses would escape Egypt's plague. Romans 5:8 says Christ died for sinners; verse 9 adds that his blood saves from wrath. Christians connect these rescues.",
+         "heading" : "Blood at the doorframes",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The stronger case uses Romans 5:9 openly.",
+         "body" : "Blood and threatened judgment are genuinely present in Exodus; blood and salvation from wrath are genuinely present in Romans 5:9. The Christian analogy is a pattern of rescue through sacrifice.",
+         "heading" : "The strongest version",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The analogy is limited as evidence of prediction.",
+         "body" : "Exodus concerns household protection during Egypt's firstborn plague, not forgiveness of sins. Romans does not cite Passover here. This is a coherent later theological comparison, not a specific prior prediction.",
+         "heading" : "Different settings, different claims",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-023/",
+   "title" : "Does Passover blood save from wrath?",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

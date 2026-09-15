@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-024",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 12:21-27: It is the Passover sacrifice to the LORD, who passed over the houses of the Israelites in Egypt when He struck down the Egyptians and spared our homes.",
+         "body" : "“It is the Passover sacrifice to the LORD, who passed over the houses of the Israelites in Egypt when He struck down the Egyptians and spared our homes.”",
+         "heading" : "Exod 12:21-27",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: Exodus Passover and Paul's explicit statement.",
+         "body" : "Exodus describes the Passover sacrifice that spared Israelite homes in Egypt. Paul writes, ‘Christ, our Passover lamb, has been sacrificed.’ This is a direct Christian identification.",
+         "heading" : "Paul makes the link explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The strongest Christian Passover typology.",
+         "body" : "Paul continues the feast image in 1 Corinthians 5:8, urging his church to live without the ‘leaven’ of malice. His reading intentionally connects Christ's sacrifice and a new way of life.",
+         "heading" : "More than a loose resemblance",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: An explicit NT connection is not an original Exodus prophecy.",
+         "body" : "Exodus says the rite remembers God's rescue of homes in Egypt and tells children to keep explaining it. Paul applies that history to Christ later. Strong typology does not turn the rite into a prior prediction.",
+         "heading" : "The earlier rite had its own meaning",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-024/",
+   "title" : "Christ, our Passover",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

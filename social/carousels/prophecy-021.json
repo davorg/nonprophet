@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-021",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 3:13-15: I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’",
+         "body" : "“I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’”",
+         "heading" : "Exod 3:13-15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: The claim links God's words to Moses with two sayings of Jesus.",
+         "body" : "God names himself to Moses in Exodus 3. Jesus says ‘before Abraham was born, I am’ in John 8:58, and answers ‘I am he’ to a Messiah question in John 4:26. Do these sayings echo God's identity?",
+         "heading" : "Two ‘I am’ sayings",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: Why Christians see a significant link to divine identity.",
+         "body" : "John 8:58's contrast with Abraham and the attempted stoning support a bold divine-identity reading. A Christian specialist argues that it may echo Exodus 3, while John 4:26 identifies Jesus as Messiah.",
+         "heading" : "The strongest Christian reading",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The passages permit theology but do not form a prior prediction.",
+         "body" : "Exodus names God in Moses's deliverance story; it does not forecast Jesus. The Greek wording also differs, and John's other ‘I am’ backgrounds include Isaiah. John 4:26 answers a Messiah question rather than clearly quoting the divine name.",
+         "heading" : "An echo, not a forecast",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-021/",
+   "title" : "The great ‘I AM’",
+   "verdict_category" : "retrospective_rereading"
+}

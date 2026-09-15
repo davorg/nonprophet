@@ -1,0 +1,34 @@
+{
+   "claim_id" : "prophecy-022",
+   "editorial_status" : "ready_to_publish",
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "The BSB text of Exod 12:5: Your lamb must be an unblemished year-old male, and you may take it from the sheep or the goats.",
+         "body" : "“Your lamb must be an unblemished year-old male, and you may take it from the sheep or the goats.”",
+         "heading" : "Exod 12:5",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Slide 1: The claim compares an unblemished Passover animal with Christ.",
+         "body" : "Exodus 12:5 requires an unblemished animal. Hebrews calls Christ's self-offering unblemished; 1 Peter calls his blood that of a lamb without blemish. Christians see a Passover pattern.",
+         "heading" : "Unblemished for Passover",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 2: The strongest typological case.",
+         "body" : "The New Testament uses sacrificial purity language for Jesus. A named Christian commentary explicitly treats the Passover animal as a type of his blameless sacrifice.",
+         "heading" : "A meaningful Christian pattern",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Slide 3: The ritual does not specify a future Messiah.",
+         "body" : "Exodus gives Israel a ritual selection rule. The animal can be from sheep or goats, and blemish rules apply to other offerings too. The analogy is coherent; the verse does not independently predict Jesus.",
+         "heading" : "A rule, not a forecast",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-022/",
+   "title" : "A lamb without blemish",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

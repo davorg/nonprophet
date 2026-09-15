@@ -139,6 +139,41 @@
          "scheduled_date" : null,
          "social_ids" : {},
          "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-021",
+         "published_url" : null,
+         "scheduled_date" : null,
+         "social_ids" : {},
+         "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-022",
+         "published_url" : null,
+         "scheduled_date" : null,
+         "social_ids" : {},
+         "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-023",
+         "published_url" : null,
+         "scheduled_date" : null,
+         "social_ids" : {},
+         "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-024",
+         "published_url" : null,
+         "scheduled_date" : null,
+         "social_ids" : {},
+         "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-025",
+         "published_url" : null,
+         "scheduled_date" : null,
+         "social_ids" : {},
+         "state" : "withheld"
       }
    ],
    "schema_version" : 1
