@@ -14,6 +14,13 @@ test -f "$site_check_dir/public/index.html"
 test -f "$site_check_dir/public/assets/css/site.css"
 test -f "$site_check_dir/public/claims/prophecy-001/index.html"
 
+mapfile -t verdict_categories < <(awk -F: '/^[a-z][a-z_]+:$/ { print $1 }' "$repo_dir/docs/_data/verdicts.yml")
+for category in "${verdict_categories[@]}"; do
+  verdict_slug=${category//_/-}
+  test -f "$repo_dir/docs/verdicts/$verdict_slug.md"
+  test -f "$site_check_dir/public/verdicts/$verdict_slug/index.html"
+done
+
 mapfile -t published_ids < <(jq -r '.entries[] | select(.state == "published") | .claim_id' "$repo_dir/data/publication.json")
 mapfile -t withheld_ids < <(jq -r '.entries[] | select(.state == "withheld") | .claim_id' "$repo_dir/data/publication.json")
 test "${#published_ids[@]}" -gt 0
