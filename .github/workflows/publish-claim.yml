@@ -1,6 +1,12 @@
 name: Publish daily claim
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - ".github/workflows/publish-claim.yml"
   schedule:
     - cron: "5 3 * * *"
   workflow_dispatch:
