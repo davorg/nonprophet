@@ -5,6 +5,7 @@ use utf8;
 use FindBin;
 use File::Path qw(make_path);
 use File::Temp qw(tempfile);
+use Image::Magick;
 use JSON::PP;
 use open qw(:std :encoding(UTF-8));
 
@@ -27,20 +28,54 @@ sub xml_escape {
     return $text;
 }
 
+my $metrics_canvas = Image::Magick->new(size => '1200x1200');
+$metrics_canvas->Read('xc:white');
+my %font_paths;
+sub font_path {
+    my ($family, $weight) = @_;
+    my $key = "$family:$weight";
+    return $font_paths{$key} if $font_paths{$key};
+    open my $fh, '-|', 'fc-match', '-f', '%{file}', "$family:weight=$weight"
+        or die "Cannot run fc-match for $key: $!\n";
+    local $/;
+    my $path = <$fh>;
+    close $fh or die "fc-match failed for $key\n";
+    die "No font found for $key\n" unless $path && -f $path;
+    return $font_paths{$key} = $path;
+}
+
+sub text_width {
+    my ($text, $family, $weight, $pointsize) = @_;
+    my @metrics = $metrics_canvas->QueryFontMetrics(
+        text => $text,
+        font => font_path($family, $weight),
+        pointsize => $pointsize,
+    );
+    die "Cannot measure text '$text'\n" unless @metrics;
+    return $metrics[4];
+}
+
 sub wrap_text {
-    my ($text, $limit) = @_;
+    my ($text, $family, $weight, $pointsize, $max_width) = @_;
     my @words = split /\s+/, $text;
     my @lines;
     my $line = '';
     for my $word (@words) {
-        if (length($line) && length($line) + 1 + length($word) > $limit) {
+        my $candidate = $line . ($line ? ' ' : '') . $word;
+        die "A single word is wider than the text area: $word\n"
+            if !length($line) && text_width($candidate, $family, $weight, $pointsize) > $max_width;
+        if (length($line) && text_width($candidate, $family, $weight, $pointsize) > $max_width) {
             push @lines, $line;
             $line = $word;
         } else {
-            $line .= ($line ? ' ' : '') . $word;
+            $line = $candidate;
         }
     }
     push @lines, $line if length $line;
+    for my $wrapped_line (@lines) {
+        die "Wrapped line exceeds text area: $wrapped_line\n"
+            if text_width($wrapped_line, $family, $weight, $pointsize) > $max_width;
+    }
     return @lines;
 }
 
@@ -64,7 +99,7 @@ my %formats = (
         panel_w => 940, panel_h => 1210, text_x => 142, text_right => 938,
         label_y => 155, heading_y => 250, heading_size => 64,
         heading_spacing => 78, body_size => 42, body_spacing => 58,
-        heading_limit => 26, body_limit => 40, footer_y => 1190,
+        footer_y => 1190,
         credit_y => 1233,
     },
     vertical => {
@@ -72,7 +107,7 @@ my %formats = (
         panel_w => 940, panel_h => 1580, text_x => 142, text_right => 850,
         label_y => 280, heading_y => 400, heading_size => 68,
         heading_spacing => 84, body_size => 46, body_spacing => 64,
-        heading_limit => 23, body_limit => 34, footer_y => 1600,
+        footer_y => 1600,
         credit_y => 1648,
     },
 );
@@ -100,10 +135,18 @@ for my $manifest_path (@manifests) {
 
         for my $index (0 .. $#{$manifest->{slides}}) {
             my $slide = $manifest->{slides}[$index];
-            my @heading = wrap_text($slide->{heading}, $format->{heading_limit});
             my $is_scripture = ($slide->{type} // '') eq 'scripture';
-            my $body_limit = $format->{body_limit} - ($is_scripture ? 6 : 0);
-            my @body = wrap_text($slide->{body}, $body_limit);
+            my $text_width = $format->{text_right} - $format->{text_x} - 36;
+            my @heading = wrap_text(
+                $slide->{heading}, 'Noto Serif', 'bold',
+                $format->{heading_size}, $text_width,
+            );
+            my $body_family = $is_scripture ? 'Noto Serif' : 'Noto Sans';
+            my $body_weight = $is_scripture ? 'semibold' : 'regular';
+            my @body = wrap_text(
+                $slide->{body}, $body_family, $body_weight,
+                $format->{body_size}, $text_width,
+            );
             die "$id $format_name slide " . ($index + 1) . " heading is too long\n" if @heading > 3;
             die "$id $format_name slide " . ($index + 1) . " body is too long\n" if @body > 9;
             my $divider_y = $format->{heading_y} + @heading * $format->{heading_spacing};
@@ -113,8 +156,7 @@ for my $manifest_path (@manifests) {
             my $slide_number = $index + 1;
             my $credit = xml_escape("Photo: $background->{creator} / Unsplash");
             my $panel_right = $format->{panel_x} + $format->{panel_w};
-            my $body_family = $is_scripture ? 'Noto Serif' : 'Noto Sans';
-            my $body_weight = $is_scripture ? '600' : '450';
+            my $body_svg_weight = $is_scripture ? '600' : '450';
             my $supplement = '';
             if ($is_scripture) {
                 my $citation_y = $format->{footer_y} - 82;
@@ -138,7 +180,7 @@ for my $manifest_path (@manifests) {
 <text x="$format->{text_x}" y="$format->{label_y}" fill="#bd3e28" font-family="Noto Sans" font-size="25" font-weight="700" letter-spacing="4">NON-PROPHET · CLAIM $claim_number</text>
 <text fill="#061a2b" font-family="Noto Serif" font-size="$format->{heading_size}" font-weight="700">$heading_svg</text>
 <line x1="$format->{text_x}" y1="$divider_y" x2="$format->{text_right}" y2="$divider_y" stroke="#061a2b" stroke-opacity="0.18" stroke-width="2"/>
-<text fill="#243746" font-family="$body_family" font-size="$format->{body_size}" font-weight="$body_weight">$body_svg</text>
+<text fill="#243746" font-family="$body_family" font-size="$format->{body_size}" font-weight="$body_svg_weight">$body_svg</text>
 $supplement
 <text x="$format->{text_x}" y="$format->{footer_y}" fill="#061a2b" font-family="Noto Serif" font-size="34" font-weight="700">nonprophet.app</text>
 <text x="$format->{text_right}" y="$format->{footer_y}" text-anchor="end" fill="#bd3e28" font-family="Noto Sans" font-size="28" font-weight="700">$slide_number / $total_slides</text>
