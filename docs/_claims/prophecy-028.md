@@ -16,7 +16,7 @@ ot_text_url: "https://ebible.org/engbsb/EXO17.htm#V6"
 ot_text: "Behold, I will stand there before you by the rock at Horeb. And when you strike the rock, water will come out of it for the people to drink.” So Moses did this in the sight of the elders of Israel."
 ot_note: "Horeb is another name for Sinai."
 nt_explanation: "Paul explicitly says that the spiritual rock accompanying Israel was Christ. Christians therefore read the water-giving rock as a pattern of Jesus."
-nt_connections: [{"reference":"1 Corinthians 10:4","social":true,"social_text":null,"text":"and drank the same spiritual drink; for they drank from the spiritual rock that accompanied them, and that rock was Christ.","url":"https://ebible.org/engbsb/1CO10.htm#V4"}]
+nt_connections: [{"reference":"1 Cor 10:4","social":true,"social_text":null,"text":"and drank the same spiritual drink; for they drank from the spiritual rock that accompanied them, and that rock was Christ.","url":"https://ebible.org/engbsb/1CO10.htm#V4"}]
 christian_case: "Paul's identification is direct. God stands by the rock in Exodus, and Israel asks whether the LORD is with them. Later scripture calls God Israel's Rock. A Christian scholar argues these details make Paul's Christological reading coherent without a moving stone."
 critical_case: "Exodus describes relief for a thirsty people, not a future Messiah. It distinguishes God from the struck rock, though divine presence may be mediated through the event. A stone following Israel is not in its narrative; Paul's claim is a canonical Christological interpretation."
 verdict_label: "Canonical reading, not forecast"

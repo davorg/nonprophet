@@ -58,6 +58,26 @@ my %ebible_codes = (
     Heb => 'HEB', Jas => 'JAS', '1Pet' => '1PE', '2Pet' => '2PE',
     '1John' => '1JN', '2John' => '2JN', '3John' => '3JN', Jude => 'JUD', Rev => 'REV',
 );
+my %reference_abbreviations = (
+    '1 Corinthians' => '1 Cor', '2 Corinthians' => '2 Cor',
+    '1 Thessalonians' => '1 Thess', '2 Thessalonians' => '2 Thess',
+    '1 Timothy' => '1 Tim', '2 Timothy' => '2 Tim',
+    '1 Peter' => '1 Pet', '2 Peter' => '2 Pet',
+    '1 John' => '1 Jn', '2 John' => '2 Jn', '3 John' => '3 Jn',
+    Matthew => 'Matt', Mark => 'Mk', Luke => 'Lk', John => 'Jn',
+    Romans => 'Rom', Galatians => 'Gal',
+    Ephesians => 'Eph', Philippians => 'Phil', Colossians => 'Col',
+    Hebrews => 'Heb', James => 'Jas', Revelation => 'Rev',
+);
+
+sub abbreviate_reference {
+    my ($reference) = @_;
+    for my $book (sort { length($b) <=> length($a) } keys %reference_abbreviations) {
+        return $reference_abbreviations{$book} . substr($reference, length($book))
+            if index($reference, $book) == 0;
+    }
+    return $reference;
+}
 my @record_paths = sort glob "$root/editorial/records/*.json";
 make_path("$root/docs/_claims", "$root/social/carousels");
 
@@ -83,7 +103,7 @@ for my $record_path (@record_paths) {
             $scripture->{verses}{$_}{text} // die "$id references missing BSB verse $_\n"
         } @verses;
         push @nt_display, {
-            reference => $passage->{reference},
+            reference => abbreviate_reference($passage->{reference}),
             url => sprintf('https://ebible.org/engbsb/%s%02d.htm#V%d', $nt_ebible_code, $nt_chapter, $nt_verse),
             text => join(' ', @texts),
             social => $passage->{social} ? JSON::PP::true : JSON::PP::false,

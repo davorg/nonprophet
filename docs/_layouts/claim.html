@@ -17,13 +17,13 @@ body_class: claim-page
         {% if page.ot_note %}<p class="text-note"><strong>Translation note:</strong> {{ page.ot_note }}</p>{% endif %}
       </section>
       <section class="scripture-card nt-connection" aria-labelledby="nt-connection">
+        <h2 id="nt-connection">The claimed New Testament fulfilment</h2>
+        <p class="nt-explanation">{{ page.nt_explanation }}</p>
         {% for passage in page.nt_connections %}
         <article class="nt-passage">
-          <div class="section-heading">
-            {% if forloop.first %}<h2 id="nt-connection">The claimed New Testament fulfilment</h2>{% endif %}
+          <div class="section-heading nt-reference-row">
             <a href="{{ passage.url }}" target="_blank" rel="noopener noreferrer" aria-label="Read {{ passage.reference }} in the Berean Standard Bible">{{ passage.reference }} · BSB <span aria-hidden="true">↗</span></a>
           </div>
-          {% if forloop.first %}<p class="nt-explanation">{{ page.nt_explanation }}</p>{% endif %}
           <blockquote>{{ passage.text }}</blockquote>
         </article>
         {% endfor %}
