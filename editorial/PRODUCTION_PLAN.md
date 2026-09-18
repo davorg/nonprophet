@@ -19,7 +19,8 @@ For each passage group:
 3. process each claim through the full editorial review protocol;
 4. run the independent adversarial review using a different model;
 5. resolve review findings and flag genuine deadlocks for human review;
-6. prepare article copy and a four-slide social-media script;
+6. prepare article copy and a four-slide social-media script following
+   [the plain-English social style](../social/STYLE_GUIDE.md);
 7. mark the claim ready only when sources and quotations are verified.
 
 Record stage timings and constrained-resource counts throughout this workflow using

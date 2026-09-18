@@ -78,14 +78,14 @@ my %formats = (
 );
 
 my %verdict_labels = (
-    plausible_prediction => 'PLAUSIBLE PREDICTION',
-    plausible_typology_not_prediction => 'TYPOLOGY, NOT PREDICTION',
-    retrospective_rereading => 'RETROSPECTIVE REREADING',
-    thematic_parallel_only => 'THEMATIC PARALLEL',
-    depends_on_disputed_text_or_translation => 'DISPUTED TEXT OR TRANSLATION',
-    insufficiently_specific => 'INSUFFICIENTLY SPECIFIC',
-    source_claim_incorrect => 'SOURCE CLAIM INCORRECT',
-    mixed_or_indeterminate => 'MIXED OR INDETERMINATE',
+    plausible_prediction => 'A REASONABLE PREDICTION',
+    plausible_typology_not_prediction => 'A PATTERN, NOT A PREDICTION',
+    retrospective_rereading => 'REINTERPRETED LATER',
+    thematic_parallel_only => 'SAME IDEA, NOT A PREDICTION',
+    depends_on_disputed_text_or_translation => 'DEPENDS ON THE WORDING',
+    insufficiently_specific => 'TOO VAGUE TO IDENTIFY JESUS',
+    source_claim_incorrect => q{THE VERSES DON'T SAY THAT},
+    mixed_or_indeterminate => 'NO CLEAR ANSWER',
 );
 
 for my $manifest_path (@manifests) {

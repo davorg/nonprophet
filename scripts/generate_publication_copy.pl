@@ -30,6 +30,8 @@ my $claims = read_json("$root/data/claims.json");
 my %claims_by_id = map { $_->{id} => $_ } @{$claims->{entries}};
 my $publication = read_json("$root/data/publication.json");
 my %publication_by_id = map { $_->{claim_id} => $_ } @{$publication->{entries}};
+my $social_copy = read_json("$root/social/plain-language.json");
+my %social_by_id = map { $_->{claim_id} => $_ } @{$social_copy->{entries}};
 my %book_names = (
     Gen => 'Genesis', Exod => 'Exodus', Lev => 'Leviticus', Num => 'Numbers',
     Deut => 'Deuteronomy', Josh => 'Joshua', Ruth => 'Ruth', '1Sam' => '1 Samuel',
@@ -56,6 +58,8 @@ for my $record_path (@record_paths) {
     my $claim = $claims_by_id{$id} or die "No canonical claim for $id\n";
     my $copy = $record->{publication_copy};
     next unless length($copy->{title} // '');
+    my $social = $social_by_id{$id}
+        or die "No plain-language social copy for $id\n";
 
     my $website = $copy->{website};
     my $number = 0 + ($id =~ /([0-9]+)$/)[0];
@@ -105,6 +109,15 @@ for my $record_path (@record_paths) {
     push @source_lines, '', 'Biblical quotations are from the Berean Standard Bible (BSB), public domain.', '';
     write_text("$root/docs/_claims/$id.md", join("\n", @frontmatter, @source_lines));
 
+    my @editorial_slides;
+    for my $index (0 .. $#{$social->{slides}}) {
+        my $slide = $social->{slides}[$index];
+        push @editorial_slides, {
+            %$slide,
+            type => 'editorial',
+            alt_text => sprintf('Slide %d: %s %s', $index + 2, $slide->{heading}, $slide->{body}),
+        };
+    }
     my @slides = (
         {
             type => 'scripture',
@@ -112,7 +125,7 @@ for my $record_path (@record_paths) {
             body => '“' . $copy->{scripture_excerpt} . '”',
             alt_text => "The BSB text of $claim->{ot_passage}{source}: $copy->{scripture_excerpt}",
         },
-        map { +{ %$_, type => 'editorial' } } @{$copy->{carousel}},
+        @editorial_slides,
     );
     write_text("$root/social/carousels/$id.json", JSON::PP->new->canonical->pretty->encode({
         schema_version => 1,
