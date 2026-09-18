@@ -17,7 +17,7 @@ body_class: claim-page
         {% if page.ot_note %}<p class="text-note"><strong>Translation note:</strong> {{ page.ot_note }}</p>{% endif %}
       </section>
       <section class="scripture-card nt-connection" aria-labelledby="nt-connection">
-        <h2 id="nt-connection">The claimed New Testament fulfilment</h2>
+        <div class="section-heading"><h2 id="nt-connection">The claimed New Testament fulfilment</h2></div>
         <p class="nt-explanation">{{ page.nt_explanation }}</p>
         {% for passage in page.nt_connections %}
         <article class="nt-passage">

@@ -49,11 +49,10 @@ a { color: var(--accent); text-underline-offset: .18em; }
 blockquote { margin: 1.5rem 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.25rem, 3vw, 1.7rem); line-height: 1.55; }
 .text-note { margin: 1.25rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; line-height: 1.55; }
 .scripture-card + .nt-connection { margin-top: clamp(2rem, 5vw, 3.5rem); }
-.nt-connection > h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.45rem, 3vw, 2rem); }
 .nt-explanation { max-width: 46rem; margin: 1rem 0 0; color: var(--muted); font-size: .98rem; line-height: 1.65; }
 .nt-passage { margin-top: 1.5rem; }
-.nt-passage + .nt-passage { margin-top: 1.75rem; padding-top: 1.75rem; border-top: 1px solid rgba(6, 26, 43, .22); }
-.nt-reference-row > a { margin-left: auto; }
+.nt-passage + .nt-passage { margin-top: 1.75rem; padding-top: 1.75rem; border-top: 1px solid #cfd4d7; }
+.nt-reference-row > a { margin-left: auto; align-self: flex-end; text-align: right; }
 .nt-passage blockquote { margin-top: .75rem; font-size: clamp(1.08rem, 2.5vw, 1.35rem); }
 .argument { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1.25rem; margin-top: clamp(3rem, 7vw, 5rem); }
 .section-number { margin: .15rem 0 0; color: var(--accent); font-weight: 800; letter-spacing: .1em; }
