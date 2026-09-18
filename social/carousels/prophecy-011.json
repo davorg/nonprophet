@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 22:8: Abraham answered, ‘God Himself will provide the lamb for the burnt offering, my son.’",
-         "body" : "“Abraham answered, ‘God Himself will provide the lamb for the burnt offering, my son.’”",
-         "heading" : "Gen 22:8",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Did God promise Jesus as the lamb? Abraham tells Isaac that God will provide a lamb. A ram is then killed instead of Isaac. John later calls Jesus “the Lamb of God.”",
+         "alt_text" : "Editorial slide: Did God promise Jesus as the lamb? Abraham tells Isaac that God will provide a lamb. A ram is then killed instead of Isaac. John later calls Jesus “the Lamb of God.”",
          "body" : "Abraham tells Isaac that God will provide a lamb. A ram is then killed instead of Isaac. John later calls Jesus “the Lamb of God.”",
          "heading" : "Did God promise Jesus as the lamb?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them A beloved son faces death, but God provides another victim in his place. Christians see this as a powerful preview of God giving Jesus to save others.",
+         "alt_text" : "The BSB text of Gen 22:8: Abraham answered, ‘God Himself will provide the lamb for the burnt offering, my son.’",
+         "body" : "Abraham answered, ‘God Himself will provide the lamb for the burnt offering, my son.’",
+         "heading" : "Gen 22:8",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in John 1:29, BSB: The next day John saw Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+         "body" : "The next day John saw Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+         "heading" : "Claimed fulfilment · John 1:29",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them A beloved son faces death, but God provides another victim in his place. Christians see this as a powerful preview of God giving Jesus to save others.",
          "body" : "A beloved son faces death, but God provides another victim in his place. Christians see this as a powerful preview of God giving Jesus to save others.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But the story gives its own answer God provides a ram for that day’s sacrifice. John never says he is referring to Isaac’s story, and his lamb image could come from several other Bible passages.",
+         "alt_text" : "Editorial slide: But the story gives its own answer God provides a ram for that day’s sacrifice. John never says he is referring to Isaac’s story, and his lamb image could come from several other Bible passages.",
          "body" : "God provides a ram for that day’s sacrifice. John never says he is referring to Isaac’s story, and his lamb image could come from several other Bible passages.",
          "heading" : "But the story gives its own answer",
          "type" : "editorial"

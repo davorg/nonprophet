@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 14:18: Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
-         "body" : "“Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—”",
-         "heading" : "Gen 14:18",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: A priest like Jesus? Genesis introduces Melchizedek, a man who is both king and priest. Hebrews later says Jesus is a priest forever in the same order.",
+         "alt_text" : "Editorial slide: A priest like Jesus? Genesis introduces Melchizedek, a man who is both king and priest. Hebrews later says Jesus is a priest forever in the same order.",
          "body" : "Genesis introduces Melchizedek, a man who is both king and priest. Hebrews later says Jesus is a priest forever in the same order.",
          "heading" : "A priest like Jesus?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Melchizedek combines two roles that are usually separate: priest and king. A later Psalm promises another priest like him, and Hebrews says that person is Jesus.",
+         "alt_text" : "The BSB text of Gen 14:18: Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+         "body" : "Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High—",
+         "heading" : "Gen 14:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Hebrews 6:20, BSB: where Jesus our forerunner has entered on our behalf. He has become a high priest forever in the order of Melchizedek.",
+         "body" : "where Jesus our forerunner has entered on our behalf. He has become a high priest forever in the order of Melchizedek.",
+         "heading" : "Claimed fulfilment · Hebrews 6:20",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Melchizedek combines two roles that are usually separate: priest and king. A later Psalm promises another priest like him, and Hebrews says that person is Jesus.",
          "body" : "Melchizedek combines two roles that are usually separate: priest and king. A later Psalm promises another priest like him, and Hebrews says that person is Jesus.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: The prediction comes from a Psalm Genesis simply describes a priest who was already alive. The promise of a future priest comes from Psalm 110, not this Genesis verse. Genesis provides the pattern, not the prediction.",
+         "alt_text" : "Editorial slide: The prediction comes from a Psalm Genesis simply describes a priest who was already alive. The promise of a future priest comes from Psalm 110, not this Genesis verse. Genesis provides the pattern, not the prediction.",
          "body" : "Genesis simply describes a priest who was already alive. The promise of a future priest comes from Psalm 110, not this Genesis verse. Genesis provides the pattern, not the prediction.",
          "heading" : "The prediction comes from a Psalm",
          "type" : "editorial"

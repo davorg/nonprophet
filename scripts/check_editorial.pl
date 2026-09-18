@@ -18,6 +18,8 @@ sub read_json {
 
 my $claims = read_json("$root/data/claims.json");
 my %claim_ids = map { $_->{id} => 1 } @{$claims->{entries}};
+my $scripture = read_json("$root/data/scripture/bsb-v5.9.json");
+my $nt_connections = read_json("$root/editorial/nt-connections.json");
 my $publication = read_json("$root/data/publication.json");
 my $social_copy = read_json("$root/social/plain-language.json");
 my @errors;
@@ -47,7 +49,28 @@ for my $entry (@{$social_copy->{entries}}) {
 }
 my %publication_ids;
 my %editorial_status;
+my %nt_connection_ids;
 my $records = 0;
+
+for my $entry (@{$nt_connections->{entries}}) {
+    my $id = $entry->{claim_id} // '';
+    push @errors, "NT connections: duplicate claim ID $id" if $nt_connection_ids{$id}++;
+    push @errors, "$id: NT connection has unknown canonical claim" unless $claim_ids{$id};
+    push @errors, "$id: NT connection requires a plain-English explanation"
+        unless length($entry->{explanation} // '');
+    my @passages = @{$entry->{passages} // []};
+    push @errors, "$id: requires at least one NT passage" unless @passages;
+    push @errors, "$id: requires exactly one NT passage selected for social"
+        unless grep({ $_->{social} } @passages) == 1;
+    for my $passage (@passages) {
+        push @errors, "$id: NT passage requires a reference" unless length($passage->{reference} // '');
+        push @errors, "$id: NT passage requires at least one verse" unless @{$passage->{verses} // []};
+        for my $osis (@{$passage->{verses} // []}) {
+            push @errors, "$id: NT passage references missing BSB verse $osis"
+                unless $scripture->{verses}{$osis};
+        }
+    }
+}
 
 for my $path (sort glob "$root/editorial/records/*.json") {
     my $record = read_json($path);
@@ -55,6 +78,7 @@ for my $path (sort glob "$root/editorial/records/*.json") {
     $editorial_status{$id} = $record->{status};
     $records++;
     push @errors, "$id: unknown canonical claim" unless $claim_ids{$id};
+    push @errors, "$id: missing editorial NT connection" unless $nt_connection_ids{$id};
 
     my %source_ids;
     for my $source (@{$record->{sources}}) {

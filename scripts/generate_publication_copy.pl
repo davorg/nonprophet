@@ -28,6 +28,9 @@ sub yaml_string { return $json->encode($_[0] // '') }
 
 my $claims = read_json("$root/data/claims.json");
 my %claims_by_id = map { $_->{id} => $_ } @{$claims->{entries}};
+my $scripture = read_json("$root/data/scripture/bsb-v5.9.json");
+my $nt_connections = read_json("$root/editorial/nt-connections.json");
+my %nt_connections_by_id = map { $_->{claim_id} => $_ } @{$nt_connections->{entries}};
 my $publication = read_json("$root/data/publication.json");
 my %publication_by_id = map { $_->{claim_id} => $_ } @{$publication->{entries}};
 my $social_copy = read_json("$root/social/plain-language.json");
@@ -48,6 +51,12 @@ my %ebible_codes = (
     Prov => 'PRO', Song => 'SNG', Isa => 'ISA', Jer => 'JER', Ezek => 'EZK',
     Dan => 'DAN', Hos => 'HOS', Joel => 'JOL', Jonah => 'JON', Mic => 'MIC',
     Hag => 'HAG', Zech => 'ZEC', Mal => 'MAL',
+    Matt => 'MAT', Mark => 'MRK', Luke => 'LUK', John => 'JHN', Acts => 'ACT',
+    Rom => 'ROM', '1Cor' => '1CO', '2Cor' => '2CO', Gal => 'GAL', Eph => 'EPH',
+    Phil => 'PHP', Col => 'COL', '1Thess' => '1TH', '2Thess' => '2TH',
+    '1Tim' => '1TI', '2Tim' => '2TI', Titus => 'TIT', Phlm => 'PHM',
+    Heb => 'HEB', Jas => 'JAS', '1Pet' => '1PE', '2Pet' => '2PE',
+    '1John' => '1JN', '2John' => '2JN', '3John' => '3JN', Jude => 'JUD', Rev => 'REV',
 );
 my @record_paths = sort glob "$root/editorial/records/*.json";
 make_path("$root/docs/_claims", "$root/social/carousels");
@@ -60,6 +69,27 @@ for my $record_path (@record_paths) {
     next unless length($copy->{title} // '');
     my $social = $social_by_id{$id}
         or die "No plain-language social copy for $id\n";
+    my $nt_connection = $nt_connections_by_id{$id}
+        or die "No New Testament connection for $id\n";
+
+    my @nt_display;
+    for my $passage (@{$nt_connection->{passages}}) {
+        my @verses = @{$passage->{verses}};
+        my ($osis_book, $nt_chapter, $nt_verse) = $verses[0] =~ /^([^.]+)\.(\d+)\.(\d+)$/
+            or die "$id has invalid NT verse $verses[0]\n";
+        my $nt_ebible_code = $ebible_codes{$osis_book}
+            // die "$id has no eBible code for $osis_book\n";
+        my @texts = map {
+            $scripture->{verses}{$_}{text} // die "$id references missing BSB verse $_\n"
+        } @verses;
+        push @nt_display, {
+            reference => $passage->{reference},
+            url => sprintf('https://ebible.org/engbsb/%s%02d.htm#V%d', $nt_ebible_code, $nt_chapter, $nt_verse),
+            text => join(' ', @texts),
+            social => $passage->{social} ? JSON::PP::true : JSON::PP::false,
+            social_text => $passage->{social_text},
+        };
+    }
 
     my $website = $copy->{website};
     my $number = 0 + ($id =~ /([0-9]+)$/)[0];
@@ -91,6 +121,8 @@ for my $record_path (@record_paths) {
         'ot_text_url: ' . yaml_string($ot_text_url),
         'ot_text: ' . yaml_string($ot_text),
         'ot_note: ' . yaml_string($ot_note),
+        'nt_explanation: ' . yaml_string($nt_connection->{explanation}),
+        'nt_connections: ' . $json->encode(\@nt_display),
         'christian_case: ' . yaml_string($website->{christian_case}),
         'critical_case: ' . yaml_string($website->{critical_case}),
         'verdict_label: ' . yaml_string($website->{verdict_label}),
@@ -115,17 +147,27 @@ for my $record_path (@record_paths) {
         push @editorial_slides, {
             %$slide,
             type => 'editorial',
-            alt_text => sprintf('Slide %d: %s %s', $index + 2, $slide->{heading}, $slide->{body}),
+            alt_text => sprintf('Editorial slide: %s %s', $slide->{heading}, $slide->{body}),
         };
     }
+    my ($social_nt) = grep { $_->{social} } @nt_display;
+    die "$id requires one NT passage selected for social\n" unless $social_nt;
+    my $social_nt_text = $social_nt->{social_text} // $social_nt->{text};
     my @slides = (
+        $editorial_slides[0],
         {
             type => 'scripture',
             heading => $claim->{ot_passage}{source},
-            body => '“' . $copy->{scripture_excerpt} . '”',
+            body => $copy->{scripture_excerpt},
             alt_text => "The BSB text of $claim->{ot_passage}{source}: $copy->{scripture_excerpt}",
         },
-        @editorial_slides,
+        {
+            type => 'scripture',
+            heading => "Claimed fulfilment · $social_nt->{reference}",
+            body => $social_nt_text,
+            alt_text => "The claimed New Testament fulfilment in $social_nt->{reference}, BSB: $social_nt_text",
+        },
+        @editorial_slides[1, 2],
     );
     write_text("$root/social/carousels/$id.json", JSON::PP->new->canonical->pretty->encode({
         schema_version => 1,

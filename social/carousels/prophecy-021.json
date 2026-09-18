@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Exod 3:13-15: I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’",
-         "body" : "“I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’”",
-         "heading" : "Exod 3:13-15",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Did Jesus use God’s name? God tells Moses, “I AM WHO I AM.” Jesus later says, “Before Abraham was born, I am.” Christians hear an echo of God’s name.",
+         "alt_text" : "Editorial slide: Did Jesus use God’s name? God tells Moses, “I AM WHO I AM.” Jesus later says, “Before Abraham was born, I am.” Christians hear an echo of God’s name.",
          "body" : "God tells Moses, “I AM WHO I AM.” Jesus later says, “Before Abraham was born, I am.” Christians hear an echo of God’s name.",
          "heading" : "Did Jesus use God’s name?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Jesus contrasts his existence with Abraham’s, and his listeners try to stone him. That makes the statement sound like a bold claim to share God’s identity.",
+         "alt_text" : "The BSB text of Exod 3:13-15: I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’",
+         "body" : "I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’",
+         "heading" : "Exod 3:13-15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in John 8:58, BSB: “Truly, truly, I tell you,” Jesus declared, “before Abraham was born, I am!”",
+         "body" : "“Truly, truly, I tell you,” Jesus declared, “before Abraham was born, I am!”",
+         "heading" : "Claimed fulfilment · John 8:58",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Jesus contrasts his existence with Abraham’s, and his listeners try to stone him. That makes the statement sound like a bold claim to share God’s identity.",
          "body" : "Jesus contrasts his existence with Abraham’s, and his listeners try to stone him. That makes the statement sound like a bold claim to share God’s identity.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But Exodus is not predicting Jesus Exodus reveals God’s name during Moses’s story. It says nothing about a future saviour. Jesus may echo this or other passages, but that is a later claim about his identity—not an Exodus prediction.",
+         "alt_text" : "Editorial slide: But Exodus is not predicting Jesus Exodus reveals God’s name during Moses’s story. It says nothing about a future saviour. Jesus may echo this or other passages, but that is a later claim about his identity—not an Exodus prediction.",
          "body" : "Exodus reveals God’s name during Moses’s story. It says nothing about a future saviour. Jesus may echo this or other passages, but that is a later claim about his identity—not an Exodus prediction.",
          "heading" : "But Exodus is not predicting Jesus",
          "type" : "editorial"

@@ -15,6 +15,8 @@ ot_reference: "Exod 33:19"
 ot_text_url: "https://ebible.org/engbsb/EXO33.htm#V19"
 ot_text: "“I will cause all My goodness to pass before you,” the LORD replied, “and I will proclaim My name — the LORD — in your presence. I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.”"
 ot_note: "Cited in Romans 9:15"
+nt_explanation: "Luke's hymn says God acts through Jesus to show mercy promised to Israel's ancestors. Christians connect that mercy with God's declaration to Moses."
+nt_connections: [{"reference":"Luke 1:68–72","social":true,"social_text":"He has raised up a horn of salvation for us in the house of His servant David … to show mercy to our fathers.","text":"“Blessed be the Lord, the God of Israel, because He has visited and redeemed His people. He has raised up a horn of salvation for us in the house of His servant David, as He spoke through His holy prophets, those of ages past, salvation from our enemies and from the hand of all who hate us, to show mercy to our fathers and to remember His holy covenant,","url":"https://ebible.org/engbsb/LUK01.htm#V68"}]
 christian_case: "Luke's hymn says God raises a horn of salvation in David's house. A named Christian commentator interprets its mercy as salvation through Christ. Jesus can be understood as the way God's covenant mercy reaches people."
 critical_case: "God answers Moses's request for his glory in Exodus. In Luke, the Lord God of Israel is the one who shows mercy, and the covenant is Abraham's. Romans directly quotes Exodus as God's speech, not a Messiah description."
 verdict_label: "God's mercy, through Christ"

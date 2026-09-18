@@ -51,9 +51,15 @@ for id in "${withheld_ids[@]}"; do
 done
 rg -q 'Why Christians see a prophecy' "$site_check_dir/preview/claims/prophecy-001/index.html"
 rg -q 'Why it is less convincing' "$site_check_dir/preview/claims/prophecy-001/index.html"
+rg -q 'The claimed New Testament fulfilment' "$site_check_dir/preview/claims/prophecy-001/index.html"
 rg -q 'href="https://ebible.org/engbsb/GEN03.htm#V15"' "$site_check_dir/public/claims/prophecy-001/index.html"
-jq -e '(.slides | length == 4) and (.slides[0].type == "scripture")' "$repo_dir/social/carousels/prophecy-001.json" >/dev/null
-jq -e '(.slides | length == 4) and (.slides[0].type == "scripture")' "$repo_dir/social/carousels/prophecy-002.json" >/dev/null
+rg -q 'href="https://ebible.org/engbsb/MAT01.htm#V18"' "$site_check_dir/public/claims/prophecy-001/index.html"
+rg -q 'John 1:51' "$site_check_dir/public/claims/prophecy-014/index.html"
+for carousel in "$repo_dir"/social/carousels/prophecy-*.json; do
+  jq -e '(.slides | length == 5) and
+    ([.slides[].type] == ["editorial", "scripture", "scripture", "editorial", "editorial"]) and
+    (.slides[2].heading | startswith("Claimed fulfilment"))' "$carousel" >/dev/null
+done
 identify "$repo_dir"/social/rendered/prophecy-*/instagram/slide-*.jpg | \
   awk '$3 != "1080x1350" { exit 1 }'
 identify "$repo_dir"/social/rendered/prophecy-*/vertical/slide-*.jpg | \

@@ -3,9 +3,9 @@
 Social posts are written for a general reader scrolling on a phone. Do not assume
 that the reader knows the Bible, Christian theology, or our verdict system.
 
-Each carousel has four slides: the unchanged Bible passage; the claim in plain
-English; why Christians connect the passages; and the problem with calling the
-earlier passage a prediction.
+Each carousel has five slides: the claim in plain English; the Old Testament text;
+the claimed New Testament fulfilment; why Christians connect the passages; and the
+problem with calling the earlier passage a prediction.
 
 ## Language rules
 

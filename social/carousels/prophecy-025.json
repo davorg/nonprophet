@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Exod 12:46: You are not to take any of the meat outside the house, and you may not break any of the bones.",
-         "body" : "“You are not to take any of the meat outside the house, and you may not break any of the bones.”",
-         "heading" : "Exod 12:46",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Jesus’s bones were not broken Exodus says the Passover animal’s bones must not be broken. John says soldiers left Jesus’s legs unbroken and calls it a fulfilment of Scripture.",
+         "alt_text" : "Editorial slide: Jesus’s bones were not broken Exodus says the Passover animal’s bones must not be broken. John says soldiers left Jesus’s legs unbroken and calls it a fulfilment of Scripture.",
          "body" : "Exodus says the Passover animal’s bones must not be broken. John says soldiers left Jesus’s legs unbroken and calls it a fulfilment of Scripture.",
          "heading" : "Jesus’s bones were not broken",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them The match is unusually exact, and John makes it himself. He presents Jesus as a new Passover sacrifice whose bones remain unbroken.",
+         "alt_text" : "The BSB text of Exod 12:46: You are not to take any of the meat outside the house, and you may not break any of the bones.",
+         "body" : "You are not to take any of the meat outside the house, and you may not break any of the bones.",
+         "heading" : "Exod 12:46",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in John 19:33, 36, BSB: They did not break His legs. Now these things happened so that the Scripture would be fulfilled: ‘Not one of His bones will be broken.’",
+         "body" : "They did not break His legs. Now these things happened so that the Scripture would be fulfilled: ‘Not one of His bones will be broken.’",
+         "heading" : "Claimed fulfilment · John 19:33, 36",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them The match is unusually exact, and John makes it himself. He presents Jesus as a new Passover sacrifice whose bones remain unbroken.",
          "body" : "The match is unusually exact, and John makes it himself. He presents Jesus as a new Passover sacrifice whose bones remain unbroken.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But Exodus gives a meal rule Exodus tells people how to prepare the Passover animal, not how a future Messiah will die. A similar rule appears in Numbers, and a Psalm also mentions unbroken bones.",
+         "alt_text" : "Editorial slide: But Exodus gives a meal rule Exodus tells people how to prepare the Passover animal, not how a future Messiah will die. A similar rule appears in Numbers, and a Psalm also mentions unbroken bones.",
          "body" : "Exodus tells people how to prepare the Passover animal, not how a future Messiah will die. A similar rule appears in Numbers, and a Psalm also mentions unbroken bones.",
          "heading" : "But Exodus gives a meal rule",
          "type" : "editorial"

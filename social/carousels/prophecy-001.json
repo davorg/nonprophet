@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 3:15: And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
-         "body" : "“And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.”",
-         "heading" : "Gen 3:15",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: A hint of the virgin birth? God tells the serpent that a woman’s offspring will crush its head. Some Christians say “her offspring” points to Jesus being born without a human father.",
+         "alt_text" : "Editorial slide: A hint of the virgin birth? God tells the serpent that a woman’s offspring will crush its head. Some Christians say “her offspring” points to Jesus being born without a human father.",
          "body" : "God tells the serpent that a woman’s offspring will crush its head. Some Christians say “her offspring” points to Jesus being born without a human father.",
          "heading" : "A hint of the virgin birth?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Christians read this as the Bible’s first promise of Jesus. Matthew later says Mary became pregnant through the Holy Spirit, and Jesus is presented as the one who defeats evil.",
+         "alt_text" : "The BSB text of Gen 3:15: And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
+         "body" : "And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
+         "heading" : "Gen 3:15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matthew 1:18, BSB: This is how the birth of Jesus Christ came about: His mother Mary was pledged in marriage to Joseph, but before they came together, she was found to be with child through the Holy Spirit.",
+         "body" : "This is how the birth of Jesus Christ came about: His mother Mary was pledged in marriage to Joseph, but before they came together, she was found to be with child through the Holy Spirit.",
+         "heading" : "Claimed fulfilment · Matthew 1:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Christians read this as the Bible’s first promise of Jesus. Matthew later says Mary became pregnant through the Holy Spirit, and Jesus is presented as the one who defeats evil.",
          "body" : "Christians read this as the Bible’s first promise of Jesus. Matthew later says Mary became pregnant through the Holy Spirit, and Jesus is presented as the one who defeats evil.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But Genesis doesn’t say that Genesis never says this child has no human father. It also talks about a woman’s offspring when describing ordinary births. The virgin birth comes from the later Gospel stories—not from this verse.",
+         "alt_text" : "Editorial slide: But Genesis doesn’t say that Genesis never says this child has no human father. It also talks about a woman’s offspring when describing ordinary births. The virgin birth comes from the later Gospel stories—not from this verse.",
          "body" : "Genesis never says this child has no human father. It also talks about a woman’s offspring when describing ordinary births. The virgin birth comes from the later Gospel stories—not from this verse.",
          "heading" : "But Genesis doesn’t say that",
          "type" : "editorial"

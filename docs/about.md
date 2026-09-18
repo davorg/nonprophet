@@ -14,7 +14,7 @@ Our aim is not to prove or disprove Christianity. It is narrower: to ask whether
 
 ## How we work
 
-For every claim, we identify its source, quote the Old Testament passage, and present the strongest responsible Christian argument we can find. We then make one focused critical case, paying attention to the passage's language, historical and literary setting, and use in the New Testament.
+For every claim, we identify its source and quote both the Old Testament passage and the New Testament passage said to fulfil it. We explain the alleged connection, present the strongest responsible Christian argument we can find, and then make one focused critical case. That assessment pays attention to the passages' language, historical and literary settings, and relationship to one another.
 
 Each draft is checked against its sources and passed to a separate language model whose job is to challenge the reasoning and find omissions or unfair shortcuts. The final entry links its sources so readers can check our work. Biblical quotations currently use the public-domain Berean Standard Bible.
 

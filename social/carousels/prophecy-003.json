@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 5:24: Enoch walked with God, and then he was no more, because God had taken him away.",
-         "body" : "“Enoch walked with God, and then he was no more, because God had taken him away.”",
-         "heading" : "Gen 5:24",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Is Enoch’s disappearance about Jesus? Genesis says Enoch “was no more” because God took him away. Some Christians see this as an early preview of Jesus going up to heaven.",
+         "alt_text" : "Editorial slide: Is Enoch’s disappearance about Jesus? Genesis says Enoch “was no more” because God took him away. Some Christians see this as an early preview of Jesus going up to heaven.",
          "body" : "Genesis says Enoch “was no more” because God took him away. Some Christians see this as an early preview of Jesus going up to heaven.",
          "heading" : "Is Enoch’s disappearance about Jesus?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Almost everyone else in this chapter dies. Enoch is the exception, and the New Testament says God took him away without dying. That makes his story look a little like Jesus leaving the earth.",
+         "alt_text" : "The BSB text of Gen 5:24: Enoch walked with God, and then he was no more, because God had taken him away.",
+         "body" : "Enoch walked with God, and then he was no more, because God had taken him away.",
+         "heading" : "Gen 5:24",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Acts 1:9, BSB: After He had said this, they watched as He was taken up, and a cloud hid Him from their sight.",
+         "body" : "After He had said this, they watched as He was taken up, and a cloud hid Him from their sight.",
+         "heading" : "Claimed fulfilment · Acts 1:9",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Almost everyone else in this chapter dies. Enoch is the exception, and the New Testament says God took him away without dying. That makes his story look a little like Jesus leaving the earth.",
          "body" : "Almost everyone else in this chapter dies. Enoch is the exception, and the New Testament says God took him away without dying. That makes his story look a little like Jesus leaving the earth.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But the stories are different Enoch avoids death. Jesus dies, rises from the dead and then ascends. Genesis does not mention heaven or describe Enoch rising into the sky. The New Testament never says Enoch’s story predicted Jesus.",
+         "alt_text" : "Editorial slide: But the stories are different Enoch avoids death. Jesus dies, rises from the dead and then ascends. Genesis does not mention heaven or describe Enoch rising into the sky. The New Testament never says Enoch’s story predicted Jesus.",
          "body" : "Enoch avoids death. Jesus dies, rises from the dead and then ascends. Genesis does not mention heaven or describe Enoch rising into the sky. The New Testament never says Enoch’s story predicted Jesus.",
          "heading" : "But the stories are different",
          "type" : "editorial"

@@ -15,6 +15,8 @@ ot_reference: "Exod 15:11"
 ot_text_url: "https://ebible.org/engbsb/EXO15.htm#V11"
 ot_text: "Who among the gods is like You, O LORD? Who is like You — majestic in holiness, revered with praises, performing wonders?"
 ot_note: ""
+nt_explanation: "Luke calls Jesus the Holy One, and Acts calls him God's holy servant. Christians connect those descriptions with the LORD's holiness in Exodus."
+nt_connections: [{"reference":"Luke 1:35","social":true,"social_text":"The Holy One to be born will be called the Son of God.","text":"The angel replied, “ The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the Holy One to be born will be called the Son of God.","url":"https://ebible.org/engbsb/LUK01.htm#V35"},{"reference":"Acts 4:27","social":false,"social_text":null,"text":"In fact, this is the very city where Herod and Pontius Pilate conspired with the Gentiles and the people of Israel against Your holy servant Jesus, whom You anointed.","url":"https://ebible.org/engbsb/ACT04.htm#V27"}]
 christian_case: "Luke calls the child to be born the Holy One, and Acts calls Jesus God's holy servant. A Christian advocate argues that the Savior must exhibit divine holiness; Christians may see Jesus as embodying the LORD's holy saving character."
 critical_case: "Exodus asks who among the gods is like the LORD after his rescue at the sea. It names no coming Messiah. Neither Luke nor Acts presents this line as a fulfilled oracle, and Acts calls Jesus the addressed God's servant."
 verdict_label: "Holy character, not a forecast"

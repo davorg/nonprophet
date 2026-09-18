@@ -1,8 +1,9 @@
 # Social assets
 
-`carousels/` contains generated four-slide copy. The unchanged BSB passage comes
-from the editorial record; the three general-audience slides come from
-`plain-language.json` and follow [STYLE_GUIDE.md](STYLE_GUIDE.md).
+`carousels/` contains generated five-slide copy: the claim, the Old Testament
+text, the claimed New Testament fulfilment, the strongest Christian case, and
+the assessment. Bible text comes from the pinned BSB corpus. The general-audience
+slides come from `plain-language.json` and follow [STYLE_GUIDE.md](STYLE_GUIDE.md).
 `backgrounds.json` records image provenance and licence metadata. Each claim under
 `rendered/` contains two visual masters:
 

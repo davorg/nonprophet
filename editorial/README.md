@@ -16,9 +16,11 @@ One JSON file per claim will live in `records/`, named with its claim ID. Start 
    selected context, then run it through `../scripts/run_adversarial_review.sh` using
    a different model without repository or web access.
 8. Verify and dispose of every objection.
-9. Select a readable BSB excerpt and draft exactly three purpose-written editorial
-   slides; the generator prepends the scripture as slide one.
-10. Mark ready only after all quality gates in `PRODUCTION_PLAN.md` pass.
+9. Add the verified passage(s) and a plain-English explanation to
+   `nt-connections.json`, selecting exactly one passage for the social carousel.
+10. Select a readable BSB excerpt and draft exactly three purpose-written editorial
+    slides. The generator combines them with the OT and NT texts to make five slides.
+11. Mark ready only after all quality gates in `PRODUCTION_PLAN.md` pass.
 
 `SOURCE_STANDARDS.md` defines source tiers and minimum evidence. The JSON Schema is
 `../schemas/editorial-record.schema.json`; `../scripts/check_data.sh` validates the

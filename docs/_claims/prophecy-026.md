@@ -15,6 +15,8 @@ ot_reference: "Exod 15:2"
 ot_text_url: "https://ebible.org/engbsb/EXO15.htm#V2"
 ot_text: "The LORD is my strength and my song, and He has become my salvation. He is my God, and I will praise Him, my father’s God, and I will exalt Him."
 ot_note: ""
+nt_explanation: "Matthew links Jesus's name with his mission to save, while Acts pictures him exalted at God's right hand. Christians connect both ideas with the LORD's salvation and power in Exodus."
+nt_connections: [{"reference":"Matthew 1:21","social":true,"social_text":null,"text":"She will give birth to a Son, and you are to give Him the name Jesus, because He will save His people from their sins.”","url":"https://ebible.org/engbsb/MAT01.htm#V21"},{"reference":"Acts 7:55–56","social":false,"social_text":null,"text":"But Stephen, full of the Holy Spirit, looked intently into heaven and saw the glory of God and Jesus standing at the right hand of God. “Look,” he said, “I see heaven open and the Son of Man standing at the right hand of God.”","url":"https://ebible.org/engbsb/ACT07.htm#V55"}]
 christian_case: "Jesus's Hebrew name shares a root with 'salvation', and Matthew 1:21 explains his name by his saving mission. Stephen sees him at God's right hand. A Christian divine-identity reading can connect these scenes with the LORD who saved Israel."
 critical_case: "The song looks back at the sea crossing. Its word for 'salvation' is a common noun, not the proper name Yeshua. Israel exalts the LORD in praise; that differs from God exalting Jesus at his right hand. Stephen does not quote this verse, and the right-hand imagery comes from another line of the song."
 verdict_label: "Wordplay, not a forecast"

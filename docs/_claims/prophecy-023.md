@@ -15,6 +15,8 @@ ot_reference: "Exod 12:13"
 ot_text_url: "https://ebible.org/engbsb/EXO12.htm#V13"
 ot_text: "The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you. No plague will fall on you to destroy you when I strike the land of Egypt."
 ot_note: ""
+nt_explanation: "Paul says Christ's blood saves believers from God's wrath. Christians compare that rescue with the blood-marked houses spared during Passover."
+nt_connections: [{"reference":"Romans 5:8–9","social":true,"social_text":"Since we have now been justified by His blood, how much more shall we be saved from wrath through Him!","text":"But God proves His love for us in this: While we were still sinners, Christ died for us. Therefore, since we have now been justified by His blood, how much more shall we be saved from wrath through Him!","url":"https://ebible.org/engbsb/ROM05.htm#V8"}]
 christian_case: "Exodus's blood-marked homes are spared a divine plague. Romans 5:8 says Christ died for sinners, and its next verse says his blood saves believers from wrath. This gives Christians a substantive pattern of deliverance through blood."
 critical_case: "In Exodus, the blood marks households in Egypt during a specific firstborn plague; the text does not discuss forgiveness of sins or a future crucifixion. Romans 5 does not quote or name Passover here. The listed verse, 5:8, omits the blood-and-wrath language supplied by 5:9."
 verdict_label: "Plausible typology, not prediction"

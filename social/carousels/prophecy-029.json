@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Exod 33:19: I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.",
-         "body" : "“I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.”",
-         "heading" : "Exod 33:19",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Does this predict Jesus’s mercy? God tells Moses that he will show mercy and compassion. Luke later celebrates God’s mercy as the promised rescuer arrives.",
+         "alt_text" : "Editorial slide: Does this predict Jesus’s mercy? God tells Moses that he will show mercy and compassion. Luke later celebrates God’s mercy as the promised rescuer arrives.",
          "body" : "God tells Moses that he will show mercy and compassion. Luke later celebrates God’s mercy as the promised rescuer arrives.",
          "heading" : "Does this predict Jesus’s mercy?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Luke says God raises a saviour from David’s family. Christians believe Jesus is how God’s promised mercy reaches the world.",
+         "alt_text" : "The BSB text of Exod 33:19: I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.",
+         "body" : "I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.",
+         "heading" : "Exod 33:19",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Luke 1:68–72, BSB: He has raised up a horn of salvation for us in the house of His servant David … to show mercy to our fathers.",
+         "body" : "He has raised up a horn of salvation for us in the house of His servant David … to show mercy to our fathers.",
+         "heading" : "Claimed fulfilment · Luke 1:68–72",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Luke says God raises a saviour from David’s family. Christians believe Jesus is how God’s promised mercy reaches the world.",
          "body" : "Luke says God raises a saviour from David’s family. Christians believe Jesus is how God’s promised mercy reaches the world.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But both verses describe God God speaks about his own mercy in Exodus, and God is the one showing mercy in Luke. Jesus may bring that mercy, but Exodus is not predicting his personality.",
+         "alt_text" : "Editorial slide: But both verses describe God God speaks about his own mercy in Exodus, and God is the one showing mercy in Luke. Jesus may bring that mercy, but Exodus is not predicting his personality.",
          "body" : "God speaks about his own mercy in Exodus, and God is the one showing mercy in Luke. Jesus may bring that mercy, but Exodus is not predicting his personality.",
          "heading" : "But both verses describe God",
          "type" : "editorial"

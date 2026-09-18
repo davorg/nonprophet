@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Exod 12:21-27: It is the Passover sacrifice to the LORD, who passed over the houses of the Israelites in Egypt when He struck down the Egyptians and spared our homes.",
-         "body" : "“It is the Passover sacrifice to the LORD, who passed over the houses of the Israelites in Egypt when He struck down the Egyptians and spared our homes.”",
-         "heading" : "Exod 12:21-27",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Paul calls Jesus our Passover lamb Exodus describes the Passover sacrifice that spared Israelite homes. Paul later writes, “Christ, our Passover lamb, has been sacrificed.”",
+         "alt_text" : "Editorial slide: Paul calls Jesus our Passover lamb Exodus describes the Passover sacrifice that spared Israelite homes. Paul later writes, “Christ, our Passover lamb, has been sacrificed.”",
          "body" : "Exodus describes the Passover sacrifice that spared Israelite homes. Paul later writes, “Christ, our Passover lamb, has been sacrificed.”",
          "heading" : "Paul calls Jesus our Passover lamb",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: This connection is explicit Paul continues the Passover picture by telling Christians to remove the “leaven” of bad behaviour. He clearly wants his readers to connect Jesus with the festival.",
+         "alt_text" : "The BSB text of Exod 12:21-27: It is the Passover sacrifice to the LORD, who passed over the houses of the Israelites in Egypt when He struck down the Egyptians and spared our homes.",
+         "body" : "It is the Passover sacrifice to the LORD, who passed over the houses of the Israelites in Egypt when He struck down the Egyptians and spared our homes.",
+         "heading" : "Exod 12:21-27",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in 1 Corinthians 5:7, BSB: Get rid of the old leaven, that you may be a new unleavened batch, as you really are. For Christ, our Passover lamb, has been sacrificed.",
+         "body" : "Get rid of the old leaven, that you may be a new unleavened batch, as you really are. For Christ, our Passover lamb, has been sacrificed.",
+         "heading" : "Claimed fulfilment · 1 Corinthians 5:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: This connection is explicit Paul continues the Passover picture by telling Christians to remove the “leaven” of bad behaviour. He clearly wants his readers to connect Jesus with the festival.",
          "body" : "Paul continues the Passover picture by telling Christians to remove the “leaven” of bad behaviour. He clearly wants his readers to connect Jesus with the festival.",
          "heading" : "This connection is explicit",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But Exodus had its own meaning Passover remembers God rescuing families from Egypt. Paul later gives that story a Christian meaning. His comparison is clear, but Exodus itself was not predicting Jesus.",
+         "alt_text" : "Editorial slide: But Exodus had its own meaning Passover remembers God rescuing families from Egypt. Paul later gives that story a Christian meaning. His comparison is clear, but Exodus itself was not predicting Jesus.",
          "body" : "Passover remembers God rescuing families from Egypt. Paul later gives that story a Christian meaning. His comparison is clear, but Exodus itself was not predicting Jesus.",
          "heading" : "But Exodus had its own meaning",
          "type" : "editorial"

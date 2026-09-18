@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Exod 12:5: Your lamb must be an unblemished year-old male, and you may take it from the sheep or the goats.",
-         "body" : "“Your lamb must be an unblemished year-old male, and you may take it from the sheep or the goats.”",
-         "heading" : "Exod 12:5",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: A spotless lamb like Jesus? The Passover animal had to be free from defects. The New Testament describes Jesus as an unblemished offering.",
+         "alt_text" : "Editorial slide: A spotless lamb like Jesus? The Passover animal had to be free from defects. The New Testament describes Jesus as an unblemished offering.",
          "body" : "The Passover animal had to be free from defects. The New Testament describes Jesus as an unblemished offering.",
          "heading" : "A spotless lamb like Jesus?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Christians see the flawless Passover animal as a picture of Jesus’s sinless life and sacrifice. The New Testament itself uses both lamb and sacrifice language for him.",
+         "alt_text" : "The BSB text of Exod 12:5: Your lamb must be an unblemished year-old male, and you may take it from the sheep or the goats.",
+         "body" : "Your lamb must be an unblemished year-old male, and you may take it from the sheep or the goats.",
+         "heading" : "Exod 12:5",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in 1 Peter 1:18–19, BSB: You were redeemed … with the precious blood of Christ, a lamb without blemish or spot.",
+         "body" : "You were redeemed … with the precious blood of Christ, a lamb without blemish or spot.",
+         "heading" : "Claimed fulfilment · 1 Peter 1:18–19",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Christians see the flawless Passover animal as a picture of Jesus’s sinless life and sacrifice. The New Testament itself uses both lamb and sacrifice language for him.",
          "body" : "Christians see the flawless Passover animal as a picture of Jesus’s sinless life and sacrifice. The New Testament itself uses both lamb and sacrifice language for him.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But this was a ritual rule Exodus tells families how to choose an animal for Passover. It could be a sheep or a goat, and other sacrifices also had to be free from defects. The rule does not uniquely predict Jesus.",
+         "alt_text" : "Editorial slide: But this was a ritual rule Exodus tells families how to choose an animal for Passover. It could be a sheep or a goat, and other sacrifices also had to be free from defects. The rule does not uniquely predict Jesus.",
          "body" : "Exodus tells families how to choose an animal for Passover. It could be a sheep or a goat, and other sacrifices also had to be free from defects. The rule does not uniquely predict Jesus.",
          "heading" : "But this was a ritual rule",
          "type" : "editorial"

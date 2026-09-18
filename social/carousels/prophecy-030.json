@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Lev 1:2-9: a burnt offering, a food offering, a pleasing aroma to the LORD.",
-         "body" : "“a burnt offering, a food offering, a pleasing aroma to the LORD.”",
-         "heading" : "Lev 1:2-9",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: A sacrifice pleasing to God? Leviticus calls a burnt offering “a pleasing aroma to the LORD.” Ephesians describes Jesus giving himself to God as a fragrant sacrifice.",
+         "alt_text" : "Editorial slide: A sacrifice pleasing to God? Leviticus calls a burnt offering “a pleasing aroma to the LORD.” Ephesians describes Jesus giving himself to God as a fragrant sacrifice.",
          "body" : "Leviticus calls a burnt offering “a pleasing aroma to the LORD.” Ephesians describes Jesus giving himself to God as a fragrant sacrifice.",
          "heading" : "A sacrifice pleasing to God?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Ephesians deliberately uses language familiar from Israel’s sacrifices. Christians see Jesus’s self-giving as the perfect offering those older rituals pointed towards.",
+         "alt_text" : "The BSB text of Lev 1:2-9: a burnt offering, a food offering, a pleasing aroma to the LORD.",
+         "body" : "a burnt offering, a food offering, a pleasing aroma to the LORD.",
+         "heading" : "Lev 1:2-9",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Ephesians 5:2, BSB: and walk in love, just as Christ loved us and gave Himself up for us as a fragrant sacrificial offering to God.",
+         "body" : "and walk in love, just as Christ loved us and gave Himself up for us as a fragrant sacrificial offering to God.",
+         "heading" : "Claimed fulfilment · Ephesians 5:2",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Ephesians deliberately uses language familiar from Israel’s sacrifices. Christians see Jesus’s self-giving as the perfect offering those older rituals pointed towards.",
          "body" : "Ephesians deliberately uses language familiar from Israel’s sacrifices. Christians see Jesus’s self-giving as the perfect offering those older rituals pointed towards.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But this phrase was used often Leviticus uses “pleasing aroma” for many repeated offerings. It does not single out one future sacrifice. Ephesians later applies the familiar image to Jesus.",
+         "alt_text" : "Editorial slide: But this phrase was used often Leviticus uses “pleasing aroma” for many repeated offerings. It does not single out one future sacrifice. Ephesians later applies the familiar image to Jesus.",
          "body" : "Leviticus uses “pleasing aroma” for many repeated offerings. It does not single out one future sacrifice. Ephesians later applies the familiar image to Jesus.",
          "heading" : "But this phrase was used often",
          "type" : "editorial"

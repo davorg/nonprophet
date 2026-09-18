@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Exod 15:2: The LORD is my strength and my song, and He has become my salvation.",
-         "body" : "“The LORD is my strength and my song, and He has become my salvation.”",
-         "heading" : "Exod 15:2",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Is Jesus’s name hidden here? Exodus says the LORD became Israel’s “salvation.” Jesus’s Hebrew name comes from the same family of words.",
+         "alt_text" : "Editorial slide: Is Jesus’s name hidden here? Exodus says the LORD became Israel’s “salvation.” Jesus’s Hebrew name comes from the same family of words.",
          "body" : "Exodus says the LORD became Israel’s “salvation.” Jesus’s Hebrew name comes from the same family of words.",
          "heading" : "Is Jesus’s name hidden here?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Matthew explains Jesus’s name by saying he will save his people. Christians can see God’s rescue from Egypt as an early picture of the salvation they find in Jesus.",
+         "alt_text" : "The BSB text of Exod 15:2: The LORD is my strength and my song, and He has become my salvation.",
+         "body" : "The LORD is my strength and my song, and He has become my salvation.",
+         "heading" : "Exod 15:2",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matthew 1:21, BSB: She will give birth to a Son, and you are to give Him the name Jesus, because He will save His people from their sins.”",
+         "body" : "She will give birth to a Son, and you are to give Him the name Jesus, because He will save His people from their sins.”",
+         "heading" : "Claimed fulfilment · Matthew 1:21",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Matthew explains Jesus’s name by saying he will save his people. Christians can see God’s rescue from Egypt as an early picture of the salvation they find in Jesus.",
          "body" : "Matthew explains Jesus’s name by saying he will save his people. Christians can see God’s rescue from Egypt as an early picture of the salvation they find in Jesus.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But “salvation” is not a name The Hebrew word in Exodus is an ordinary word meaning salvation, not the name Yeshua. The song celebrates a rescue that has already happened.",
+         "alt_text" : "Editorial slide: But “salvation” is not a name The Hebrew word in Exodus is an ordinary word meaning salvation, not the name Yeshua. The song celebrates a rescue that has already happened.",
          "body" : "The Hebrew word in Exodus is an ordinary word meaning salvation, not the name Yeshua. The song celebrates a rescue that has already happened.",
          "heading" : "But “salvation” is not a name",
          "type" : "editorial"

@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 12:3: I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.",
-         "body" : "“I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.”",
-         "heading" : "Gen 12:3",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: A promise about Jesus? God promises that every family on earth will be blessed through Abraham. Christians say Jesus is the descendant who brings that blessing to everyone.",
+         "alt_text" : "Editorial slide: A promise about Jesus? God promises that every family on earth will be blessed through Abraham. Christians say Jesus is the descendant who brings that blessing to everyone.",
          "body" : "God promises that every family on earth will be blessed through Abraham. Christians say Jesus is the descendant who brings that blessing to everyone.",
          "heading" : "A promise about Jesus?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Paul calls this promise an early announcement of the good news. He says people from every nation can share Abraham’s blessing through faith in Jesus.",
+         "alt_text" : "The BSB text of Gen 12:3: I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.",
+         "body" : "I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.",
+         "heading" : "Gen 12:3",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Acts 3:25–26, BSB: ‘Through your offspring all the families of the earth will be blessed.’ When God raised up His Servant, He sent Him first to you to bless you.",
+         "body" : "‘Through your offspring all the families of the earth will be blessed.’ When God raised up His Servant, He sent Him first to you to bless you.",
+         "heading" : "Claimed fulfilment · Acts 3:25–26",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Paul calls this promise an early announcement of the good news. He says people from every nation can share Abraham’s blessing through faith in Jesus.",
          "body" : "Paul calls this promise an early announcement of the good news. He says people from every nation can share Abraham’s blessing through faith in Jesus.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But Genesis says “through you” This verse says the nations will be blessed through Abraham. It does not name Jesus or explain the blessing as faith in him. Paul makes that Christian interpretation later.",
+         "alt_text" : "Editorial slide: But Genesis says “through you” This verse says the nations will be blessed through Abraham. It does not name Jesus or explain the blessing as faith in him. Paul makes that Christian interpretation later.",
          "body" : "This verse says the nations will be blessed through Abraham. It does not name Jesus or explain the blessing as faith in him. Paul makes that Christian interpretation later.",
          "heading" : "But Genesis says “through you”",
          "type" : "editorial"

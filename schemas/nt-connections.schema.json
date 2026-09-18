@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nonprophet.app/schemas/nt-connections.schema.json",
+  "title": "Non-Prophet selected New Testament connections",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "entries"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_id", "explanation", "passages"],
+        "properties": {
+          "claim_id": {"type": "string", "pattern": "^prophecy-[0-9]{3}$"},
+          "explanation": {"type": "string", "minLength": 1},
+          "passages": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["reference", "verses"],
+              "properties": {
+                "reference": {"type": "string", "minLength": 1},
+                "verses": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+                "social": {"type": "boolean"},
+                "social_text": {"type": "string", "minLength": 1}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

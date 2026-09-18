@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 26:2-5: I will make your descendants as numerous as the stars in the sky...and through your offspring all nations of the earth will be blessed.",
-         "body" : "“I will make your descendants as numerous as the stars in the sky...and through your offspring all nations of the earth will be blessed.”",
-         "heading" : "Gen 26:2-5",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Was a rescuer promised through Isaac? God repeats Abraham’s promises to Isaac. Some Christian lists say this predicts that Jesus, the rescuer, would come from Isaac’s family.",
+         "alt_text" : "Editorial slide: Was a rescuer promised through Isaac? God repeats Abraham’s promises to Isaac. Some Christian lists say this predicts that Jesus, the rescuer, would come from Isaac’s family.",
          "body" : "God repeats Abraham’s promises to Isaac. Some Christian lists say this predicts that Jesus, the rescuer, would come from Isaac’s family.",
          "heading" : "Was a rescuer promised through Isaac?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them The promises of land, a huge family and worldwide blessing pass through Isaac. Christians believe Jesus is the person who eventually brings that blessing to everyone.",
+         "alt_text" : "The BSB text of Gen 26:2-5: I will make your descendants as numerous as the stars in the sky...and through your offspring all nations of the earth will be blessed.",
+         "body" : "I will make your descendants as numerous as the stars in the sky...and through your offspring all nations of the earth will be blessed.",
+         "heading" : "Gen 26:2-5",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Galatians 3:16, BSB: The promises were spoken to Abraham and to his seed. The Scripture does not say, “and to seeds,” meaning many, but “and to your seed,” meaning One, who is Christ.",
+         "body" : "The promises were spoken to Abraham and to his seed. The Scripture does not say, “and to seeds,” meaning many, but “and to your seed,” meaning One, who is Christ.",
+         "heading" : "Claimed fulfilment · Galatians 3:16",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them The promises of land, a huge family and worldwide blessing pass through Isaac. Christians believe Jesus is the person who eventually brings that blessing to everyone.",
          "body" : "The promises of land, a huge family and worldwide blessing pass through Isaac. Christians believe Jesus is the person who eventually brings that blessing to everyone.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But these verses promise a family Genesis speaks of many descendants, not one named rescuer. The passage in Hebrews is about Isaac’s family continuing. It does not say these verses predicted Jesus.",
+         "alt_text" : "Editorial slide: But these verses promise a family Genesis speaks of many descendants, not one named rescuer. The passage in Hebrews is about Isaac’s family continuing. It does not say these verses predicted Jesus.",
          "body" : "Genesis speaks of many descendants, not one named rescuer. The passage in Hebrews is about Isaac’s family continuing. It does not say these verses predicted Jesus.",
          "heading" : "But these verses promise a family",
          "type" : "editorial"

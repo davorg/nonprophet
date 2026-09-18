@@ -47,6 +47,12 @@ ajv validate \
   -s schemas/publication.schema.json \
   -d data/publication.json
 
+ajv validate \
+  --spec=draft2020 \
+  --strict=true \
+  -s schemas/nt-connections.schema.json \
+  -d editorial/nt-connections.json
+
 for record in editorial/records/*.json; do
   ajv validate \
     --spec=draft2020 \

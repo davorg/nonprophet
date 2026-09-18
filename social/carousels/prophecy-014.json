@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 28:12: And Jacob had a dream about a ladder that rested on the earth with its top reaching up to heaven, and God's angels were going up and down the ladder.",
-         "body" : "“And Jacob had a dream about a ladder that rested on the earth with its top reaching up to heaven, and God's angels were going up and down the ladder.”",
-         "heading" : "Gen 28:12",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Is Jesus Jacob’s ladder? Jacob dreams of angels moving between earth and heaven. Jesus later says angels will rise and descend on the Son of Man.",
+         "alt_text" : "Editorial slide: Is Jesus Jacob’s ladder? Jacob dreams of angels moving between earth and heaven. Jesus later says angels will rise and descend on the Son of Man.",
          "body" : "Jacob dreams of angels moving between earth and heaven. Jesus later says angels will rise and descend on the Son of Man.",
          "heading" : "Is Jesus Jacob’s ladder?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them The repeated image is hard to miss. Jesus places himself at the centre of the scene, so Christians see him as the meeting point between heaven and earth.",
+         "alt_text" : "The BSB text of Gen 28:12: And Jacob had a dream about a ladder that rested on the earth with its top reaching up to heaven, and God's angels were going up and down the ladder.",
+         "body" : "And Jacob had a dream about a ladder that rested on the earth with its top reaching up to heaven, and God's angels were going up and down the ladder.",
+         "heading" : "Gen 28:12",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in John 1:51, BSB: Then He declared, “Truly, truly, I tell you, you will all see heaven open and the angels of God ascending and descending on the Son of Man.”",
+         "body" : "Then He declared, “Truly, truly, I tell you, you will all see heaven open and the angels of God ascending and descending on the Son of Man.”",
+         "heading" : "Claimed fulfilment · John 1:51",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them The repeated image is hard to miss. Jesus places himself at the centre of the scene, so Christians see him as the meeting point between heaven and earth.",
          "body" : "The repeated image is hard to miss. Jesus places himself at the centre of the scene, so Christians see him as the meeting point between heaven and earth.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But Genesis is about Jacob Jacob’s dream assures him that God is with him and will keep promises about his family and land. It does not predict a future person. Jesus gives the image a new meaning later.",
+         "alt_text" : "Editorial slide: But Genesis is about Jacob Jacob’s dream assures him that God is with him and will keep promises about his family and land. It does not predict a future person. Jesus gives the image a new meaning later.",
          "body" : "Jacob’s dream assures him that God is with him and will keep promises about his family and land. It does not predict a future person. Jesus gives the image a new meaning later.",
          "heading" : "But Genesis is about Jacob",
          "type" : "editorial"

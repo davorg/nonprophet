@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Gen 3:15: And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
-         "body" : "“And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.”",
-         "heading" : "Gen 3:15",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Is the serpent Satan? Genesis says one of the woman’s descendants will strike the serpent’s head. Christians often read this as Jesus defeating Satan.",
+         "alt_text" : "Editorial slide: Is the serpent Satan? Genesis says one of the woman’s descendants will strike the serpent’s head. Christians often read this as Jesus defeating Satan.",
          "body" : "Genesis says one of the woman’s descendants will strike the serpent’s head. Christians often read this as Jesus defeating Satan.",
          "heading" : "Is the serpent Satan?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Later parts of the Bible call the devil “the ancient serpent” and say Jesus came to destroy his work. So the Christian connection makes sense when the whole Bible is read together.",
+         "alt_text" : "The BSB text of Gen 3:15: And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
+         "body" : "And I will put enmity between you and the woman, and between your seed and her seed. He will crush your head, and you will strike his heel.",
+         "heading" : "Gen 3:15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in 1 John 3:8, BSB: The one who practices sin is of the devil, because the devil has been sinning from the very start. This is why the Son of God was revealed, to destroy the works of the devil.",
+         "body" : "The one who practices sin is of the devil, because the devil has been sinning from the very start. This is why the Son of God was revealed, to destroy the works of the devil.",
+         "heading" : "Claimed fulfilment · 1 John 3:8",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Later parts of the Bible call the devil “the ancient serpent” and say Jesus came to destroy his work. So the Christian connection makes sense when the whole Bible is read together.",
          "body" : "Later parts of the Bible call the devil “the ancient serpent” and say Jesus came to destroy his work. So the Christian connection makes sense when the whole Bible is read together.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But that connection comes later Genesis names neither Jesus nor Satan. The story also explains why humans and snakes are enemies. Later writers give the serpent a larger meaning, but Genesis itself does not clearly predict Jesus defeating Satan.",
+         "alt_text" : "Editorial slide: But that connection comes later Genesis names neither Jesus nor Satan. The story also explains why humans and snakes are enemies. Later writers give the serpent a larger meaning, but Genesis itself does not clearly predict Jesus defeating Satan.",
          "body" : "Genesis names neither Jesus nor Satan. The story also explains why humans and snakes are enemies. Later writers give the serpent a larger meaning, but Genesis itself does not clearly predict Jesus defeating Satan.",
          "heading" : "But that connection comes later",
          "type" : "editorial"

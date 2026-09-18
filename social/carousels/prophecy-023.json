@@ -4,25 +4,31 @@
    "schema_version" : 1,
    "slides" : [
       {
-         "alt_text" : "The BSB text of Exod 12:13: The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you.",
-         "body" : "“The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you.”",
-         "heading" : "Exod 12:13",
-         "type" : "scripture"
-      },
-      {
-         "alt_text" : "Slide 2: Does Passover blood point to Jesus? Israelite families marked their doors with blood and escaped a deadly plague. Paul says Jesus’s blood saves people from God’s judgement.",
+         "alt_text" : "Editorial slide: Does Passover blood point to Jesus? Israelite families marked their doors with blood and escaped a deadly plague. Paul says Jesus’s blood saves people from God’s judgement.",
          "body" : "Israelite families marked their doors with blood and escaped a deadly plague. Paul says Jesus’s blood saves people from God’s judgement.",
          "heading" : "Does Passover blood point to Jesus?",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 3: Why Christians connect them Both stories involve blood and rescue from death or judgement. Christians see Passover as an early picture of salvation through Jesus’s sacrifice.",
+         "alt_text" : "The BSB text of Exod 12:13: The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you.",
+         "body" : "The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you.",
+         "heading" : "Exod 12:13",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Romans 5:8–9, BSB: Since we have now been justified by His blood, how much more shall we be saved from wrath through Him!",
+         "body" : "Since we have now been justified by His blood, how much more shall we be saved from wrath through Him!",
+         "heading" : "Claimed fulfilment · Romans 5:8–9",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Both stories involve blood and rescue from death or judgement. Christians see Passover as an early picture of salvation through Jesus’s sacrifice.",
          "body" : "Both stories involve blood and rescue from death or judgement. Christians see Passover as an early picture of salvation through Jesus’s sacrifice.",
          "heading" : "Why Christians connect them",
          "type" : "editorial"
       },
       {
-         "alt_text" : "Slide 4: But the rescues are different In Exodus, the blood protects households during a plague. The passage says nothing about forgiveness of sins. Paul does not mention Passover in the verses used for this claim.",
+         "alt_text" : "Editorial slide: But the rescues are different In Exodus, the blood protects households during a plague. The passage says nothing about forgiveness of sins. Paul does not mention Passover in the verses used for this claim.",
          "body" : "In Exodus, the blood protects households during a plague. The passage says nothing about forgiveness of sins. Paul does not mention Passover in the verses used for this claim.",
          "heading" : "But the rescues are different",
          "type" : "editorial"
