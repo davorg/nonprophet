@@ -16,17 +16,17 @@ body_class: claim-page
         <blockquote>{{ page.ot_text }}</blockquote>
         {% if page.ot_note %}<p class="text-note"><strong>Translation note:</strong> {{ page.ot_note }}</p>{% endif %}
       </section>
-      <section class="nt-connection" aria-labelledby="nt-connection">
-        <h2 id="nt-connection">The claimed New Testament fulfilment</h2>
-        <p class="nt-explanation">{{ page.nt_explanation }}</p>
-        <div class="nt-passage-list">
-          {% for passage in page.nt_connections %}
-          <article class="scripture-card nt-passage">
-            <div class="section-heading"><h3>{{ passage.reference }}</h3><a href="{{ passage.url }}" target="_blank" rel="noopener noreferrer" aria-label="Read {{ passage.reference }} in the Berean Standard Bible">BSB <span aria-hidden="true">↗</span></a></div>
-            <blockquote>{{ passage.text }}</blockquote>
-          </article>
-          {% endfor %}
-        </div>
+      <section class="scripture-card nt-connection" aria-labelledby="nt-connection">
+        {% for passage in page.nt_connections %}
+        <article class="nt-passage">
+          <div class="section-heading">
+            {% if forloop.first %}<h2 id="nt-connection">The claimed New Testament fulfilment</h2>{% endif %}
+            <a href="{{ passage.url }}" target="_blank" rel="noopener noreferrer" aria-label="Read {{ passage.reference }} in the Berean Standard Bible">{{ passage.reference }} · BSB <span aria-hidden="true">↗</span></a>
+          </div>
+          {% if forloop.first %}<p class="nt-explanation">{{ page.nt_explanation }}</p>{% endif %}
+          <blockquote>{{ passage.text }}</blockquote>
+        </article>
+        {% endfor %}
       </section>
       <section class="argument christian-case" aria-labelledby="christian-case">
         <p class="section-number" aria-hidden="true">01</p><div><h2 id="christian-case">Why Christians see a prophecy</h2>{{ page.christian_case | markdownify }}</div>

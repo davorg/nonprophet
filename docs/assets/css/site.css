@@ -42,16 +42,16 @@ a { color: var(--accent); text-underline-offset: .18em; }
 .claim-summary { max-width: 44rem; margin: 1.4rem 0 0; color: var(--muted); font-size: clamp(1.08rem, 2vw, 1.3rem); line-height: 1.6; }
 .scripture-card { padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid var(--line); border-radius: 1.2rem; background: rgba(255,255,255,.65); box-shadow: 0 1.2rem 3rem rgba(39,29,15,.07); }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
-.section-heading h2, .argument h2, .sources h2, .nt-connection > h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.45rem, 3vw, 2rem); }
-.section-heading h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
+.section-heading h2, .argument h2, .sources h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.45rem, 3vw, 2rem); }
 .section-heading > span, .section-heading > a { color: var(--muted); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .section-heading > a { text-decoration: none; }
 .section-heading > a:hover { color: var(--accent); text-decoration: underline; }
 blockquote { margin: 1.5rem 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.25rem, 3vw, 1.7rem); line-height: 1.55; }
 .text-note { margin: 1.25rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; line-height: 1.55; }
 .nt-connection { margin-top: clamp(3rem, 7vw, 5rem); }
-.nt-explanation { max-width: 46rem; margin: .8rem 0 1.4rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.08rem; line-height: 1.7; }
-.nt-passage-list { display: grid; gap: 1rem; }
+.nt-explanation { max-width: 46rem; margin: 1rem 0 0; color: var(--muted); font-size: .98rem; line-height: 1.65; }
+.nt-passage + .nt-passage { margin-top: 1.75rem; padding-top: 1.75rem; border-top: 1px solid var(--line); }
+.nt-passage + .nt-passage .section-heading > a { margin-left: auto; }
 .nt-passage blockquote { font-size: clamp(1.08rem, 2.5vw, 1.35rem); }
 .argument { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1.25rem; margin-top: clamp(3rem, 7vw, 5rem); }
 .section-number { margin: .15rem 0 0; color: var(--accent); font-weight: 800; letter-spacing: .1em; }
