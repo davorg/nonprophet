@@ -64,6 +64,7 @@ rg -q 'href="https://ebible.org/engbsb/MAT01.htm#V18"' "$site_check_dir/public/c
 rg -q 'John 1:51' "$site_check_dir/public/claims/prophecy-014/index.html"
 rg -q '>Depends on disputed text or translation</a>' "$site_check_dir/public/claims/prophecy-018/index.html"
 test -f "$site_check_dir/public/verdicts/depends-on-disputed-text-or-translation/index.html"
+! rg -q 'class="verdict-pill"' "$site_check_dir/public/verdicts/depends-on-disputed-text-or-translation/index.html"
 for carousel in "$repo_dir"/social/carousels/prophecy-*.json; do
   jq -e '(.slides | length == 5) and
     ([.slides[].type] == ["editorial", "scripture", "scripture", "editorial", "editorial"]) and
