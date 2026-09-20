@@ -21,6 +21,13 @@ for category in "${verdict_categories[@]}"; do
   test -f "$site_check_dir/public/verdicts/$verdict_slug/index.html"
 done
 
+mapfile -t claim_verdict_categories < <(sed -n 's/^verdict_category: "\([a-z_]*\)"$/\1/p' "$repo_dir"/docs/_claims/*.md | sort -u)
+for category in "${claim_verdict_categories[@]}"; do
+  grep -q "^${category}:$" "$repo_dir/docs/_data/verdicts.yml"
+  verdict_slug=${category//_/-}
+  test -f "$repo_dir/docs/verdicts/$verdict_slug.md"
+done
+
 mapfile -t published_ids < <(jq -r '.entries[] | select(.state == "published") | .claim_id' "$repo_dir/data/publication.json")
 mapfile -t withheld_ids < <(jq -r '.entries[] | select(.state == "withheld") | .claim_id' "$repo_dir/data/publication.json")
 test "${#published_ids[@]}" -gt 0
@@ -55,6 +62,8 @@ rg -q 'The claimed New Testament fulfilment' "$site_check_dir/preview/claims/pro
 rg -q 'href="https://ebible.org/engbsb/GEN03.htm#V15"' "$site_check_dir/public/claims/prophecy-001/index.html"
 rg -q 'href="https://ebible.org/engbsb/MAT01.htm#V18"' "$site_check_dir/public/claims/prophecy-001/index.html"
 rg -q 'John 1:51' "$site_check_dir/public/claims/prophecy-014/index.html"
+rg -q '>Depends on disputed text or translation</a>' "$site_check_dir/public/claims/prophecy-018/index.html"
+test -f "$site_check_dir/public/verdicts/depends-on-disputed-text-or-translation/index.html"
 for carousel in "$repo_dir"/social/carousels/prophecy-*.json; do
   jq -e '(.slides | length == 5) and
     ([.slides[].type] == ["editorial", "scripture", "scripture", "editorial", "editorial"]) and
