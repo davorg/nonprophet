@@ -4,6 +4,9 @@
 text, the claimed New Testament fulfilment, the strongest Christian case, and
 the assessment. Bible text comes from the pinned BSB corpus. The general-audience
 slides come from `plain-language.json` and follow [STYLE_GUIDE.md](STYLE_GUIDE.md).
+Suggested post captions and their five hashtags come from `captions.json`. They are
+copied into each generated carousel manifest so the images, alt text and posting
+copy travel together.
 `backgrounds.json` records image provenance and licence metadata. Each claim under
 `rendered/` contains two visual masters:
 

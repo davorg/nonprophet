@@ -35,6 +35,8 @@ my $publication = read_json("$root/data/publication.json");
 my %publication_by_id = map { $_->{claim_id} => $_ } @{$publication->{entries}};
 my $social_copy = read_json("$root/social/plain-language.json");
 my %social_by_id = map { $_->{claim_id} => $_ } @{$social_copy->{entries}};
+my $social_captions = read_json("$root/social/captions.json");
+my %caption_by_id = map { $_->{claim_id} => $_ } @{$social_captions->{entries}};
 my %book_names = (
     Gen => 'Genesis', Exod => 'Exodus', Lev => 'Leviticus', Num => 'Numbers',
     Deut => 'Deuteronomy', Josh => 'Joshua', Ruth => 'Ruth', '1Sam' => '1 Samuel',
@@ -89,6 +91,8 @@ for my $record_path (@record_paths) {
     next unless length($copy->{title} // '');
     my $social = $social_by_id{$id}
         or die "No plain-language social copy for $id\n";
+    my $caption = $caption_by_id{$id}
+        or die "No social caption for $id\n";
     my $nt_connection = $nt_connections_by_id{$id}
         or die "No New Testament connection for $id\n";
 
@@ -196,6 +200,8 @@ for my $record_path (@record_paths) {
         title => $copy->{title},
         source_url => "https://nonprophet.app/claims/$id/",
         verdict_category => $record->{verdict}{category},
+        caption => $caption->{caption},
+        hashtags => $caption->{hashtags},
         slides => \@slides,
     }));
 }

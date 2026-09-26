@@ -22,6 +22,7 @@ my $scripture = read_json("$root/data/scripture/bsb-v5.9.json");
 my $nt_connections = read_json("$root/editorial/nt-connections.json");
 my $publication = read_json("$root/data/publication.json");
 my $social_copy = read_json("$root/social/plain-language.json");
+my $social_captions = read_json("$root/social/captions.json");
 my @errors;
 my %social_by_id;
 for my $entry (@{$social_copy->{entries}}) {
@@ -45,6 +46,23 @@ for my $entry (@{$social_copy->{entries}}) {
             unless length($heading) && length($body);
         push @errors, "$id: social slide " . ($index + 1) . " contains unexplained specialist language"
             if "$heading $body" =~ /\b(?:canonical|christological|typology|referent|exegesis|soteriology|retrospective rereading|predictive specificity|bodily translation)\b/i;
+    }
+}
+my %caption_by_id;
+for my $entry (@{$social_captions->{entries}}) {
+    my $id = $entry->{claim_id} // '';
+    push @errors, "social captions: duplicate claim ID $id" if $caption_by_id{$id};
+    $caption_by_id{$id} = $entry;
+    push @errors, "$id: social caption has unknown canonical claim" unless $claim_ids{$id};
+    push @errors, "$id: social caption is missing" unless length($entry->{caption} // '');
+    push @errors, "$id: social caption exceeds 220 characters"
+        if length($entry->{caption} // '') > 220;
+    my @hashtags = @{$entry->{hashtags} // []};
+    push @errors, "$id: social caption must have exactly five hashtags" unless @hashtags == 5;
+    my %seen;
+    for my $hashtag (@hashtags) {
+        push @errors, "$id: invalid hashtag $hashtag" unless $hashtag =~ /^#[A-Za-z0-9]+$/;
+        push @errors, "$id: duplicate hashtag $hashtag" if $seen{lc $hashtag}++;
     }
 }
 my %publication_ids;
@@ -120,6 +138,8 @@ for my $path (sort glob "$root/editorial/records/*.json") {
     if (length($copy->{title} // '')) {
         push @errors, "$id: publication copy requires plain-language social copy"
             unless $social_by_id{$id};
+        push @errors, "$id: publication copy requires a social caption"
+            unless $caption_by_id{$id};
         push @errors, "$id: publication copy must have exactly three editorial slides" unless @{$copy->{carousel}} == 3;
         push @errors, "$id: publication copy requires a scripture excerpt" unless length($copy->{scripture_excerpt} // '');
         for my $field (qw(description summary christian_case critical_case verdict_label verdict)) {

@@ -24,3 +24,14 @@ problem with calling the earlier passage a prediction.
 
 The editorial record remains the source for research and website copy.
 The file `social/plain-language.json` is the source for carousel wording.
+
+## Captions and hashtags
+
+Each claim has one platform-neutral suggested caption in `social/captions.json`.
+Keep it under 220 characters so the caption and its five hashtags can also fit in
+a Bluesky post. State the claim fairly, then give the conclusion in everyday
+English. Do not merely repeat every slide or ask for engagement.
+
+Each caption must have exactly five hashtags. The default set is `#Bible`,
+`#Jesus`, `#Prophecy`, `#Christianity`, and `#NonProphet`; change one only when a
+more specific tag is genuinely useful.
