@@ -1,0 +1,48 @@
+{
+   "caption" : "Does “the life is in the blood” predict Jesus? It gives Christians a meaningful framework, but Leviticus states a broad ritual principle—not a unique forecast.",
+   "claim_id" : "prophecy-034",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Does blood as life predict Jesus? Leviticus says life is in the blood. Jesus later speaks of giving his life and pouring out his blood for many.",
+         "body" : "Leviticus says life is in the blood. Jesus later speaks of giving his life and pouring out his blood for many.",
+         "heading" : "Does blood as life predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Lev 17:11: For the life of the flesh is in the blood, and I have given it to you to make atonement.",
+         "body" : "For the life of the flesh is in the blood, and I have given it to you to make atonement.",
+         "heading" : "Lev 17:11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 26:28, BSB: This is My blood of the covenant, which is poured out for many for the forgiveness of sins.",
+         "body" : "This is My blood of the covenant, which is poured out for many for the forgiveness of sins.",
+         "heading" : "Claimed fulfilment · Matt 26:28",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why the connection makes sense Leviticus joins blood, life and atonement. Those ideas give Christians a natural framework for understanding Jesus’s death.",
+         "body" : "Leviticus joins blood, life and atonement. Those ideas give Christians a natural framework for understanding Jesus’s death.",
+         "heading" : "Why the connection makes sense",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But it identifies nobody Leviticus explains an altar rule and a ban on eating blood. It does not name a future person. Jesus’s words also echo other Bible passages.",
+         "body" : "Leviticus explains an altar rule and a ban on eating blood. It does not name a future person. Jesus’s words also echo other Bible passages.",
+         "heading" : "But it identifies nobody",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-034/",
+   "title" : "The life is in the blood",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

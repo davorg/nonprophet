@@ -1,0 +1,48 @@
+{
+   "caption" : "Hebrews explicitly compares Jesus with the Day of Atonement. It is strong Christian typology—but Leviticus gives ritual instructions, not a forecast.",
+   "claim_id" : "prophecy-032",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did this ritual predict Jesus? On the Day of Atonement, the high priest entered the inner sanctuary with sacrificial blood. Hebrews compares that rite with Jesus.",
+         "body" : "On the Day of Atonement, the high priest entered the inner sanctuary with sacrificial blood. Hebrews compares that rite with Jesus.",
+         "heading" : "Did this ritual predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Lev 16:15-17: Aaron shall then slaughter the goat for the sin offering for the people and bring its blood behind the veil.",
+         "body" : "Aaron shall then slaughter the goat for the sin offering for the people and bring its blood behind the veil.",
+         "heading" : "Lev 16:15-17",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Heb 9:11–14, BSB: Christ came as high priest … He entered the Most Holy Place once for all by His own blood, thus securing eternal redemption.",
+         "body" : "Christ came as high priest … He entered the Most Holy Place once for all by His own blood, thus securing eternal redemption.",
+         "heading" : "Claimed fulfilment · Heb 9:11–14",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The New Testament makes the link Hebrews calls the old ritual an illustration. It says Christ entered a heavenly sanctuary with his own blood and secured lasting redemption.",
+         "body" : "Hebrews calls the old ritual an illustration. It says Christ entered a heavenly sanctuary with his own blood and secured lasting redemption.",
+         "heading" : "The New Testament makes the link",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: A comparison, not a forecast Leviticus gives instructions for an annual ceremony. It never predicts Jesus. Hebrews builds its argument from important differences as well as similarities.",
+         "body" : "Leviticus gives instructions for an annual ceremony. It never predicts Jesus. Hebrews builds its argument from important differences as well as similarities.",
+         "heading" : "A comparison, not a forecast",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-032/",
+   "title" : "Once for all",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

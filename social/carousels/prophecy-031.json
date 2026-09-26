@@ -1,0 +1,48 @@
+{
+   "caption" : "Did a healed man’s testimony lead priests to Jesus? Luke sends him to a priest, but Acts never links that event with its later priestly converts.",
+   "claim_id" : "prophecy-031",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: A sign that converted priests? Jesus heals a man and sends him to a priest for the cleansing rite in Leviticus. Acts later says many priests became Christians.",
+         "body" : "Jesus heals a man and sends him to a priest for the cleansing rite in Leviticus. Acts later says many priests became Christians.",
+         "heading" : "A sign that converted priests?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Lev 14:11: The priest who performs the cleansing shall present the one to be cleansed, together with these offerings, before the LORD.",
+         "body" : "The priest who performs the cleansing shall present the one to be cleansed, together with these offerings, before the LORD.",
+         "heading" : "Lev 14:11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 5:14, BSB: “ Do not tell anyone,” Jesus instructed him. “But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”",
+         "body" : "“ Do not tell anyone,” Jesus instructed him. “But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”",
+         "heading" : "Claimed fulfilment · Lk 5:14",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Jesus calls the offering a testimony. The healed man would bring striking evidence of Jesus’s power directly to a priest.",
+         "body" : "Jesus calls the offering a testimony. The healed man would bring striking evidence of Jesus’s power directly to a priest.",
+         "heading" : "Why Christians connect them",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Acts never makes the link Leviticus gives a procedure after healing. Acts never says this man’s testimony converted its priests. That final step is added to the story.",
+         "body" : "Leviticus gives a procedure after healing. Acts never says this man’s testimony converted its priests. That final step is added to the story.",
+         "heading" : "But Acts never makes the link",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-031/",
+   "title" : "A sign to the priests?",
+   "verdict_category" : "source_claim_incorrect"
+}

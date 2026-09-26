@@ -1,0 +1,48 @@
+{
+   "caption" : "Leviticus says blood makes atonement; First John says Jesus’s blood cleanses sin. The later connection is real, but the earlier rule predicts no individual.",
+   "claim_id" : "prophecy-035",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did atoning blood predict Jesus? Leviticus says blood makes atonement. First John later says Jesus’s blood cleanses people from every sin.",
+         "body" : "Leviticus says blood makes atonement. First John later says Jesus’s blood cleanses people from every sin.",
+         "heading" : "Did atoning blood predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Lev 17:11: it is the blood that makes atonement for the soul.",
+         "body" : "it is the blood that makes atonement for the soul.",
+         "heading" : "Lev 17:11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in 1 Jn 1:7, BSB: But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son cleanses us from all sin.",
+         "body" : "But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son cleanses us from all sin.",
+         "heading" : "Claimed fulfilment · 1 Jn 1:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Christian link is substantial New Testament writers use sacrificial language to explain Jesus. His blood brings cleansing, redemption and forgiveness.",
+         "body" : "New Testament writers use sacrificial language to explain Jesus. His blood brings cleansing, redemption and forgiveness.",
+         "heading" : "The Christian link is substantial",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Leviticus gives a ritual rule The verse concerns animal blood used on Israel’s altar. It names no future redeemer. First John gives the imagery a Christian meaning later.",
+         "body" : "The verse concerns animal blood used on Israel’s altar. It names no future redeemer. First John gives the imagery a Christian meaning later.",
+         "heading" : "But Leviticus gives a ritual rule",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-035/",
+   "title" : "Blood that makes atonement",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

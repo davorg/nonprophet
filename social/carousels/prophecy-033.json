@@ -1,0 +1,48 @@
+{
+   "caption" : "Hebrews compares Jesus outside the city gate with sacrifices burned outside the camp. The connection is explicit, but it is typology rather than prediction.",
+   "claim_id" : "prophecy-033",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did “outside the camp” predict Jesus? Leviticus says sacrificial remains were burned outside the camp. Jesus was crucified outside Jerusalem.",
+         "body" : "Leviticus says sacrificial remains were burned outside the camp. Jesus was crucified outside Jerusalem.",
+         "heading" : "Did “outside the camp” predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Lev 16:27: [They] must be taken outside the camp; and their hides, flesh, and dung must be burned up.",
+         "body" : "[They] must be taken outside the camp; and their hides, flesh, and dung must be burned up.",
+         "heading" : "Lev 16:27",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Heb 13:11–12, BSB: Although the high priest brings the blood of animals into the Holy Place as a sacrifice for sin, the bodies are burned outside the camp. And so Jesus also suffered outside the city gate, to sanctify the people by His own blood.",
+         "body" : "Although the high priest brings the blood of animals into the Holy Place as a sacrifice for sin, the bodies are burned outside the camp. And so Jesus also suffered outside the city gate, to sanctify the people by His own blood.",
+         "heading" : "Claimed fulfilment · Heb 13:11–12",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Hebrews makes the connection Hebrews directly compares the two scenes and says Jesus suffered outside the gate to make his people holy.",
+         "body" : "Hebrews directly compares the two scenes and says Jesus suffered outside the gate to make his people holy.",
+         "heading" : "Hebrews makes the connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the details are different The animals were killed before their remains were removed. Jesus was taken outside alive. Hebrews creates a theological comparison, not a prediction hidden in Leviticus.",
+         "body" : "The animals were killed before their remains were removed. Jesus was taken outside alive. Hebrews creates a theological comparison, not a prediction hidden in Leviticus.",
+         "heading" : "But the details are different",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-033/",
+   "title" : "Outside the camp",
+   "verdict_category" : "plausible_typology_not_prediction"
+}
