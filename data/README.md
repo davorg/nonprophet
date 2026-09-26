@@ -34,6 +34,14 @@ The check:
 Required local commands are Perl, `jq`, and the `ajv` CLI. The normalizer uses only
 Perl core modules.
 
+## Publication count
+
+Run `./claim-count` from the repository root to see how many claims in the
+publication registry are published and unpublished. Scheduled and withheld claims
+both count as unpublished until they are actually published. The program resolves
+its data relative to its own location, so it can also be placed or linked somewhere
+on your `PATH` and run simply as `claim-count`.
+
 ## Reference normalization result: 5 September 2026
 
 - Seed claims: 351

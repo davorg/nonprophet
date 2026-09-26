@@ -1,0 +1,36 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use utf8;
+use FindBin;
+use JSON::PP;
+use open qw(:std :encoding(UTF-8));
+
+my $path = "$FindBin::Bin/data/publication.json";
+open my $fh, '<:encoding(UTF-8)', $path
+    or die "Cannot read $path: $!\n";
+local $/;
+my $publication = eval { JSON::PP->new->decode(<$fh>) };
+die "Cannot parse $path: $@" unless $publication;
+close $fh;
+
+my %counts;
+my %seen;
+for my $entry (@{$publication->{entries} // []}) {
+    my $id = $entry->{claim_id} // '';
+    my $state = $entry->{state} // '';
+    die "$path contains an invalid claim ID\n"
+        unless $id =~ /^prophecy-\d{3}$/;
+    die "$path contains duplicate claim ID $id\n" if $seen{$id}++;
+    die "$path contains an invalid state for $id\n"
+        unless $state =~ /^(?:published|scheduled|withheld)$/;
+    $counts{$state}++;
+}
+
+my $published = $counts{published} // 0;
+my $total = scalar keys %seen;
+my $unpublished = $total - $published;
+
+printf "%-12s %d\n", 'Published:', $published;
+printf "%-12s %d\n", 'Unpublished:', $unpublished;
+printf "%-12s %d\n", 'Total:', $total;
