@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus himself compares his fate with Moses’s raised bronze snake. It is powerful Christian typology—but Numbers tells a past rescue, not a forecast.",
+   "claim_id" : "prophecy-038",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Is Jesus the raised bronze snake? Moses raises a bronze snake so bitten Israelites can look and live. Jesus says the Son of Man must be lifted up too.",
+         "body" : "Moses raises a bronze snake so bitten Israelites can look and live. Jesus says the Son of Man must be lifted up too.",
+         "heading" : "Is Jesus the raised bronze snake?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Num 21:9: Moses made a bronze snake and mounted it on a pole. If anyone who was bitten looked at the bronze snake, he would live.",
+         "body" : "Moses made a bronze snake and mounted it on a pole. If anyone who was bitten looked at the bronze snake, he would live.",
+         "heading" : "Num 21:9",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 3:14–15, BSB: Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up, that everyone who believes in Him may have eternal life.",
+         "body" : "Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up, that everyone who believes in Him may have eternal life.",
+         "heading" : "Claimed fulfilment · Jn 3:14–15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Jesus makes the connection John repeats “lifted up” and compares rescue from snakebite with eternal life through belief in Jesus.",
+         "body" : "John repeats “lifted up” and compares rescue from snakebite with eternal life through belief in Jesus.",
+         "heading" : "Jesus makes the connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: Numbers tells a past rescue Numbers describes a wilderness emergency and cure. John later reads it as a pattern for Jesus’s death and exaltation.",
+         "body" : "Numbers describes a wilderness emergency and cure. John later reads it as a pattern for Jesus’s death and exaltation.",
+         "heading" : "Numbers tells a past rescue",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-038/",
+   "title" : "The snake on the pole",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

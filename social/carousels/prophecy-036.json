@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus offers living water at the Feast of Tabernacles. The festival setting matters—but Leviticus’s drink offering was a different ritual, poured out to God.",
+   "claim_id" : "prophecy-036",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did a drink offering predict Jesus? Leviticus lists drink offerings at a festival. During that festival, Jesus invites thirsty people to come to him and drink.",
+         "body" : "Leviticus lists drink offerings at a festival. During that festival, Jesus invites thirsty people to come to him and drink.",
+         "heading" : "Did a drink offering predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Lev 23:36-37: burnt offerings and grain offerings, sacrifices and drink offerings, each on its designated day.",
+         "body" : "burnt offerings and grain offerings, sacrifices and drink offerings, each on its designated day.",
+         "heading" : "Lev 23:36-37",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 7:37–39, BSB: ‘If anyone is thirsty, let him come to Me and drink.’ He was speaking about the Spirit, whom those who believed in Him were later to receive.",
+         "body" : "‘If anyone is thirsty, let him come to Me and drink.’ He was speaking about the Spirit, whom those who believed in Him were later to receive.",
+         "heading" : "Claimed fulfilment · Jn 7:37–39",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why the setting matters The festival later included a water-pouring ceremony. Jesus uses that powerful setting to present himself as the source of living water and God’s Spirit.",
+         "body" : "The festival later included a water-pouring ceremony. Jesus uses that powerful setting to present himself as the source of living water and God’s Spirit.",
+         "heading" : "Why the setting matters",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But these are different drinks Leviticus’s drink offering was poured out to God. Jesus offers living water to people. The festival link is real, but this ritual is not a prediction.",
+         "body" : "Leviticus’s drink offering was poured out to God. Jesus offers living water to people. The festival link is real, but this ritual is not a prediction.",
+         "heading" : "But these are different drinks",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-036/",
+   "title" : "The festival drink offering",
+   "verdict_category" : "source_claim_incorrect"
+}

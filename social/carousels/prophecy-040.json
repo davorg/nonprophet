@@ -1,0 +1,48 @@
+{
+   "caption" : "Is Jesus the prophet like Moses? The New Testament makes that case, but Deuteronomy’s context may promise a continuing line of prophets rather than one person.",
+   "claim_id" : "prophecy-040",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Moses predict Jesus? Moses promises a prophet like himself. After seeing Jesus’s sign, a crowd calls him “the Prophet” who was expected to come.",
+         "body" : "Moses promises a prophet like himself. After seeing Jesus’s sign, a crowd calls him “the Prophet” who was expected to come.",
+         "heading" : "Did Moses predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Deut 18:15: The LORD your God will raise up for you a prophet like me from among your brothers. You must listen to him.",
+         "body" : "The LORD your God will raise up for you a prophet like me from among your brothers. You must listen to him.",
+         "heading" : "Deut 18:15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 6:14, BSB: When the people saw the sign that Jesus had performed, they began to say, “Truly this is the Prophet who is to come into the world.”",
+         "body" : "When the people saw the sign that Jesus had performed, they began to say, “Truly this is the Prophet who is to come into the world.”",
+         "heading" : "Claimed fulfilment · Jn 6:14",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Christian case is strong Some Jewish readers expected one final prophet. Acts later quotes this promise while preaching about Jesus.",
+         "body" : "Some Jewish readers expected one final prophet. Acts later quotes this promise while preaching about Jesus.",
+         "heading" : "The Christian case is strong",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Deuteronomy may mean many The surrounding law explains how Israel should recognise true prophets. The promise may describe a continuing line, not one unique person.",
+         "body" : "The surrounding law explains how Israel should recognise true prophets. The promise may describe a continuing line, not one unique person.",
+         "heading" : "But Deuteronomy may mean many",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-040/",
+   "title" : "The prophet like Moses",
+   "verdict_category" : "mixed_or_indeterminate"
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "John explicitly connects Jesus’s unbroken bones with Scripture. It is precise Passover typology, but Numbers originally gives a rule for preparing a meal.",
+   "claim_id" : "prophecy-037",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Jesus’s bones were not broken Numbers says a Passover animal’s bones must remain unbroken. John says soldiers left Jesus’s legs intact and calls it fulfilment.",
+         "body" : "Numbers says a Passover animal’s bones must remain unbroken. John says soldiers left Jesus’s legs intact and calls it fulfilment.",
+         "heading" : "Jesus’s bones were not broken",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Num 9:12: they may not leave any of it until morning or break any of its bones.",
+         "body" : "they may not leave any of it until morning or break any of its bones.",
+         "heading" : "Num 9:12",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 19:33, 36, BSB: They did not break His legs. Now these things happened so that the Scripture would be fulfilled: ‘Not one of His bones will be broken.’",
+         "body" : "They did not break His legs. Now these things happened so that the Scripture would be fulfilled: ‘Not one of His bones will be broken.’",
+         "heading" : "Claimed fulfilment · Jn 19:33, 36",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: John makes the connection The detail is unusually exact. John presents Jesus as a Passover sacrifice whose bones remain unbroken.",
+         "body" : "The detail is unusually exact. John presents Jesus as a Passover sacrifice whose bones remain unbroken.",
+         "heading" : "John makes the connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Numbers gives a meal rule Numbers tells people how to prepare a Passover animal. It does not predict an execution. John gives the old rule a Christian meaning.",
+         "body" : "Numbers tells people how to prepare a Passover animal. It does not predict an execution. John gives the old rule a Christian meaning.",
+         "heading" : "But Numbers gives a meal rule",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-037/",
+   "title" : "Not one bone broken",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

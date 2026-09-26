@@ -1,0 +1,48 @@
+{
+   "caption" : "Balaam’s future ruler has a serious messianic history. But “not now” gives no date, and the cited New Testament verses never connect Jesus with this oracle.",
+   "claim_id" : "prophecy-039",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Balaam predict Jesus’s timing? Balaam sees a future ruler from Israel and says, “I see him, but not now.” Christians identify that ruler with Jesus.",
+         "body" : "Balaam sees a future ruler from Israel and says, “I see him, but not now.” Christians identify that ruler with Jesus.",
+         "heading" : "Did Balaam predict Jesus’s timing?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Num 24:17: I see him, but not now; I behold him, but not near. A star will come forth from Jacob.",
+         "body" : "I see him, but not now; I behold him, but not near. A star will come forth from Jacob.",
+         "heading" : "Num 24:17",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Gal 4:4, BSB: But when the time had fully come, God sent His Son, born of a woman, born under the law,",
+         "body" : "But when the time had fully come, God sent His Son, born of a woman, born under the law,",
+         "heading" : "Claimed fulfilment · Gal 4:4",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: This is a genuine royal oracle The star and sceptre describe a ruler, and both Jewish and Christian readers have understood the passage as messianic.",
+         "body" : "The star and sceptre describe a ruler, and both Jewish and Christian readers have understood the passage as messianic.",
+         "heading" : "This is a genuine royal oracle",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But “not now” dates nothing The phrase could fit any later ruler. John and Galatians say Jesus came, but never connect him with this oracle.",
+         "body" : "The phrase could fit any later ruler. John and Galatians say Jesus came, but never connect him with this oracle.",
+         "heading" : "But “not now” dates nothing",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-039/",
+   "title" : "I see him, but not now",
+   "verdict_category" : "insufficiently_specific"
+}
