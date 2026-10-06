@@ -1,0 +1,48 @@
+{
+   "caption" : "When Jesus says Moses wrote about him, does he mean Deuteronomy’s prophet? It is plausible, but John never names the passage—and Deuteronomy’s meaning is disputed.",
+   "claim_id" : "prophecy-041",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Which words of Moses? Jesus says Moses wrote about him. Christians often identify the promised prophet in Deuteronomy as one of those passages.",
+         "body" : "Jesus says Moses wrote about him. Christians often identify the promised prophet in Deuteronomy as one of those passages.",
+         "heading" : "Which words of Moses?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Deut 18:15-16: The LORD your God will raise up for you a prophet like me from among your brothers.",
+         "body" : "The LORD your God will raise up for you a prophet like me from among your brothers.",
+         "heading" : "Deut 18:15-16",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 5:45–47, BSB: If you had believed Moses, you would believe Me, because he wrote about Me.",
+         "body" : "If you had believed Moses, you would believe Me, because he wrote about Me.",
+         "heading" : "Claimed fulfilment · Jn 5:45–47",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why this passage is plausible It promises a prophet like Moses, and Acts later quotes that promise while preaching about Jesus.",
+         "body" : "It promises a prophet like Moses, and Acts later quotes that promise while preaching about Jesus.",
+         "heading" : "Why this passage is plausible",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But John never names it Jesus may mean the Torah more broadly. Deuteronomy may also describe a line of prophets rather than one final person.",
+         "body" : "Jesus may mean the Torah more broadly. Deuteronomy may also describe a line of prophets rather than one final person.",
+         "heading" : "But John never names it",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-041/",
+   "title" : "Moses wrote about me",
+   "verdict_category" : "mixed_or_indeterminate"
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Paul directly connects Deuteronomy’s curse with Jesus on the cross. It is powerful Christian typology—but the original burial law does not forecast Jesus.",
+   "claim_id" : "prophecy-044",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did this curse predict the cross? Deuteronomy calls a body hung on wood cursed by God. Paul says Jesus became a curse for others by hanging on a cross.",
+         "body" : "Deuteronomy calls a body hung on wood cursed by God. Paul says Jesus became a curse for others by hanging on a cross.",
+         "heading" : "Did this curse predict the cross?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Deut 21:23: anyone who is hung on a tree is under God’s curse.",
+         "body" : "anyone who is hung on a tree is under God’s curse.",
+         "heading" : "Deut 21:23",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Gal 3:13, BSB: Christ redeemed us from the curse of the law by becoming a curse for us. For it is written: “Cursed is everyone who is hung on a tree.”",
+         "body" : "Christ redeemed us from the curse of the law by becoming a curse for us. For it is written: “Cursed is everyone who is hung on a tree.”",
+         "heading" : "Claimed fulfilment · Gal 3:13",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Paul makes the connection He quotes Deuteronomy directly and uses it to explain how Jesus redeems people from the law’s curse.",
+         "body" : "He quotes Deuteronomy directly and uses it to explain how Jesus redeems people from the law’s curse.",
+         "heading" : "Paul makes the connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the law does not forecast Jesus Deuteronomy orders burial of an executed criminal’s displayed body. Paul later applies that old rule to the cross.",
+         "body" : "Deuteronomy orders burial of an executed criminal’s displayed body. Paul later applies that old rule to the cross.",
+         "heading" : "But the law does not forecast Jesus",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-044/",
+   "title" : "Cursed on a tree",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

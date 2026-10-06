@@ -1,0 +1,48 @@
+{
+   "caption" : "Is Jesus the commander who met Joshua? The theological link is possible, but Hebrews never cites the story—and the apparent word match depends on English translation.",
+   "claim_id" : "prophecy-045",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Is Jesus Joshua’s commander? Joshua meets the commander of the LORD’s army. Hebrews calls Jesus the leader—or pioneer—of salvation.",
+         "body" : "Joshua meets the commander of the LORD’s army. Hebrews calls Jesus the leader—or pioneer—of salvation.",
+         "heading" : "Is Jesus Joshua’s commander?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Josh 5:14-15: I have now come as Commander of the LORD’s army.",
+         "body" : "I have now come as Commander of the LORD’s army.",
+         "heading" : "Josh 5:14-15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Heb 2:10, BSB: In bringing many sons to glory, it was fitting for God, for whom and through whom all things exist, to make the author of their salvation perfect through suffering.",
+         "body" : "In bringing many sons to glory, it was fitting for God, for whom and through whom all things exist, to make the author of their salvation perfect through suffering.",
+         "heading" : "Claimed fulfilment · Heb 2:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Joshua’s commander stands on holy ground. Some Christians identify him as the divine Son before Jesus’s birth.",
+         "body" : "Joshua’s commander stands on holy ground. Some Christians identify him as the divine Son before Jesus’s birth.",
+         "heading" : "Why Christians connect them",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the words are different Joshua and Hebrews use different Greek terms, and Hebrews never mentions this story. “Captain” makes the link look closer in English.",
+         "body" : "Joshua and Hebrews use different Greek terms, and Hebrews never mentions this story. “Captain” makes the link look closer in English.",
+         "heading" : "But the words are different",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-045/",
+   "title" : "The captain of salvation",
+   "verdict_category" : "depends_on_disputed_text_or_translation"
+}

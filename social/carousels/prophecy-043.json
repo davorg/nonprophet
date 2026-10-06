@@ -1,0 +1,48 @@
+{
+   "caption" : "Acts explicitly applies Moses’s warning to Jesus. But it also strengthens the wording from being held accountable to being cut off: a forceful Christian rereading.",
+   "claim_id" : "prophecy-043",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: A warning about rejecting Jesus? Moses says God will hold people accountable for ignoring His prophet. Acts applies that warning while preaching about Jesus.",
+         "body" : "Moses says God will hold people accountable for ignoring His prophet. Acts applies that warning while preaching about Jesus.",
+         "heading" : "A warning about rejecting Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Deut 18:19: I will hold accountable anyone who does not listen to My words that the prophet speaks in My name.",
+         "body" : "I will hold accountable anyone who does not listen to My words that the prophet speaks in My name.",
+         "heading" : "Deut 18:19",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Acts 3:22–23, BSB: For Moses said, ‘The Lord your God will raise up for you a prophet like me from among your brothers. You must listen to Him in everything He tells you. Everyone who does not listen to Him will be completely cut off from among his people.’",
+         "body" : "For Moses said, ‘The Lord your God will raise up for you a prophet like me from among your brothers. You must listen to Him in everything He tells you. Everyone who does not listen to Him will be completely cut off from among his people.’",
+         "heading" : "Claimed fulfilment · Acts 3:22–23",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Acts makes the link explicit It quotes the prophet promise and tells listeners they must hear him. This is not a modern connection.",
+         "body" : "It quotes the prophet promise and tells listeners they must hear him. This is not a modern connection.",
+         "heading" : "Acts makes the link explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Acts adapts the wording Deuteronomy says God will demand an account. Acts says nonlisteners will be cut off. It is a forceful rereading, not an exact prediction.",
+         "body" : "Deuteronomy says God will demand an account. Acts says nonlisteners will be cut off. It is a forceful rereading, not an exact prediction.",
+         "heading" : "But Acts adapts the wording",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-043/",
+   "title" : "The warning about the Prophet",
+   "verdict_category" : "retrospective_rereading"
+}

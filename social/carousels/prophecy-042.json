@@ -1,0 +1,48 @@
+{
+   "caption" : "Did Moses predict that Jesus would speak the Father’s words? Jesus fits the description, but speaking God’s message is a prophet’s basic role—not a unique identifier.",
+   "claim_id" : "prophecy-042",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Moses predict Jesus’s words? God promises a prophet who will speak His words. Jesus later says he speaks exactly what the Father taught him.",
+         "body" : "God promises a prophet who will speak His words. Jesus later says he speaks exactly what the Father taught him.",
+         "heading" : "Did Moses predict Jesus’s words?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Deut 18:18: I will put My words in his mouth, and he will tell them everything I command him.",
+         "body" : "I will put My words in his mouth, and he will tell them everything I command him.",
+         "heading" : "Deut 18:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 8:28–29, BSB: I do nothing on My own, but speak exactly what the Father has taught Me.",
+         "body" : "I do nothing on My own, but speak exactly what the Father has taught Me.",
+         "heading" : "Claimed fulfilment · Jn 8:28–29",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians connect them Jesus says the Father sent him, and Acts identifies him with the prophet promised by Moses.",
+         "body" : "Jesus says the Father sent him, and Acts identifies him with the prophet promised by Moses.",
+         "heading" : "Why Christians connect them",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But this is not unique Prophets speak for God. John makes no link to this verse.",
+         "body" : "Prophets speak for God. John makes no link to this verse.",
+         "heading" : "But this is not unique",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-042/",
+   "title" : "Speaking the Father's words",
+   "verdict_category" : "insufficiently_specific"
+}
