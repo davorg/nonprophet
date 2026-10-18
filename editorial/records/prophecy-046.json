@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-046",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Boaz's redemption of Ruth and Naomi in Ruth 4:4–10 provides a divinely intended pattern of Christ becoming our kinsman and redeeming believers, as described in Ephesians 1:3–7.",
+    "type": "later_christian_typology",
+    "scope_notes": "Ruth narrates a family and property transaction. Ephesians speaks of forgiveness through Christ's blood but does not call Jesus a kinsman or cite Ruth."
+  },
+  "context": {
+    "summary": "A nearer relative declines to recover Naomi's property when Boaz explains that the transaction also entails preserving the dead man's family line through Ruth. Boaz assumes the right, buys the property and marries Ruth. The story closes by placing their son in David's ancestry.",
+    "shared_context_id": "ruth-4-1-samuel-2-2-samuel-7"
+  },
+  "strongest_case": {
+    "summary": "Boaz willingly pays a cost that a nearer relative refuses, restores a vulnerable family and becomes an ancestor of David and therefore, in Matthew's genealogy, of Jesus. Christian typology can reasonably see his faithful redemption as a pattern of Christ's more comprehensive redemption.",
+    "reasoning": [
+      "Both stories centre on costly redemption.",
+      "Boaz joins the Davidic family line.",
+      "Christian interpreters openly present the connection as typology rather than verbal prediction."
+    ],
+    "source_ids": [
+      "src-tgc-ruth",
+      "src-themelios-typology",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Ruth's go'el is a legally qualified family protector dealing with land, marriage and a dead relative's name. Ephesians's redemption is forgiveness through Christ's blood. It neither uses kinship language nor mentions Boaz or Ruth. The analogy is meaningful Christian typology, but Ruth 4 does not forecast Jesus.",
+    "reasoning": [
+      "The two acts of redemption solve different problems.",
+      "The New Testament passage makes no textual link to Ruth.",
+      "The narrative identifies Boaz's immediate beneficiaries and outcome."
+    ],
+    "source_ids": [
+      "src-tgc-ruth",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "English 'redeem' covers related theological usage, but Ruth's go'el specifically denotes a family redeemer with legal obligations; Ephesians uses Greek apolytrosis for release or redemption.",
+      "significance": "material",
+      "source_ids": [
+        "src-tgc-ruth",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Boaz offers Christians a coherent picture of costly redemption and belongs to Jesus's ancestral story. Ruth narrates his immediate legal and family action rather than predicting Christ, and Ephesians does not make the proposed link.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-tgc-ruth",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "Ruth",
+      "author": "John D. Currid",
+      "publisher": "The Gospel Coalition Bible Commentary",
+      "url": "https://www.thegospelcoalition.org/commentary/ruth/",
+      "locator": "Ruth 4:4–11 and conclusion",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Explains the go'el transaction and presents Boaz as a Christian type."
+    },
+    {
+      "id": "src-themelios-typology",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "Main-Point-Driven: A Clear Methodology for Implementing the Christ-Centered Hermeneutic",
+      "author": "Sam Emadi",
+      "publisher": "Themelios",
+      "url": "https://www.thegospelcoalition.org/themelios/article/main-point-driven-a-clear-methodology-for-implementing-the-christ-centered-hermeneutic/",
+      "locator": "Ruth and Boaz example",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Explicit evangelical defence of Boaz as a type of Christ."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Ruth 4:4–10; Ephesians 1:3–7",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-046-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-046-adversarial-2026-10-18-raw.md","objections":[{"objection":"The seed claim may propose typology rather than explicit prediction.","disposition":"accepted","reason":"The precise claim now tests intended typology, while the verdict grants the pattern and limits only what the passages demonstrate."},{"objection":"Different kinds of redemption do not by themselves defeat typology.","disposition":"accepted","reason":"The verdict calls the typology coherent and uses the differences to distinguish it from direct forecast."},{"objection":"Immediate narrative meaning does not exclude providential foreshadowing.","disposition":"accepted","reason":"The copy says the connection is plausible but not independently established, rather than declaring such foreshadowing impossible."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Boaz the kinsman-redeemer",
+    "scripture_excerpt": "Take my right of redemption, because I cannot redeem it.",
+    "website": {
+      "description": "Did Boaz's redemption of Ruth predict Christ redeeming believers?",
+      "summary": "Boaz makes a powerful Christian picture of redemption, but Ruth tells a family and property story rather than forecasting Jesus.",
+      "christian_case": "Boaz willingly accepts a costly duty that the nearer relative refuses. He rescues a vulnerable family, preserves its future and joins the family line that leads to David and, in Matthew, to Jesus.",
+      "critical_case": "Boaz redeems family property and marries Ruth to preserve a dead man's name. Ephesians speaks about forgiveness through Jesus's blood. It never calls Jesus a kinsman or connects him with this story.",
+      "verdict_label": "A pattern, not a prediction",
+      "verdict": "The comparison is meaningful Christian typology. Ruth describes what Boaz did for Ruth and Naomi, not what a future Messiah would do."
+    },
+    "carousel": [
+      {
+        "heading": "Did Boaz predict Jesus?",
+        "body": "Boaz acts as Ruth’s family redeemer. Christians see him as a picture of Jesus redeeming believers."
+      },
+      {
+        "heading": "Why the comparison works",
+        "body": "Boaz accepts a costly duty, rescues a vulnerable family and becomes an ancestor of David—and therefore of Jesus."
+      },
+      {
+        "heading": "But Ruth tells Boaz’s story",
+        "body": "His redemption concerns land, marriage and a family name. Ephesians never calls Jesus a kinsman or links him with Ruth."
+      }
+    ]
+  }
+}

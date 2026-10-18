@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-050",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "The forever throne promised to David's descendant in 2 Samuel 7:13 predicted the eternal kingdom of Jesus named in 2 Peter 1:11.",
+    "type": "prediction",
+    "scope_notes": "The temple-building son is immediately Solomon. The promise's 'forever' language can concern the Davidic throne or dynasty and later support hope for an enduring messianic king."
+  },
+  "context": {
+    "summary": "Nathan's oracle promises that David's son will build a house for God's name and that God will establish his royal throne forever. Solomon builds the temple, and the wider oracle repeatedly speaks about David's house, kingdom and throne enduring. The historical dynasty later falls, encouraging renewed interpretation of the promise.",
+    "shared_context_id": "ruth-4-1-samuel-2-2-samuel-7"
+  },
+  "strongest_case": {
+    "summary": "The fall of the monarchy left the covenant apparently unfulfilled and helped generate hope for a future Davidic king whose reign would truly endure. The New Testament identifies Jesus as David's heir and describes his kingdom as eternal, so the canonical connection is substantial even though 2 Peter does not quote Samuel.",
+    "reasoning": [
+      "The covenant explicitly promises enduring kingship.",
+      "Historical failure creates a natural future horizon.",
+      "Jesus is presented as Davidic king of an eternal kingdom."
+    ],
+    "source_ids": [
+      "src-workingpreacher-david-last",
+      "src-workingpreacher-solomon",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The same sentence identifies the promised son as the temple builder, which points directly to Solomon. 'Forever' in royal covenants can describe an enduring dynasty or throne rather than the biological immortality of its first king. Second Peter merely calls Jesus's kingdom eternal and gives no indication that it is interpreting 2 Samuel 7:13.",
+    "reasoning": [
+      "Solomon supplies the immediate temple-building referent.",
+      "The object made permanent is the throne or kingdom.",
+      "The cited New Testament verse contains no quotation or distinctive echo."
+    ],
+    "source_ids": [
+      "src-workingpreacher-solomon",
+      "src-torah-solomon",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_prediction",
+    "summary": "The Davidic covenant genuinely creates hope for enduring royal rule, and Christian identification of Jesus as its final king is plausible. Verse 13 immediately concerns Solomon and an enduring throne, while 2 Peter does not itself make the connection.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-workingpreacher-solomon",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "Commentary on 1 Kings 2:10–12; 3:3–14",
+      "author": "Christopher T. Holmes",
+      "publisher": "Working Preacher, Luther Seminary",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-20-2/commentary-on-1-kings-210-12-33-14-6",
+      "locator": "Solomon's accession and 2 Samuel 7",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Identifies Solomon as the immediate promised successor."
+    },
+    {
+      "id": "src-workingpreacher-david-last",
+      "tier": 2,
+      "stance": "christian_case",
+      "type": "commentary",
+      "title": "Commentary on 2 Samuel 23:1–7",
+      "author": "Samuel Giere",
+      "publisher": "Working Preacher, Luther Seminary",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/christ-the-king-2/commentary-on-2-samuel-231-7",
+      "locator": "David as past memory and future royal vision",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Describes development of David into a vision for Israel's future."
+    },
+    {
+      "id": "src-torah-solomon",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "article",
+      "title": "Of Lambs and Lambasting: The Message of Nathan's Parable to David",
+      "author": "Sara Milstein",
+      "publisher": "TheTorah.com",
+      "url": "https://www.thetorah.com/article/of-lambs-and-lambasting-the-message-in-nathans-parable-to-david",
+      "locator": "Solomon and the Nathan oracle",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Identifies Solomon as the biological and adopted royal son."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "2 Samuel 7:8–16; 1 Kings 5–8; 2 Peter 1:11",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact covenant, temple and New Testament wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-050-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-050-adversarial-2026-10-18-raw.md","objections":[{"objection":"Personal immortality is a straw man because the claim concerns an eternal kingdom.","disposition":"accepted","reason":"The final critical case asks whether the verse specifies one final king rather than arguing against Solomon's immortality."},{"objection":"Solomon's immediate role does not exhaust the promise's dynastic scope.","disposition":"accepted","reason":"The verdict explicitly grants a plausible wider fulfilment in Jesus."},{"objection":"Compatibility between two eternal-kingdom statements is weaker than direct identification.","disposition":"accepted","reason":"The copy distinguishes the substantial canonical fit from 2 Peter's lack of an explicit Samuel connection."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "The everlasting Davidic throne",
+    "scripture_excerpt": "I will establish the throne of his kingdom forever.",
+    "website": {
+      "description": "Did David's everlasting throne predict Jesus's eternal kingdom?",
+      "summary": "The Davidic covenant creates genuine hope for lasting kingship, but its immediate temple-building heir is Solomon.",
+      "christian_case": "Israel's historical monarchy ended, yet the promise said David's throne would endure. Christians see Jesus, David's heir and ruler of an eternal kingdom, as the promise's fullest answer.",
+      "critical_case": "The temple-building son points first to Solomon. The promise makes the Davidic throne or dynasty enduring but does not specify one final individual king. Second Peter calls Jesus's kingdom eternal without citing Samuel.",
+      "verdict_label": "A plausible wider fulfilment",
+      "verdict": "The covenant is a real foundation for later messianic hope, so applying its enduring kingship to Jesus is plausible. The verse first concerns Solomon and the Davidic throne, not an explicit prediction of one immortal king."
+    },
+    "carousel": [
+      {
+        "heading": "Did David’s throne predict Jesus?",
+        "body": "God promises that David’s son will have an enduring throne. Second Peter calls Jesus’s kingdom eternal."
+      },
+      {
+        "heading": "Why Christians see Jesus here",
+        "body": "The old monarchy ended, but the promise remained. Christians see Jesus as David’s final heir whose kingdom truly lasts."
+      },
+      {
+        "heading": "But the first heir is Solomon",
+        "body": "This son builds the temple, which Solomon does. The verse promises an enduring Davidic throne but does not name its final king."
+      }
+    ]
+  }
+}

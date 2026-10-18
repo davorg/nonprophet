@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-048",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Hannah's reference to the LORD giving strength to his king and exalting his anointed in 1 Samuel 2:10 predicted Jesus's universal authority and kingship.",
+    "type": "prediction",
+    "scope_notes": "The song anticipates Israelite kingship before the narrative introduces Saul and David. Neither cited New Testament text links Jesus with Hannah's song."
+  },
+  "context": {
+    "summary": "Hannah celebrates God's reversal of human fortunes after Samuel's birth. Her song widens from her own deliverance to God's rule, judgment and protection, ending with strength for God's king and exaltation of his anointed. The books that follow narrate the rise of Israel's monarchy, especially David.",
+    "shared_context_id": "ruth-4-1-samuel-2-2-samuel-7"
+  },
+  "strongest_case": {
+    "summary": "The verse is genuinely forward-looking within Samuel and establishes an ideal of a divinely empowered anointed king whose significance reaches the ends of the earth. Jesus is presented as David's royal heir, the arriving king and the holder of universal authority, so Christian readers can reasonably see him as the ideal's climax.",
+    "reasoning": [
+      "The song anticipates a king before Israel has one in the narrative.",
+      "Anointed is the source of the later title Messiah or Christ.",
+      "Jesus is explicitly presented as king with worldwide authority."
+    ],
+    "source_ids": [
+      "src-workingpreacher-hannah",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "In its literary setting the line introduces Israel's monarchy generally and prepares for Saul and especially David. 'Anointed' is a normal designation for Israelite kings, not an exclusive name for Jesus. Matthew 28 and John 12 call Jesus powerful and king, but neither cites this verse; John explicitly quotes Zechariah 9:9 instead.",
+    "reasoning": [
+      "The immediate narrative develops ordinary human kingship.",
+      "The description is shared by multiple anointed kings.",
+      "The proposed New Testament proof texts make no link to Hannah's song."
+    ],
+    "source_ids": [
+      "src-workingpreacher-hannah",
+      "src-workingpreacher-david",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "insufficiently_specific",
+    "summary": "Hannah's song genuinely anticipates God's anointed kingship and can contribute to a later messianic hope. It does not uniquely identify Jesus, and the cited New Testament passages never claim it as his prophecy.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-workingpreacher-hannah",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "Commentary on 1 Samuel 1:9–11, 19–20; 2:1–10",
+      "author": "Sara Koenig",
+      "publisher": "Working Preacher, Luther Seminary",
+      "url": "https://www.workingpreacher.org/?print-all=47476",
+      "locator": "1 Samuel 2:10",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Places the anointed king under God's power within the song's reversal theme."
+    },
+    {
+      "id": "src-workingpreacher-david",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "commentary",
+      "title": "Commentary on 2 Samuel 5:1–5, 9–10",
+      "author": "Ralph W. Klein",
+      "publisher": "Working Preacher, Luther Seminary",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-14-2/commentary-on-2-samuel-51-5-9-10-2",
+      "locator": "discussion of royal anointing",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Explains anointing as the designation of Israel's kings."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "1 Samuel 2:1–10; Matthew 28:18; John 12:15",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact wording and John's Zechariah cross-reference checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-048-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-048-adversarial-2026-10-18-raw.md","objections":[{"objection":"Non-uniqueness limits identification but does not disprove a cumulative fulfilment claim.","disposition":"accepted","reason":"The verdict is limited to specificity and grants Jesus as a plausible climax of the royal hope."},{"objection":"Absence of an explicit citation does not exclude allusion or canonical fulfilment.","disposition":"accepted","reason":"The copy limits the observation to the cited passages and does not deny broader reception."},{"objection":"Literary anticipation of monarchy should not be confused with secure historical dating of the song.","disposition":"accepted","reason":"The argument refers only to the song's placement and function within Samuel's narrative."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Hannah's anointed king",
+    "scripture_excerpt": "He will exalt the horn of His anointed.",
+    "website": {
+      "description": "Did Hannah's song predict Jesus as God's anointed king?",
+      "summary": "Hannah genuinely looks towards an anointed king, but her song introduces Israel's monarchy rather than identifying Jesus alone.",
+      "christian_case": "The song looks beyond Hannah's own rescue to a king empowered by God and connected with judgment across the earth. Jesus is later presented as the promised king with authority everywhere.",
+      "critical_case": "Samuel goes on to describe Saul and David being anointed as Israel's kings. The title applies to them too. The cited verses in Matthew and John present Jesus as king but do not connect him with Hannah's song.",
+      "verdict_label": "Royal hope, but not unique",
+      "verdict": "This is an important early statement of anointed kingship and can feed later messianic hope. It is too broad to function as a unique prediction of Jesus."
+    },
+    "carousel": [
+      {
+        "heading": "Did Hannah predict Jesus?",
+        "body": "Hannah says God will strengthen His king and exalt His anointed. Christians connect that royal hope with Jesus."
+      },
+      {
+        "heading": "This really is future royal hope",
+        "body": "Israel has no king yet in the story. The song looks ahead to a ruler empowered by God, and Jesus is later called king."
+      },
+      {
+        "heading": "But “anointed” is not unique",
+        "body": "Saul and David are also God’s anointed kings. These New Testament verses do not mention Hannah’s song."
+      }
+    ]
+  }
+}

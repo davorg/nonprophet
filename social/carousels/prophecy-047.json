@@ -1,0 +1,48 @@
+{
+   "caption" : "Is Jesus the faithful priest promised after Eli’s family failed? Hebrews creates a plausible larger pattern, but Samuel’s story points historically to Zadok.",
+   "claim_id" : "prophecy-047",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Is Jesus Samuel’s faithful priest? God promises a faithful priest after condemning Eli’s corrupt family. Hebrews later calls Jesus a faithful high priest.",
+         "body" : "God promises a faithful priest after condemning Eli’s corrupt family. Hebrews later calls Jesus a faithful high priest.",
+         "heading" : "Is Jesus Samuel’s faithful priest?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 1Sam 2:35: I will raise up for Myself a faithful priest.",
+         "body" : "I will raise up for Myself a faithful priest.",
+         "heading" : "1Sam 2:35",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Heb 2:17, BSB: He became a merciful and faithful high priest in service to God, to make atonement for the sins of the people.",
+         "body" : "He became a merciful and faithful high priest in service to God, to make atonement for the sins of the people.",
+         "heading" : "Claimed fulfilment · Heb 2:17",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The resemblance is striking Jesus is faithful, serves as high priest and has a permanent priesthood. Christians can see a larger pattern here.",
+         "body" : "Jesus is faithful, serves as high priest and has a permanent priesthood. Christians can see a larger pattern here.",
+         "heading" : "The resemblance is striking",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the story has its own outcome Kings says Eli’s line was removed and Zadok became priest. Hebrews does not explicitly cite this promise.",
+         "body" : "Kings says Eli’s line was removed and Zadok became priest. Hebrews does not explicitly cite this promise.",
+         "heading" : "But the story has its own outcome",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-047/",
+   "title" : "The faithful priest",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-047",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "The faithful priest promised in 1 Samuel 2:35 was a prediction of Jesus's faithful and permanent high priesthood in Hebrews.",
+    "type": "prediction",
+    "scope_notes": "The oracle announces the replacement of Eli's corrupt priestly house. Its immediate historical identification is debated between Samuel and Zadok, while Hebrews never cites the verse."
+  },
+  "context": {
+    "summary": "An unnamed man of God condemns Eli's household because his sons abuse their priestly office. God promises to cut off Eli's house and raise a faithful priest with an enduring house who will serve before God's anointed. Kings later describes Abiathar's removal as fulfilling the word against Eli and installs Zadok in his place.",
+    "shared_context_id": "ruth-4-1-samuel-2-2-samuel-7"
+  },
+  "strongest_case": {
+    "summary": "Hebrews repeatedly calls Jesus a faithful high priest whose priesthood lasts forever. Some Christian scholarship argues that the promise's enduring language and its place beside the anointed king reach beyond Zadok to Christ's final priesthood.",
+    "reasoning": [
+      "Jesus matches both 'faithful' and 'priest.'",
+      "Hebrews makes his priesthood permanent.",
+      "The enduring house language allows a larger canonical reading."
+    ],
+    "source_ids": [
+      "src-sbjt-priesthood",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The oracle addresses the imminent replacement of Eli's corrupt line. First Kings 2:27 explicitly says Abiathar's expulsion fulfilled the word against Eli, and Zadok is installed as priest in verse 35. The promised priest also walks before God's anointed, grammatically distinguishing priest and king. Hebrews builds Jesus's priesthood from other texts and never invokes 1 Samuel 2:35.",
+    "reasoning": [
+      "The narrative supplies a historical fulfilment in the transfer to Zadok.",
+      "The priest serves before a separate anointed figure.",
+      "Hebrews does not cite or clearly echo this promise."
+    ],
+    "source_ids": [
+      "src-rsb-1sam235",
+      "src-sbjt-priesthood",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Jesus can plausibly be read as the climax of a faithful-priest pattern, but 1 Samuel's oracle concerns replacement of Eli's priestly house and is fulfilled historically in the rise of Zadok. Hebrews does not explicitly identify Jesus as this promised priest.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-rsb-1sam235",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "study_note",
+      "title": "1 Samuel 2:35",
+      "author": "Reformation Study Bible editors",
+      "publisher": "Ligonier Ministries; Bible Gateway edition",
+      "url": "https://www.biblegateway.com/resources/reformation-study-bible/1Sam.2.35",
+      "locator": "study note",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Identifies Zadok as the clearer historical fulfilment while noting Samuel."
+    },
+    {
+      "id": "src-sbjt-priesthood",
+      "tier": 3,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Resurrection and Priesthood: Christological Soundings from the Book of Hebrews",
+      "author": "David Schrock",
+      "publisher": "Southern Baptist Journal of Theology",
+      "url": "https://equip.sbts.edu/publications/journals/journal-of-theology/resurrection-and-priesthood-christological-soundings-from-the-book-of-hebrews/",
+      "locator": "discussion of 1 Samuel 2:35",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "States the historical Samuel/Zadok reading and argues for a wider Christological trajectory."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "1 Samuel 2:27–36; 1 Kings 2:27, 35; Hebrews 2:17; 3:1–6; 7:24–25",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact wording and narrative fulfilment checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-047-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-047-adversarial-2026-10-18-raw.md","objections":[{"objection":"A historical fulfilment does not rule out a later Christological pattern.","disposition":"accepted","reason":"The verdict category now grants plausible typology while rejecting only a uniquely direct prediction."},{"objection":"Kings explicitly fulfils the judgment on Eli but does not label every positive detail as fulfilled by Zadok.","disposition":"accepted","reason":"The copy presents Zadok as the narrative outcome rather than claiming an exhaustive fulfilment formula."},{"objection":"Hebrews's house language deserves weight even without an explicit citation.","disposition":"accepted","reason":"The Christian case retains the cumulative argument; the critical case is limited to the absence of an explicit link."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "The faithful priest",
+    "scripture_excerpt": "I will raise up for Myself a faithful priest.",
+    "website": {
+      "description": "Did 1 Samuel predict Jesus as God's faithful priest?",
+      "summary": "Jesus fits the title, but Samuel's story points to the replacement of Eli's priestly family—most clearly by Zadok.",
+      "christian_case": "Hebrews calls Jesus a faithful high priest and says his priesthood lasts forever. That sounds close to God's promise of a faithful priest with an enduring house.",
+      "critical_case": "The promise follows judgment on Eli's corrupt family. Kings says Abiathar's removal fulfilled that judgment, then installs Zadok. The priest in Samuel also serves before God's anointed king, rather than being that king.",
+      "verdict_label": "A possible pattern, not direct forecast",
+      "verdict": "The verbal resemblance supports Christian typology, but the Old Testament narrative applies this oracle to a change in Israel's priestly line. Hebrews does not explicitly cite it."
+    },
+    "carousel": [
+      {
+        "heading": "Is Jesus Samuel’s faithful priest?",
+        "body": "God promises a faithful priest after condemning Eli’s corrupt family. Hebrews later calls Jesus a faithful high priest."
+      },
+      {
+        "heading": "The resemblance is striking",
+        "body": "Jesus is faithful, serves as high priest and has a permanent priesthood. Christians can see a larger pattern here."
+      },
+      {
+        "heading": "But the story names another outcome",
+        "body": "Kings says Eli’s line was removed and Zadok became priest. Hebrews never connects Jesus with this promise."
+      }
+    ]
+  }
+}

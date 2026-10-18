@@ -1,0 +1,48 @@
+{
+   "caption" : "God promises David a ruling descendant; Matthew calls Jesus the son of David. It is a real dynastic link—but Solomon is the immediate promised heir.",
+   "claim_id" : "prophecy-049",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did God promise Jesus to David? God says David’s own descendant will rule after him. Matthew opens by calling Jesus the son of David.",
+         "body" : "God says David’s own descendant will rule after him. Matthew opens by calling Jesus the son of David.",
+         "heading" : "Did God promise Jesus to David?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 2Sam 7:12: I will raise up your descendant after you, who will come from your own body.",
+         "body" : "I will raise up your descendant after you, who will come from your own body.",
+         "heading" : "2Sam 7:12",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 1:1, BSB: This is the record of the genealogy of Jesus Christ, the son of David, the son of Abraham:",
+         "body" : "This is the record of the genealogy of Jesus Christ, the son of David, the son of Abraham:",
+         "heading" : "Claimed fulfilment · Matt 1:1",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Davidic link is deliberate Matthew traces Jesus through David and Solomon. Christians see him as the final king promised to David’s family.",
+         "body" : "Matthew traces Jesus through David and Solomon. Christians see him as the final king promised to David’s family.",
+         "heading" : "The Davidic link is deliberate",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Solomon comes first Solomon succeeds David and builds the temple mentioned next. Davidic ancestry alone does not identify one descendant.",
+         "body" : "Solomon succeeds David and builds the temple mentioned next. Davidic ancestry alone does not identify one descendant.",
+         "heading" : "But Solomon comes first",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-049/",
+   "title" : "David's promised descendant",
+   "verdict_category" : "plausible_prediction"
+}

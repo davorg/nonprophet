@@ -1,0 +1,48 @@
+{
+   "caption" : "Did Hannah predict Jesus as God’s anointed king? Her song genuinely anticipates Israel’s monarchy—but “anointed” describes Saul and David too.",
+   "claim_id" : "prophecy-048",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Hannah predict Jesus? Hannah says God will strengthen His king and exalt His anointed. Christians connect that royal hope with Jesus.",
+         "body" : "Hannah says God will strengthen His king and exalt His anointed. Christians connect that royal hope with Jesus.",
+         "heading" : "Did Hannah predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 1Sam 2:10: He will exalt the horn of His anointed.",
+         "body" : "He will exalt the horn of His anointed.",
+         "heading" : "1Sam 2:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 28:18, BSB: Then Jesus came to them and said, “All authority in heaven and on earth has been given to Me.",
+         "body" : "Then Jesus came to them and said, “All authority in heaven and on earth has been given to Me.",
+         "heading" : "Claimed fulfilment · Matt 28:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: This really is future royal hope Israel has no king yet in the story. The song looks ahead to a ruler empowered by God, and Jesus is later called king.",
+         "body" : "Israel has no king yet in the story. The song looks ahead to a ruler empowered by God, and Jesus is later called king.",
+         "heading" : "This really is future royal hope",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But “anointed” is not unique Saul and David are also God’s anointed kings. These New Testament verses do not mention Hannah’s song.",
+         "body" : "Saul and David are also God’s anointed kings. These New Testament verses do not mention Hannah’s song.",
+         "heading" : "But “anointed” is not unique",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-048/",
+   "title" : "Hannah's anointed king",
+   "verdict_category" : "insufficiently_specific"
+}

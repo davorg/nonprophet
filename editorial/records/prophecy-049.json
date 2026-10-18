@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-049",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "God's promise to raise David's bodily descendant in 2 Samuel 7:12 predicted Jesus as the son of David named in Matthew 1:1.",
+    "type": "prediction",
+    "scope_notes": "The immediate descendant is Solomon, but the oracle also establishes a continuing Davidic dynasty that later Jewish and Christian messianism could extend."
+  },
+  "context": {
+    "summary": "David proposes to build a temple, but Nathan's oracle reverses the plan: God will build David a house or dynasty. After David dies, his bodily descendant will reign, build God's house and be treated as God's son. The narrative and Chronicles identify Solomon as the temple-building heir, while the enduring dynasty generated wider royal hope.",
+    "shared_context_id": "ruth-4-1-samuel-2-2-samuel-7"
+  },
+  "strongest_case": {
+    "summary": "Matthew deliberately opens by calling Jesus son of David and traces his line through Solomon. Jesus therefore fits the promised dynasty, and the covenant became a foundational source of Jewish hope for a future Davidic ruler after the historical monarchy failed.",
+    "reasoning": [
+      "Matthew explicitly claims Davidic descent for Jesus.",
+      "The promise creates an enduring royal line rather than an isolated resemblance.",
+      "Later messianic expectation legitimately grows from the Davidic covenant."
+    ],
+    "source_ids": [
+      "src-workingpreacher-solomon",
+      "src-torah-solomon",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The verse's nearest and clearest referent is Solomon: he comes from David's body, succeeds him and builds the temple. Matthew's genealogy asserts that Jesus belongs to the same dynasty, but descent from David was shared by many people and does not by itself identify one descendant as the promised king. The Christian claim works through the wider covenant, not by replacing Solomon in verse 12.",
+    "reasoning": [
+      "The surrounding details match Solomon directly.",
+      "Davidic ancestry is a qualification, not a unique identifier.",
+      "Matthew calls Jesus son of David but does not quote this verse here."
+    ],
+    "source_ids": [
+      "src-workingpreacher-solomon",
+      "src-torah-solomon",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_prediction",
+    "summary": "Second Samuel 7 establishes the Davidic dynasty and immediately promises Solomon. Matthew deliberately places Jesus in that line, making the wider messianic application plausible, though Davidic descent alone cannot uniquely identify him.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-workingpreacher-solomon",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "commentary",
+      "title": "Commentary on 1 Kings 2:10–12; 3:3–14",
+      "author": "Christopher T. Holmes",
+      "publisher": "Working Preacher, Luther Seminary",
+      "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-20-2/commentary-on-1-kings-210-12-33-14-6",
+      "locator": "1 Kings 2:10–12",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Explicitly identifies Solomon's accession as fulfilment of 2 Samuel 7:12."
+    },
+    {
+      "id": "src-torah-solomon",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "article",
+      "title": "Of Lambs and Lambasting: The Message of Nathan's Parable to David",
+      "author": "Sara Milstein",
+      "publisher": "TheTorah.com",
+      "url": "https://www.thetorah.com/article/of-lambs-and-lambasting-the-message-in-nathans-parable-to-david",
+      "locator": "discussion of Solomon and 2 Samuel 7",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Identifies Solomon as the biological heir who fulfils the promise."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "2 Samuel 7:8–16; 1 Kings 2:10–12; Matthew 1:1–16",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact covenant, succession and genealogy wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-049-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-049-adversarial-2026-10-18-raw.md","objections":[{"objection":"A dynastic promise need not identify its final fulfilment uniquely in one verse.","disposition":"accepted","reason":"The verdict treats Davidic descent as one meaningful qualification, not a self-sufficient proof."},{"objection":"Matthew establishes its presentation of Jesus's ancestry, not independent historical verification.","disposition":"accepted","reason":"The copy consistently attributes the genealogy to Matthew."},{"objection":"Solomon's immediate fulfilment can coexist with a continuing dynastic application.","disposition":"accepted","reason":"The verdict explicitly holds the immediate and wider readings together."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "David's promised descendant",
+    "scripture_excerpt": "I will raise up your descendant after you, who will come from your own body.",
+    "website": {
+      "description": "Did God's promise of David's descendant predict Jesus?",
+      "summary": "The promise immediately points to Solomon and also establishes the dynasty in which Matthew deliberately places Jesus.",
+      "christian_case": "Matthew opens by calling Jesus the son of David and traces his family through Solomon. The promise of David's royal house became a major foundation for hope in a future Messiah.",
+      "critical_case": "Solomon is the descendant who succeeds David and builds the temple described in the next verse. Many people could claim Davidic ancestry, so that fact alone does not uniquely identify Jesus.",
+      "verdict_label": "A broad dynastic promise",
+      "verdict": "The verse directly promises Solomon and, more broadly, David's royal line. Applying that larger promise to Jesus is plausible, but it is not a one-person identification by itself."
+    },
+    "carousel": [
+      {
+        "heading": "Did God promise Jesus to David?",
+        "body": "God says David’s own descendant will rule after him. Matthew opens by calling Jesus the son of David."
+      },
+      {
+        "heading": "The Davidic link is deliberate",
+        "body": "Matthew traces Jesus through David and Solomon. Christians see him as the final king promised to David’s family."
+      },
+      {
+        "heading": "But Solomon comes first",
+        "body": "Solomon succeeds David and builds the temple mentioned next. Davidic ancestry alone does not identify one descendant."
+      }
+    ]
+  }
+}

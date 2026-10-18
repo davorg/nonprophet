@@ -1,0 +1,48 @@
+{
+   "caption" : "Is Boaz a preview of Jesus? His costly rescue makes meaningful Christian typology. But Ruth describes family property and marriage—not a forecast of Christ’s redemption.",
+   "claim_id" : "prophecy-046",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Boaz predict Jesus? Boaz acts as Ruth’s family redeemer. Christians see him as a picture of Jesus redeeming believers.",
+         "body" : "Boaz acts as Ruth’s family redeemer. Christians see him as a picture of Jesus redeeming believers.",
+         "heading" : "Did Boaz predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ruth 4:4-10: Take my right of redemption, because I cannot redeem it.",
+         "body" : "Take my right of redemption, because I cannot redeem it.",
+         "heading" : "Ruth 4:4-10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Eph 1:7, BSB: In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace",
+         "body" : "In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace",
+         "heading" : "Claimed fulfilment · Eph 1:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why the comparison works Boaz accepts a costly duty, rescues a vulnerable family and becomes an ancestor of David—and therefore of Jesus.",
+         "body" : "Boaz accepts a costly duty, rescues a vulnerable family and becomes an ancestor of David—and therefore of Jesus.",
+         "heading" : "Why the comparison works",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Ruth tells Boaz’s story His redemption concerns land, marriage and a family name. Ephesians never calls Jesus a kinsman or links him with Ruth.",
+         "body" : "His redemption concerns land, marriage and a family name. Ephesians never calls Jesus a kinsman or links him with Ruth.",
+         "heading" : "But Ruth tells Boaz’s story",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-046/",
+   "title" : "Boaz the kinsman-redeemer",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

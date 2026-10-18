@@ -1,0 +1,48 @@
+{
+   "caption" : "Does David’s everlasting throne predict Jesus’s eternal kingdom? The wider Christian reading is plausible, but the temple-building son first points to Solomon.",
+   "claim_id" : "prophecy-050",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did David’s throne predict Jesus? God promises that David’s son will have an enduring throne. Second Peter calls Jesus’s kingdom eternal.",
+         "body" : "God promises that David’s son will have an enduring throne. Second Peter calls Jesus’s kingdom eternal.",
+         "heading" : "Did David’s throne predict Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 2Sam 7:13: I will establish the throne of his kingdom forever.",
+         "body" : "I will establish the throne of his kingdom forever.",
+         "heading" : "2Sam 7:13",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in 2 Pet 1:11, BSB: and you will receive a lavish reception into the eternal kingdom of our Lord and Savior Jesus Christ.",
+         "body" : "and you will receive a lavish reception into the eternal kingdom of our Lord and Savior Jesus Christ.",
+         "heading" : "Claimed fulfilment · 2 Pet 1:11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Why Christians see Jesus here The old monarchy ended, but the promise remained. Christians see Jesus as David’s final heir whose kingdom truly lasts.",
+         "body" : "The old monarchy ended, but the promise remained. Christians see Jesus as David’s final heir whose kingdom truly lasts.",
+         "heading" : "Why Christians see Jesus here",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the first heir is Solomon This son builds the temple, which Solomon does. The verse promises an enduring Davidic throne but does not name its final king.",
+         "body" : "This son builds the temple, which Solomon does. The verse promises an enduring Davidic throne but does not name its final king.",
+         "heading" : "But the first heir is Solomon",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-050/",
+   "title" : "The everlasting Davidic throne",
+   "verdict_category" : "plausible_prediction"
+}
