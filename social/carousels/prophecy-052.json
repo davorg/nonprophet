@@ -1,0 +1,48 @@
+{
+   "caption" : "Did David’s everlasting house predict Jesus? The New Testament deliberately presents him as David’s lasting heir, though a dynastic promise cannot identify him alone.",
+   "claim_id" : "prophecy-052",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did David’s house point to Jesus? God promises that David’s family and throne will endure. The New Testament presents Jesus as David’s lasting heir.",
+         "body" : "God promises that David’s family and throne will endure. The New Testament presents Jesus as David’s lasting heir.",
+         "heading" : "Did David’s house point to Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 2Sam 7:16: Your house and kingdom will endure forever before Me.",
+         "body" : "Your house and kingdom will endure forever before Me.",
+         "heading" : "2Sam 7:16",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Rev 22:16, BSB: “I, Jesus, have sent My angel to give you this testimony for the churches. I am the Root and the Offspring of David, the bright Morning Star.”",
+         "body" : "“I, Jesus, have sent My angel to give you this testimony for the churches. I am the Root and the Offspring of David, the bright Morning Star.”",
+         "heading" : "Claimed fulfilment · Rev 22:16",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Davidic claim is deliberate Luke places Jesus in David’s family. Revelation calls him both David’s root and his descendant.",
+         "body" : "Luke places Jesus in David’s family. Revelation calls him both David’s root and his descendant.",
+         "heading" : "The Davidic claim is deliberate",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But a dynasty includes many people The verse promises David an enduring royal house. It does not describe one unique future descendant.",
+         "body" : "The verse promises David an enduring royal house. It does not describe one unique future descendant.",
+         "heading" : "But a dynasty includes many people",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-052/",
+   "title" : "David's house forever",
+   "verdict_category" : "plausible_prediction"
+}

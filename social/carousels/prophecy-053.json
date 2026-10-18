@@ -1,0 +1,48 @@
+{
+   "caption" : "Elijah’s ascent can meaningfully illustrate Jesus’s ascension. Luke may reuse the pattern—but Second Kings tells Elijah’s story, not a spoken forecast about Jesus.",
+   "claim_id" : "prophecy-053",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Does Elijah illustrate Jesus’s ascension? Elijah goes up into heaven before Elisha. Luke later says Jesus was carried into heaven before his disciples.",
+         "body" : "Elijah goes up into heaven before Elisha. Luke later says Jesus was carried into heaven before his disciples.",
+         "heading" : "Does Elijah illustrate Jesus’s ascension?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 2Kgs 2:11: Elijah went up into heaven in a whirlwind.",
+         "body" : "Elijah went up into heaven in a whirlwind.",
+         "heading" : "2Kgs 2:11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 24:51, BSB: While He was blessing them, He left them and was carried up into heaven.",
+         "body" : "While He was blessing them, He left them and was carried up into heaven.",
+         "heading" : "Claimed fulfilment · Lk 24:51",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The wider pattern is meaningful Both departures pass a mission to followers who receive spiritual power. Luke uses Elijah stories elsewhere too.",
+         "body" : "Both departures pass a mission to followers who receive spiritual power. Luke uses Elijah stories elsewhere too.",
+         "heading" : "The wider pattern is meaningful",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: It is a pattern, not a forecast Elijah’s ascent is an event in his own life. Luke may reuse its shape without treating it as a spoken prophecy.",
+         "body" : "Elijah’s ascent is an event in his own life. Luke may reuse its shape without treating it as a spoken prophecy.",
+         "heading" : "It is a pattern, not a forecast",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-053/",
+   "title" : "Elijah's ascent",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

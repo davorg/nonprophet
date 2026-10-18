@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-053",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Elijah's ascent into heaven in 2 Kings 2:11 provides a scriptural illustration or anticipatory pattern of Jesus's ascension in Luke 24:51.",
+    "type": "nt_typology",
+    "scope_notes": "Luke does not quote 2 Kings at the ascension, although scholarship finds broader Elijah-Elisha patterns in Luke-Acts."
+  },
+  "context": {
+    "summary": "Elijah is taken from Elisha by a fiery chariot and goes up in a whirlwind. His departure transfers prophetic leadership to Elisha, who receives his mantle and spirit. Luke depicts the risen Jesus blessing his disciples and being carried into heaven, followed in Acts by the Spirit empowering their mission.",
+    "shared_context_id": "davidic-covenant-and-elijah"
+  },
+  "strongest_case": {
+    "summary": "The narrative structures have meaningful similarities: a master departs heavenward before followers, authority passes to successors and a promised spirit equips the continuing mission. Luke uses Elijah traditions elsewhere, so the older scene can reasonably function as part of an Elijah-shaped presentation of Jesus's departure.",
+    "reasoning": [
+      "Both departures are visible ascents into heaven.",
+      "Both precede empowered successor ministries.",
+      "Elijah is a known part of Luke's scriptural imagination."
+    ],
+    "source_ids": [
+      "src-ascension-study",
+      "src-elijah-luke",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Second Kings narrates Elijah's own removal and transfer of office, not a prediction. Luke's ascension scene lacks the chariot, horses, whirlwind and mantle, and it never cites Elijah. Jesus has died and risen before ascending, whereas Elijah is taken without a narrated death. The relationship is plausible literary typology, not an advance forecast.",
+    "reasoning": [
+      "The central narrative details and prior events differ.",
+      "Luke makes no explicit fulfilment claim.",
+      "An earlier similar event illustrates possibility more readily than unique prediction."
+    ],
+    "source_ids": [
+      "src-ascension-study",
+      "src-maclaren-elijah",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Luke's wider Elijah pattern makes a literary connection with Jesus's ascension plausible, especially in the transfer to Spirit-empowered followers. Second Kings tells Elijah's story rather than predicting Jesus, and Luke does not explicitly call it fulfilment.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-ascension-study",
+      "tier": 2,
+      "stance": "both",
+      "type": "academic_monograph",
+      "title": "Ascent into Heaven in Luke-Acts: New Explorations of Luke's Narrative Hinge",
+      "author": "David K. Bryan and David W. Pao, editors",
+      "publisher": "Fortress Press; JSTOR edition",
+      "url": "https://www.jstor.org/stable/j.ctt1c84g9z",
+      "locator": "comparative ascent traditions",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Academic study distinguishes Jesus's continuing heavenly role from Elijah's departure."
+    },
+    {
+      "id": "src-elijah-luke",
+      "tier": 2,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "And suddenly, two men: Moses and Elijah in Lukan Perspective",
+      "author": "Jared W. Hay",
+      "publisher": "Expository Times",
+      "url": "https://journals.sagepub.com/doi/10.1177/00145246231155030",
+      "locator": "Luke 24 and Acts 1 Elijah pattern",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Argues that Luke's ascension participates in an Elijah-shaped transfer of mission."
+    },
+    {
+      "id": "src-maclaren-elijah",
+      "tier": 3,
+      "stance": "critical_case",
+      "type": "commentary",
+      "title": "Second Kings 2: Elijah's Translation and Christ's Ascension",
+      "author": "Alexander Maclaren",
+      "publisher": "Expositions of Holy Scripture; Bible Hub edition",
+      "url": "https://biblehub.com/commentaries/maclaren/2_kings/2.htm",
+      "locator": "2 Kings 2:11 and Luke 24:51",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "A Christian commentary stressing important differences between the two events."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "2 Kings 2:1–15; Luke 24:49–53; Acts 1:1–11; 2:1–4",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact narrative wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-053-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-053-adversarial-2026-10-18-raw.md","objections":[{"objection":"The seed says 'illustrated,' so testing only explicit prediction would be a straw man.","disposition":"accepted","reason":"The precise claim and public copy now assess illustration and typology directly, and the verdict substantially affirms that claim."},{"objection":"Narrative differences do not defeat typology.","disposition":"accepted","reason":"The differences define the limits of the analogy while the verdict retains a meaningful Elijah pattern."},{"objection":"'Bodily' is not stated in either quoted verse.","disposition":"accepted","reason":"The unsupported adjective has been removed from the precise claim and description."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Elijah's ascent",
+    "scripture_excerpt": "Elijah went up into heaven in a whirlwind.",
+    "website": {
+      "description": "Does Elijah's ascent illustrate Jesus going up to heaven?",
+      "summary": "Luke may shape Jesus's departure with Elijah in mind, but Second Kings tells an earlier prophet's story rather than forecasting Jesus.",
+      "christian_case": "Both teachers ascend before watching followers, and both departures lead into a Spirit-empowered mission. Luke draws on Elijah stories elsewhere, making the comparison meaningful.",
+      "critical_case": "Elijah leaves in a whirlwind amid fiery horses; Jesus blesses his followers and is carried up after dying and rising. Luke never calls Elijah's departure a fulfilled prophecy.",
+      "verdict_label": "Plausible typology, not forecast",
+      "verdict": "The Elijah pattern may help Luke tell Jesus's ascension and the disciples' succession. That literary relationship does not turn Elijah's own departure into a prediction."
+    },
+    "carousel": [
+      {
+        "heading": "Does Elijah illustrate Jesus’s ascension?",
+        "body": "Elijah goes up into heaven before Elisha. Luke later says Jesus was carried into heaven before his disciples."
+      },
+      {
+        "heading": "The wider pattern is meaningful",
+        "body": "Both departures pass a mission to followers who receive spiritual power. Luke uses Elijah stories elsewhere too."
+      },
+      {
+        "heading": "It is a pattern, not a forecast",
+        "body": "Elijah’s ascent is an event in his own life. Luke may reuse its shape without treating it as a spoken prophecy."
+      }
+    ]
+  }
+}

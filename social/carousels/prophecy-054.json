@@ -1,0 +1,48 @@
+{
+   "caption" : "Chronicles promises a ruling son of David; Matthew presents Jesus as Son of David. The wider link is plausible, but Solomon is the immediate temple-building heir.",
+   "claim_id" : "prophecy-054",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Chronicles promise Jesus? God says one of David’s sons will rule after him. Matthew repeatedly presents Jesus as the Son of David.",
+         "body" : "God says one of David’s sons will rule after him. Matthew repeatedly presents Jesus as the Son of David.",
+         "heading" : "Did Chronicles promise Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 1Chr 17:11: I will raise up your descendant after you, one of your own sons.",
+         "body" : "I will raise up your descendant after you, one of your own sons.",
+         "heading" : "1Chr 17:11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 1:1, BSB: This is the record of the genealogy of Jesus Christ, the son of David, the son of Abraham:",
+         "body" : "This is the record of the genealogy of Jesus Christ, the son of David, the son of Abraham:",
+         "heading" : "Claimed fulfilment · Matt 1:1",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The family link is deliberate Matthew makes Jesus’s Davidic identity central. Christians see him as the lasting ruler from this promised royal family.",
+         "body" : "Matthew makes Jesus’s Davidic identity central. Christians see him as the lasting ruler from this promised royal family.",
+         "heading" : "The family link is deliberate",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But this first points to Solomon Chronicles names Solomon as David’s temple-building heir. This also repeats the promise in Second Samuel.",
+         "body" : "Chronicles names Solomon as David’s temple-building heir. This also repeats the promise in Second Samuel.",
+         "heading" : "But this first points to Solomon",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-054/",
+   "title" : "David's son in Chronicles",
+   "verdict_category" : "plausible_prediction"
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Luke closely links Jesus with God’s Son, David’s throne and an endless kingdom. It is a strong Christian fulfilment claim, while Chronicles first points to Solomon.",
+   "claim_id" : "prophecy-055",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Chronicles predict Jesus’s reign? God promises David’s son an enduring throne and calls him His son. Luke applies the same cluster of ideas to Jesus.",
+         "body" : "God promises David’s son an enduring throne and calls him His son. Luke applies the same cluster of ideas to Jesus.",
+         "heading" : "Did Chronicles predict Jesus’s reign?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 1Chr 17:12-13: I will establish his throne forever. I will be his Father, and he will be My son.",
+         "body" : "I will establish his throne forever. I will be his Father, and he will be My son.",
+         "heading" : "1Chr 17:12-13",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 1:32–33, BSB: The Lord God will give Him the throne of His father David, and He will reign forever. His kingdom will never end!",
+         "body" : "The Lord God will give Him the throne of His father David, and He will reign forever. His kingdom will never end!",
+         "heading" : "Claimed fulfilment · Lk 1:32–33",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Luke’s connection is unusually close Luke says Jesus will receive David’s throne, be called God’s Son and rule forever.",
+         "body" : "Luke says Jesus will receive David’s throne, be called God’s Son and rule forever.",
+         "heading" : "Luke’s connection is unusually close",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Solomon still comes first The promised son builds the temple, which Solomon does. Luke presents Jesus as the dynasty’s enduring culmination.",
+         "body" : "The promised son builds the temple, which Solomon does. Luke presents Jesus as the dynasty’s enduring culmination.",
+         "heading" : "But Solomon still comes first",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-055/",
+   "title" : "David's throne forever",
+   "verdict_category" : "plausible_prediction"
+}

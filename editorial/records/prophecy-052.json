@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-052",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "The everlasting house, kingdom and throne promised to David in 2 Samuel 7:16 predicted Jesus as David's descendant and eternal ruler.",
+    "type": "prediction",
+    "scope_notes": "The promise explicitly concerns David's dynasty. Luke and Revelation identify Jesus as Davidic, but the cited verses do not quote this line."
+  },
+  "context": {
+    "summary": "Nathan's oracle concludes by promising that David's house, kingdom and throne will endure forever before God. 'House' here is a dynasty. The monarchy's historical collapse made this promise a major source of later hope for restored Davidic rule.",
+    "shared_context_id": "davidic-covenant-and-elijah"
+  },
+  "strongest_case": {
+    "summary": "Jesus is explicitly presented as David's descendant, and elsewhere Luke describes him receiving David's throne and reigning forever. Revelation calls him both David's root and offspring. These claims intentionally place Jesus as the lasting heir of the Davidic promise.",
+    "reasoning": [
+      "The Old Testament promise is genuinely dynastic and future-facing.",
+      "New Testament writers repeatedly identify Jesus as Davidic.",
+      "Jesus's everlasting reign answers the unresolved duration of the promise."
+    ],
+    "source_ids": [
+      "src-david-promise",
+      "src-sonship-study",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The verse promises the endurance of David's house and throne, not a uniquely described individual. Luke 3:31 traces Jesus through David's son Nathan rather than the royal Solomonic line, and ancestry by itself cannot establish kingship. Revelation's Davidic title fits the promise but does not quote it.",
+    "reasoning": [
+      "A dynastic promise can have many members.",
+      "The cited genealogy is not itself a claim of enthronement.",
+      "The New Testament connection is canonical rather than an explicit citation here."
+    ],
+    "source_ids": [
+      "src-david-promise",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Second Samuel 7:16 varies between 'your house ... before you' and 'his house ... before me' across Hebrew witnesses and the Septuagint. The variants affect viewpoint but not the central dynastic promise.",
+      "significance": "minor",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_prediction",
+    "summary": "Second Samuel makes a real promise about David's enduring dynasty, and the New Testament deliberately presents Jesus as its lasting heir. The verse does not uniquely identify him, so it works as a broad dynastic prediction rather than a precise personal forecast.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-david-promise",
+      "tier": 2,
+      "stance": "both",
+      "type": "monograph",
+      "title": "Society and the Promise to David",
+      "author": "William M. Schniedewind",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/49657",
+      "locator": "reception history of 2 Samuel 7",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Academic history of the everlasting dynastic promise and its reception."
+    },
+    {
+      "id": "src-sonship-study",
+      "tier": 2,
+      "stance": "both",
+      "type": "dissertation",
+      "title": "Politics and Covenant in the Divine Davidic Kinship",
+      "author": "Andrew David Whittaker",
+      "publisher": "University of Cambridge Repository",
+      "url": "https://www.repository.cam.ac.uk/items/039e2546-69fb-417d-89cc-c3703fcb8080",
+      "locator": "2 Samuel 7 and Davidic dynasty",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Treats the covenant as a claim for Davidic dynastic rule."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "2 Samuel 7:16; Luke 1:32–33; 3:31; Revelation 22:16",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact wording and textual note checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-052-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-052-adversarial-2026-10-18-raw.md","objections":[{"objection":"A dynastic promise need not uniquely identify the descendant who finally fulfils it.","disposition":"accepted","reason":"Non-uniqueness is presented as a limit on standalone proof, not as a disproof of fulfilment."},{"objection":"New Testament presentation and independently demonstrated fulfilment must be distinguished.","disposition":"accepted","reason":"The copy attributes the developed identification to New Testament writers and calls the result credible rather than proven."},{"objection":"The genealogy through Nathan needs contextual care.","disposition":"accepted","reason":"The critical record notes it only as a limit on a direct royal-line argument, not as proof against Davidic ancestry."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "David's house forever",
+    "scripture_excerpt": "Your house and kingdom will endure forever before Me.",
+    "website": {
+      "description": "Did God's promise of David's everlasting house predict Jesus?",
+      "summary": "The promise genuinely concerns David's continuing dynasty, and the New Testament deliberately presents Jesus as its enduring heir.",
+      "christian_case": "Luke places Jesus in David's family, while Revelation calls him David's root and offspring. Luke also says he will receive David's throne and reign forever.",
+      "critical_case": "The verse promises a dynasty, not one uniquely described person. Many people belonged to David's house, and the cited genealogy alone does not establish who should rule.",
+      "verdict_label": "A broad but credible prediction",
+      "verdict": "Jesus fits the New Testament's developed reading of the Davidic promise. The connection is substantial, though this verse alone cannot single him out from David's wider family."
+    },
+    "carousel": [
+      {
+        "heading": "Did David’s house point to Jesus?",
+        "body": "God promises that David’s family and throne will endure. The New Testament presents Jesus as David’s lasting heir."
+      },
+      {
+        "heading": "The Davidic claim is deliberate",
+        "body": "Luke places Jesus in David’s family. Revelation calls him both David’s root and his descendant."
+      },
+      {
+        "heading": "But a dynasty includes many people",
+        "body": "The verse promises David an enduring royal house. It does not describe one unique future descendant."
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-055",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "The eternal throne and divine sonship promised in 1 Chronicles 17:12–13 predicted Jesus reigning forever on David's throne in Luke 1:32–33.",
+    "type": "prediction",
+    "scope_notes": "Luke combines several distinctive elements of the Davidic oracle. Chronicles also points to Solomon as temple builder but omits Samuel's discipline clause and widens the throne into God's enduring kingdom."
+  },
+  "context": {
+    "summary": "Chronicles retells Nathan's oracle after the history of the monarchy. David's son will build God's house, receive an established throne and stand in a father-son relationship with God. Unlike Samuel, Chronicles omits discipline for wrongdoing and continues that the son will stand in God's own house and kingdom forever.",
+    "shared_context_id": "davidic-covenant-and-elijah"
+  },
+  "strongest_case": {
+    "summary": "Luke's annunciation closely gathers the same complex: Jesus is Son of the Most High, receives David's throne, rules over Jacob forever and has an endless kingdom. This is far more distinctive than a shared generic word and strongly indicates deliberate use of the Davidic covenant.",
+    "reasoning": [
+      "Luke combines sonship, David's throne and eternal reign.",
+      "Chronicles's version emphasizes God's everlasting kingdom.",
+      "The promise remained open beyond the failed historical monarchy."
+    ],
+    "source_ids": [
+      "src-chronicles-commentary",
+      "src-david-promise",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Solomon remains the immediate temple-building son, and Chronicles elsewhere identifies him explicitly. Luke's application is a later Christian claim that Jesus brings the dynasty to its climax. It is a strong canonical fulfilment argument, but the Old Testament passage by itself does not name Jesus or exclude successive Davidic kings.",
+    "reasoning": [
+      "The temple clause anchors the promise first in Solomon.",
+      "The promise is dynastic and can include multiple kings.",
+      "Luke supplies the specific identification with Jesus."
+    ],
+    "source_ids": [
+      "src-chronicles-commentary",
+      "src-david-promise",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Chronicles omits 2 Samuel 7:14's discipline clause and changes the conclusion to 'My house and My kingdom,' making its received form more readily open to an ideal future ruler.",
+      "significance": "material",
+      "source_ids": [
+        "src-chronicles-commentary",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "plausible_prediction",
+    "summary": "Luke's close combination of Davidic throne, divine sonship and endless reign makes this one of the stronger New Testament applications of the covenant to Jesus. Solomon is still the immediate heir, so the Christian claim is a climactic dynastic fulfilment rather than a Jesus-only original reference.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-chronicles-commentary",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "Lange's Commentary on 1 Chronicles 17",
+      "author": "Otto Zöckler et al.",
+      "publisher": "Lange's Commentary; Bible Hub edition",
+      "url": "https://www.biblehub.com/commentaries/lange/1_chronicles/17.htm",
+      "locator": "1 Chronicles 17:11–14",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Discusses Solomon, the everlasting element and messianic reception."
+    },
+    {
+      "id": "src-david-promise",
+      "tier": 2,
+      "stance": "both",
+      "type": "monograph",
+      "title": "Society and the Promise to David",
+      "author": "William M. Schniedewind",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/49657",
+      "locator": "reception history through early Christianity",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Traces development of the covenant's dynastic and messianic meanings."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "1 Chronicles 17:11–14; 22:9–10; 28:5–7; Luke 1:32–33",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact parallel wording and differences from 2 Samuel checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-055-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-055-adversarial-2026-10-18-raw.md","objections":[{"objection":"Luke's announcement establishes its fulfilment claim more directly than independent realization of the reign.","disposition":"accepted","reason":"The final copy attributes the identification to Luke and evaluates the textual fulfilment claim rather than claiming independent proof of eternal rule."},{"objection":"Close literary correspondence establishes deliberate reception more securely than supernatural prediction.","disposition":"accepted","reason":"The verdict distinguishes the strong New Testament application from the Old Testament's immediate Solomon reference."},{"objection":"'Final climax' can sound more settled than the evidence permits.","disposition":"accepted","reason":"The final wording uses 'enduring culmination' as Luke's Christian presentation, not a neutral historical demonstration."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "David's throne forever",
+    "scripture_excerpt": "I will establish his throne forever. I will be his Father, and he will be My son.",
+    "website": {
+      "description": "Did Chronicles predict Jesus reigning forever on David's throne?",
+      "summary": "Luke closely combines the covenant's Davidic throne, sonship and endless reign, making the Christian application unusually strong.",
+      "christian_case": "Luke says Jesus will be God's Son, receive David's throne and reign forever in a kingdom without end. That cluster closely matches the promise in Chronicles.",
+      "critical_case": "The temple-building son first points to Solomon, whom Chronicles identifies elsewhere. Luke presents Jesus as the promise's final climax, but Chronicles itself speaks about David's dynasty without naming him.",
+      "verdict_label": "A strong dynastic fulfilment",
+      "verdict": "Luke deliberately presents Jesus through the Davidic covenant. The original promise begins with Solomon and the royal line, while the New Testament identifies Jesus as its enduring culmination."
+    },
+    "carousel": [
+      {
+        "heading": "Did Chronicles predict Jesus’s reign?",
+        "body": "God promises David’s son an enduring throne and calls him His son. Luke applies the same cluster of ideas to Jesus."
+      },
+      {
+        "heading": "Luke’s connection is unusually close",
+        "body": "Luke says Jesus will receive David’s throne, be called God’s Son and rule forever."
+      },
+      {
+        "heading": "But Solomon still comes first",
+        "body": "The promised son builds the temple, which Solomon does. Luke presents Jesus as the dynasty’s final climax."
+      }
+    ]
+  }
+}

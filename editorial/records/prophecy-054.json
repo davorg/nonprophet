@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-054",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "God's promise in 1 Chronicles 17:11 to raise one of David's sons and establish his kingdom predicted Jesus as the Son of David in Matthew.",
+    "type": "prediction",
+    "scope_notes": "This retells the same Nathan oracle assessed in claim 049, with Solomon as the immediate heir and David's dynasty as the wider horizon."
+  },
+  "context": {
+    "summary": "Chronicles retells Nathan's promise after the Davidic monarchy and exile were already part of Israel's remembered history. God will raise one of David's sons, establish his kingdom and have him build God's house. Chronicles elsewhere explicitly identifies Solomon as David's chosen temple-building son.",
+    "shared_context_id": "davidic-covenant-and-elijah"
+  },
+  "strongest_case": {
+    "summary": "Matthew repeatedly and deliberately calls Jesus Son of David. Chronicles's post-monarchic form of the covenant preserves the promise of a Davidic kingdom beyond its first fulfilment in Solomon, supporting a continuing messianic horizon.",
+    "reasoning": [
+      "Matthew makes Davidic identity central to Jesus.",
+      "The promise establishes a continuing royal line.",
+      "Chronicles preserves and reshapes the oracle for a later audience."
+    ],
+    "source_ids": [
+      "src-chronicles-commentary",
+      "src-david-promise",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The son who follows David and builds God's house is Solomon, and Chronicles explicitly says so elsewhere. 'One of your own sons' describes a family qualification shared by many descendants. This claim repeats 2 Samuel 7:12 rather than supplying an independent prediction; Matthew's titles establish its Christian application, not a unique identification from this verse alone.",
+    "reasoning": [
+      "Solomon matches the immediate sequence and temple role.",
+      "Davidic descent is broad rather than unique.",
+      "The claim duplicates the parallel Samuel oracle."
+    ],
+    "source_ids": [
+      "src-chronicles-commentary",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_prediction",
+    "summary": "Chronicles preserves a real Davidic dynastic promise that Christians plausibly apply to Jesus, while pointing immediately to Solomon. It is a parallel version of claim 049, not separate cumulative evidence.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-chronicles-commentary",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "Lange's Commentary on 1 Chronicles 17",
+      "author": "Otto Zöckler et al.",
+      "publisher": "Lange's Commentary; Bible Hub edition",
+      "url": "https://www.biblehub.com/commentaries/lange/1_chronicles/17.htm",
+      "locator": "1 Chronicles 17:11–14",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Surveys the immediate Solomon reading and wider messianic interpretation."
+    },
+    {
+      "id": "src-david-promise",
+      "tier": 2,
+      "stance": "both",
+      "type": "monograph",
+      "title": "Society and the Promise to David",
+      "author": "William M. Schniedewind",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/49657",
+      "locator": "transmission and reception of Nathan's oracle",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Provides the reception-history framework for the parallel covenant text."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "1 Chronicles 17:11–14; 22:9–10; 28:5–7; Matthew 1:1; 9:27",
+      "accessed": "2026-10-18",
+      "checked": true,
+      "notes": "Exact promise, Solomon identifications and Matthew titles checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-10-18","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-054-adversarial-2026-10-18.md","raw_output_path":"editorial/reviews/prophecy-054-adversarial-2026-10-18-raw.md","objections":[{"objection":"Christian application is not identical to demonstrated prediction.","disposition":"accepted","reason":"The verdict calls the wider application plausible and separately identifies Solomon as the immediate referent."},{"objection":"Davidic descent may be one element in a cumulative royal case rather than a standalone proof.","disposition":"accepted","reason":"The Christian case includes enduring kingship while the critical case limits only the ancestry-only inference."},{"objection":"The Chronicles version may have its own later interpretive significance despite dependence on Samuel.","disposition":"accepted","reason":"The record grants Chronicles's preservation and reshaping of the promise while preventing double-counting."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "David's son in Chronicles",
+    "scripture_excerpt": "I will raise up your descendant after you, one of your own sons.",
+    "website": {
+      "description": "Did Chronicles predict Jesus as David's promised son?",
+      "summary": "Chronicles repeats the Davidic promise that first points to Solomon and later supports Christian hope in Jesus.",
+      "christian_case": "Matthew introduces Jesus as Son of David and repeats the title in his ministry. Christians see him as the final ruler from the royal family promised here.",
+      "critical_case": "Chronicles identifies Solomon as the son who succeeds David and builds God's house. Many later people were David's descendants, so ancestry alone does not identify Jesus.",
+      "verdict_label": "A broad dynastic promise",
+      "verdict": "Jesus plausibly belongs to the promise's wider Davidic horizon. This is Chronicles's version of the same covenant behind claim 049, not a second independent prediction."
+    },
+    "carousel": [
+      {
+        "heading": "Did Chronicles promise Jesus?",
+        "body": "God says one of David’s sons will rule after him. Matthew repeatedly presents Jesus as the Son of David."
+      },
+      {
+        "heading": "The family link is deliberate",
+        "body": "Matthew makes Jesus’s Davidic identity central. Christians see him as the lasting ruler from this promised royal family."
+      },
+      {
+        "heading": "But this first points to Solomon",
+        "body": "Chronicles names Solomon as David’s temple-building heir. This also repeats the promise in Second Samuel."
+      }
+    ]
+  }
+}
