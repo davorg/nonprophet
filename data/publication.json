@@ -359,10 +359,10 @@
       },
       {
          "claim_id" : "prophecy-052",
-         "published_url" : null,
-         "scheduled_date" : null,
+         "published_url" : "https://nonprophet.app/claims/prophecy-052/",
+         "scheduled_date" : "2026-10-24",
          "social_ids" : {},
-         "state" : "withheld"
+         "state" : "published"
       },
       {
          "claim_id" : "prophecy-053",
