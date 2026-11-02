@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-067",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 8:2 predicted that children would praise Jesus, fulfilled in Matthew 21:16.",
+    "type": "nt_rereading",
+    "scope_notes": "Matthew explicitly quotes the Septuagint form of the verse in response to children praising Jesus. The Hebrew says God established strength from infants' mouths."
+  },
+  "context": {
+    "summary": "Psalm 8 praises God for displaying majesty through weak humanity. Its Hebrew says God establishes strength from infants' mouths to silence enemies; the Greek Septuagint says God prepared praise. In Matthew, children acclaim Jesus in the temple and Jesus answers critics by quoting the Greek form.",
+    "shared_context_id": "psalms-2-16"
+  },
+  "strongest_case": {
+    "summary": "The narrative match is explicit and unusually vivid: actual children praise Jesus, opponents object, and Jesus himself quotes Psalm 8:2. By accepting a text addressed to God as fitting their praise of him, Matthew makes a strong Christological application.",
+    "reasoning": [
+      "Jesus explicitly quotes the verse.",
+      "Children and hostile critics reproduce its dramatic roles.",
+      "The quotation implicitly includes Jesus in praise directed to God."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 8 is describing God's present glory, not forecasting a later temple scene. Matthew follows the Greek 'praise' where the Hebrew has 'strength,' then places the old description into Jesus's story. The application is explicit and theologically strong, but retrospective rather than an independently recognizable prediction.",
+    "reasoning": [
+      "The psalm uses present praise language.",
+      "The decisive word match depends on the Septuagint.",
+      "No future child-praise event is announced."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Hebrew Psalm 8:2 says God established strength from infants' mouths; the Septuagint says God prepared praise. Matthew quotes the Greek wording.",
+      "significance": "material",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Matthew explicitly and artfully applies Psalm 8:2 to children praising Jesus. The psalm itself celebrates God's majesty through the weak; Matthew presents that pattern as realized in Jesus's temple scene through the Greek wording.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 8:2 and New Testament reception",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Explains human weakness, divine majesty and the verse's later reception."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 8:2; Matthew 21:14–16",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Hebrew/Greek note and explicit quotation checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-067-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-067-adversarial-2026-11-02-raw.md","objections":[{"objection":"Retrospective recognition and meaningful typological fulfilment are not mutually exclusive.","disposition":"accepted","reason":"The verdict now describes Matthew's realization of the psalmic pattern rather than excluding fulfilment by definition."},{"objection":"The Hebrew-to-Greek shift should not be treated as creating the entire connection.","disposition":"accepted","reason":"The narrative pattern and explicit quotation remain primary; the Greek wording is described as shaping it."},{"objection":"The claim that praise directed to God is applied to Jesus needs an intermediate Christological premise.","disposition":"accepted","reason":"The strongest case identifies this as Matthew's narrative implication rather than a lexical fact."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Praise from children",
+    "scripture_excerpt": "From the mouths of children and infants You have ordained praise.",
+    "website": {
+      "description": "Did Psalm 8 predict children praising Jesus?",
+      "summary": "Matthew explicitly applies the verse to Jesus, but Psalm 8 is praise in the present rather than a future forecast.",
+      "christian_case": "Children praise Jesus in the temple while his opponents object. Jesus answers by quoting Psalm 8, making the connection direct and strongly Christological.",
+      "critical_case": "Psalm 8 says God already displays strength through infants. Matthew follows the Greek version's word 'praise' and gives the line a new setting in Jesus's story.",
+      "verdict_label": "An explicit Greek-based rereading",
+      "verdict": "The New Testament application is unmistakable. It turns a description of God's present glory into an interpretation of a later scene rather than fulfilling a stated forecast."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 8 predict children praising Jesus?",
+        "body": "Children praise Jesus in the temple. When critics complain, Jesus answers by quoting Psalm 8."
+      },
+      {
+        "heading": "The connection is explicit",
+        "body": "The children, their praise and the hostile audience all fit the verse. Jesus himself makes the link."
+      },
+      {
+        "heading": "But the psalm predicts no future scene",
+        "body": "It celebrates God’s present glory. Matthew follows the Greek wording and gives it a new setting."
+      }
+    ]
+  }
+}

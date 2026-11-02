@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 9 and Acts share striking language about judging the world justly. Acts may specify Jesus as God’s agent—but it never identifies the psalm as a prediction.",
+   "claim_id" : "prophecy-069",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 9 predict Jesus as judge? Psalm 9 says the LORD judges the world justly. Acts says God will judge through an appointed, risen man.",
+         "body" : "Psalm 9 says the LORD judges the world justly. Acts says God will judge through an appointed, risen man.",
+         "heading" : "Did Psalm 9 predict Jesus as judge?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 9:7-10: He judges the world with justice; He governs the people with equity.",
+         "body" : "He judges the world with justice; He governs the people with equity.",
+         "heading" : "Ps 9:7-10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Acts 17:31, BSB: For He has set a day when He will judge the world with justice by the Man He has appointed. He has given proof of this to everyone by raising Him from the dead.”",
+         "body" : "For He has set a day when He will judge the world with justice by the Man He has appointed. He has given proof of this to everyone by raising Him from the dead.”",
+         "heading" : "Claimed fulfilment · Acts 17:31",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The wording is strikingly close Christians see Jesus carrying out God’s own judgment. That makes the passages fit together well.",
+         "body" : "Christians see Jesus carrying out God’s own judgment. That makes the passages fit together well.",
+         "heading" : "The wording is strikingly close",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Acts never cites the psalm Psalm 9 names God as judge and says nothing about a risen human agent. The shared theme is not a distinct forecast.",
+         "body" : "Psalm 9 names God as judge and says nothing about a risen human agent. The shared theme is not a distinct forecast.",
+         "heading" : "But Acts never cites the psalm",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-069/",
+   "title" : "Judging the world justly",
+   "verdict_category" : "thematic_parallel_only"
+}

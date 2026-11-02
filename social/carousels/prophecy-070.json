@@ -1,0 +1,48 @@
+{
+   "caption" : "Acts twice applies Psalm 16 to Jesus’s resurrection and contrasts him with David’s grave. The argument is explicit, though the psalm alone reads as rescue from death.",
+   "claim_id" : "prophecy-070",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 16 predict resurrection? The psalm says God will not abandon His faithful one to the grave or let him see decay.",
+         "body" : "The psalm says God will not abandon His faithful one to the grave or let him see decay.",
+         "heading" : "Did Psalm 16 predict resurrection?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 16:10: You will not abandon my soul to Sheol, nor will You let Your Holy One see decay.",
+         "body" : "You will not abandon my soul to Sheol, nor will You let Your Holy One see decay.",
+         "heading" : "Ps 16:10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Acts 2:29–31, BSB: David died and was buried, and his tomb is with us to this day. But he was a prophet … Foreseeing this, David spoke about the resurrection of the Christ.",
+         "body" : "David died and was buried, and his tomb is with us to this day. But he was a prophet … Foreseeing this, David spoke about the resurrection of the Christ.",
+         "heading" : "Claimed fulfilment · Acts 2:29–31",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Acts makes the strongest possible case Two speeches quote it, contrast David’s grave with Jesus and apply it to his resurrection.",
+         "body" : "Two speeches quote it, contrast David’s grave with Jesus and apply it to his resurrection.",
+         "heading" : "Acts makes the strongest possible case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the psalm itself describes rescue Its speaker trusts God to preserve his life. Dying and rising enter the passage through Acts’s later argument.",
+         "body" : "Its speaker trusts God to preserve his life. Dying and rising enter the passage through Acts’s later argument.",
+         "heading" : "But the psalm itself describes rescue",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-070/",
+   "title" : "Your Holy One will not decay",
+   "verdict_category" : "retrospective_rereading"
+}

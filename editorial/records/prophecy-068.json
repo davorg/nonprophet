@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-068",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 8:5–6 predicted Jesus's humiliation below the angels and later exaltation over everything, as Hebrews 2:5–9 teaches.",
+    "type": "nt_rereading",
+    "scope_notes": "Hebrews explicitly quotes the psalm and focuses its human vocation on Jesus. Psalm 8 originally speaks of humanity collectively."
+  },
+  "context": {
+    "summary": "Psalm 8 marvels that God gives fragile humanity glory, honour and dominion within creation. Hebrews quotes the passage, admits that universal human rule is not yet visible, then identifies Jesus as the human who passed through suffering and death into glory.",
+    "shared_context_id": "psalms-2-16"
+  },
+  "strongest_case": {
+    "summary": "Hebrews does more than borrow a phrase: it quotes the full sequence of lowered status, glory, honour and universal dominion, then says 'we see Jesus.' Jesus fulfils humanity's intended vocation and opens it to others, giving the psalm a coherent representative fulfilment.",
+    "reasoning": [
+      "Hebrews explicitly quotes and interprets the passage.",
+      "Humiliation followed by glory matches its sequence.",
+      "Jesus functions as representative humanity, not an arbitrary substitute."
+    ],
+    "source_ids": [
+      "src-manchester-hebrews",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 8 asks about humankind and describes humanity's place in creation; it does not announce one future person's death and exaltation. Hebrews acknowledges the gap between the psalm and experience, then rereads the human vocation through Jesus. This is sophisticated fulfilment theology, but the specific Jesus story is supplied by Hebrews.",
+    "reasoning": [
+      "The Hebrew subject is humanity collectively.",
+      "Death is absent from the psalm.",
+      "Hebrews's Septuagint reads angels where Hebrew may mean God or divine beings."
+    ],
+    "source_ids": [
+      "src-manchester-hebrews",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Psalm 8:5 can mean 'a little lower than God/divine beings'; the Septuagint and Hebrews read 'a little lower than angels.' It can also mean lower for a little while, which supports Hebrews's temporal sequence.",
+      "significance": "material",
+      "source_ids": [
+        "src-manchester-hebrews",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Hebrews explicitly and coherently makes Jesus the representative human who begins to realize Psalm 8's still-incomplete vocation. The suffering, death and exaltation narrative is a Christological development of a psalm about humanity.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-manchester-hebrews",
+      "tier": 2,
+      "stance": "both",
+      "type": "thesis",
+      "title": "Purifying the Consciousness",
+      "author": "Nicholas Moore",
+      "publisher": "University of Manchester",
+      "url": "https://pure.manchester.ac.uk/ws/portalfiles/portal/224501895/FULL_TEXT.PDF",
+      "locator": "discussion of Hebrews 2 and Psalm 8",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Treats Hebrews's interpretation of a psalm initially addressed to humanity."
+    },
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 8:4–6",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Human vocation, dominion and reception context."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 8:5–6; Hebrews 2:5–9",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Quotation, interpretation and translation notes checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-068-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-068-adversarial-2026-11-02-raw.md","objections":[{"objection":"Collective humanity and representative fulfilment in Jesus are compatible.","disposition":"accepted","reason":"The verdict now treats the collective meaning as integral to Hebrews's case, not as a refutation."},{"objection":"Psalm 8 does not itself present a temporal humiliation-then-exaltation journey.","disposition":"accepted","reason":"The final copy attributes that narrative development to Hebrews."},{"objection":"Hebrews says universal dominion is not yet visible.","disposition":"accepted","reason":"The verdict now calls the vocation still incomplete and says Jesus begins its realization."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Lower, then crowned",
+    "scripture_excerpt": "You made him a little lower than the angels; You crowned him with glory and honor.",
+    "website": {
+      "description": "Did Psalm 8 predict Jesus's humiliation and exaltation?",
+      "summary": "Hebrews explicitly focuses humanity's calling in Psalm 8 on Jesus, adding his suffering and death to the picture.",
+      "christian_case": "Hebrews quotes the whole sequence and then says, 'we see Jesus': temporarily lower than angels, suffering death and now crowned with glory and honour.",
+      "critical_case": "Psalm 8 originally speaks about humanity's honoured place in creation. It mentions no Messiah, death or resurrection. Hebrews rereads that human vocation through Jesus.",
+      "verdict_label": "Human vocation reread through Jesus",
+      "verdict": "This is an explicit and thoughtful New Testament interpretation. The detailed humiliation-and-exaltation story comes from Hebrews, not from a future forecast in the psalm."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 8 predict Jesus’s rise?",
+        "body": "Psalm 8 places humanity below heavenly beings but crowns it with glory and rule. Hebrews applies that calling to Jesus."
+      },
+      {
+        "heading": "Hebrews makes a powerful case",
+        "body": "It quotes the passage, then says: “We see Jesus”—lowered, killed and now crowned with glory."
+      },
+      {
+        "heading": "But the psalm speaks about humanity",
+        "body": "It mentions no future Messiah or death. Hebrews focuses humanity’s calling into the story of Jesus."
+      }
+    ]
+  }
+}

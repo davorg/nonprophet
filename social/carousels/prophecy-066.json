@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 2 blesses those who take refuge in God; John says belief in Jesus brings life. The trust theme fits, but John never identifies this verse as a prediction.",
+   "claim_id" : "prophecy-066",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 2 predict life through Jesus? Psalm 2 blesses those who take refuge in God or His king. John says belief in Jesus brings life.",
+         "body" : "Psalm 2 blesses those who take refuge in God or His king. John says belief in Jesus brings life.",
+         "heading" : "Did Psalm 2 predict life through Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 2:12: Blessed are all who take refuge in Him.",
+         "body" : "Blessed are all who take refuge in Him.",
+         "heading" : "Ps 2:12",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 20:31, BSB: But these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in His name.",
+         "body" : "But these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in His name.",
+         "heading" : "Claimed fulfilment · Jn 20:31",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The trust theme fits John calls Jesus the Messiah and Son of God. Christians naturally connect him with Psalm 2’s royal son.",
+         "body" : "John calls Jesus the Messiah and Son of God. Christians naturally connect him with Psalm 2’s royal son.",
+         "heading" : "The trust theme fits",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But John never quotes this verse The psalm promises blessing, not specifically life in Jesus’s name. The connection is a later Christian synthesis.",
+         "body" : "The psalm promises blessing, not specifically life in Jesus’s name. The connection is a later Christian synthesis.",
+         "heading" : "But John never quotes this verse",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-066/",
+   "title" : "Refuge and belief",
+   "verdict_category" : "thematic_parallel_only"
+}

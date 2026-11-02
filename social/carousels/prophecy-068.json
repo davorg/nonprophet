@@ -1,0 +1,48 @@
+{
+   "caption" : "Hebrews makes Jesus the representative human who begins to fulfil Psalm 8’s calling. It is powerful theology, but the psalm itself mentions no Messiah or death.",
+   "claim_id" : "prophecy-068",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 8 predict Jesus’s rise? Psalm 8 places humanity below heavenly beings but crowns it with glory and rule. Hebrews applies that calling to Jesus.",
+         "body" : "Psalm 8 places humanity below heavenly beings but crowns it with glory and rule. Hebrews applies that calling to Jesus.",
+         "heading" : "Did Psalm 8 predict Jesus’s rise?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 8:5-6: You made him a little lower than the angels; You crowned him with glory and honor.",
+         "body" : "You made him a little lower than the angels; You crowned him with glory and honor.",
+         "heading" : "Ps 8:5-6",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Heb 2:5–9, BSB: We see Jesus, who was made a little lower than the angels, now crowned with glory and honor because He suffered death.",
+         "body" : "We see Jesus, who was made a little lower than the angels, now crowned with glory and honor because He suffered death.",
+         "heading" : "Claimed fulfilment · Heb 2:5–9",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Hebrews makes a powerful case It quotes the passage, then says: “We see Jesus”—lowered, killed and now crowned with glory.",
+         "body" : "It quotes the passage, then says: “We see Jesus”—lowered, killed and now crowned with glory.",
+         "heading" : "Hebrews makes a powerful case",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the psalm speaks about humanity It mentions no future Messiah or death. Hebrews focuses humanity’s calling into the story of Jesus.",
+         "body" : "It mentions no future Messiah or death. Hebrews focuses humanity’s calling into the story of Jesus.",
+         "heading" : "But the psalm speaks about humanity",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-068/",
+   "title" : "Lower, then crowned",
+   "verdict_category" : "retrospective_rereading"
+}

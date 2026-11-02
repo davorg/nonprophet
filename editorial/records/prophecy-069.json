@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-069",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 9:7–10 anticipated Jesus's future role in judging the world in righteousness, as Acts 17:31 teaches.",
+    "type": "thematic_parallel",
+    "scope_notes": "Psalm 9 says the LORD judges the world. Acts says God will judge through an appointed, risen man. Acts neither quotes nor names the psalm."
+  },
+  "context": {
+    "summary": "Psalm 9 praises the LORD as eternal king and just judge who protects the oppressed. In Athens, Paul says God has fixed a future day to judge the world justly through a man validated by resurrection.",
+    "shared_context_id": "psalms-2-16"
+  },
+  "strongest_case": {
+    "summary": "The unusual phrase 'judge the world with justice/righteousness' is close in both passages. Christian theology identifies Jesus as the appointed agent who carries out God's own judgment, so Acts can be seen as specifying how Psalm 9's divine judgment will occur.",
+    "reasoning": [
+      "The judgment formula is closely parallel.",
+      "Acts presents Jesus as God's appointed agent.",
+      "Delegated judgment can preserve God as ultimate judge."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 9 attributes the judgment directly to the LORD and describes his enduring righteous rule; it predicts neither a human judge nor resurrection. Acts distinguishes God from the appointed man and offers no citation. The same conventional conviction about divine justice can explain both passages without a prophecy-fulfilment relationship.",
+    "reasoning": [
+      "The named judges differ.",
+      "The psalm contains no future agent or resurrection.",
+      "Acts supplies no textual signal of fulfilment."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "thematic_parallel_only",
+    "summary": "Psalm 9 and Acts share a strong biblical theme and similar judgment language. Acts may specify an agent for God's own future judgment, but it does not identify the psalm as prophecy, so the match does not establish a distinct prediction of Jesus.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 9:7–10",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Divine kingship, judgment and protection of the oppressed."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 9:7–10; Acts 17:30–31",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Subjects and wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-069-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-069-adversarial-2026-11-02-raw.md","objections":[{"objection":"God and the appointed man need not be competing judges; Acts can present delegated agency.","disposition":"accepted","reason":"The verdict now explicitly allows Acts to specify the agent of God's judgment."},{"objection":"Absence of quotation does not exclude deliberate allusion.","disposition":"accepted","reason":"The conclusion says the evidence does not establish prediction rather than excluding allusion."},{"objection":"Acts's judgment remains future rather than already fulfilled.","disposition":"accepted","reason":"The precise claim now says future role and avoids completed-fulfilment language."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Judging the world justly",
+    "scripture_excerpt": "He judges the world with justice; He governs the people with equity.",
+    "website": {
+      "description": "Did Psalm 9 predict Jesus judging the world?",
+      "summary": "Both passages describe just world judgment, but Psalm 9 names the LORD while Acts adds an appointed risen man.",
+      "christian_case": "Psalm 9 says God judges the world justly. Acts says God will do exactly that through the risen man he appointed, understood by Christians as Jesus.",
+      "critical_case": "The psalm describes God's own rule and mentions no human agent or resurrection. Acts does not quote it. Shared language about divine justice is not enough to show prediction.",
+      "verdict_label": "The same theme, not a citation",
+      "verdict": "Acts can explain how Christians expect God's judgment to happen, but Psalm 9 does not specifically forecast Jesus as judge."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 9 predict Jesus as judge?",
+        "body": "Psalm 9 says the LORD judges the world justly. Acts says God will judge through an appointed, risen man."
+      },
+      {
+        "heading": "The wording is strikingly close",
+        "body": "Christians see Jesus carrying out God’s own judgment. That makes the passages fit together well."
+      },
+      {
+        "heading": "But Acts never cites the psalm",
+        "body": "Psalm 9 names God as judge and says nothing about a risen human agent. The shared theme is not a forecast."
+      }
+    ]
+  }
+}

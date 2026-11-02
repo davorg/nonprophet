@@ -446,7 +446,12 @@
          "claim_id" : "prophecy-065",
          "social_ids" : {},
          "state" : "withheld"
-      }
+      },
+      { "claim_id" : "prophecy-066", "social_ids" : {}, "state" : "withheld" },
+      { "claim_id" : "prophecy-067", "social_ids" : {}, "state" : "withheld" },
+      { "claim_id" : "prophecy-068", "social_ids" : {}, "state" : "withheld" },
+      { "claim_id" : "prophecy-069", "social_ids" : {}, "state" : "withheld" },
+      { "claim_id" : "prophecy-070", "social_ids" : {}, "state" : "withheld" }
    ],
    "schema_version" : 1
 }

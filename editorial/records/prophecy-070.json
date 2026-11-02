@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-070",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 16:10 predicted that Jesus's body would not decay because he would rise from the dead, as Acts 2:31 and 13:35 teach.",
+    "type": "nt_rereading",
+    "scope_notes": "Acts explicitly quotes and argues from the verse twice. In its original setting the psalmist expresses confidence that God will preserve him from Sheol or premature death."
+  },
+  "context": {
+    "summary": "Psalm 16 is a prayer of trust in which the speaker expects God not to abandon him to Sheol or let his faithful one see the Pit or decay. Acts quotes the verse in two resurrection sermons, argues that David did die and decay, and therefore applies the words to his promised descendant Jesus.",
+    "shared_context_id": "psalms-2-16"
+  },
+  "strongest_case": {
+    "summary": "Acts's case is explicit, repeated and argumentative rather than a loose echo. Peter calls David a prophet, reasons that the words cannot finally describe David's decayed body, and says David foresaw the Messiah's resurrection. A second speech in Acts 13 deploys the same contrast.",
+    "reasoning": [
+      "Acts quotes the verse twice.",
+      "The sermons explicitly contrast David's decay with Jesus's resurrection.",
+      "The Davidic promise supplies a coherent messianic bridge."
+    ],
+    "source_ids": [
+      "src-cuany-ps16",
+      "src-groenewald-ps16",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Within Psalm 16, the speaker asks for preservation and confidently expects continued life with God; the Hebrew need not mean bodily resurrection after death. Acts builds a new Davidic argument from the Greek wording and the known contrast between David's tomb and Jesus's resurrection. The Christian interpretation is early and explicit, but retrospective.",
+    "reasoning": [
+      "The psalm contains no death-and-return narrative.",
+      "Rescue from Sheol can mean preservation from death.",
+      "Acts supplies the Davidic and resurrection logic."
+    ],
+    "source_ids": [
+      "src-cuany-ps16",
+      "src-groenewald-ps16",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The Hebrew term can refer to the Pit rather than bodily decomposition, while the Septuagint's 'corruption/decay' supports Acts's argument about a body not decomposing.",
+      "significance": "material",
+      "source_ids": [
+        "src-groenewald-ps16",
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Acts explicitly and repeatedly makes Psalm 16:10 a resurrection text about Jesus. The psalm itself most naturally expresses the speaker's confidence of rescue from death, while Acts constructs the specific resurrection prediction through Davidic and Greek-scriptural rereading.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-cuany-ps16",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Divine Necessity of the Resurrection: A Re-Assessment of the Use of Psalm 16 in Acts 2",
+      "author": "Monique Cuany",
+      "publisher": "New Testament Studies",
+      "url": "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/divine-necessity-of-the-resurrection-a-reassessment-of-the-use-of-psalm-16-in-acts-2/4A352A46F38E4277DA164A989DF7762F",
+      "locator": "abstract and discussion of Psalm 16 in Acts 2",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Argues Acts uses the psalm to explain why resurrection was divinely necessary, not simply as predictive proof."
+    },
+    {
+      "id": "src-groenewald-ps16",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Psalm 16 (LXX Psalm 15) and Acts of the Apostles",
+      "author": "Alphonso Groenewald",
+      "publisher": "University of Pretoria repository",
+      "url": "https://repository.up.ac.za/items/ebbae2c0-8620-43d7-9cc8-013a87c9225a",
+      "locator": "Greek translation and resurrection application",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Explains how Septuagint features enabled application to Jesus's resurrection."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 16:8–11; Acts 2:25–32; Acts 13:34–37",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Psalm, quotations and both apostolic arguments checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-070-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-070-adversarial-2026-11-02-raw.md","objections":[{"objection":"The absence of an explicit death-and-return narrative does not logically exclude prophetic meaning.","disposition":"accepted","reason":"The verdict distinguishes what the psalm establishes alone from the coherent prophetic case Acts constructs."},{"objection":"Retrospective interpretation and genuine prediction are not mutually exclusive.","disposition":"accepted","reason":"The copy calls Acts's reading foundational and does not dismiss theological fulfilment as illegitimate."},{"objection":"Calling Paul's use independent overstates what two speeches within one authored work can establish.","disposition":"accepted","reason":"The strongest case now says a second speech in Acts uses the contrast."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Your Holy One will not decay",
+    "scripture_excerpt": "You will not abandon my soul to Sheol, nor will You let Your Holy One see decay.",
+    "website": {
+      "description": "Did Psalm 16 predict Jesus rising before his body decayed?",
+      "summary": "Acts explicitly makes this argument twice, though the psalm originally reads as confidence that God will preserve its speaker from death.",
+      "christian_case": "Peter and Paul both quote the verse, contrast David's decayed body with Jesus and say the psalm points to the Messiah's resurrection. The link could hardly be more explicit.",
+      "critical_case": "Psalm 16 itself describes trust that God will not abandon the speaker to death. It never narrates dying and rising. Acts builds that specific meaning from David's tomb and the Greek wording.",
+      "verdict_label": "An explicit resurrection rereading",
+      "verdict": "This is a foundational New Testament interpretation, not a modern word match. Its resurrection prediction becomes visible through Acts's retrospective argument rather than the psalm alone."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 16 predict resurrection?",
+        "body": "The psalm says God will not abandon His faithful one to the grave or let him see decay."
+      },
+      {
+        "heading": "Acts makes the strongest possible case",
+        "body": "Peter and Paul both quote it, contrast David’s grave with Jesus and apply it to his resurrection."
+      },
+      {
+        "heading": "But the psalm itself describes rescue",
+        "body": "Its speaker trusts God to preserve his life. Dying and rising enter the passage through Acts’s later argument."
+      }
+    ]
+  }
+}

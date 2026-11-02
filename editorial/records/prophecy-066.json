@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-066",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 2:12 anticipated the claim that life comes through faith in Jesus, as John 20:31 teaches.",
+    "type": "thematic_parallel",
+    "scope_notes": "John does not quote Psalm 2:12. The psalm promises blessing to those taking refuge in God; John promises life through believing in Jesus."
+  },
+  "context": {
+    "summary": "Psalm 2 ends by warning rebellious rulers to submit and by blessing those who take refuge in God. The opening words of verse 12 are famously disputed, but the closing blessing is clear. John states his Gospel's purpose: belief that Jesus is the Messiah and Son of God, bringing life in his name.",
+    "shared_context_id": "psalms-2-16"
+  },
+  "strongest_case": {
+    "summary": "Psalm 2 presents God's royal son as the decisive figure before whom the nations must choose submission or ruin. John identifies Jesus as Messiah and Son of God and makes belief in him the route to life. Read canonically, the two passages fit a coherent royal-faith pattern.",
+    "reasoning": [
+      "Both passages centre response to God's royal Son or Messiah.",
+      "Refuge and belief both express trust.",
+      "Psalm 2 is repeatedly applied to Jesus elsewhere in the New Testament."
+    ],
+    "source_ids": [
+      "src-wallace-psalms",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 2 promises blessing or safety rather than specifically defining life in Jesus's name, and John does not cite this verse. The psalm's immediate demand concerns submission to God and his installed king, while John's purpose statement belongs to a later Christological argument. The connection is a defensible Christian synthesis, not a distinct fulfilled forecast.",
+    "reasoning": [
+      "Blessing is not the same claim as life in Jesus's name.",
+      "John supplies no textual link.",
+      "The verse's opening wording is disputed."
+    ],
+    "source_ids": [
+      "src-wallace-psalms",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The Masoretic wording often rendered 'Kiss the Son' uses the unusual Aramaic-looking bar; ancient versions and modern translations differ substantially. The closing refuge blessing is less disputed.",
+      "significance": "material",
+      "source_ids": [
+        "src-wallace-psalms"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "thematic_parallel_only",
+    "summary": "Trust in Jesus and refuge in Psalm 2 make a meaningful canonical parallel. John does not cite the verse, and the psalm does not specifically promise life in Jesus's name, so the evidence does not establish a distinct prediction.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-wallace-psalms",
+      "tier": 2,
+      "stance": "both",
+      "type": "monograph",
+      "title": "Words to God, Word from God",
+      "author": "Howard N. Wallace",
+      "publisher": "Ashgate / Society of Biblical Literature",
+      "url": "https://www.sbl-site.org/wp-content/uploads/2025/01/WallacePsalms.pdf",
+      "locator": "Psalm 2:11–12",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Discusses the disputed wording and proposed translations of verse 12."
+    },
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 2:10–12",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Royal warning, refuge and reception context."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 2:12; John 20:31",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Claimed passages checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-066-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-066-adversarial-2026-11-02-raw.md","objections":[{"objection":"The seed claim need not assert a direct predictive forecast.","disposition":"accepted","reason":"The precise wording now says anticipated and the verdict is limited to what the evidence establishes."},{"objection":"Blessing and life are different but compatible, so they should not be presented as opposites.","disposition":"accepted","reason":"The final copy distinguishes specificity without denying theological development."},{"objection":"The referent of refuge and the opening 'Son' wording are disputed.","disposition":"accepted","reason":"The title and Christian case no longer assume that the final pronoun directly means the son."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Refuge and belief",
+    "scripture_excerpt": "Blessed are all who take refuge in Him.",
+    "website": {
+      "description": "Did Psalm 2 predict that faith in Jesus would bring life?",
+      "summary": "The passages share a trust theme, but John does not quote Psalm 2 and makes a different promise.",
+      "christian_case": "Psalm 2 blesses those who seek refuge in God while submitting to his royal son or king. John identifies Jesus as Messiah and Son of God and says belief in him brings life.",
+      "critical_case": "Psalm 2 promises blessing and safety in its royal setting. John promises life in Jesus's name but never cites this verse. The opening phrase often translated 'Kiss the Son' is also disputed.",
+      "verdict_label": "A shared trust theme, not a forecast",
+      "verdict": "Christians can meaningfully read the passages together. The evidence supports a canonical development more clearly than a specific prediction about life through Jesus."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 2 predict life through Jesus?",
+        "body": "Psalm 2 blesses those who take refuge in God or His king. John says belief in Jesus brings life."
+      },
+      {
+        "heading": "The trust theme fits",
+        "body": "John calls Jesus the Messiah and Son of God. Christians naturally connect him with Psalm 2’s royal son."
+      },
+      {
+        "heading": "But John never quotes this verse",
+        "body": "The psalm promises blessing, not life in Jesus’s name. The connection is a later Christian synthesis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus explicitly applies Psalm 8 to children praising him. The link is strong—but Matthew uses a present description of God’s glory, in its Greek form, for a new scene.",
+   "claim_id" : "prophecy-067",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 8 predict children praising Jesus? Children praise Jesus in the temple. When critics complain, Jesus answers by quoting Psalm 8.",
+         "body" : "Children praise Jesus in the temple. When critics complain, Jesus answers by quoting Psalm 8.",
+         "heading" : "Did Psalm 8 predict children praising Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 8:2: From the mouths of children and infants You have ordained praise.",
+         "body" : "From the mouths of children and infants You have ordained praise.",
+         "heading" : "Ps 8:2",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 21:16, BSB: “Do You hear what these children are saying?” they asked. “Yes,” Jesus answered. “Have you never read: ‘From the mouths of children and infants You have ordained praise’?”",
+         "body" : "“Do You hear what these children are saying?” they asked. “Yes,” Jesus answered. “Have you never read: ‘From the mouths of children and infants You have ordained praise’?”",
+         "heading" : "Claimed fulfilment · Matt 21:16",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The connection is explicit The children, their praise and the hostile audience all fit the verse. Jesus himself makes the link.",
+         "body" : "The children, their praise and the hostile audience all fit the verse. Jesus himself makes the link.",
+         "heading" : "The connection is explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the psalm predicts no future scene It celebrates God’s glory through the weak. Matthew uses the Greek wording in a new setting.",
+         "body" : "It celebrates God’s glory through the weak. Matthew uses the Greek wording in a new setting.",
+         "heading" : "But the psalm predicts no future scene",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-067/",
+   "title" : "Praise from children",
+   "verdict_category" : "retrospective_rereading"
+}
