@@ -1,0 +1,106 @@
+[
+   {
+      "name" : "Genesis",
+      "slug" : "genesis"
+   },
+   {
+      "name" : "Exodus",
+      "slug" : "exodus"
+   },
+   {
+      "name" : "Leviticus",
+      "slug" : "leviticus"
+   },
+   {
+      "name" : "Numbers",
+      "slug" : "numbers"
+   },
+   {
+      "name" : "Deuteronomy",
+      "slug" : "deuteronomy"
+   },
+   {
+      "name" : "Joshua",
+      "slug" : "joshua"
+   },
+   {
+      "name" : "Ruth",
+      "slug" : "ruth"
+   },
+   {
+      "name" : "1 Samuel",
+      "slug" : "1-samuel"
+   },
+   {
+      "name" : "2 Samuel",
+      "slug" : "2-samuel"
+   },
+   {
+      "name" : "2 Kings",
+      "slug" : "2-kings"
+   },
+   {
+      "name" : "1 Chronicles",
+      "slug" : "1-chronicles"
+   },
+   {
+      "name" : "Job",
+      "slug" : "job"
+   },
+   {
+      "name" : "Psalms",
+      "slug" : "psalms"
+   },
+   {
+      "name" : "Proverbs",
+      "slug" : "proverbs"
+   },
+   {
+      "name" : "Song of Songs",
+      "slug" : "song-of-songs"
+   },
+   {
+      "name" : "Isaiah",
+      "slug" : "isaiah"
+   },
+   {
+      "name" : "Jeremiah",
+      "slug" : "jeremiah"
+   },
+   {
+      "name" : "Ezekiel",
+      "slug" : "ezekiel"
+   },
+   {
+      "name" : "Daniel",
+      "slug" : "daniel"
+   },
+   {
+      "name" : "Hosea",
+      "slug" : "hosea"
+   },
+   {
+      "name" : "Joel",
+      "slug" : "joel"
+   },
+   {
+      "name" : "Jonah",
+      "slug" : "jonah"
+   },
+   {
+      "name" : "Micah",
+      "slug" : "micah"
+   },
+   {
+      "name" : "Haggai",
+      "slug" : "haggai"
+   },
+   {
+      "name" : "Zechariah",
+      "slug" : "zechariah"
+   },
+   {
+      "name" : "Malachi",
+      "slug" : "malachi"
+   }
+]

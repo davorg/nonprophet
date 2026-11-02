@@ -14,6 +14,10 @@ test -f "$site_check_dir/public/index.html"
 test -f "$site_check_dir/public/assets/css/site.css"
 test -f "$site_check_dir/public/claims/prophecy-001/index.html"
 test -f "$site_check_dir/public/status/index.html"
+for book_slug in $(jq -r '.[].slug' "$repo_dir/docs/_data/books.json"); do
+  test -f "$repo_dir/docs/books/$book_slug.md"
+  test -f "$site_check_dir/public/books/$book_slug/index.html"
+done
 
 mapfile -t verdict_categories < <(awk -F: '/^[a-z][a-z_]+:$/ { print $1 }' "$repo_dir/docs/_data/verdicts.yml")
 for category in "${verdict_categories[@]}"; do
@@ -54,6 +58,11 @@ rg -q "Claim $latest_published_number" "$site_check_dir/public/index.html"
 rg -q ">Published</span><strong>${#published_ids[@]}</strong>" "$site_check_dir/public/status/index.html"
 rg -q ">Queued</span><strong>${#withheld_ids[@]}</strong>" "$site_check_dir/public/status/index.html"
 ! rg -q 'href="/status/' "$site_check_dir/public/index.html"
+genesis_position=$(grep -bo '>Genesis<' "$site_check_dir/public/books/index.html" | head -1 | cut -d: -f1)
+exodus_position=$(grep -bo '>Exodus<' "$site_check_dir/public/books/index.html" | head -1 | cut -d: -f1)
+psalms_position=$(grep -bo '>Psalms<' "$site_check_dir/public/books/index.html" | head -1 | cut -d: -f1)
+test "$genesis_position" -lt "$exodus_position"
+test "$exodus_position" -lt "$psalms_position"
 rg -q 'https://nonprophet.app/assets/images/og-default.png' "$site_check_dir/public/index.html"
 rg -q 'Claim 1' "$site_check_dir/public/claims/index.html"
 for id in "${withheld_ids[@]}"; do
