@@ -1,0 +1,48 @@
+{
+   "caption" : "Acts explicitly places Psalm 2 in its resurrection argument. But the psalm itself describes a living king’s installation—not crucifixion, burial or resurrection.",
+   "claim_id" : "prophecy-064",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 2 intimate crucifixion? Acts recounts Jesus’s death and resurrection, then quotes Psalm 2: “You are My Son.”",
+         "body" : "Acts recounts Jesus’s death and resurrection, then quotes Psalm 2: “You are My Son.”",
+         "heading" : "Did Psalm 2 intimate crucifixion?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 2:7-8: You are My Son; today I have become Your Father.",
+         "body" : "You are My Son; today I have become Your Father.",
+         "heading" : "Ps 2:7-8",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Acts 13:29–33, BSB: God raised Him from the dead … He has fulfilled for us by raising up Jesus. As it is written: ‘You are My Son.’",
+         "body" : "God raised Him from the dead … He has fulfilled for us by raising up Jesus. As it is written: ‘You are My Son.’",
+         "heading" : "Claimed fulfilment · Acts 13:29–33",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Acts makes the connection explicit The quotation forms part of its argument about Jesus being raised and exalted.",
+         "body" : "The quotation forms part of its argument about Jesus being raised and exalted.",
+         "heading" : "Acts makes the connection explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the psalm describes no death Psalm 2 installs a living king. Crucifixion, burial and resurrection enter the argument through Acts.",
+         "body" : "Psalm 2 installs a living king. Crucifixion, burial and resurrection enter the argument through Acts.",
+         "heading" : "But the psalm describes no death",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-064/",
+   "title" : "Today I have become Your Father",
+   "verdict_category" : "retrospective_rereading"
+}

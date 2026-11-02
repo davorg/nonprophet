@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-064",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 2:7–8 intimated Jesus's crucifixion and resurrection, as Acts 13:29–33 claims when quoting 'You are My Son.'",
+    "type": "nt_rereading",
+    "scope_notes": "Acts explicitly applies verse 7 to Jesus's raising. Psalm 2 itself contains neither death nor resurrection, and verse 8 concerns international royal dominion."
+  },
+  "context": {
+    "summary": "Psalm 2's king announces his divine sonship decree and receives the nations as inheritance. In Acts 13 Paul recounts Jesus's execution, burial and resurrection, then quotes verse 7 as fulfilment of God's promise to the ancestors.",
+    "shared_context_id": "chronicles-job-psalm-2"
+  },
+  "strongest_case": {
+    "summary": "Acts explicitly treats Jesus's raising as fulfilment and cites Psalm 2:7, so resurrection application is part of the New Testament's own argument. Exaltation after death installs Jesus as the Davidic Son with the nations as his prospective domain.",
+    "reasoning": [
+      "Acts quotes the psalm immediately after announcing resurrection.",
+      "Royal accession language suits exaltation.",
+      "The worldwide inheritance fits Christian mission."
+    ],
+    "source_ids": [
+      "src-torah-ps2",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 2 describes enthronement, not a king dying and returning to life. Crucifixion appears only in Acts's narrative and has no counterpart in verses 7–8. Acts rereads 'today I have become your Father' through resurrection or exaltation; that application is explicit, but calling both crucifixion and resurrection predicted overstates the psalm.",
+    "reasoning": [
+      "No death appears in the psalm.",
+      "The quoted line is an accession decree.",
+      "Acts supplies the death-resurrection sequence."
+    ],
+    "source_ids": [
+      "src-torah-ps2",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Acts 13:33's 'raising up' can be discussed as resurrection or as bringing Jesus onto the historical stage, but its immediate sequence after 'raised Him from the dead' strongly supports resurrection/exaltation reception here.",
+      "significance": "material",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Acts explicitly rereads Psalm 2:7 through Jesus's resurrection and exaltation. The psalm contains no crucifixion or resurrection scene, so the New Testament creates the specific paschal application retrospectively.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-torah-ps2",
+      "tier": 2,
+      "stance": "both",
+      "type": "article",
+      "title": "Psalm 2: Is the Messiah the Son of God?",
+      "author": "Marc Zvi Brettler",
+      "publisher": "TheTorah.com",
+      "url": "https://www.thetorah.com/article/psalm-2-is-the-messiah-the-son-of-god",
+      "locator": "Acts 13:33 use of Psalm 2:7",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Contrasts original royal decree with Christian proof-text use."
+    },
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 2 and Acts 13",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Royal-psalm and New Testament reception context."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 2:7–8; Acts 13:29–34",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Exact sequence and quotation checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-064-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-064-adversarial-2026-11-02-raw.md","objections":[{"objection":"The seed says the psalm 'intimated' these events, which is weaker than claiming a detailed forecast.","disposition":"accepted","reason":"The public question now preserves the seed's weaker verb."},{"objection":"Acts 13's 'raising up' has an interpretive ambiguity that should not be presented as uncontested lexical proof of resurrection.","disposition":"accepted","reason":"The copy describes the wider resurrection and exaltation argument rather than relying on one verb."},{"objection":"The crucifixion is entirely absent from Psalm 2 and must be assessed separately from Acts's explicit resurrection-context use.","disposition":"accepted","reason":"The final assessment makes that distinction central."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Today I have become Your Father",
+    "scripture_excerpt": "You are My Son; today I have become Your Father.",
+    "website": {
+      "description": "Did Psalm 2 intimate Jesus's crucifixion and resurrection?",
+      "summary": "Acts explicitly applies the royal sonship decree to Jesus's resurrection, but the psalm itself contains no death or return to life.",
+      "christian_case": "Acts announces Jesus's execution and resurrection, then quotes Psalm 2 as a promise God fulfilled by raising him. The New Testament connection is direct.",
+      "critical_case": "The psalm describes a living king's installation and worldwide rule. It never mentions execution, burial or resurrection. Acts gives the old enthronement words a new setting.",
+      "verdict_label": "Explicit resurrection-context rereading",
+      "verdict": "The resurrection application is genuinely in Acts. The crucifixion and resurrection are not described in Psalm 2 itself, so this is retrospective Christian interpretation rather than a detailed forecast."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 2 predict crucifixion?",
+        "body": "Acts recounts Jesus’s death and resurrection, then quotes Psalm 2: “You are My Son.”"
+      },
+      {
+        "heading": "Acts makes resurrection the fulfilment",
+        "body": "The New Testament itself applies the royal decree to Jesus being raised and exalted."
+      },
+      {
+        "heading": "But the psalm describes no death",
+        "body": "Psalm 2 installs a living king. Crucifixion, burial and resurrection enter the argument through Acts."
+      }
+    ]
+  }
+}

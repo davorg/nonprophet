@@ -1,0 +1,48 @@
+{
+   "caption" : "The New Testament repeatedly applies Psalm 2’s royal sonship to Jesus. The link is explicit, though the psalm first described the reigning Davidic king.",
+   "claim_id" : "prophecy-063",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 2 predict God’s Son? God declares the installed king His son. The New Testament repeatedly applies that royal language to Jesus.",
+         "body" : "God declares the installed king His son. The New Testament repeatedly applies that royal language to Jesus.",
+         "heading" : "Did Psalm 2 predict God’s Son?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 2:7: You are My Son; today I have become Your Father.",
+         "body" : "You are My Son; today I have become Your Father.",
+         "heading" : "Ps 2:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 3:17, BSB: And a voice from heaven said, “This is My beloved Son, in whom I am well pleased!”",
+         "body" : "And a voice from heaven said, “This is My beloved Son, in whom I am well pleased!”",
+         "heading" : "Claimed fulfilment · Matt 3:17",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Christian link is explicit Acts quotes this verse about Jesus. Matthew and Romans also connect him with divine sonship and Davidic rule.",
+         "body" : "Acts quotes this verse about Jesus. Matthew and Romans also connect him with divine sonship and Davidic rule.",
+         "heading" : "The Christian link is explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But this began as royal adoption The psalm first gives God’s king a son-like status. It does not describe one future baptism scene or define divine nature.",
+         "body" : "The psalm first gives God’s king a son-like status. It does not describe one future baptism scene or define divine nature.",
+         "heading" : "But this began as royal adoption",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-063/",
+   "title" : "You are My Son",
+   "verdict_category" : "plausible_prediction"
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Job longs for someone to stand between him and God; First Timothy calls Jesus the mediator. The parallel is meaningful, but Job voices a wish—not a prediction.",
+   "claim_id" : "prophecy-057",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Job predict Jesus as mediator? Job wishes someone could stand between him and God. First Timothy later calls Jesus the one mediator.",
+         "body" : "Job wishes someone could stand between him and God. First Timothy later calls Jesus the one mediator.",
+         "heading" : "Did Job predict Jesus as mediator?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Job 9:32-33: Nor is there a mediator between us, to lay his hand upon us both.",
+         "body" : "Nor is there a mediator between us, to lay his hand upon us both.",
+         "heading" : "Job 9:32-33",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in 1 Tim 2:5, BSB: For there is one God, and there is one mediator between God and men, the man Christ Jesus,",
+         "body" : "For there is one God, and there is one mediator between God and men, the man Christ Jesus,",
+         "heading" : "Claimed fulfilment · 1 Tim 2:5",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The comparison feels natural Jesus fills the role Job longs for: someone able to bring God and humanity together.",
+         "body" : "Jesus fills the role Job longs for: someone able to bring God and humanity together.",
+         "heading" : "The comparison feels natural",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Job is expressing a wish He does not predict a future person. The words for Job’s imagined arbiter and Timothy’s mediator are different.",
+         "body" : "He does not predict a future person. The words for Job’s imagined arbiter and Timothy’s mediator are different.",
+         "heading" : "But Job is expressing a wish",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-057/",
+   "title" : "Job's missing mediator",
+   "verdict_category" : "thematic_parallel_only"
+}

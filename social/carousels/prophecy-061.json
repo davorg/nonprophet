@@ -1,0 +1,48 @@
+{
+   "caption" : "Does Psalm 2 predict Jesus’s holiness? No: “holy” describes Mount Zion, not the king. The claim attaches the adjective to the wrong noun.",
+   "claim_id" : "prophecy-061",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Does Psalm 2 call the king holy? God says He installed His king on Zion, His holy mountain. Some lists turn this into a claim about Jesus’s character.",
+         "body" : "God says He installed His king on Zion, His holy mountain. Some lists turn this into a claim about Jesus’s character.",
+         "heading" : "Does Psalm 2 call the king holy?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 2:6: I have installed My King on Zion, upon My holy mountain.",
+         "body" : "I have installed My King on Zion, upon My holy mountain.",
+         "heading" : "Ps 2:6",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Rev 3:7, BSB: To the angel of the church in Philadelphia write: These are the words of the One who is holy and true, who holds the key of David. What He opens no one can shut, and what He shuts no one can open.",
+         "body" : "To the angel of the church in Philadelphia write: These are the words of the One who is holy and true, who holds the key of David. What He opens no one can shut, and what He shuts no one can open.",
+         "heading" : "Claimed fulfilment · Rev 3:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Jesus is called holy elsewhere John and Revelation portray Jesus as sinless, holy and true. That Christian claim is clear.",
+         "body" : "John and Revelation portray Jesus as sinless, holy and true. That Christian claim is clear.",
+         "heading" : "Jesus is called holy elsewhere",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But “holy” describes the mountain The adjective belongs to Zion, not the king. This verse makes no statement about the ruler’s character.",
+         "body" : "The adjective belongs to Zion, not the king. This verse makes no statement about the ruler’s character.",
+         "heading" : "But “holy” describes the mountain",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-061/",
+   "title" : "The holy mountain",
+   "verdict_category" : "source_claim_incorrect"
+}

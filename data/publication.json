@@ -384,6 +384,68 @@
          "scheduled_date" : "2026-10-27",
          "social_ids" : {},
          "state" : "published"
+      },
+      {
+         "claim_id" : "prophecy-056",
+         "published_url" : "https://nonprophet.app/claims/prophecy-056/",
+         "scheduled_date" : "2026-10-28",
+         "social_ids" : {},
+         "state" : "published"
+      },
+      {
+         "claim_id" : "prophecy-057",
+         "published_url" : "https://nonprophet.app/claims/prophecy-057/",
+         "scheduled_date" : "2026-10-29",
+         "social_ids" : {},
+         "state" : "published"
+      },
+      {
+         "claim_id" : "prophecy-058",
+         "published_url" : "https://nonprophet.app/claims/prophecy-058/",
+         "scheduled_date" : "2026-10-30",
+         "social_ids" : {},
+         "state" : "published"
+      },
+      {
+         "claim_id" : "prophecy-059",
+         "published_url" : "https://nonprophet.app/claims/prophecy-059/",
+         "scheduled_date" : "2026-10-31",
+         "social_ids" : {},
+         "state" : "published"
+      },
+      {
+         "claim_id" : "prophecy-060",
+         "published_url" : "https://nonprophet.app/claims/prophecy-060/",
+         "scheduled_date" : "2026-11-01",
+         "social_ids" : {},
+         "state" : "published"
+      },
+      {
+         "claim_id" : "prophecy-061",
+         "published_url" : "https://nonprophet.app/claims/prophecy-061/",
+         "scheduled_date" : "2026-11-02",
+         "social_ids" : {},
+         "state" : "published"
+      },
+      {
+         "claim_id" : "prophecy-062",
+         "social_ids" : {},
+         "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-063",
+         "social_ids" : {},
+         "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-064",
+         "social_ids" : {},
+         "state" : "withheld"
+      },
+      {
+         "claim_id" : "prophecy-065",
+         "social_ids" : {},
+         "state" : "withheld"
       }
    ],
    "schema_version" : 1

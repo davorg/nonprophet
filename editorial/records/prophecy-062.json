@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-062",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 2:6 predicted that Jesus would bear the title King, as in Matthew 2:2.",
+    "type": "prediction",
+    "scope_notes": "Psalm 2 depicts a king installed on Zion. King is a role shared by many rulers; Matthew does not cite Psalm 2 in the Magi scene."
+  },
+  "context": {
+    "summary": "God declares that he has installed his king on Zion despite foreign rebellion. The poem legitimates a Judean monarch and warns rival kings. Matthew's Magi ask for the newborn king of the Jews, provoking Herod's fear.",
+    "shared_context_id": "chronicles-job-psalm-2"
+  },
+  "strongest_case": {
+    "summary": "Both texts concern God's chosen Jewish king in conflict with hostile rulers. Matthew's infancy story may evoke the same royal pattern, and Christian readers identify Jesus as the ultimate Davidic king celebrated by the psalm.",
+    "reasoning": [
+      "Jesus is explicitly called king of the Jews.",
+      "Herod supplies a hostile-ruler setting.",
+      "Psalm 2 became foundational messianic royal language."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-torah-ps2",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "King is one of the least specific descriptions possible in royal literature. Psalm 2's immediate king is the monarch being installed on Zion, while Matthew's Magi do not quote this verse. The title can support a cumulative Davidic case but cannot independently predict Jesus.",
+    "reasoning": [
+      "Countless rulers bear the title.",
+      "The passages describe different scenes.",
+      "Matthew supplies no explicit Psalm 2 link here."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-torah-ps2",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "insufficiently_specific",
+    "summary": "Jesus is presented as king and can plausibly be read as Psalm 2's climactic Davidic ruler. The bare title 'king' is far too general to function as a distinct prediction.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 2",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Royal enthronement context."
+    },
+    {
+      "id": "src-torah-ps2",
+      "tier": 2,
+      "stance": "both",
+      "type": "article",
+      "title": "Psalm 2: Is the Messiah the Son of God?",
+      "author": "Marc Zvi Brettler",
+      "publisher": "TheTorah.com",
+      "url": "https://www.thetorah.com/article/psalm-2-is-the-messiah-the-son-of-god",
+      "locator": "original king and later messianic reception",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Separates original monarch from later Messiah readings."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 2:6; Matthew 2:1–12",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Exact scenes checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-062-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-062-adversarial-2026-11-02-raw.md","objections":[{"objection":"The parallel is stronger than one shared word: both passages present an appointed Jewish king opposed by hostile rulers.","disposition":"accepted","reason":"The strongest case now emphasizes the shared royal-conflict pattern."},{"objection":"Matthew's failure to quote Psalm 2 does not rule out an allusion.","disposition":"accepted","reason":"The verdict does not exclude an allusion."},{"objection":"The seed claim may abbreviate a cumulative messianic argument rather than offer the title alone as proof.","disposition":"accepted","reason":"The verdict is limited to the title's independent force."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "God's king on Zion",
+    "scripture_excerpt": "I have installed My King on Zion.",
+    "website": {
+      "description": "Did Psalm 2 predict that Jesus would be called King?",
+      "summary": "Jesus is presented as the Jewish king, but the title is too general to identify him as Psalm 2's ruler by itself.",
+      "christian_case": "Matthew calls Jesus King of the Jews and places him against the hostile ruler Herod. Christians see the newborn king as Psalm 2's final Davidic ruler.",
+      "critical_case": "Psalm 2 celebrates a king installed on Zion. Many rulers carry that title, and Matthew's Magi never quote this verse. The one shared word proves very little alone.",
+      "verdict_label": "Too broad to identify Jesus",
+      "verdict": "Jesus fits the wider Christian reading of the royal psalm. Simply being called king is not a distinct fulfilled prediction."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 2 predict Jesus as King?",
+        "body": "God installs His king on Zion. Matthew’s visitors later ask for the newborn King of the Jews."
+      },
+      {
+        "heading": "The royal pattern fits",
+        "body": "Jesus is presented as David’s ruler while the hostile King Herod tries to stop him."
+      },
+      {
+        "heading": "But “king” identifies nobody",
+        "body": "Many people carry that title. Matthew does not quote this verse, so the shared word proves little by itself."
+      }
+    ]
+  }
+}

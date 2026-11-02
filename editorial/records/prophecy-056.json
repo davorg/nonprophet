@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-056",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "The father-son promise in 1 Chronicles 17:13 anticipated the enduring Davidic Son and is explicitly applied to Jesus in Hebrews 1:5.",
+    "type": "prediction",
+    "scope_notes": "Hebrews quotes the line about Jesus. Chronicles first applies the oracle to David's temple-building heir and dynasty; this repeats claims 051 and 055."
+  },
+  "context": {
+    "summary": "Chronicles retells Nathan's oracle: David's son will build God's house, receive an enduring throne and be treated as God's son. Hebrews quotes the father-son formula in an argument that the exalted Son surpasses angels.",
+    "shared_context_id": "chronicles-job-psalm-2"
+  },
+  "strongest_case": {
+    "summary": "The New Testament connection is explicit. Hebrews directly quotes this formula about Jesus, while Chronicles's omission of Samuel's discipline clause makes its received form especially open to an ideal enduring heir.",
+    "reasoning": [
+      "Hebrews quotes the line verbatim.",
+      "The wider oracle promises an everlasting throne.",
+      "Jesus is presented as the climactic Davidic Son."
+    ],
+    "source_ids": [
+      "src-hebrews-commentary",
+      "src-chronicles-commentary",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Chronicles first concerns Solomon and David's dynasty; royal sonship describes a covenant relationship rather than, by itself, divine nature. Hebrews supplies the Christological identification. This is the same covenant formula already counted in claims 051 and 055, not additional independent evidence.",
+    "reasoning": [
+      "The temple-building son points to Solomon.",
+      "Royal sonship was a status of the Davidic king.",
+      "Parallel transmission must not be double-counted."
+    ],
+    "source_ids": [
+      "src-chronicles-commentary",
+      "src-david-promise",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_prediction",
+    "summary": "Hebrews explicitly applies the Davidic father-son promise to Jesus, making the Christian reading strong. Its original royal setting begins with Solomon, and this Chronicles wording repeats rather than multiplies the Davidic evidence.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-hebrews-commentary",
+      "tier": 2,
+      "stance": "christian_case",
+      "type": "commentary",
+      "title": "Hebrews 1:5 Commentaries",
+      "author": "Multiple historic commentators",
+      "publisher": "Bible Hub",
+      "url": "https://biblehub.com/commentaries/hebrews/1-5.htm",
+      "locator": "1 Chronicles/2 Samuel citation",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Documents the explicit New Testament application."
+    },
+    {
+      "id": "src-chronicles-commentary",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "Lange's Commentary on 1 Chronicles 17",
+      "author": "Otto Zöckler et al.",
+      "publisher": "Bible Hub edition",
+      "url": "https://www.biblehub.com/commentaries/lange/1_chronicles/17.htm",
+      "locator": "1 Chronicles 17:11–14",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Surveys Solomon and messianic readings."
+    },
+    {
+      "id": "src-david-promise",
+      "tier": 2,
+      "stance": "both",
+      "type": "monograph",
+      "title": "Society and the Promise to David",
+      "author": "William M. Schniedewind",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/49657",
+      "locator": "reception of the Davidic promise",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Reception-history context."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "1 Chronicles 17:11–14; Hebrews 1:5",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Exact wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-056-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-056-adversarial-2026-11-02-raw.md","objections":[{"objection":"Hebrews applies royal sonship but does not make Chronicles an independent proof of divine ontology.","disposition":"accepted","reason":"The precise claim now concerns Davidic sonship and later application, not an independent Trinitarian prediction."},{"objection":"Explicit later application is not identical to original predictive meaning.","disposition":"accepted","reason":"The copy distinguishes Chronicles's Solomon setting from Hebrews's identification."},{"objection":"The evidence is duplicated across parallel covenant claims.","disposition":"accepted","reason":"The audit and verdict prevent double-counting."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "I will be his Father",
+    "scripture_excerpt": "I will be his Father, and he will be My son.",
+    "website": {
+      "description": "Did Chronicles predict Jesus as God's Son?",
+      "summary": "Hebrews directly applies this Davidic promise to Jesus, though Chronicles first speaks about Solomon and the royal dynasty.",
+      "christian_case": "Hebrews explicitly quotes this line about Jesus. Chronicles joins sonship to an enduring Davidic throne, making the Christian connection substantial.",
+      "critical_case": "The temple-building son first points to Solomon. In context, sonship describes the Davidic king's relationship with God; the line alone does not define later claims about Jesus's divine nature.",
+      "verdict_label": "An explicit New Testament application",
+      "verdict": "The Christian identification is clear because Hebrews makes it. This is another form of the same Davidic promise already assessed, not a new independent prediction."
+    },
+    "carousel": [
+      {
+        "heading": "Did Chronicles call Jesus God’s Son?",
+        "body": "God promises to treat David’s heir as His son. Hebrews later quotes that line directly about Jesus."
+      },
+      {
+        "heading": "The New Testament link is explicit",
+        "body": "This is not a modern word match. Hebrews itself places Jesus inside the Davidic father-son promise."
+      },
+      {
+        "heading": "But Solomon comes first",
+        "body": "The promised son builds the temple. Chronicles first speaks about Solomon and the dynasty, before Hebrews applies it to Jesus."
+      }
+    ]
+  }
+}

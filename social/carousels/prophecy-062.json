@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus fits the wider Christian reading of Psalm 2’s king. But the title “king” is shared by countless rulers and cannot identify him by itself.",
+   "claim_id" : "prophecy-062",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 2 predict Jesus as King? God installs His king on Zion. Matthew’s visitors later ask for the newborn King of the Jews.",
+         "body" : "God installs His king on Zion. Matthew’s visitors later ask for the newborn King of the Jews.",
+         "heading" : "Did Psalm 2 predict Jesus as King?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 2:6: I have installed My King on Zion.",
+         "body" : "I have installed My King on Zion.",
+         "heading" : "Ps 2:6",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 2:2, BSB: asking, “Where is the One who has been born King of the Jews? We saw His star in the east and have come to worship Him.”",
+         "body" : "asking, “Where is the One who has been born King of the Jews? We saw His star in the east and have come to worship Him.”",
+         "heading" : "Claimed fulfilment · Matt 2:2",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The royal pattern fits Jesus is presented as David’s ruler while the hostile King Herod tries to stop him.",
+         "body" : "Jesus is presented as David’s ruler while the hostile King Herod tries to stop him.",
+         "heading" : "The royal pattern fits",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But “king” identifies nobody Many people carry that title. Matthew does not quote this verse, so the shared word proves little by itself.",
+         "body" : "Many people carry that title. Matthew does not quote this verse, so the shared word proves little by itself.",
+         "heading" : "But “king” identifies nobody",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-062/",
+   "title" : "God's king on Zion",
+   "verdict_category" : "insufficiently_specific"
+}

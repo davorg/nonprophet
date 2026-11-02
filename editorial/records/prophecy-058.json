@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-058",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Job 19:23–27 anticipated bodily resurrection later taught by Jesus in John 5:24–29.",
+    "type": "prediction",
+    "scope_notes": "Job's Hebrew is exceptionally difficult and supports readings ranging from post-mortem bodily sight of God to vindication before death or apart from flesh. John does not cite Job."
+  },
+  "context": {
+    "summary": "Abandoned by friends and convinced that God has wronged him, Job longs for permanent testimony and declares that his go'el lives and will finally stand over the dust. He expects somehow to see God himself. The syntax, condition of his body and identity of the vindicator are heavily disputed.",
+    "shared_context_id": "chronicles-job-psalm-2"
+  },
+  "strongest_case": {
+    "summary": "The language of destroyed skin, flesh, personal eyes and seeing God can naturally express hope beyond death. Christian tradition has long heard bodily resurrection here, and Jesus in John clearly promises that the dead will leave their graves.",
+    "reasoning": [
+      "Job's hope reaches beyond immediate human help.",
+      "The body and personal sight receive emphasis.",
+      "John supplies an explicit doctrine of resurrection."
+    ],
+    "source_ids": [
+      "src-job-resurrection-defense",
+      "src-job-hts",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The passage is among Job's most textually and syntactically difficult. Go'el can mean Job's vindicator rather than the Christian Redeemer, and 'from/in/apart from my flesh' materially changes the sense. Job seeks vindication of his innocence; he does not describe Jesus, a general resurrection, or two outcomes of judgment. John never links its teaching to Job.",
+    "reasoning": [
+      "Key Hebrew clauses permit sharply different translations.",
+      "The desired event is personal vindication.",
+      "The alleged New Testament fulfilment contains no citation or distinctive echo."
+    ],
+    "source_ids": [
+      "src-job-jhs",
+      "src-job-hts",
+      "src-peake-job",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Job 19:25–27 has disputed syntax and possibly a disturbed text. Especially important are the identity of go'el, whether 'dust' means earth or grave, and whether Job sees God in, from, or apart from flesh.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-job-jhs",
+        "src-job-hts",
+        "src-peake-job"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "mixed_or_indeterminate",
+    "summary": "Job may express a remarkable hope of seeing God beyond bodily destruction, making resurrection a serious reading. The Hebrew cannot securely bear the precise claim, and the passage neither identifies Jesus nor predicts John's resurrection teaching.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-job-jhs",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "journal_article",
+      "title": "Job 19:25–28 and the Difficulty of the Hebrew Text",
+      "author": "Journal of Hebrew Scriptures contributor",
+      "publisher": "Journal of Hebrew Scriptures",
+      "url": "https://jhsonline.org/index.php/jhs/article/download/29342/21362/77575",
+      "locator": "textual and syntactic analysis",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Documents severe uncertainty in construing the passage and its resurrection reception."
+    },
+    {
+      "id": "src-job-hts",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The addition of apocalyptic theology in the dialogue section of Job",
+      "author": "J. A. van der Zwan",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://scielo.org.za/pdf/hts/v81n1/79.pdf",
+      "locator": "Job 19:25–27",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Surveys redeemer, vindication and resurrection readings."
+    },
+    {
+      "id": "src-job-resurrection-defense",
+      "tier": 3,
+      "stance": "christian_case",
+      "type": "journal_article",
+      "title": "Resurrection in the Old Testament",
+      "author": "Jon Paulien",
+      "publisher": "Journal of the Adventist Theological Society",
+      "url": "https://www.atsjats.org/paulien-resurrection.pdf",
+      "locator": "Job 19:25–27",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Defends bodily-resurrection significance while acknowledging the preposition problem."
+    },
+    {
+      "id": "src-peake-job",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "commentary",
+      "title": "Job: The Century Bible",
+      "author": "Arthur S. Peake",
+      "publisher": "The Century Bible; BiblicalStudies.org.uk edition",
+      "url": "https://biblicalstudies.org.uk/pdf/e-books/peake/job_century-bible_peake.pdf",
+      "locator": "Job 19:25–27",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Warns that Christian resurrection reception can obscure the disputed original sense."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Job 19:23–29; John 5:24–29",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Exact displayed wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-058-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-058-adversarial-2026-11-02-raw.md","objections":[{"objection":"Jesus's resurrection, general resurrection and doctrinal anticipation are different claims.","disposition":"accepted","reason":"The precise claim now tests only anticipation of the general resurrection taught in John."},{"objection":"Personal vindication and resurrection are not mutually exclusive.","disposition":"accepted","reason":"The verdict keeps resurrection as a serious reading."},{"objection":"Lack of citation limits deliberate linkage but not shared subject matter.","disposition":"accepted","reason":"It is used only to limit direct textual dependence."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "I know that my Redeemer lives",
+    "scripture_excerpt": "Even after my skin has been destroyed, yet in my flesh I will see God.",
+    "website": {
+      "description": "Did Job predict the resurrection taught by Jesus?",
+      "summary": "Job may hope to see God beyond death, but the Hebrew is famously difficult and does not identify Jesus or John's teaching.",
+      "christian_case": "Job speaks of destroyed skin, his flesh, his own eyes and seeing God. Christians have long read this as a striking early hope of bodily resurrection.",
+      "critical_case": "Almost every key phrase is disputed. Job may expect vindication before death, after death, in flesh or apart from it. His subject is his own innocence, while John teaches a general resurrection and never cites Job.",
+      "verdict_label": "Possible resurrection hope, uncertain text",
+      "verdict": "Resurrection is a serious reading, but not the only defensible one. Even on that reading, Job does not specifically predict Jesus or John's later teaching."
+    },
+    "carousel": [
+      {
+        "heading": "Did Job predict resurrection?",
+        "body": "Job says his skin may be destroyed, yet he will see God. Christians often read this as hope of bodily resurrection."
+      },
+      {
+        "heading": "The reading has real force",
+        "body": "Job stresses his flesh, his own eyes and seeing God personally. That can sound like life beyond death."
+      },
+      {
+        "heading": "But the Hebrew is deeply disputed",
+        "body": "Key words can mean vindication before death, after death or apart from flesh. Job never identifies Jesus."
+      }
+    ]
+  }
+}

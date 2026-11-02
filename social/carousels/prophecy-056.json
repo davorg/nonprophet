@@ -1,0 +1,48 @@
+{
+   "caption" : "Hebrews directly applies Chronicles’ father-son promise to Jesus. The link is strong—but it repeats the same Davidic promise already made in Samuel.",
+   "claim_id" : "prophecy-056",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Another promise about God’s Son? God promises to be a father to David’s heir. Hebrews later quotes these words about Jesus.",
+         "body" : "God promises to be a father to David’s heir. Hebrews later quotes these words about Jesus.",
+         "heading" : "Another promise about God’s Son?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of 1Chr 17:13: I will be his Father, and he will be My son.",
+         "body" : "I will be his Father, and he will be My son.",
+         "heading" : "1Chr 17:13",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Heb 1:5, BSB: I will be His Father, and He will be My Son.",
+         "body" : "I will be His Father, and He will be My Son.",
+         "heading" : "Claimed fulfilment · Heb 1:5",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Christian link is explicit Hebrews directly applies the promise to Jesus, who Christians see as David’s lasting royal heir.",
+         "body" : "Hebrews directly applies the promise to Jesus, who Christians see as David’s lasting royal heir.",
+         "heading" : "The Christian link is explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But this repeats an earlier promise Chronicles restates the same Davidic covenant already covered in Samuel. It is not independent evidence.",
+         "body" : "Chronicles restates the same Davidic covenant already covered in Samuel. It is not independent evidence.",
+         "heading" : "But this repeats an earlier promise",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-056/",
+   "title" : "I will be his Father",
+   "verdict_category" : "plausible_prediction"
+}

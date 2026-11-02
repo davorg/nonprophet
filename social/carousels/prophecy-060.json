@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus is called Messiah—God’s anointed ruler—and Psalm 2 became central to Christian claims about him. But “anointed” was a title shared by many people.",
+   "claim_id" : "prophecy-060",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did “anointed” identify Jesus? Psalm 2 calls its king God’s anointed. The New Testament calls Jesus Messiah—or Christ, which means anointed.",
+         "body" : "Psalm 2 calls its king God’s anointed. The New Testament calls Jesus Messiah—or Christ, which means anointed.",
+         "heading" : "Did “anointed” identify Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 2:2: against the LORD and against His Anointed One",
+         "body" : "against the LORD and against His Anointed One",
+         "heading" : "Ps 2:2",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 1:41, BSB: He first found his brother Simon and told him, “We have found the Messiah” (which is translated as Christ).",
+         "body" : "He first found his brother Simon and told him, “We have found the Messiah” (which is translated as Christ).",
+         "heading" : "Claimed fulfilment · Jn 1:41",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The royal connection is important Early Christians deliberately presented Jesus as God’s promised Davidic ruler and used Psalm 2 about him.",
+         "body" : "Early Christians deliberately presented Jesus as God’s promised Davidic ruler and used Psalm 2 about him.",
+         "heading" : "The royal connection is important",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But many people were anointed Kings, priests and others carried this title. The word alone cannot identify Jesus.",
+         "body" : "Kings, priests and others carried this title. The word alone cannot identify Jesus.",
+         "heading" : "But many people were anointed",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-060/",
+   "title" : "The title Christ",
+   "verdict_category" : "insufficiently_specific"
+}

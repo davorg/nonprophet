@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-060",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 2:2 predicted that Jesus would bear the title Anointed, Messiah or Christ.",
+    "type": "prediction",
+    "scope_notes": "Messiah and Christ translate Hebrew and Greek words meaning anointed. Psalm 2 uses the ordinary royal title for the king in its scene."
+  },
+  "context": {
+    "summary": "The nations rebel against the LORD and 'his anointed,' meaning the king installed under divine patronage. Israelite kings including Saul and David are repeatedly called the LORD's anointed. The words Messiah and Christ later became specialized titles for Jesus.",
+    "shared_context_id": "chronicles-job-psalm-2"
+  },
+  "strongest_case": {
+    "summary": "The title became central to Jewish hope for a future Davidic ruler, and the New Testament emphatically identifies Jesus as Messiah or Christ. Within a canonical reading, Jesus claims the climactic form of the royal office celebrated by the psalm.",
+    "reasoning": [
+      "Messiah and Christ literally translate anointed.",
+      "Psalm 2 became a major messianic text.",
+      "The New Testament consistently gives Jesus the title."
+    ],
+    "source_ids": [
+      "src-torah-ps2",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Anointed was not a unique future name: it described existing kings and could also describe priests or other commissioned figures. John and Acts explain that Jesus is called Messiah/Christ but do not show that Psalm 2 predicted possession of the word itself. The title matters only as part of the larger royal case.",
+    "reasoning": [
+      "Many people bore the designation.",
+      "The cited New Testament verses do not quote Psalm 2.",
+      "A shared office-title cannot uniquely identify one person."
+    ],
+    "source_ids": [
+      "src-torah-ps2",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "insufficiently_specific",
+    "summary": "Jesus unquestionably bears the title Messiah or Christ, and Psalm 2 contributed to its royal meaning. 'Anointed' was a common designation rather than a unique prediction of his title.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-torah-ps2",
+      "tier": 2,
+      "stance": "both",
+      "type": "article",
+      "title": "Psalm 2: Is the Messiah the Son of God?",
+      "author": "Marc Zvi Brettler",
+      "publisher": "TheTorah.com",
+      "url": "https://www.thetorah.com/article/psalm-2-is-the-messiah-the-son-of-god",
+      "locator": "anointed king and later messianism",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Distinguishes the original king from later specialized messianic reception."
+    },
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 2",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Royal-psalm context."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 2:2; John 1:41; Acts 2:36",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Exact title translations checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-060-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-060-adversarial-2026-11-02-raw.md","objections":[{"objection":"A shared title may be one element of a cumulative fulfilment case rather than a failed unique name.","disposition":"accepted","reason":"The verdict limits only the title's independent identifying force."},{"objection":"Acts 4 explicitly applies Psalm 2's anointed figure to Jesus.","disposition":"accepted","reason":"The final editorial context acknowledges that companion application."},{"objection":"Common use of the title does not make the Christian identification meaningless.","disposition":"accepted","reason":"The copy calls the title central while judging its specificity."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "The title Christ",
+    "scripture_excerpt": "against the LORD and against His Anointed One",
+    "website": {
+      "description": "Did Psalm 2 predict that Jesus would be called Christ?",
+      "summary": "Christ means anointed, but Psalm 2 uses a royal title shared by many kings rather than predicting a unique name.",
+      "christian_case": "Messiah and Christ are the Hebrew and Greek forms of 'anointed.' The New Testament identifies Jesus as the promised Davidic king represented by this title.",
+      "critical_case": "Psalm 2's anointed one is the king in its royal scene. Saul, David and others also carry the title. The cited New Testament verses call Jesus Christ without quoting this psalm.",
+      "verdict_label": "A shared royal title",
+      "verdict": "Jesus owns the title in Christian belief, but the word itself does not identify him. The case depends on the whole messianic argument, not this vocabulary alone."
+    },
+    "carousel": [
+      {
+        "heading": "Did “anointed” predict the title Christ?",
+        "body": "Psalm 2 speaks of God’s anointed king. Messiah and Christ both mean “anointed.”"
+      },
+      {
+        "heading": "Why Christians connect the title",
+        "body": "The New Testament identifies Jesus as the promised Messiah and makes “Christ” central to his identity."
+      },
+      {
+        "heading": "But many kings were anointed",
+        "body": "Saul, David and others carried this royal title. The shared word cannot identify Jesus by itself."
+      }
+    ]
+  }
+}

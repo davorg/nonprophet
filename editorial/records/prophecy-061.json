@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-061",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 2:6 predicted Jesus's holy character by describing God's king in connection with holiness.",
+    "type": "source_error",
+    "scope_notes": "In the verse, 'holy' modifies Mount Zion, not the installed king. The alleged character prediction rests on a grammatical misreading."
+  },
+  "context": {
+    "summary": "God responds to rebellious rulers by declaring that he has installed his king on Zion, his holy mountain. Zion is holy because it is God's chosen sacred place. The verse says nothing here about the king's moral character.",
+    "shared_context_id": "chronicles-job-psalm-2"
+  },
+  "strongest_case": {
+    "summary": "Jesus is described as holy and true in Revelation and challenges opponents to prove him guilty of sin. As the ideal king on God's holy Zion, holiness coheres with his Christian portrayal.",
+    "reasoning": [
+      "The New Testament clearly attributes holiness to Jesus.",
+      "A holy king suits God's holy place.",
+      "The wider Christian royal portrait connects Jesus with Zion."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The grammar is decisive: 'holy' describes the mountain, not the king. Moving an adjective from Zion to the king creates a claim the psalm does not make. Jesus's holiness may be Christian teaching, but it is not predicted in Psalm 2:6.",
+    "reasoning": [
+      "The adjective directly modifies mountain.",
+      "The verse concerns installation and location.",
+      "The cited New Testament texts do not quote this verse."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The claim transfers 'holy' from Mount Zion to the king. This is a grammatical source error, not a disputed translation.",
+      "significance": "decisive",
+      "source_ids": [
+        "src-bsb-v59"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "source_claim_incorrect",
+    "summary": "Psalm 2:6 calls Zion holy; it does not describe the king's character. The proposed prophecy results from attaching the adjective to the wrong noun.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "critical_case",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 2:6",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Explains Zion as the sacred installation place."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 2:6; John 8:46; Revelation 3:7",
+      "accessed": "2026-11-02",
+      "checked": true,
+      "notes": "Grammar and cited descriptions checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-02","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-061-adversarial-2026-11-02.md","raw_output_path":"editorial/reviews/prophecy-061-adversarial-2026-11-02-raw.md","objections":[{"objection":"The compiler's broader reasoning is unknown, so the verdict should stay limited to what this verse explicitly supports.","disposition":"accepted","reason":"The conclusion is limited to Psalm 2:6's grammar."},{"objection":"Holy Zion can contribute to a sacred kingship setting even though it does not predicate moral holiness of the king.","disposition":"accepted","reason":"The copy allows the wider association but rejects the specific grammatical claim."},{"objection":"The original grammar and a later Christian typological association should be kept distinct.","disposition":"accepted","reason":"The final copy explicitly separates them."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "The holy mountain",
+    "scripture_excerpt": "I have installed My King on Zion, upon My holy mountain.",
+    "website": {
+      "description": "Did Psalm 2 predict Jesus's holy character?",
+      "summary": "The verse calls Mount Zion holy, not the king. Jesus's holiness comes from other New Testament claims.",
+      "christian_case": "The New Testament portrays Jesus as sinless, holy and true. Christians also identify him as Psalm 2's ideal king.",
+      "critical_case": "In Psalm 2:6, 'holy' describes the mountain where the king is installed. It says nothing about his character. The claim moves the adjective to the wrong subject.",
+      "verdict_label": "The adjective describes Zion",
+      "verdict": "Jesus may be holy in Christian theology, but this verse does not predict that quality. Its holy object is the mountain."
+    },
+    "carousel": [
+      {
+        "heading": "Does Psalm 2 call the king holy?",
+        "body": "God says He installed His king on Zion, His holy mountain. Some lists turn this into a claim about Jesus’s character."
+      },
+      {
+        "heading": "Jesus is called holy elsewhere",
+        "body": "John and Revelation portray Jesus as sinless, holy and true. That Christian claim is clear."
+      },
+      {
+        "heading": "But “holy” describes the mountain",
+        "body": "The adjective belongs to Zion, not the king. This verse makes no statement about the ruler’s character."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Did Job predict bodily resurrection? Perhaps—but the Hebrew is famously difficult and may describe vindication before death. This claim is too uncertain for confidence.",
+   "claim_id" : "prophecy-058",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Job predict resurrection? Job says he will see God after his skin is destroyed. Jesus later says the dead will leave their graves.",
+         "body" : "Job says he will see God after his skin is destroyed. Jesus later says the dead will leave their graves.",
+         "heading" : "Did Job predict resurrection?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Job 19:23-27: Even after my skin has been destroyed, yet in my flesh I will see God.",
+         "body" : "Even after my skin has been destroyed, yet in my flesh I will see God.",
+         "heading" : "Job 19:23-27",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 5:28–29, BSB: All who are in their graves will hear His voice and come out.",
+         "body" : "All who are in their graves will hear His voice and come out.",
+         "heading" : "Claimed fulfilment · Jn 5:28–29",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: This can sound like real hope Some translations make Job expect to see God in his body after death, fitting later Christian resurrection belief.",
+         "body" : "Some translations make Job expect to see God in his body after death, fitting later Christian resurrection belief.",
+         "heading" : "This can sound like real hope",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the Hebrew is difficult Job may expect vindication before death, or speak poetically after it. The passage is too uncertain for a confident prediction.",
+         "body" : "Job may expect vindication before death, or speak poetically after it. The passage is too uncertain for a confident prediction.",
+         "heading" : "But the Hebrew is difficult",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-058/",
+   "title" : "I know that my Redeemer lives",
+   "verdict_category" : "mixed_or_indeterminate"
+}
