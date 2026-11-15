@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus directly quotes Psalm 22’s opening from the cross, and Matthew builds more of the scene around it. Clear application does not by itself prove advance prediction.",
+   "claim_id" : "prophecy-075",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Jesus’s cry? Jesus cries, “My God, My God, why have You forsaken Me?”—the opening of Psalm 22.",
+         "body" : "Jesus cries, “My God, My God, why have You forsaken Me?”—the opening of Psalm 22.",
+         "heading" : "Did Psalm 22 predict Jesus’s cry?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:1: My God, my God, why have You forsaken me?",
+         "body" : "My God, my God, why have You forsaken me?",
+         "heading" : "Ps 22:1",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 27:46, BSB: About the ninth hour Jesus cried out in a loud voice, “Eli, Eli, lema sabachthani?” which means, “My God, My God, why have You forsaken Me?”",
+         "body" : "About the ninth hour Jesus cried out in a loud voice, “Eli, Eli, lema sabachthani?” which means, “My God, My God, why have You forsaken Me?”",
+         "heading" : "Claimed fulfilment · Matt 27:46",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The connection is undeniable Matthew surrounds the cross with more language from the same psalm. Jesus is deliberately portrayed through it.",
+         "body" : "Matthew surrounds the cross with more language from the same psalm. Jesus is deliberately portrayed through it.",
+         "heading" : "The connection is undeniable",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But quotation is not prediction Psalm 22 is an existing sufferer’s prayer. It never says a future Messiah will repeat these words.",
+         "body" : "Psalm 22 is an existing sufferer’s prayer. It never says a future Messiah will repeat these words.",
+         "heading" : "But quotation is not prediction",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-075/",
+   "title" : "My God, why have You forsaken me?",
+   "verdict_category" : "retrospective_rereading"
+}

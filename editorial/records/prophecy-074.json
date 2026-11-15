@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-074",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:1 predicted that Jesus would be forsaken by God because he bore other people's sins, as 2 Corinthians 5:21 explains.",
+    "type": "source_error",
+    "scope_notes": "Psalm 22:1 describes felt abandonment but gives no vicarious-sin explanation. Second Corinthians says Christ was made sin for others but does not say this caused divine abandonment."
+  },
+  "context": {
+    "summary": "Psalm 22 opens with a righteous sufferer's anguished question and later moves toward confidence and praise. Paul says the sinless Christ was made sin on others' behalf so they might become God's righteousness. Christian atonement theology often connects these ideas.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Jesus quotes Psalm 22:1 from the cross, while Paul interprets his death as a sinless one bearing sin for others. Within substitutionary theology, the cry naturally expresses the cost of that sin-bearing and can be read as the psalm reaching its deepest fulfilment.",
+    "reasoning": [
+      "Jesus explicitly quotes the lament elsewhere.",
+      "Paul gives his death a vicarious-sin meaning.",
+      "The combined reading has strong Christian theological coherence."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The causal link is not stated in either cited verse. Psalm 22 never says the speaker is forsaken for other people's sins, and 2 Corinthians 5:21 never says God abandoned Jesus. Combining two separate claims can support a canonical theology of the cross, but it does not put the specific reason into Psalm 22:1.",
+    "reasoning": [
+      "The psalm supplies no vicarious cause.",
+      "Paul supplies no abandonment claim.",
+      "The conclusion depends on an additional atonement framework."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "source_claim_incorrect",
+    "summary": "Jesus's use of Psalm 22 and Paul's theology of sin-bearing are both real New Testament claims. Neither text says he was forsaken because of others' sins, so the inherited formulation joins them by inference and calls the result a prediction.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "Matthew's passion and Psalm 22",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Treats the psalm as an anchor for Matthew's narrative."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "Psalm 22 in the passion narratives",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Surveys major points of narrative reuse."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22; Matthew 27:46; 2 Corinthians 5:21",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Causal claims checked against full passages."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-15","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-074-adversarial-2026-11-15.md","raw_output_path":"editorial/reviews/prophecy-074-adversarial-2026-11-15-raw.md","objections":[{"objection":"Canonical combination may be the intended method rather than a simple source error.","disposition":"accepted","reason":"The final assessment affirms the combined theology while limiting what Psalm 22 predicts."},{"objection":"Felt abandonment and actual divine abandonment must be distinguished.","disposition":"accepted","reason":"The record does not assume the lament settles that theological question."},{"objection":"Sin-bearing does not itself establish the alleged causal abandonment.","disposition":"accepted","reason":"That missing inference remains the narrow basis of the verdict."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Forsaken for others' sins?",
+    "scripture_excerpt": "My God, my God, why have You forsaken me?",
+    "website": {
+      "description": "Did Psalm 22 predict Jesus being forsaken because of others' sins?",
+      "summary": "Jesus quotes the psalm and Paul says he bore sin, but neither cited text makes sin-bearing the reason for abandonment.",
+      "christian_case": "Jesus speaks Psalm 22's cry from the cross. Paul says the sinless Christ was made sin for others, making a substitutionary connection theologically natural.",
+      "critical_case": "Psalm 22 gives no vicarious reason for the speaker's anguish. Paul gives no abandonment claim. The causal link comes from combining the texts through a later atonement framework.",
+      "verdict_label": "The claimed cause is not in either text",
+      "verdict": "The combined theology may be coherent, but Psalm 22:1 does not predict that Jesus would be forsaken because of other people's sins."
+    },
+    "carousel": [
+      {
+        "heading": "Forsaken because he bore others’ sins?",
+        "body": "Jesus quotes Psalm 22’s cry on the cross. Paul says the sinless Christ was made sin for others."
+      },
+      {
+        "heading": "The theology fits together",
+        "body": "Many Christians understand the cry as the cost of Jesus bearing human sin. Both ideas matter to the cross."
+      },
+      {
+        "heading": "But neither verse gives that cause",
+        "body": "Psalm 22 never mentions others’ sins. Second Corinthians never says God abandoned Jesus."
+      }
+    ]
+  }
+}

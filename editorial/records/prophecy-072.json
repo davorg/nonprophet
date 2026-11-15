@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-072",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 17:15 predicted resurrection in the words 'when I awake,' fulfilled when Jesus rose in Luke 24:6.",
+    "type": "prediction",
+    "scope_notes": "The psalm's waking language is ambiguous and Luke neither quotes nor alludes distinctly to it."
+  },
+  "context": {
+    "summary": "The psalmist contrasts violent people whose reward is in this life with his own hope of seeing God's face and being satisfied on waking. Interpreters differ over whether waking means the next morning, renewed encounter, or awakening from death. Luke announces that Jesus has risen.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "The contrast with people satisfied only in this life, together with seeing God's face after awakening, can suggest hope beyond death. Later biblical resurrection language uses sleep and awakening, allowing Christians to see Jesus's rising as the fullest realization.",
+    "reasoning": [
+      "Awakening can be resurrection imagery.",
+      "Seeing God's face suggests ultimate vindication.",
+      "The surrounding contrast may extend beyond ordinary sleep."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-kirkpatrick-ps17",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Nothing in the verse identifies a Messiah or a death followed by rising. 'When I awake' can mean waking from sleep or renewed awareness of God, and Luke 24:6 supplies no Psalm 17 link. Even a resurrection reading would express the psalmist's own hope, not uniquely predict Jesus.",
+    "reasoning": [
+      "The speaker refers to himself.",
+      "The key phrase has several live interpretations.",
+      "Luke gives no citation or verbal echo."
+    ],
+    "source_ids": [
+      "src-psalm-nicot",
+      "src-kirkpatrick-ps17",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Translations divide over whether the final word concerns God's likeness/form or simply seeing God's presence; 'awake' does not specify waking from death.",
+      "significance": "material",
+      "source_ids": [
+        "src-kirkpatrick-ps17"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "mixed_or_indeterminate",
+    "summary": "Psalm 17:15 may contain an early hope of awakening beyond death, but ordinary waking and renewed divine encounter remain plausible. It does not identify Jesus, and Luke makes no connection.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 17:15",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Literary setting and alternative readings."
+    },
+    {
+      "id": "src-kirkpatrick-ps17",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "A. F. Kirkpatrick",
+      "publisher": "Cambridge Bible for Schools and Colleges",
+      "url": "https://biblicalstudies.org.uk/pdf/e-books/kirkpatrick/psalms-book-one_kirkpatrick.pdf",
+      "locator": "Psalm 17:15",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Discusses ordinary waking and resurrection reception."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 17:15; Luke 24:6",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Texts checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-15","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-072-adversarial-2026-11-15.md","raw_output_path":"editorial/reviews/prophecy-072-adversarial-2026-11-15-raw.md","objections":[{"objection":"The speaker's own hope does not exclude later Christological application.","disposition":"accepted","reason":"The verdict permits Christian fulfilment while limiting a unique prediction claim."},{"objection":"Luke's lack of citation does not exclude every connection.","disposition":"accepted","reason":"It is treated as lack of explicit evidence, not disproof."},{"objection":"Translation and interpretive uncertainty should remain visible publicly.","disposition":"accepted","reason":"The public copy foregrounds the ambiguity of awake."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "When I awake",
+    "scripture_excerpt": "When I awake, I will be satisfied in Your presence.",
+    "website": {
+      "description": "Did Psalm 17 predict Jesus's resurrection?",
+      "summary": "The verse may express hope beyond death, but its waking language is ambiguous and Luke never connects it with Jesus.",
+      "christian_case": "Awakening, seeing God's face and satisfaction beyond this life's rewards can sound like resurrection hope. Jesus's rising gives Christians a natural fulfilment.",
+      "critical_case": "The speaker may simply expect to wake and encounter God again. The verse names no Messiah, and Luke's resurrection announcement does not quote it.",
+      "verdict_label": "A possible hope, not a clear forecast",
+      "verdict": "A resurrection reading is possible, but not secure. Even then, Psalm 17 describes the speaker's own hope rather than uniquely predicting Jesus."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 17 predict resurrection?",
+        "body": "The writer expects to see God’s face and be satisfied “when I awake.” Christians connect that awakening with Jesus rising."
+      },
+      {
+        "heading": "It may be hope beyond death",
+        "body": "The contrast with people satisfied only in this life can suggest a greater awakening and final vindication."
+      },
+      {
+        "heading": "But “awake” is ambiguous",
+        "body": "It may mean ordinary sleep or renewed awareness of God. Luke never links Jesus’s resurrection to this verse."
+      }
+    ]
+  }
+}

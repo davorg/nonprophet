@@ -1,0 +1,48 @@
+{
+   "caption" : "Luke deliberately reuses the “horn of salvation” image for Jesus in David’s house. Psalm 18 originally uses it for God while celebrating a past rescue.",
+   "claim_id" : "prophecy-073",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 18 call Jesus salvation’s horn? David calls God the horn of his salvation. Luke says God raised a horn of salvation in David’s family.",
+         "body" : "David calls God the horn of his salvation. Luke says God raised a horn of salvation in David’s family.",
+         "heading" : "Did Psalm 18 call Jesus salvation’s horn?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 18:2-3: The LORD is … the horn of my salvation, my stronghold.",
+         "body" : "The LORD is … the horn of my salvation, my stronghold.",
+         "heading" : "Ps 18:2-3",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 1:69–71, BSB: He has raised up a horn of salvation for us in the house of His servant David … salvation from our enemies.",
+         "body" : "He has raised up a horn of salvation for us in the house of His servant David … salvation from our enemies.",
+         "heading" : "Claimed fulfilment · Lk 1:69–71",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The phrase is deliberately reused Both passages celebrate rescue from enemies. Luke presents Jesus as the promised Davidic agent of God’s salvation.",
+         "body" : "Both passages celebrate rescue from enemies. Luke presents Jesus as the promised Davidic agent of God’s salvation.",
+         "heading" : "The phrase is deliberately reused",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the psalm calls God the horn It praises a rescue already received and predicts no future child. Luke gives the old image a new focus.",
+         "body" : "It praises a rescue already received and predicts no future child. Luke gives the old image a new focus.",
+         "heading" : "But the psalm calls God the horn",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-073/",
+   "title" : "The horn of salvation",
+   "verdict_category" : "retrospective_rereading"
+}

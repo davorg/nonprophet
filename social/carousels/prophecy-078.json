@@ -1,0 +1,48 @@
+{
+   "caption" : "Matthew gives Jesus’s enemies almost the exact taunt from Psalm 22. It is exceptionally close literary reuse—not independent evidence of a forecast.",
+   "claim_id" : "prophecy-078",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict this exact taunt? Mockers tell the psalmist to trust God for rescue. Matthew gives almost the same words to Jesus’s enemies.",
+         "body" : "Mockers tell the psalmist to trust God for rescue. Matthew gives almost the same words to Jesus’s enemies.",
+         "heading" : "Did Psalm 22 predict this exact taunt?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:8: He trusts in the LORD, let the LORD deliver him.",
+         "body" : "He trusts in the LORD, let the LORD deliver him.",
+         "heading" : "Ps 22:8",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 27:43, BSB: He trusts in God. Let God deliver Him now if He wants Him. For He said, ‘I am the Son of God.’”",
+         "body" : "He trusts in God. Let God deliver Him now if He wants Him. For He said, ‘I am the Son of God.’”",
+         "heading" : "Claimed fulfilment · Matt 27:43",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The connection is exceptionally close It appears among several Psalm 22 echoes. Matthew deliberately casts Jesus as the mocked righteous sufferer.",
+         "body" : "It appears among several Psalm 22 echoes. Matthew deliberately casts Jesus as the mocked righteous sufferer.",
+         "heading" : "The connection is exceptionally close",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Matthew uses the psalm’s words The psalm records an existing taunt. The match clearly shows literary reuse, whatever happened historically.",
+         "body" : "The psalm records an existing taunt. The match clearly shows literary reuse, whatever happened historically.",
+         "heading" : "But Matthew uses the psalm’s words",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-078/",
+   "title" : "Let God deliver Him",
+   "verdict_category" : "retrospective_rereading"
+}

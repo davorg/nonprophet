@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-073",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 18:2–3 predicted Jesus as the horn of salvation raised in David's house, as Luke 1:69–71 proclaims.",
+    "type": "nt_rereading",
+    "scope_notes": "Luke clearly reuses the rare phrase, but Psalm 18 calls the LORD the horn in praise for an experienced deliverance."
+  },
+  "context": {
+    "summary": "In Psalm 18 David praises the LORD as rock, fortress and horn of his salvation after rescue from enemies. Zechariah's song says God has raised a horn of salvation in David's house, using the same image for a coming Davidic deliverer.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "The distinctive phrase and shared enemy-deliverance setting make scriptural reuse highly likely, whether from Psalm 18 or its parallel in 2 Samuel 22. Luke places the saving strength in David's house and frames it as fulfilment of prophetic promises, presenting Jesus as the agent of God's own salvation.",
+    "reasoning": [
+      "The phrase is unusually close.",
+      "Both passages concern rescue from enemies.",
+      "Luke explicitly invokes earlier prophets and David's house."
+    ],
+    "source_ids": [
+      "src-geddes-luke",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 18 looks back on deliverance and identifies the LORD himself as the horn; it does not predict a future child or Davidic descendant. Luke transforms a divine-strength metaphor into a title for God's raised deliverer. That is deliberate scriptural development, not direct fulfilment of a forecast in Psalm 18.",
+    "reasoning": [
+      "The original referent is God.",
+      "The psalm is retrospective praise.",
+      "Luke changes metaphor into a Davidic figure."
+    ],
+    "source_ids": [
+      "src-geddes-luke",
+      "src-psalm-nicot",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Luke deliberately reuses Psalm 18's horn-of-salvation image for Jesus in David's house. The psalm originally praises God for past rescue, so Luke develops the image rather than reports a stated prediction coming true.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-geddes-luke",
+      "tier": 2,
+      "stance": "both",
+      "type": "thesis",
+      "title": "Luke's Interpretation of Scripture in Luke 1–2",
+      "author": "Jonathan Geddes",
+      "publisher": "Charles Sturt University",
+      "url": "https://researchoutput.csu.edu.au/ws/portalfiles/portal/112492315/Jonathan_Geddes_thesis.pdf",
+      "locator": "Luke 1:69 and Psalm 18:2",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Identifies the phrase's scriptural source and Lukan use."
+    },
+    {
+      "id": "src-psalm-nicot",
+      "tier": 2,
+      "stance": "both",
+      "type": "commentary",
+      "title": "The Book of Psalms",
+      "author": "Nancy deClaissé-Walford et al.",
+      "publisher": "NICOT",
+      "url": "https://www.thetbs.org/study-materials/wp-content/uploads/2023/03/The_Book_of_Psalms_New_International_Commentary_on_the_Old_Testament.pdf",
+      "locator": "Psalm 18:2–3",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Metaphors and deliverance setting."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 18:2–3; Luke 1:67–71",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Phrase and contexts checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-15","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-073-adversarial-2026-11-15.md","raw_output_path":"editorial/reviews/prophecy-073-adversarial-2026-11-15-raw.md","objections":[{"objection":"Psalm 18 is not proven to be Luke's particular source because Second Samuel 22 is parallel.","disposition":"accepted","reason":"The strongest case now names both possible sources."},{"objection":"Changing the grammatical referent does not break continuity in divine action.","disposition":"accepted","reason":"The verdict presents Jesus as God's agent rather than a competing referent."},{"objection":"Retrospective rereading can also be theological fulfilment.","disposition":"accepted","reason":"The final language distinguishes genre without dismissing fulfilment."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "The horn of salvation",
+    "scripture_excerpt": "The LORD is … the horn of my salvation, my stronghold.",
+    "website": {
+      "description": "Did Psalm 18 predict Jesus as the horn of salvation?",
+      "summary": "Luke deliberately reuses the image for Jesus, though Psalm 18 originally calls God the horn in praise for past rescue.",
+      "christian_case": "Luke repeats a distinctive phrase, places the saving horn in David's family and says God is fulfilling ancient promises. The connection is strong.",
+      "critical_case": "Psalm 18 calls the LORD himself the horn and celebrates rescue already received. It predicts no future Davidic child. Luke gives the old image a new focus.",
+      "verdict_label": "A deliberate image transformed",
+      "verdict": "Luke's reuse is clear and theologically substantial. It is a retrospective Davidic development of Psalm 18 rather than a direct forecast found there."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 18 call Jesus salvation’s horn?",
+        "body": "David calls God the horn of his salvation. Luke says God raised a horn of salvation in David’s family."
+      },
+      {
+        "heading": "The phrase is deliberately reused",
+        "body": "Both passages celebrate rescue from enemies. Luke presents Jesus as the promised Davidic agent of God’s salvation."
+      },
+      {
+        "heading": "But the psalm calls God the horn",
+        "body": "It praises a rescue already received and predicts no future child. Luke gives the old image a new focus."
+      }
+    ]
+  }
+}

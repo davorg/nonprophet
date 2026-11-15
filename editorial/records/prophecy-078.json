@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-078",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:8 predicted Jesus's enemies taunting him to trust God for rescue, quoted in Matthew 27:43.",
+    "type": "nt_rereading",
+    "scope_notes": "Matthew closely reproduces the Greek psalm's taunt and adds a Son-of-God explanation."
+  },
+  "context": {
+    "summary": "Psalm 22's mockers sarcastically tell the sufferer to entrust himself to the LORD and let God rescue the one he delights in. Matthew places nearly the same taunt on the chief priests, scribes and elders at Jesus's cross.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "The wording is too close to be accidental, and it appears amid multiple Psalm 22 correspondences. Matthew explicitly casts Jesus as the delighted-in righteous sufferer whose trust is tested, making this one of the passion narrative's clearest scriptural links.",
+    "reasoning": [
+      "The taunt is nearly quoted.",
+      "The wider scene repeatedly invokes Psalm 22.",
+      "Matthew's Son-of-God addition sharpens the Christological application."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Matthew narrates the taunt in the psalm's words. Psalm 22 records what mockers say to its own speaker and does not announce that future opponents will repeat it to the Messiah. The reuse is explicit interpretation, while the packet cannot settle the independent historicity of the reported taunt.",
+    "reasoning": [
+      "The source is a present lament.",
+      "Matthew's literary dependence accounts for the wording.",
+      "The Son-of-God clause is Matthew's addition."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Matthew intentionally adapts Psalm 22:8 as the taunt against Jesus, creating an exceptionally close canonical link. The psalm itself does not predict a future repetition; Matthew makes the identification retrospectively.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "Matthew 27:43 and Psalm 22",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Examines Matthew's psalmic shaping."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "Psalm 22 taunts in the passion",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Treats the explicit narrative correspondence."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:8; Matthew 27:43",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Greek-based wording and added clause checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-15","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-078-adversarial-2026-11-15.md","raw_output_path":"editorial/reviews/prophecy-078-adversarial-2026-11-15-raw.md","objections":[{"objection":"Literary dependence does not establish that Matthew invented the taunt.","disposition":"accepted","reason":"The critical case explicitly leaves historicity unsettled."},{"objection":"Present lament and later typological fulfilment are compatible.","disposition":"accepted","reason":"The verdict describes retrospective identification rather than denying fulfilment."},{"objection":"The strongest case needs more than verbal correspondence.","disposition":"accepted","reason":"The whole righteous-sufferer pattern remains central."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Let God deliver Him",
+    "scripture_excerpt": "He trusts in the LORD, let the LORD deliver him.",
+    "website": {
+      "description": "Did Psalm 22 predict the taunt thrown at Jesus?",
+      "summary": "Matthew closely adapts the psalm's words for Jesus's mockers, making the link clear but literarily dependent.",
+      "christian_case": "The leaders' taunt nearly quotes Psalm 22 and sits among several other echoes. Matthew unmistakably identifies Jesus with the righteous sufferer.",
+      "critical_case": "Psalm 22 records an existing sufferer's mockery rather than predicting repeated words. Matthew knows the psalm and uses it to construct the scene.",
+      "verdict_label": "A near quotation used retrospectively",
+      "verdict": "The Christian application is exact and deliberate. Its precision demonstrates Matthew's scriptural interpretation, not an independent forecast fulfilled by chance."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict this exact taunt?",
+        "body": "Mockers tell the psalmist to trust God for rescue. Matthew gives almost the same words to Jesus’s enemies."
+      },
+      {
+        "heading": "The connection is exceptionally close",
+        "body": "It appears among several Psalm 22 echoes. Matthew deliberately casts Jesus as the mocked righteous sufferer."
+      },
+      {
+        "heading": "But Matthew borrows the words",
+        "body": "The psalm records an existing taunt. The match shows literary reuse, not independent advance knowledge."
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-075",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:1 predicted Jesus's cry of abandonment on the cross, quoted exactly in Matthew 27:46.",
+    "type": "nt_rereading",
+    "scope_notes": "Matthew explicitly places the psalm's opening words on Jesus's lips. The psalm is an individual lament in its own setting rather than an announced future quotation."
+  },
+  "context": {
+    "summary": "Psalm 22 begins with a sufferer's anguished complaint, continues through mockery and danger, and ends in vindication and worldwide praise. Matthew narrates Jesus quoting its opening from the cross and weaves other psalm language into the scene.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Matthew presents a direct translated quotation that belongs to a wider concentration of Psalm 22 imagery in chapter 27. The opening line can invoke the whole lament, allowing Christians to see Jesus's suffering and vindication as its climactic realization.",
+    "reasoning": [
+      "Matthew explicitly reports the quotation.",
+      "Multiple nearby details reinforce deliberate reuse.",
+      "The psalm's movement from suffering to vindication fits the passion-resurrection story."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Exact quotation proves Matthew's application, not that the psalm originally forecast a future speaker. Psalm 22 gives voice to a sufferer's present distress and eventual praise. The Gospel makes Jesus inhabit that scriptural pattern; it does not discover a line announcing that the Messiah will say these words.",
+    "reasoning": [
+      "The psalm is first-person lament, not future prediction.",
+      "Quotation can express experience without fulfilling a forecast.",
+      "Matthew's literary shaping is itself the evidence of connection."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Matthew's Psalm 22 connection is explicit and central to its passion account. The exact match results from Jesus quoting an existing lament; the psalm itself does not predict that a future Messiah will repeat its opening words.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "Matthew 27 and Psalm 22",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Describes Psalm 22 as an anchor for Matthew's narrative."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "cry of abandonment and other passion links",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Surveys the passion narrative's use of Psalm 22."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22; Matthew 27:35–46",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Exact quotation and surrounding reuse checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-15","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-075-adversarial-2026-11-15.md","raw_output_path":"editorial/reviews/prophecy-075-adversarial-2026-11-15-raw.md","objections":[{"objection":"Fulfilment need not be reduced to an explicit forecast of future speech.","disposition":"accepted","reason":"The final verdict preserves fuller typological realization as a Christian reading."},{"objection":"Exact quotation requires linguistic qualification across Hebrew, Aramaic and Greek.","disposition":"accepted","reason":"The strongest case now calls it a direct translated quotation."},{"objection":"Whole-psalm invocation is a substantial Christian counterargument.","disposition":"accepted","reason":"The record makes the psalm's full movement part of the strongest case."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "My God, why have You forsaken me?",
+    "scripture_excerpt": "My God, my God, why have You forsaken me?",
+    "website": {
+      "description": "Did Psalm 22 predict Jesus's cry from the cross?",
+      "summary": "Matthew quotes the words exactly and builds its passion scene around the psalm, but quotation is not the same as advance prediction.",
+      "christian_case": "Jesus speaks the exact opening line, while mockery and other nearby details also echo Psalm 22. Matthew clearly presents Jesus through this lament.",
+      "critical_case": "The psalm gives words to a sufferer in its own setting. It never says a future Messiah will repeat them. Jesus or Matthew applies an existing prayer to the crucifixion.",
+      "verdict_label": "An exact quotation, retrospectively applied",
+      "verdict": "This is one of the strongest New Testament uses of a psalm. It demonstrates deliberate identification with Psalm 22, not an independently stated forecast."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict Jesus’s cry?",
+        "body": "Jesus cries, “My God, My God, why have You forsaken Me?”—the exact opening of Psalm 22."
+      },
+      {
+        "heading": "The connection is undeniable",
+        "body": "Matthew surrounds the cross with more language from the same psalm. Jesus is deliberately portrayed through it."
+      },
+      {
+        "heading": "But quotation is not prediction",
+        "body": "Psalm 22 is an existing sufferer’s prayer. It never says a future Messiah will repeat these words."
+      }
+    ]
+  }
+}

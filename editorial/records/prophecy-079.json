@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-079",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:9–10 predicted the birth of Jesus as Saviour, fulfilled when Mary gave birth in Luke 2:7.",
+    "type": "source_error",
+    "scope_notes": "The psalmist recalls his own birth and lifelong dependence on God. Neither verse uses Saviour language or describes an unusual birth."
+  },
+  "context": {
+    "summary": "The suffering speaker appeals to God's care from ordinary birth and infancy as a reason for help now. Luke simply reports Mary giving birth to her firstborn son and laying him in a manger.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Within Matthew's broader use of Psalm 22 for Jesus, the speaker's lifelong relationship with God can be read christologically from birth through suffering. Luke's infancy narrative identifies Jesus as Saviour nearby, allowing Christians to include his birth within the psalmic portrait.",
+    "reasoning": [
+      "Christian tradition applies the psalm's speaker to Jesus.",
+      "Both texts mention birth from a mother.",
+      "Luke calls Jesus Saviour elsewhere in the same scene."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Being born from a womb and nursed is universal human experience, not an identifying prediction. Psalm 22:9–10 says nothing about becoming or being born a Saviour, while Luke 2:7 itself merely narrates a birth. The title comes from Luke 2:11, outside the citation, and no New Testament writer connects these verses.",
+    "reasoning": [
+      "The shared detail is universal.",
+      "Saviour is absent from both cited verses.",
+      "Luke offers no Psalm 22 link here."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "source_claim_incorrect",
+    "summary": "Psalm 22's speaker recalls ordinary birth and dependence on God. It neither predicts a distinctive birth nor calls the child Saviour, so the claimed content is absent from the cited verses.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "scope of Psalm 22 reuse",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Psalm use is concentrated in the passion, not Luke's birth account."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "major New Testament links",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Does not identify the infancy wording as a narrative link."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:9–10; Luke 2:7, 11",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Birth and Saviour wording checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-15","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-079-adversarial-2026-11-15.md","raw_output_path":"editorial/reviews/prophecy-079-adversarial-2026-11-15-raw.md","objections":[{"objection":"The seed may intend part of a larger Christological portrait rather than an independent identifier.","disposition":"accepted","reason":"The strongest case acknowledges the whole-psalm reading."},{"objection":"Generic detail limits identification but does not exclude application.","disposition":"accepted","reason":"The verdict addresses prediction specificity, not whether Christians may apply the words to Jesus."},{"objection":"The source claim should be limited to the cited verses.","disposition":"accepted","reason":"The conclusion narrowly notes that birth as Saviour is absent there."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Born the Saviour?",
+    "scripture_excerpt": "You brought me forth from the womb; You made me secure at my mother's breast.",
+    "website": {
+      "description": "Did Psalm 22 predict the birth of Jesus as Saviour?",
+      "summary": "The speaker recalls an ordinary birth and God's lifelong care; the verses never mention a Saviour.",
+      "christian_case": "Christians read Psalm 22 through Jesus, and Luke's wider birth scene calls him Saviour. That makes a whole-life christological reading possible.",
+      "critical_case": "Birth from a mother is universal. The psalm mentions no Saviour or unusual birth, and Luke never connects the manger scene with these words.",
+      "verdict_label": "The claimed detail is absent",
+      "verdict": "Psalm 22:9–10 does not predict that the Saviour will be born. It describes the existing speaker's dependence on God since infancy."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict the Saviour’s birth?",
+        "body": "The psalmist recalls being born and cared for from infancy. Luke reports that Mary gave birth to Jesus."
+      },
+      {
+        "heading": "A whole-life reading is possible",
+        "body": "Christians apply Psalm 22 to Jesus and Luke calls him Saviour elsewhere in the birth story."
+      },
+      {
+        "heading": "But this detail identifies nobody",
+        "body": "Everyone is born from a mother. The psalm never says “Saviour,” and Luke makes no connection to it."
+      }
+    ]
+  }
+}

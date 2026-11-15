@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-071",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 16:9–11 anticipated Jesus rising from the dead, the Scripture John 20:9 says the disciples had not understood.",
+    "type": "nt_rereading",
+    "scope_notes": "John names no passage. Acts 2 and 13 explicitly apply Psalm 16:10 to Jesus's resurrection, making the Christian identification strong but duplicating claim 070."
+  },
+  "context": {
+    "summary": "Psalm 16 expresses confidence that God will preserve the speaker from Sheol and lead him on the path of life. John says the disciples had not yet understood 'the Scripture' that Jesus must rise, without identifying it. Acts elsewhere builds an explicit resurrection argument from this psalm.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Acts twice identifies Psalm 16 as resurrection Scripture about Jesus, so it is a leading candidate for John's general reference. The secure body, escape from Sheol and path of life form a coherent resurrection sequence in Christian reading.",
+    "reasoning": [
+      "Acts explicitly makes the connection.",
+      "John uses singular Scripture but leaves it unnamed.",
+      "The passage's life-after-Sheol language fits resurrection reception."
+    ],
+    "source_ids": [
+      "src-cuany-ps16",
+      "src-groenewald-ps16",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "John 20:9 does not cite Psalm 16, and may refer to Scripture collectively. Within the psalm, the speaker can be expressing confidence of preservation from death rather than return after dying. Acts supplies the specific Davidic-resurrection interpretation, and this entry adds little independent evidence beyond claim 070.",
+    "reasoning": [
+      "John identifies no source.",
+      "Preservation from death is not resurrection after death.",
+      "The explicit Acts evidence is already counted separately."
+    ],
+    "source_ids": [
+      "src-cuany-ps16",
+      "src-groenewald-ps16",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "The Hebrew can describe rescue from the Pit; the Septuagint's corruption wording supports the bodily-decay argument used in Acts.",
+      "significance": "material",
+      "source_ids": [
+        "src-groenewald-ps16"
+      ]
+    }
+  ],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Psalm 16 is explicitly made resurrection Scripture in Acts and may lie behind John's general statement. John itself does not name the psalm, and the original prayer does not unambiguously describe dying and rising.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-cuany-ps16",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Divine Necessity of the Resurrection",
+      "author": "Monique Cuany",
+      "publisher": "New Testament Studies",
+      "url": "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/divine-necessity-of-the-resurrection-a-reassessment-of-the-use-of-psalm-16-in-acts-2/4A352A46F38E4277DA164A989DF7762F",
+      "locator": "Psalm 16 in Acts 2",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Assesses Acts's resurrection use beyond a simple prediction-proof model."
+    },
+    {
+      "id": "src-groenewald-ps16",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Psalm 16 (LXX Psalm 15) and Acts of the Apostles",
+      "author": "Alphonso Groenewald",
+      "publisher": "University of Pretoria repository",
+      "url": "https://repository.up.ac.za/items/ebbae2c0-8620-43d7-9cc8-013a87c9225a",
+      "locator": "Greek wording and resurrection application",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Explains Septuagint features used in Acts."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 16:9–11; John 20:9; Acts 2:25–32; 13:35–37",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Passages and explicit links checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6 Astra","date":"2026-11-15","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-071-adversarial-2026-11-15.md","raw_output_path":"editorial/reviews/prophecy-071-adversarial-2026-11-15-raw.md","objections":[{"objection":"Acts establishes Christian use of Psalm 16 but not John's particular unnamed referent.","disposition":"accepted","reason":"The final copy calls Psalm 16 a strong candidate rather than John's identified source."},{"objection":"Preservation and resurrection readings both need fair treatment.","disposition":"accepted","reason":"Both remain explicit in the assessment."},{"objection":"Duplication is an editorial issue rather than evidence against fulfilment.","disposition":"accepted","reason":"Duplication is noted separately from the substantive verdict."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "The path of life",
+    "scripture_excerpt": "You will not abandon my soul to Sheol … You have made known to me the path of life.",
+    "website": {
+      "description": "Did Psalm 16 predict Jesus rising from the dead?",
+      "summary": "Acts explicitly reads it that way; John says only that Scripture required resurrection and names no passage.",
+      "christian_case": "Psalm 16 combines bodily safety, escape from Sheol and the path of life. Acts twice applies it to Jesus, making it a strong candidate for the Scripture John mentions.",
+      "critical_case": "John never identifies Psalm 16. The psalm can describe rescue from death rather than resurrection after death, while Acts supplies the later Davidic argument.",
+      "verdict_label": "Explicit elsewhere, unnamed here",
+      "verdict": "The Christian resurrection reading is early and explicit in Acts. John 20:9 adds no clear Psalm 16 citation, and this claim largely duplicates the preceding one."
+    },
+    "carousel": [
+      {
+        "heading": "Is Psalm 16 John’s resurrection Scripture?",
+        "body": "The psalm speaks of escape from the grave and a path of life. John says Scripture required Jesus to rise."
+      },
+      {
+        "heading": "Acts makes the link explicit",
+        "body": "Two speeches in Acts quote this psalm about Jesus’s resurrection. It is a strong candidate for John’s unnamed Scripture."
+      },
+      {
+        "heading": "But John never names the passage",
+        "body": "The psalm may describe rescue from death. Its specific resurrection meaning comes through Acts’s later argument."
+      }
+    ]
+  }
+}

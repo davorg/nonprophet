@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 22 recalls an ordinary birth and lifelong dependence on God. It never predicts that a Saviour will be born, and Luke makes no connection to it.",
+   "claim_id" : "prophecy-079",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict the Saviour’s birth? The psalmist recalls being born and cared for from infancy. Luke reports that Mary gave birth to Jesus.",
+         "body" : "The psalmist recalls being born and cared for from infancy. Luke reports that Mary gave birth to Jesus.",
+         "heading" : "Did Psalm 22 predict the Saviour’s birth?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:9-10: You brought me forth from the womb; You made me secure at my mother's breast.",
+         "body" : "You brought me forth from the womb; You made me secure at my mother's breast.",
+         "heading" : "Ps 22:9-10",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 2:7, BSB: And she gave birth to her firstborn, a Son. She wrapped Him in swaddling cloths and laid Him in a manger, because there was no room for them in the inn.",
+         "body" : "And she gave birth to her firstborn, a Son. She wrapped Him in swaddling cloths and laid Him in a manger, because there was no room for them in the inn.",
+         "heading" : "Claimed fulfilment · Lk 2:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: A whole-life reading is possible Christians apply Psalm 22 to Jesus and Luke calls him Saviour elsewhere in the birth story.",
+         "body" : "Christians apply Psalm 22 to Jesus and Luke calls him Saviour elsewhere in the birth story.",
+         "heading" : "A whole-life reading is possible",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But this detail identifies nobody Everyone is born from a mother. The psalm never says “Saviour,” and Luke makes no connection to it.",
+         "body" : "Everyone is born from a mother. The psalm never says “Saviour,” and Luke makes no connection to it.",
+         "heading" : "But this detail identifies nobody",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-079/",
+   "title" : "Born the Saviour?",
+   "verdict_category" : "source_claim_incorrect"
+}

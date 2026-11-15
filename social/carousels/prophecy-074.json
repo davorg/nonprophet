@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus quotes Psalm 22 and Paul says Christ was made sin for others. But neither verse says he was forsaken because of others’ sins—that link is inferred.",
+   "claim_id" : "prophecy-074",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Forsaken because he bore others’ sins? Jesus quotes Psalm 22’s cry on the cross. Paul says the sinless Christ was made sin for others.",
+         "body" : "Jesus quotes Psalm 22’s cry on the cross. Paul says the sinless Christ was made sin for others.",
+         "heading" : "Forsaken because he bore others’ sins?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:1: My God, my God, why have You forsaken me?",
+         "body" : "My God, my God, why have You forsaken me?",
+         "heading" : "Ps 22:1",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in 2 Cor 5:21, BSB: God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God.",
+         "body" : "God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God.",
+         "heading" : "Claimed fulfilment · 2 Cor 5:21",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The theology fits together Many Christians understand the cry as the cost of Jesus bearing human sin. Both ideas matter to the cross.",
+         "body" : "Many Christians understand the cry as the cost of Jesus bearing human sin. Both ideas matter to the cross.",
+         "heading" : "The theology fits together",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But neither verse gives that cause Psalm 22 never mentions others’ sins. Second Corinthians never says God abandoned Jesus.",
+         "body" : "Psalm 22 never mentions others’ sins. Second Corinthians never says God abandoned Jesus.",
+         "heading" : "But neither verse gives that cause",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-074/",
+   "title" : "Forsaken for others' sins?",
+   "verdict_category" : "source_claim_incorrect"
+}

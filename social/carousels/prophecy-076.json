@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 22 says the sufferer prays by day and night. It does not predict daytime darkness or three hours—those details come entirely from Matthew.",
+   "claim_id" : "prophecy-076",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Calvary’s darkness? The psalmist cries to God by day and by night. Matthew reports three hours of darkness during the crucifixion.",
+         "body" : "The psalmist cries to God by day and by night. Matthew reports three hours of darkness during the crucifixion.",
+         "heading" : "Did Psalm 22 predict Calvary’s darkness?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:2: I cry out by day … and by night, but I have no rest.",
+         "body" : "I cry out by day … and by night, but I have no rest.",
+         "heading" : "Ps 22:2",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 27:45, BSB: From the sixth hour until the ninth hour darkness came over all the land.",
+         "body" : "From the sixth hour until the ninth hour darkness came over all the land.",
+         "heading" : "Claimed fulfilment · Matt 27:45",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The wider Psalm 22 link is real Matthew uses the psalm repeatedly, and Jesus quotes its opening immediately after the darkness.",
+         "body" : "Matthew uses the psalm repeatedly, and Jesus quotes its opening immediately after the darkness.",
+         "heading" : "The wider Psalm 22 link is real",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But verse 2 predicts no darkness It describes constant prayer by day and night. The three hours come entirely from Matthew.",
+         "body" : "It describes constant prayer by day and night. The three hours come entirely from Matthew.",
+         "heading" : "But verse 2 predicts no darkness",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-076/",
+   "title" : "Darkness for three hours?",
+   "verdict_category" : "source_claim_incorrect"
+}

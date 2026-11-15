@@ -1,0 +1,48 @@
+{
+   "caption" : "Does “when I awake” predict resurrection? It may express hope beyond death—but ordinary waking remains possible, and Luke never connects Jesus with this verse.",
+   "claim_id" : "prophecy-072",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 17 predict resurrection? The writer expects to see God’s face and be satisfied “when I awake.” Christians connect that awakening with Jesus rising.",
+         "body" : "The writer expects to see God’s face and be satisfied “when I awake.” Christians connect that awakening with Jesus rising.",
+         "heading" : "Did Psalm 17 predict resurrection?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 17:15: When I awake, I will be satisfied in Your presence.",
+         "body" : "When I awake, I will be satisfied in Your presence.",
+         "heading" : "Ps 17:15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 24:6, BSB: He is not here; He has risen! Remember how He told you while He was still in Galilee:",
+         "body" : "He is not here; He has risen! Remember how He told you while He was still in Galilee:",
+         "heading" : "Claimed fulfilment · Lk 24:6",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: It may be hope beyond death The contrast with people satisfied only in this life can suggest a greater awakening and final vindication.",
+         "body" : "The contrast with people satisfied only in this life can suggest a greater awakening and final vindication.",
+         "heading" : "It may be hope beyond death",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But “awake” is ambiguous It may mean ordinary sleep or renewed awareness of God. Luke never links Jesus’s resurrection to this verse.",
+         "body" : "It may mean ordinary sleep or renewed awareness of God. Luke never links Jesus’s resurrection to this verse.",
+         "heading" : "But “awake” is ambiguous",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-072/",
+   "title" : "When I awake",
+   "verdict_category" : "mixed_or_indeterminate"
+}

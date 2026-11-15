@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 16 is a strong candidate for John’s unnamed resurrection Scripture because Acts explicitly uses it that way. John itself never identifies the passage.",
+   "claim_id" : "prophecy-071",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Is Psalm 16 John’s resurrection Scripture? The psalm speaks of escape from the grave and a path of life. John says Scripture required Jesus to rise.",
+         "body" : "The psalm speaks of escape from the grave and a path of life. John says Scripture required Jesus to rise.",
+         "heading" : "Is Psalm 16 John’s resurrection Scripture?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 16:9-11: You will not abandon my soul to Sheol … You have made known to me the path of life.",
+         "body" : "You will not abandon my soul to Sheol … You have made known to me the path of life.",
+         "heading" : "Ps 16:9-11",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 20:9, BSB: For they still did not understand from the Scripture that Jesus had to rise from the dead.",
+         "body" : "For they still did not understand from the Scripture that Jesus had to rise from the dead.",
+         "heading" : "Claimed fulfilment · Jn 20:9",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Acts makes the link explicit Two speeches in Acts quote this psalm about Jesus’s resurrection. It is a strong candidate for John’s unnamed Scripture.",
+         "body" : "Two speeches in Acts quote this psalm about Jesus’s resurrection. It is a strong candidate for John’s unnamed Scripture.",
+         "heading" : "Acts makes the link explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But John never names the passage The psalm may describe rescue from death. Its specific resurrection meaning comes through Acts’s later argument.",
+         "body" : "The psalm may describe rescue from death. Its specific resurrection meaning comes through Acts’s later argument.",
+         "heading" : "But John never names the passage",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-071/",
+   "title" : "The path of life",
+   "verdict_category" : "retrospective_rereading"
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 22’s bulls and lions can illustrate the deadly hostility around Jesus. But the broad danger image predicts no execution method and John never cites it.",
+   "claim_id" : "prophecy-080",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict deadly enemies? The psalmist is surrounded by bulls and lions. John describes leaders shouting for Jesus to be crucified.",
+         "body" : "The psalmist is surrounded by bulls and lions. John describes leaders shouting for Jesus to be crucified.",
+         "heading" : "Did Psalm 22 predict deadly enemies?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:12-13: Many bulls surround me … They open their jaws against me like lions.",
+         "body" : "Many bulls surround me … They open their jaws against me like lions.",
+         "heading" : "Ps 22:12-13",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 19:6, BSB: As soon as the chief priests and officers saw Him, they shouted, “Crucify Him! Crucify Him!” “You take Him and crucify Him,” Pilate replied, “for I find no basis for a charge against Him.”",
+         "body" : "As soon as the chief priests and officers saw Him, they shouted, “Crucify Him! Crucify Him!” “You take Him and crucify Him,” Pilate replied, “for I find no basis for a charge against Him.”",
+         "heading" : "Claimed fulfilment · Jn 19:6",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The danger motif fits Predators vividly picture powerful enemies closing in. Christians already read the wider psalm through the passion.",
+         "body" : "Predators vividly picture powerful enemies closing in. Christians already read the wider psalm through the passion.",
+         "heading" : "The danger motif fits",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the image is very broad The psalm names no execution or crucifixion. John never links these animal metaphors with Jesus’s accusers.",
+         "body" : "The psalm names no execution or crucifixion. John never links these animal metaphors with Jesus’s accusers.",
+         "heading" : "But the image is very broad",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-080/",
+   "title" : "Surrounded by enemies",
+   "verdict_category" : "thematic_parallel_only"
+}

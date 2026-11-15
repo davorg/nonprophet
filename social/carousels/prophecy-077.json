@@ -1,0 +1,48 @@
+{
+   "caption" : "Matthew deliberately depicts Jesus through Psalm 22’s mocked, head-shaken sufferer. The correspondence is strong because the Gospel reuses the psalm.",
+   "claim_id" : "prophecy-077",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Jesus’s mockers? The psalmist is mocked by people shaking their heads. Matthew describes passers-by doing the same to Jesus.",
+         "body" : "The psalmist is mocked by people shaking their heads. Matthew describes passers-by doing the same to Jesus.",
+         "heading" : "Did Psalm 22 predict Jesus’s mockers?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:7: All who see me mock me; they sneer and shake their heads.",
+         "body" : "All who see me mock me; they sneer and shake their heads.",
+         "heading" : "Ps 22:7",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Matt 27:39–44, BSB: Those who passed by heaped abuse on Him, shaking their heads … In the same way, the chief priests, scribes, and elders mocked Him.",
+         "body" : "Those who passed by heaped abuse on Him, shaking their heads … In the same way, the chief priests, scribes, and elders mocked Him.",
+         "heading" : "Claimed fulfilment · Matt 27:39–44",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The match is deliberate Matthew uses more Psalm 22 language throughout the scene. Jesus is presented as its suffering figure.",
+         "body" : "Matthew uses more Psalm 22 language throughout the scene. Jesus is presented as its suffering figure.",
+         "heading" : "The match is deliberate",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Matthew knows the psalm The original is a sufferer’s present prayer. Literary reuse explains why Matthew’s later account matches it so closely.",
+         "body" : "The original is a sufferer’s present prayer. Literary reuse explains why Matthew’s later account matches it so closely.",
+         "heading" : "But Matthew knows the psalm",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-077/",
+   "title" : "Mocked with shaking heads",
+   "verdict_category" : "retrospective_rereading"
+}
