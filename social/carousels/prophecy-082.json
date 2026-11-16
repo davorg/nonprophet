@@ -1,0 +1,48 @@
+{
+   "caption" : "Mark deliberately connects Jesus’s death with Psalm 22. But extreme agony is a broad human experience, not a specific prediction of Calvary.",
+   "claim_id" : "prophecy-082",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Calvary’s agony? The psalm describes a body failing near death. Mark describes Jesus crying out and dying on the cross.",
+         "body" : "The psalm describes a body failing near death. Mark describes Jesus crying out and dying on the cross.",
+         "heading" : "Did Psalm 22 predict Calvary’s agony?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:14-15: My strength is dried up … You lay me in the dust of death.",
+         "body" : "My strength is dried up … You lay me in the dust of death.",
+         "heading" : "Ps 22:14-15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Mk 15:34–37, BSB: Jesus cried out, ‘My God, My God, why have You forsaken Me?’ … Then He breathed His last.",
+         "body" : "Jesus cried out, ‘My God, My God, why have You forsaken Me?’ … Then He breathed His last.",
+         "heading" : "Claimed fulfilment · Mk 15:34–37",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Mark makes a real connection Jesus quotes the opening of Psalm 22. Readers are clearly meant to see his death through this ancient lament.",
+         "body" : "Jesus quotes the opening of Psalm 22. Readers are clearly meant to see his death through this ancient lament.",
+         "heading" : "Mark makes a real connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But agony is not very specific Many people suffer terribly before death. The psalm fits Jesus, but it does not uniquely predict Calvary.",
+         "body" : "Many people suffer terribly before death. The psalm fits Jesus, but it does not uniquely predict Calvary.",
+         "heading" : "But agony is not very specific",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-082/",
+   "title" : "Agony at Calvary",
+   "verdict_category" : "retrospective_rereading"
+}

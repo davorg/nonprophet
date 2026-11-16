@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-084",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:16 predicted that Jesus's hands and feet would be pierced in crucifixion, fulfilled in John 19:34–37 and 20:27.",
+    "type": "textual_variant_claim",
+    "scope_notes": "The claimed wording is textually disputed, and John's explicit pierced-one quotation is from Zechariah 12:10."
+  },
+  "context": {
+    "summary": "One ancient reading of Psalm 22:16 refers to the sufferer's hands and feet being dug or pierced; the Masoretic Text reads ‘like a lion.’ John describes Jesus's wounded hands and pierced side.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "The pre-Christian Greek translation reads ‘they dug my hands and feet,’ and an early Hebrew witness may support a verbal reading. Combined with Psalm 22's wider passion links, this can look remarkably like crucifixion wounds later shown to Thomas.",
+    "reasoning": [
+      "The verbal reading is ancient, not a modern Christian invention.",
+      "Hands and feet are named in a death scene.",
+      "John 20 identifies wounds in Jesus's hands."
+    ],
+    "source_ids": [
+      "src-hopkin-ps22-16",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The Hebrew evidence is difficult and the major readings differ: ‘like a lion,’ ‘dug’ and the interpretive English ‘pierced.’ Even the verbal reading does not specify nails or crucifixion. John's explicit piercing quotation is from Zechariah 12:10, and these passages do not say Jesus's feet were pierced.",
+    "reasoning": [
+      "The key word is textually disputed.",
+      "‘Dug’ is not an unambiguous prediction of crucifixion.",
+      "The cited fulfilment passage in John is Zechariah, and the proposed NT texts do not mention pierced feet."
+    ],
+    "source_ids": [
+      "src-hopkin-ps22-16",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "Most Masoretic manuscripts read ‘like a lion at my hands and feet’; the Greek reads ‘they dug,’ while an early Hebrew witness is often read as supporting a verbal form. ‘Pierced’ is an interpretive English rendering.",
+      "impact": "The apparent precision of the prediction depends heavily on choosing and interpreting one disputed reading."
+    }
+  ],
+  "verdict": {
+    "category": "depends_on_disputed_text_or_translation",
+    "summary": "An ancient verbal reading makes the Christian connection understandable, but ‘pierced’ is not a secure or uncontested Hebrew text and even ‘dug’ does not specify crucifixion. John's explicit piercing citation comes from Zechariah.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-hopkin-ps22-16",
+      "tier": 2,
+      "stance": "supportive",
+      "type": "journal_article",
+      "title": "The Psalm 22:16 Controversy: New Evidence from the Dead Sea Scrolls",
+      "author": "Shon D. Hopkin",
+      "publisher": "BYU Studies",
+      "url": "https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/hopkin/2022-02-07/shon_d._hopkin_byus_44.3_the_psalm_22.16_controversy_2005_161-172.pdf",
+      "locator": "textual witnesses and proposed readings",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Makes a strong case for the antiquity of the verbal reading; its confessional setting and conclusions are weighed accordingly."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "Psalm 22 and crucifixion tradition",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Provides the wider Christian literary case."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:16; John 19:34–37; 20:27",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "The BSB itself footnotes the main textual alternatives."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm", "model": "GPT-6 Astra", "date": "2026-11-15", "prompt_version": "2",
+      "prompt_path": "editorial/review-prompts/prophecy-084-adversarial-2026-11-15.md",
+      "raw_output_path": "editorial/reviews/prophecy-084-adversarial-2026-11-15-raw.md",
+      "objections": [
+        {"objection": "A disputed reading can still be textually preferable; dispute alone is not disproof.", "disposition": "accepted", "reason": "The verdict treats the variant as a reason for caution, not as evidence that the verbal reading is false."},
+        {"objection": "John does not name Zechariah, and quoting it does not exclude Psalm 22.", "disposition": "accepted", "reason": "The wording now says the explicit quotation is from Zechariah without claiming that John excludes all other connections."},
+        {"objection": "The cited passages' silence about feet is not evidence that Jesus's feet were unwounded.", "disposition": "accepted", "reason": "The critical case is now expressly limited to what these passages report."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Pierced hands and feet",
+    "scripture_excerpt": "They have pierced my hands and feet.",
+    "website": {
+      "description": "Did Psalm 22 predict the wounds of Jesus's crucifixion?",
+      "summary": "The famous wording rests on a real ancient variant, but the text and its meaning are disputed.",
+      "christian_case": "An ancient Greek translation says the sufferer's hands and feet were ‘dug,’ and an early Hebrew witness may support a similar reading. Jesus later shows wounds in his hands.",
+      "critical_case": "Other Hebrew manuscripts read ‘like a lion.’ Even ‘dug’ does not plainly mean nailed to a cross. John links the pierced side to Zechariah and says nothing here about pierced feet.",
+      "verdict_label": "Depends on a disputed text",
+      "verdict": "The connection is possible only after choosing and interpreting a contested reading; it is not the clear prediction often presented."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict pierced hands and feet?",
+        "body": "Some ancient texts say the sufferer’s hands and feet were ‘dug’ or ‘pierced.’ Jesus later shows wounds in his hands."
+      },
+      {
+        "heading": "The reading is genuinely ancient",
+        "body": "It was not invented by modern Christians. An early Greek translation—and perhaps an early Hebrew copy—supports a verb here."
+      },
+      {
+        "heading": "But the wording is disputed",
+        "body": "Other Hebrew texts say ‘like a lion.’ Even ‘dug’ does not clearly mean crucified, while John explicitly quotes Zechariah."
+      }
+    ]
+  }
+}

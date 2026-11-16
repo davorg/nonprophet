@@ -1,0 +1,48 @@
+{
+   "caption" : "John says Jesus’s thirst fulfilled Scripture. Psalm 22 may be part of the meaning—but the sour wine points just as strongly to Psalm 69.",
+   "claim_id" : "prophecy-083",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Jesus’s thirst? The psalmist’s mouth is painfully dry. John says Jesus declared, ‘I am thirsty,’ to fulfil Scripture.",
+         "body" : "The psalmist’s mouth is painfully dry. John says Jesus declared, ‘I am thirsty,’ to fulfil Scripture.",
+         "heading" : "Did Psalm 22 predict Jesus’s thirst?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:15: My tongue sticks to the roof of my mouth.",
+         "body" : "My tongue sticks to the roof of my mouth.",
+         "heading" : "Ps 22:15",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 19:28, BSB: After this, knowing that everything had now been accomplished, and to fulfill the Scripture, Jesus said, “I am thirsty.”",
+         "body" : "After this, knowing that everything had now been accomplished, and to fulfill the Scripture, Jesus said, “I am thirsty.”",
+         "heading" : "Claimed fulfilment · Jn 19:28",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: This is a plausible connection John has just used another line from Psalm 22. Its picture of a dry mouth fits Jesus’s words naturally.",
+         "body" : "John has just used another line from Psalm 22. Its picture of a dry mouth fits Jesus’s words naturally.",
+         "heading" : "This is a plausible connection",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But John never names the verse The sour wine that follows points just as clearly to Psalm 69. Both psalms may be part of John’s meaning.",
+         "body" : "The sour wine that follows points just as clearly to Psalm 69. Both psalms may be part of John’s meaning.",
+         "heading" : "But John never names the verse",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-083/",
+   "title" : "Jesus said, “I am thirsty”",
+   "verdict_category" : "mixed_or_indeterminate"
+}

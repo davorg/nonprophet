@@ -10,6 +10,6 @@ robots: "noindex, nofollow"
 ---
 <div class="status-grid">
   <section class="status-card"><span>Published</span><strong>74</strong><p>claims currently live</p></section>
-  <section class="status-card"><span>Queued</span><strong>6</strong><p>reviewed claims waiting</p></section>
-  <section class="status-card status-card-date"><span>Queue runs out</span><strong><time datetime="2026-11-21">21 November 2026</time></strong><p>assuming one publication each day</p></section>
+  <section class="status-card"><span>Queued</span><strong>11</strong><p>reviewed claims waiting</p></section>
+  <section class="status-card status-card-date"><span>Queue runs out</span><strong><time datetime="2026-11-26">26 November 2026</time></strong><p>assuming one publication each day</p></section>
 </div>

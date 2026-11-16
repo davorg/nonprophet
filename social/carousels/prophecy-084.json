@@ -1,0 +1,48 @@
+{
+   "caption" : "‘They pierced my hands and feet’ follows a genuinely ancient—but disputed—reading. Even ‘dug’ does not clearly predict crucifixion, and John explicitly quotes Zechariah.",
+   "claim_id" : "prophecy-084",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict pierced hands and feet? Some ancient texts say the sufferer’s hands and feet were ‘dug’ or ‘pierced.’ Jesus later shows wounds in his hands.",
+         "body" : "Some ancient texts say the sufferer’s hands and feet were ‘dug’ or ‘pierced.’ Jesus later shows wounds in his hands.",
+         "heading" : "Did Psalm 22 predict pierced hands and feet?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:16: They have pierced my hands and feet.",
+         "body" : "They have pierced my hands and feet.",
+         "heading" : "Ps 22:16",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 19:34–37, BSB: One of the soldiers pierced His side with a spear … ‘They will look on the One they have pierced.’",
+         "body" : "One of the soldiers pierced His side with a spear … ‘They will look on the One they have pierced.’",
+         "heading" : "Claimed fulfilment · Jn 19:34–37",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The reading is genuinely ancient It was not invented by modern Christians. An early Greek translation—and perhaps an early Hebrew copy—supports a verb here.",
+         "body" : "It was not invented by modern Christians. An early Greek translation—and perhaps an early Hebrew copy—supports a verb here.",
+         "heading" : "The reading is genuinely ancient",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the wording is disputed Other Hebrew texts say ‘like a lion.’ Even ‘dug’ does not clearly mean crucified, while John explicitly quotes Zechariah.",
+         "body" : "Other Hebrew texts say ‘like a lion.’ Even ‘dug’ does not clearly mean crucified, while John explicitly quotes Zechariah.",
+         "heading" : "But the wording is disputed",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-084/",
+   "title" : "Pierced hands and feet",
+   "verdict_category" : "depends_on_disputed_text_or_translation"
+}

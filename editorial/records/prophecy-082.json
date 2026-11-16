@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-082",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:14–15 predicted Jesus's agony on Calvary, fulfilled in Mark 15:34–37.",
+    "type": "thematic_parallel",
+    "scope_notes": "Mark explicitly quotes Psalm 22:1 in this scene, but the proposed prediction is the general fact of extreme suffering."
+  },
+  "context": {
+    "summary": "Psalm 22 vividly describes a sufferer physically failing and approaching death. Mark depicts Jesus crying out, receiving sour wine and dying on the cross.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Mark places Jesus's quotation of Psalm 22:1 directly inside the crucifixion account. The psalm's bodily collapse, dry mouth and nearness to death give a powerful script for understanding Jesus's final agony.",
+    "reasoning": [
+      "Jesus quotes the psalm's opening line in Mark.",
+      "Both passages portray intense suffering near death.",
+      "The sour wine also fits the dry-mouth setting."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "‘Suffered agony’ is not a distinctive prediction: countless people have experienced pain and death. The psalm is a present-tense lament, and Mark's explicit quotation shows literary interpretation without proving that verses 14–15 forecast Calvary.",
+    "reasoning": [
+      "Agony is too general to identify Jesus.",
+      "The psalm describes a current sufferer.",
+      "Literary reuse is not the same as advance prediction."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Mark clearly invites readers to view Jesus through Psalm 22. That is a strong interpretive connection, but ‘a sufferer experiences agony’ is too general to work as a specific prediction of Calvary.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "Psalm 22 and passion narration",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Explores how the passion narrative gives Psalm 22 new reference."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "passion correspondences",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Documents the relationship without making every detail an independent forecast."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:14–15; Mark 15:34–37",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Wording and cross-references checked locally."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm", "model": "GPT-6 Astra", "date": "2026-11-15", "prompt_version": "2",
+      "prompt_path": "editorial/review-prompts/prophecy-082-adversarial-2026-11-15.md",
+      "raw_output_path": "editorial/reviews/prophecy-082-adversarial-2026-11-15-raw.md",
+      "objections": [
+        {"objection": "The draft tests whether agony uniquely identifies Jesus, while a proponent may offer it cumulatively.", "disposition": "accepted", "reason": "The verdict is limited to this item as a specific prediction and does not reject a cumulative Christian reading."},
+        {"objection": "A present-tense lament can still have typological or prospective significance.", "disposition": "accepted", "reason": "The copy says the passage is not an obvious forecast rather than excluding additional theological meaning."},
+        {"objection": "Literary reuse and fulfilment are not mutually exclusive.", "disposition": "accepted", "reason": "The final assessment affirms Mark's real interpretive connection and only denies that reuse alone proves advance prediction."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Agony at Calvary",
+    "scripture_excerpt": "My strength is dried up … You lay me in the dust of death.",
+    "website": {
+      "description": "Did Psalm 22 predict Jesus's agony on the cross?",
+      "summary": "Mark deliberately connects Jesus with Psalm 22, but extreme suffering is not a specific identifying prediction.",
+      "christian_case": "Jesus quotes the psalm's opening from the cross. The later images of bodily collapse, thirst and approaching death closely fit his final moments.",
+      "critical_case": "The connection is real, but ‘he would suffer terribly’ could fit many people. The psalm speaks as a sufferer in his own crisis, not as an obvious forecast of Calvary.",
+      "verdict_label": "A later reading of the psalm",
+      "verdict": "Mark uses Psalm 22 to interpret Jesus's death. That does not make its general picture of agony a precise prediction."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict Calvary’s agony?",
+        "body": "The psalm describes a body failing near death. Mark describes Jesus crying out and dying on the cross."
+      },
+      {
+        "heading": "Mark makes a real connection",
+        "body": "Jesus quotes the opening of Psalm 22. Readers are clearly meant to see his death through this ancient lament."
+      },
+      {
+        "heading": "But agony is not very specific",
+        "body": "Many people suffer terribly before death. The psalm fits Jesus, but it does not uniquely predict Calvary."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 22 says the sufferer is ‘poured out like water.’ It does not predict blood and water flowing from a spear wound in Jesus’s side.",
+   "claim_id" : "prophecy-081",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict blood and water? The psalmist says, ‘I am poured out like water.’ John says blood and water flowed from Jesus’s pierced side.",
+         "body" : "The psalmist says, ‘I am poured out like water.’ John says blood and water flowed from Jesus’s pierced side.",
+         "heading" : "Did Psalm 22 predict blood and water?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:14: I am poured out like water … My heart is like wax.",
+         "body" : "I am poured out like water … My heart is like wax.",
+         "heading" : "Ps 22:14",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 19:34, BSB: Instead, one of the soldiers pierced His side with a spear, and immediately blood and water flowed out.",
+         "body" : "Instead, one of the soldiers pierced His side with a spear, and immediately blood and water flowed out.",
+         "heading" : "Claimed fulfilment · Jn 19:34",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The shared image is striking Psalm 22 is strongly linked with Jesus’s death, so its water language can bring John’s scene to mind.",
+         "body" : "Psalm 22 is strongly linked with Jesus’s death, so its water language can bring John’s scene to mind.",
+         "heading" : "The shared image is striking",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But the detail is not in the verse The sufferer is like poured-out water. The verse says nothing about blood, a spear or a wound in his side.",
+         "body" : "The sufferer is like poured-out water. The verse says nothing about blood, a spear or a wound in his side.",
+         "heading" : "But the detail is not in the verse",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-081/",
+   "title" : "Poured out like water",
+   "verdict_category" : "source_claim_incorrect"
+}

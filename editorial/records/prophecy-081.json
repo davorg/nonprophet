@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-081",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:14 predicted that Jesus's blood and water would flow when His side was pierced, fulfilled in John 19:34.",
+    "type": "thematic_parallel",
+    "scope_notes": "The psalmist says he is poured out like water; John reports actual blood and water after a spear wound."
+  },
+  "context": {
+    "summary": "Psalm 22 uses bodily metaphors to describe a sufferer's collapse. John records a soldier piercing Jesus's side, followed by blood and water.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "The unusual water imagery in a psalm repeatedly connected with the passion resembles John's distinctive report that blood and water flowed from Jesus's pierced side.",
+    "reasoning": [
+      "Psalm 22 is repeatedly echoed in passion accounts.",
+      "Both texts mention water in a scene of mortal suffering.",
+      "John emphasizes eyewitness testimony for the event."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The psalm says the speaker himself is poured out like water—a common metaphor for physical and emotional collapse. It mentions neither blood, a spear, a side wound nor two fluids, and John does not cite this verse.",
+    "reasoning": [
+      "The grammar makes the sufferer, not his blood, like water.",
+      "The blood, spear and side wound in John are absent from the psalm.",
+      "John supplies no Psalm 22 signal here."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "source_claim_incorrect",
+    "summary": "This claim changes Psalm 22's metaphor. The speaker is ‘poured out like water’; the verse does not predict blood and water flowing from a pierced side.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "Psalm 22 and passion narration",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Provides the wider literary context for passion use of Psalm 22."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "passion correspondences",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Helps distinguish close correspondences from broad imagery."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:14; John 19:34",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Wording checked locally."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm",
+      "model": "GPT-6 Astra",
+      "date": "2026-11-15",
+      "prompt_version": "2",
+      "prompt_path": "editorial/review-prompts/prophecy-081-adversarial-2026-11-15.md",
+      "raw_output_path": "editorial/reviews/prophecy-081-adversarial-2026-11-15-raw.md",
+      "objections": [
+        {"objection": "The precise claim adds blood and water while the seed may be only typological.", "disposition": "accepted", "reason": "The final copy now confines its rejection to a detailed predictive claim and explicitly permits later application."},
+        {"objection": "Calling the connection a change to the words prejudges typological interpretation.", "disposition": "accepted", "reason": "The public labels now distinguish what the verse states from how it may later be applied."},
+        {"objection": "The critical case overstated the absence of every Johannine detail.", "disposition": "accepted", "reason": "It now names only the genuinely absent details while retaining the shared water image."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Poured out like water",
+    "scripture_excerpt": "I am poured out like water … My heart is like wax.",
+    "website": {
+      "description": "Did Psalm 22 predict blood and water flowing from Jesus's side?",
+      "summary": "The parallel relies on changing a metaphor about the sufferer into a statement about fluid leaving his body.",
+      "christian_case": "Psalm 22 is closely associated with Jesus's death. Its water imagery can therefore sound like John's striking report of blood and water flowing from Jesus's side.",
+      "critical_case": "The psalm says ‘I am poured out like water.’ It does not say the speaker's blood is poured out, or mention a spear, a side wound or blood mixed with water.",
+      "verdict_label": "The detail is not in the source",
+      "verdict": "John's scene can recall the psalm, but Psalm 22:14 does not make the detailed prediction claimed."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict blood and water?",
+        "body": "The psalmist says, ‘I am poured out like water.’ John says blood and water flowed from Jesus’s pierced side."
+      },
+      {
+        "heading": "The shared image is striking",
+        "body": "Psalm 22 is strongly linked with Jesus’s death, so its water language can bring John’s scene to mind."
+      },
+      {
+        "heading": "But the detail is not in the verse",
+        "body": "The sufferer is like poured-out water. The verse says nothing about blood, a spear or a wound in his side."
+      }
+    ]
+  }
+}

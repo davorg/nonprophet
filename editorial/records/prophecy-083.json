@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-083",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:15 predicted that Jesus would thirst on the cross, fulfilled in John 19:28.",
+    "type": "explicit_fulfillment_claim",
+    "scope_notes": "John says Jesus spoke to fulfil ‘the Scripture’ but does not identify it; Psalm 22:15 and Psalm 69:21 are both proposed."
+  },
+  "context": {
+    "summary": "Psalm 22's sufferer has a dry mouth and a tongue stuck to its roof. John says Jesus declared his thirst to fulfil Scripture, immediately before receiving sour wine.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "John explicitly marks the saying as scriptural fulfilment. Psalm 22:15 gives a close physical image of thirst, and John has just quoted Psalm 22:18 in the same crucifixion scene.",
+    "reasoning": [
+      "John uses an explicit fulfilment formula.",
+      "Dry mouth naturally implies thirst.",
+      "Psalm 22 is already active in the immediate context."
+    ],
+    "source_ids": [
+      "src-schmidt-john-thirst",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "John never names Psalm 22:15. The sour wine that follows matches Psalm 69:21 more exactly, and the words ‘I am thirsty’ may set up that action. Even if Psalm 22 contributes, thirst during crucifixion is not an unlikely identifying detail.",
+    "reasoning": [
+      "The source scripture is ambiguous.",
+      "Psalm 69:21 combines thirst with sour wine.",
+      "Thirst is an expected result of severe physical suffering."
+    ],
+    "source_ids": [
+      "src-schmidt-john-thirst",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [
+    {
+      "issue": "John 19:28 does not identify ‘the Scripture.’ Interpreters propose Psalm 22:15, Psalm 69:21, or a combined scriptural pattern.",
+      "impact": "The verse supports scriptural fulfilment language but cannot securely establish this particular source."
+    }
+  ],
+  "verdict": {
+    "category": "mixed_or_indeterminate",
+    "summary": "Psalm 22:15 is a plausible part of John's scriptural background, especially after his use of Psalm 22:18. But Psalm 69:21 is at least as plausible in the immediate sour-wine scene, so this specific attribution remains uncertain.",
+    "confidence": "medium"
+  },
+  "sources": [
+    {
+      "id": "src-schmidt-john-thirst",
+      "tier": 2,
+      "stance": "both",
+      "type": "academic_thesis",
+      "title": "Jesus's Thirst and the Fulfilment of Scripture in John 19:28",
+      "author": "Donald Schmidt",
+      "publisher": "University dissertation",
+      "url": "https://52a729d3f5bef339e4a9-6e936fc584c4953bf46e61a9a0e9ed58.r24.cf2.rackcdn.com/uploaded/d/0e4210323_1430842853_dr-donald-schmidt-dissertation.pdf",
+      "locator": "discussion of Psalm 22:15 and Psalm 69:21",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Summarizes both main proposed allusions."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "Psalm 22 in the passion",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Provides wider context for the psalm's use."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:15; Psalm 69:21; John 19:24, 28–29",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Wording and immediate context checked locally."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm", "model": "GPT-6 Astra", "date": "2026-11-15", "prompt_version": "2",
+      "prompt_path": "editorial/review-prompts/prophecy-083-adversarial-2026-11-15.md",
+      "raw_output_path": "editorial/reviews/prophecy-083-adversarial-2026-11-15-raw.md",
+      "objections": [
+        {"objection": "Uncertain attribution does not by itself answer whether Psalm 22 originally predicts Jesus.", "disposition": "accepted", "reason": "The verdict is explicitly about the attribution and leaves the broader predictive question separate."},
+        {"objection": "John may combine Psalm 22 and Psalm 69 rather than choose between them.", "disposition": "accepted", "reason": "The record and final language now allow Psalm 22 to participate in a combined scriptural pattern."},
+        {"objection": "Ordinary thirst does not rebut deliberate enactment or theological embodiment.", "disposition": "accepted", "reason": "That point is retained only as a limit on predictive specificity, not as a rejection of fulfilment theology."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Jesus said, “I am thirsty”",
+    "scripture_excerpt": "My tongue sticks to the roof of my mouth.",
+    "website": {
+      "description": "Did Psalm 22 predict that Jesus would thirst on the cross?",
+      "summary": "John says Jesus fulfilled Scripture, but he does not say which passage he means.",
+      "christian_case": "Psalm 22 describes a dying sufferer with a painfully dry mouth. John has already used the same psalm, then says Jesus announced his thirst to fulfil Scripture.",
+      "critical_case": "John immediately mentions sour wine, which points closely to Psalm 69:21. Because he never names the passage, we cannot be sure Psalm 22:15 is the intended prediction.",
+      "verdict_label": "The source is uncertain",
+      "verdict": "Psalm 22 may be part of John's meaning, perhaps alongside Psalm 69, but John does not identify the source clearly enough to make this attribution certain."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict Jesus’s thirst?",
+        "body": "The psalmist’s mouth is painfully dry. John says Jesus declared, ‘I am thirsty,’ to fulfil Scripture."
+      },
+      {
+        "heading": "This is a plausible connection",
+        "body": "John has just used another line from Psalm 22. Its picture of a dry mouth fits Jesus’s words naturally."
+      },
+      {
+        "heading": "But John never names the verse",
+        "body": "The sour wine that follows points just as clearly to Psalm 69. Both psalms may be part of John’s meaning."
+      }
+    ]
+  }
+}

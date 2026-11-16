@@ -1,0 +1,48 @@
+{
+   "caption" : "The clothes and lots are one of the closest Gospel links to Psalm 22. It is clear literary fulfilment—but not independent proof of an advance forecast.",
+   "claim_id" : "prophecy-085",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict the divided clothes? The psalm says enemies divide the sufferer’s clothes by lot. Luke describes people doing exactly that to Jesus.",
+         "body" : "The psalm says enemies divide the sufferer’s clothes by lot. Luke describes people doing exactly that to Jesus.",
+         "heading" : "Did Psalm 22 predict the divided clothes?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:17-18: They divide my garments … and cast lots for my clothing.",
+         "body" : "They divide my garments … and cast lots for my clothing.",
+         "heading" : "Ps 22:17-18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 23:34–35, BSB: They divided up His garments by casting lots. The people stood watching, and the rulers sneered at Him.",
+         "body" : "They divided up His garments by casting lots. The people stood watching, and the rulers sneered at Him.",
+         "heading" : "Claimed fulfilment · Lk 23:34–35",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: This is a very close match The clothes, the lots and the watching crowd appear together. John even calls the action fulfilled Scripture.",
+         "body" : "The clothes, the lots and the watching crowd appear together. John even calls the action fulfilled Scripture.",
+         "heading" : "This is a very close match",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: The link is real—but what proves what? The Gospels use Psalm 22 to explain Jesus’s death. That does not prove the psalm began as a forecast of him.",
+         "body" : "The Gospels use Psalm 22 to explain Jesus’s death. That does not prove the psalm began as a forecast of him.",
+         "heading" : "The link is real—but what proves what?",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-085/",
+   "title" : "Clothes divided by lot",
+   "verdict_category" : "retrospective_rereading"
+}

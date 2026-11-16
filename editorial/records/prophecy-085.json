@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-085",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:17–18 predicted that Jesus would be stripped, watched and have His clothes divided by lot, fulfilled in Luke 23:34–35.",
+    "type": "narrative_reuse",
+    "scope_notes": "Luke closely reproduces the garments, lots and watching; the question is whether this is prediction or literary application of a lament."
+  },
+  "context": {
+    "summary": "Psalm 22's humiliated sufferer is watched while enemies divide his clothes by lot. Luke places the same actions beside Jesus's crucifixion.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "The cluster is unusually close: hostile onlookers, divided garments and casting lots occur together in both texts. All four Gospels preserve the clothing motif, and John explicitly calls it fulfilment of Scripture.",
+    "reasoning": [
+      "The garments, lots and watching appear together in both accounts.",
+      "The garments and lots wording is distinctive.",
+      "All four Gospels preserve the garments-and-lots motif."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The close link shows that Gospel writers interpreted and narrated Jesus's death through Psalm 22. But the psalm is voiced as a current lament, not introduced as a future oracle, and familiarity with it could shape which details were preserved and emphasized.",
+    "reasoning": [
+      "The literary dependence is strong.",
+      "Dependence does not establish independent predictive fulfilment.",
+      "The psalm's original grammar describes present distress."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "Luke's scene is a clear and close reuse of Psalm 22. It strongly supports Christian literary application of the psalm, but by itself cannot show that the lament was written as a forecast of Jesus.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "Psalm 22 shaping passion narration",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Directly addresses the movement from original sense to passion reference."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "garments and lots correspondence",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Treats this as one of the strongest correspondences."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:17–18; Luke 23:34–35; John 19:24",
+      "accessed": "2026-11-15",
+      "checked": true,
+      "notes": "Wording and Gospel cross-references checked locally."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "adversarial_llm", "model": "GPT-6 Astra", "date": "2026-11-15", "prompt_version": "2",
+      "prompt_path": "editorial/review-prompts/prophecy-085-adversarial-2026-11-15.md",
+      "raw_output_path": "editorial/reviews/prophecy-085-adversarial-2026-11-15-raw.md",
+      "objections": [
+        {"objection": "Literary dependence and historical fulfilment can coexist.", "disposition": "accepted", "reason": "The verdict says reuse is not independent proof; it does not claim dependence disproves the event or theological fulfilment."},
+        {"objection": "The sequence and precision of the correspondence were overstated.", "disposition": "accepted", "reason": "The strongest case now says the motifs appear together and no longer claims the same order or explicit stripping."},
+        {"objection": "Occurrence in four Gospels is not necessarily independent multiple attestation.", "disposition": "accepted", "reason": "The copy now reports only that all four preserve the motif, without claiming independence."}
+      ]
+    }
+  ],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Clothes divided by lot",
+    "scripture_excerpt": "They divide my garments … and cast lots for my clothing.",
+    "website": {
+      "description": "Did Psalm 22 predict what happened to Jesus's clothes?",
+      "summary": "This is one of the closest links between Psalm 22 and the Gospel passion stories.",
+      "christian_case": "The match is detailed: people watch, clothes are divided and lots are cast. John even says the soldiers' action fulfilled this scripture.",
+      "critical_case": "The Gospel connection is exceptionally close. That literary reuse can coexist with a historical event or theological fulfilment, but it cannot by itself prove that the psalm was an advance forecast.",
+      "verdict_label": "A later reading of the psalm",
+      "verdict": "The Gospels deliberately apply Psalm 22 to Jesus. That is strong literary reuse, but not independent proof of a centuries-ahead prediction."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict the divided clothes?",
+        "body": "The psalm says enemies divide the sufferer’s clothes by lot. Luke describes people doing exactly that to Jesus."
+      },
+      {
+        "heading": "This is a very close match",
+        "body": "The clothes, the lots and the watching crowd appear together. John even calls the soldiers’ action fulfilled Scripture."
+      },
+      {
+        "heading": "The link is real—but what proves what?",
+        "body": "The Gospels use Psalm 22 to explain Jesus’s death. That does not prove the psalm began as a forecast of him."
+      }
+    ]
+  }
+}
