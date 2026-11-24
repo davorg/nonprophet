@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-088",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:20–21 predicted Satan bruising the Redeemer's heel, fulfilled when Jesus's death destroyed the devil in Hebrews 2:14.",
+    "type": "conflated_passages",
+    "scope_notes": "The cited psalm names sword, dogs, lion and wild oxen; Satan, a Redeemer and a bruised heel are absent."
+  },
+  "context": {
+    "summary": "Psalm 22's sufferer asks rescue from violent human and animal threats. Hebrews says Jesus shared humanity and died in order to destroy the devil's power of death.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Christian readers can combine the psalm's deadly enemies and answered prayer with Genesis 3:15's wounded victor and Hebrews' claim that Jesus defeats the devil through death. Hebrews also quotes the next verse of Psalm 22 as Jesus's words. Together these form a coherent theological picture of evil striking Christ and being overcome.",
+    "reasoning": [
+      "The psalm portrays deadly attack.",
+      "Hebrews connects Jesus's death with defeating the devil and shortly before quotes Psalm 22:22.",
+      "Genesis 3:15 supplies the heel-bruising motif used by the seed claim."
+    ],
+    "source_ids": [
+      "src-janowski-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "None of the claim's identifying language occurs in Psalm 22:20–21. The animals represent dangers from which the speaker asks rescue; the passage does not identify them as Satan, mention a heel or call the sufferer Redeemer. Hebrews does not cite the psalm here.",
+    "reasoning": [
+      "Satan and the heel come from other texts.",
+      "The psalm's speaker asks for deliverance from enemies.",
+      "Hebrews supplies no Psalm 22 link in verse 14."
+    ],
+    "source_ids": [
+      "src-janowski-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "source_claim_incorrect",
+    "summary": "This claim combines Psalm 22, Genesis 3:15 and Hebrews 2:14, then assigns the combined idea to Psalm 22. The cited psalm verses contain none of the Satan, Redeemer or bruised-heel details.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-janowski-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "book_chapter",
+      "title": "From Death to Life: Psalm 22",
+      "author": "Bernd Janowski",
+      "publisher": "Arguing with God",
+      "url": "https://discere.pusc.it/pluginfile.php/131064/mod_folder/content/0/3.4.%20Sal%2022_Janowski%2C%20Arguing%20with%20God%2C%202013%2C%20pp.%20322-346.pdf?forcedownload=1",
+      "locator": "petition and enemy imagery in vv. 20–21",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Treats the lines as the sufferer's plea for deliverance."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Genesis 3:15; Psalm 22:20–21; Hebrews 2:14",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "The three distinct passages and their vocabulary checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6.2 Astra","date":"2026-11-24","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-088-adversarial-2026-11-24.md","raw_output_path":"editorial/reviews/prophecy-088-adversarial-2026-11-24-raw.md","objections":[{"objection":"Hebrews 2:12 quotes adjacent Psalm 22:22, strengthening the reason to read Psalm 22 in the argument.","disposition":"accepted","reason":"The strongest case now gives this canonical context full weight."},{"objection":"Hebrews makes the devil the target of Jesus's death, not expressly its inflictor.","disposition":"accepted","reason":"The final copy no longer assigns that causal role to Hebrews."},{"objection":"‘Psalm 22 says none of that’ could wrongly sweep in suffering itself.","disposition":"accepted","reason":"The public copy now limits the absence claim to Satan, Redeemer and heel."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Satan bruised his heel",
+    "scripture_excerpt": "Deliver my soul from the sword … Save me from the mouth of the lion.",
+    "website": {
+      "description": "Did Psalm 22 predict Satan bruising the Redeemer's heel?",
+      "summary": "The claim combines ideas from three different Bible passages.",
+      "christian_case": "Taken together, the Bible presents Jesus suffering a deadly attack yet defeating the devil through death. Christians can fit Psalm 22 into that larger story.",
+      "critical_case": "Psalm 22 mentions dangerous enemies, but no Satan, Redeemer or heel. The heel comes from Genesis 3, while defeating the devil comes from Hebrews.",
+      "verdict_label": "The source says something else",
+      "verdict": "The combined Christian theme may be meaningful, but it is not a prediction made by Psalm 22:20–21."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict Satan bruising Jesus?",
+        "body": "Psalm 22 asks for rescue from a sword and wild animals. Hebrews says Jesus defeated the devil through death."
+      },
+      {
+        "heading": "The larger Christian story fits",
+        "body": "Jesus suffers, dies and defeats evil. Genesis also describes a victor wounded in the heel."
+      },
+      {
+        "heading": "But those details come from elsewhere",
+        "body": "Psalm 22 names no Satan, Redeemer or bruised heel. The claim combines three separate passages."
+      }
+    ]
+  }
+}

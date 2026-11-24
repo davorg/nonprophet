@@ -7,7 +7,9 @@ site_check_dir=$(mktemp -d /tmp/nonprophet-site-check.XXXXXX)
 trap 'rm -rf -- "$site_check_dir"' EXIT
 
 perl "$repo_dir/scripts/generate_publication_copy.pl"
-perl "$repo_dir/scripts/render_carousels.pl"
+if [[ ${NONPROPHET_SKIP_RENDER:-0} != 1 ]]; then
+  perl "$repo_dir/scripts/render_carousels.pl"
+fi
 
 jekyll build --source "$repo_dir/docs" --destination "$site_check_dir/public"
 test -f "$site_check_dir/public/index.html"

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-087",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:20–21 predicted that Jesus would commit Himself to God at death, fulfilled in Luke 23:46.",
+    "type": "thematic_parallel",
+    "scope_notes": "Luke's words directly quote Psalm 31:5; Psalm 22:20–21 asks God for rescue from violent enemies."
+  },
+  "context": {
+    "summary": "Psalm 22's sufferer pleads for God to save his life from sword and animals. Luke's dying Jesus entrusts his spirit to the Father using words from Psalm 31.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Psalm 22 portrays the righteous sufferer still addressing God and depending on divine rescue at the edge of death. Jesus likewise turns to the Father in his final words, so the two passages share a posture of trust.",
+    "reasoning": [
+      "Both speakers address God in mortal danger.",
+      "Both express reliance on God.",
+      "Psalm 22 already frames the passion in Christian reading."
+    ],
+    "source_ids": [
+      "src-janowski-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The claimed action is not in Psalm 22:20–21, which asks to be saved from death. Luke instead quotes Psalm 31:5 directly: ‘Into Your hand I commit my spirit.’ The thematic similarity cannot transfer Psalm 31's wording into Psalm 22.",
+    "reasoning": [
+      "Psalm 22 asks for deliverance rather than committing the spirit.",
+      "Luke's direct source is Psalm 31:5.",
+      "The seed claim conflates two different psalms."
+    ],
+    "source_ids": [
+      "src-janowski-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "thematic_parallel_only",
+    "summary": "Psalm 22 contains a real trust-and-deliverance pattern, but not the particular act claimed. Luke's distinctive final words quote Psalm 31:5, and nothing links his prayer specifically to Psalm 22:20–21.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-janowski-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "book_chapter",
+      "title": "From Death to Life: Psalm 22",
+      "author": "Bernd Janowski",
+      "publisher": "Arguing with God",
+      "url": "https://discere.pusc.it/pluginfile.php/131064/mod_folder/content/0/3.4.%20Sal%2022_Janowski%2C%20Arguing%20with%20God%2C%202013%2C%20pp.%20322-346.pdf?forcedownload=1",
+      "locator": "pp. 322–346; petition in vv. 20–21",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Analyzes the psalm's movement from lament and petition to praise."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "passion use of Psalm 22",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Supports the wider Christian context without identifying Luke 23:46 with these verses."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:20–21; Psalm 31:5; Luke 23:46",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Luke's direct quotation and both psalm passages checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6.2 Astra","date":"2026-11-24","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-087-adversarial-2026-11-24.md","raw_output_path":"editorial/reviews/prophecy-087-adversarial-2026-11-24-raw.md","objections":[{"objection":"Identifying Psalm 31 as the quotation does not by itself refute a Psalm 22 pattern of trust.","disposition":"accepted","reason":"The verdict category is now thematic parallel rather than mistaken source."},{"objection":"The words ‘You have answered me’ strengthen the psalm's trust-and-deliverance movement.","disposition":"accepted","reason":"The assessment acknowledges the answered-prayer pattern while noting its lack of specificity."},{"objection":"Calling the pairing attached to the wrong passage prejudged its purpose.","disposition":"accepted","reason":"The final copy distinguishes Psalm 31's wording from the broader Psalm 22 comparison."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Into Your hands",
+    "scripture_excerpt": "Deliver my soul from the sword … Save me from the mouth of the lion.",
+    "website": {
+      "description": "Did Psalm 22 predict Jesus committing Himself to God?",
+      "summary": "The trust theme fits, but the particular final prayer comes from a different psalm.",
+      "christian_case": "Psalm 22's sufferer trusts God while facing death. Jesus also turns to his Father in his final moments, so the spiritual posture is similar.",
+      "critical_case": "Psalm 22 asks God to save the speaker's life. Jesus's actual words—‘Into Your hands I commit My Spirit’—quote Psalm 31:5, not Psalm 22.",
+      "verdict_label": "A broad thematic parallel",
+      "verdict": "Psalm 22 offers a broad pattern of trust in danger. It does not specifically predict Luke's final prayer, whose wording comes from Psalm 31."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict Jesus’s final prayer?",
+        "body": "Psalm 22 asks God to rescue the sufferer. Luke says Jesus entrusted his spirit to the Father before dying."
+      },
+      {
+        "heading": "Both passages show trust",
+        "body": "Each speaker turns to God in mortal danger. That makes the comparison understandable."
+      },
+      {
+        "heading": "But Luke quotes another psalm",
+        "body": "‘Into Your hands I commit My Spirit’ comes from Psalm 31:5. Those words are not in Psalm 22."
+      }
+    ]
+  }
+}

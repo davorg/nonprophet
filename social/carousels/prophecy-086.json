@@ -1,0 +1,48 @@
+{
+   "caption" : "John explicitly quotes Psalm 22 when soldiers divide Jesus’s clothes and cast lots. The literary fulfilment is certain; advance prediction is not independently proved.",
+   "claim_id" : "prophecy-086",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict the divided clothes? The psalm says enemies divide the sufferer’s garments and cast lots. John describes soldiers doing both to Jesus.",
+         "body" : "The psalm says enemies divide the sufferer’s garments and cast lots. John describes soldiers doing both to Jesus.",
+         "heading" : "Did Psalm 22 predict the divided clothes?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:18: They divide my garments … and cast lots for my clothing.",
+         "body" : "They divide my garments … and cast lots for my clothing.",
+         "heading" : "Ps 22:18",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 19:23–24, BSB: They divided My garments among them, and cast lots for My clothing. So that is what the soldiers did.",
+         "body" : "They divided My garments among them, and cast lots for My clothing. So that is what the soldiers did.",
+         "heading" : "Claimed fulfilment · Jn 19:23–24",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: John makes the link explicit He quotes Psalm 22 almost word for word and says the soldiers’ action fulfilled Scripture.",
+         "body" : "He quotes Psalm 22 almost word for word and says the soldiers’ action fulfilled Scripture.",
+         "heading" : "John makes the link explicit",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: The connection is certain What remains unproved is advance prediction. John knew the psalm and deliberately used it to explain Jesus’s death.",
+         "body" : "What remains unproved is advance prediction. John knew the psalm and deliberately used it to explain Jesus’s death.",
+         "heading" : "The connection is certain",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-086/",
+   "title" : "They divided his clothes",
+   "verdict_category" : "retrospective_rereading"
+}

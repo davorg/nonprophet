@@ -92,7 +92,12 @@ my $background = $backgrounds->{backgrounds}[0];
 my $background_path = "$root/$background->{asset}";
 die "Missing background $background_path\n" unless -f $background_path;
 
-my @manifests = sort glob "$root/social/carousels/*.json";
+my @manifests = @ARGV
+    ? map { "$root/social/carousels/$_.json" } @ARGV
+    : sort glob "$root/social/carousels/*.json";
+for my $manifest_path (@manifests) {
+    die "Missing carousel manifest $manifest_path\n" unless -f $manifest_path;
+}
 my %formats = (
     instagram => {
         width => 1080, height => 1350, panel_x => 70, panel_y => 70,

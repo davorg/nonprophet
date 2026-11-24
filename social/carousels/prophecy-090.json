@@ -1,0 +1,48 @@
+{
+   "caption" : "Colossians gives Christ cosmic authority, fitting Christian belief that he shares God’s worldwide rule. It never presents Psalm 22 as a fulfilled prediction.",
+   "claim_id" : "prophecy-090",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Jesus ruling the nations? Psalm 22 says the LORD rules every nation. Colossians says all powers were created through and for Christ.",
+         "body" : "Psalm 22 says the LORD rules every nation. Colossians says all powers were created through and for Christ.",
+         "heading" : "Did Psalm 22 predict Jesus ruling the nations?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:27-28: Dominion belongs to the LORD and He rules over the nations.",
+         "body" : "Dominion belongs to the LORD and He rules over the nations.",
+         "heading" : "Ps 22:27-28",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Col 1:16, BSB: For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.",
+         "body" : "For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him.",
+         "heading" : "Claimed fulfilment · Col 1:16",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Christian theology fits If Jesus shares God’s cosmic authority, the psalm’s worldwide rule can naturally be understood through him.",
+         "body" : "If Jesus shares God’s cosmic authority, the psalm’s worldwide rule can naturally be understood through him.",
+         "heading" : "The Christian theology fits",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But this is not a direct prediction The psalm expects nations to turn to God. Colossians gives Christ cosmic authority but never says that event fulfils Psalm 22.",
+         "body" : "The psalm expects nations to turn to God. Colossians gives Christ cosmic authority but never says that event fulfils Psalm 22.",
+         "heading" : "But this is not a direct prediction",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-090/",
+   "title" : "Governor of the nations",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

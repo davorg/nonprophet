@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-090",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:27–28 predicted that Jesus would govern the nations, fulfilled in Colossians 1:16.",
+    "type": "christological_identification",
+    "scope_notes": "The psalm says dominion belongs to the LORD; Colossians describes all things as created through and for Christ but does not cite Psalm 22."
+  },
+  "context": {
+    "summary": "Psalm 22 anticipates all nations turning to the LORD because divine dominion already extends over them. Colossians says all visible and invisible powers were created through and for Christ.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "Colossians gives Christ universal cosmic supremacy, including over rulers and authorities. Within high Christian Christology, the LORD's worldwide rule in Psalm 22 can therefore be understood as exercised through or identified with Christ.",
+    "reasoning": [
+      "Both passages describe universal authority.",
+      "Colossians includes every ruler and power under Christ's creative primacy.",
+      "Christian theology identifies Jesus with divine rule."
+    ],
+    "source_ids": [
+      "src-mcdonough-colossians",
+      "src-janowski-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 22 anticipates the nations turning to the LORD, whose dominion already exists. Colossians 1:16 gives Christ authority-related cosmic status, but it does not describe nations turning to him or indicate that Psalm 22 is being fulfilled.",
+    "reasoning": [
+      "The psalm's future event is the nations' response to the LORD's existing rule.",
+      "The cited Colossians verse concerns creation and cosmic powers, not the nations' response.",
+      "No quotation or distinctive verbal link connects the passages."
+    ],
+    "source_ids": [
+      "src-mcdonough-colossians",
+      "src-janowski-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Christian belief in Christ's cosmic authority can naturally include Psalm 22's vision of divine worldwide rule. But neither passage presents this as a specific prediction-and-fulfilment pair.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-mcdonough-colossians",
+      "tier": 2,
+      "stance": "supportive",
+      "type": "academic_book_chapter",
+      "title": "Old Dominion: Creation in Colossians",
+      "author": "Sean M. McDonough",
+      "publisher": "Oxford University Press",
+      "url": "https://academic.oup.com/book/26861/chapter-abstract/195891676",
+      "locator": "pp. 172–191; Colossians 1:15–20",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Argues that dominion over powers is central to the Colossians hymn."
+    },
+    {
+      "id": "src-janowski-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "book_chapter",
+      "title": "From Death to Life: Psalm 22",
+      "author": "Bernd Janowski",
+      "publisher": "Arguing with God",
+      "url": "https://discere.pusc.it/pluginfile.php/131064/mod_folder/content/0/3.4.%20Sal%2022_Janowski%2C%20Arguing%20with%20God%2C%202013%2C%20pp.%20322-346.pdf?forcedownload=1",
+      "locator": "universal praise and divine rule in vv. 27–28",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Places the worldwide vision in the psalm's concluding praise."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:27–28; Colossians 1:13–20",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Subjects, verbs and surrounding Christological context checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6.2 Astra","date":"2026-11-24","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-090-adversarial-2026-11-24.md","raw_output_path":"editorial/reviews/prophecy-090-adversarial-2026-11-24-raw.md","objections":[{"objection":"The draft underused verse 27's expectation that nations will turn and bow.","disposition":"accepted","reason":"The final argument makes the nations' response—not the LORD's appointment—the predicted event."},{"objection":"Colossians' thrones and authorities give the Christian authority inference real textual footing.","disposition":"accepted","reason":"The strongest case acknowledges cosmic dominion while separating it from a claim about nations turning."},{"objection":"Calling the predicted figure a future human governor straw-manned a Christological identification.","disposition":"accepted","reason":"That wording has been removed and the identification is evaluated on its strongest terms."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "Governor of the nations",
+    "scripture_excerpt": "Dominion belongs to the LORD and He rules over the nations.",
+    "website": {
+      "description": "Did Psalm 22 predict Jesus governing the nations?",
+      "summary": "The Christian theological connection is coherent, but the cited texts do not form a direct prediction and fulfilment.",
+      "christian_case": "Psalm 22 says God rules every nation. Colossians says all rulers and authorities were created through and for Christ, giving him universal cosmic status.",
+      "critical_case": "The psalm expects nations to turn to the LORD's existing rule. Colossians gives Christ cosmic supremacy but never says this expected response has occurred or links it to Psalm 22.",
+      "verdict_label": "A plausible Christian pattern",
+      "verdict": "Christian theology can identify Christ with God's worldwide rule. Psalm 22:27–28 does not distinctly predict Colossians 1:16."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict Jesus ruling the nations?",
+        "body": "Psalm 22 says the LORD rules every nation. Colossians says all powers were created through and for Christ."
+      },
+      {
+        "heading": "The Christian theology fits",
+        "body": "If Jesus shares God’s cosmic authority, the psalm’s worldwide rule can naturally be understood through him."
+      },
+      {
+        "heading": "But this is not a direct prediction",
+        "body": "The psalm expects nations to turn to God. Colossians gives Christ cosmic authority but never says that event fulfils Psalm 22."
+      }
+    ]
+  }
+}

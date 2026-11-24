@@ -1,0 +1,48 @@
+{
+   "caption" : "Jesus suffering and defeating evil fits a wider Christian pattern. But Satan, the Redeemer and the bruised heel are not in Psalm 22:20–21.",
+   "claim_id" : "prophecy-088",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Satan bruising Jesus? Psalm 22 asks for rescue from a sword and wild animals. Hebrews says Jesus defeated the devil through death.",
+         "body" : "Psalm 22 asks for rescue from a sword and wild animals. Hebrews says Jesus defeated the devil through death.",
+         "heading" : "Did Psalm 22 predict Satan bruising Jesus?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:20-21: Deliver my soul from the sword … Save me from the mouth of the lion.",
+         "body" : "Deliver my soul from the sword … Save me from the mouth of the lion.",
+         "heading" : "Ps 22:20-21",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Heb 2:12–14, BSB: I will proclaim Your name to My brothers … by His death He might destroy him who holds the power of death, that is, the devil.",
+         "body" : "I will proclaim Your name to My brothers … by His death He might destroy him who holds the power of death, that is, the devil.",
+         "heading" : "Claimed fulfilment · Heb 2:12–14",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The larger Christian story fits Jesus suffers, dies and defeats evil. Genesis also describes a victor wounded in the heel.",
+         "body" : "Jesus suffers, dies and defeats evil. Genesis also describes a victor wounded in the heel.",
+         "heading" : "The larger Christian story fits",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But those details come from elsewhere Psalm 22 names no Satan, Redeemer or bruised heel. The claim combines three separate passages.",
+         "body" : "Psalm 22 names no Satan, Redeemer or bruised heel. The claim combines three separate passages.",
+         "heading" : "But those details come from elsewhere",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-088/",
+   "title" : "Satan bruised his heel",
+   "verdict_category" : "source_claim_incorrect"
+}

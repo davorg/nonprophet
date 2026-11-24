@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-086",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:18 predicted that Jesus's garments would be divided and His clothing assigned by lot, fulfilled in John 19:23–24.",
+    "type": "explicit_fulfillment_claim",
+    "scope_notes": "John quotes the psalm almost verbatim and explicitly calls the soldiers' action fulfilment."
+  },
+  "context": {
+    "summary": "Psalm 22's sufferer says enemies divide his clothes and cast lots for them. John narrates the soldiers dividing Jesus's garments and casting lots for his seamless tunic.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "This is an exceptionally strong passion correspondence: John reproduces both actions, supplies a concrete account of the garment division and lot, and explicitly labels the action fulfilment of Scripture.",
+    "reasoning": [
+      "John directly quotes Psalm 22:18.",
+      "Both dividing garments and casting lots appear.",
+      "John explicitly uses fulfilment language."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "The literary relationship is certain, but it does not independently establish advance prediction. Psalm 22 presents a sufferer's current humiliation, and John's knowledge of the verse may have shaped how the scene was selected, described or interpreted.",
+    "reasoning": [
+      "Quotation establishes reception, not original predictive intent.",
+      "The psalm is not introduced as a future oracle.",
+      "Historical occurrence and narrative shaping can coexist."
+    ],
+    "source_ids": [
+      "src-van-aarde-ps22",
+      "src-lange-ps22",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "retrospective_rereading",
+    "summary": "John deliberately and explicitly applies Psalm 22:18 to Jesus. That is unusually strong literary fulfilment, but the quotation alone cannot show that the original lament was written as a centuries-ahead forecast.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-van-aarde-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "Language, meaning, sense and reference: Matthew's passion narrative and Psalm 22",
+      "author": "Andries van Aarde",
+      "publisher": "HTS Teologiese Studies",
+      "url": "https://hts.org.za/index.php/hts/article/view/2245/0",
+      "locator": "Psalm 22 and passion narration",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Supports distinguishing the psalm's earlier sense from its later passion reference."
+    },
+    {
+      "id": "src-lange-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "journal_article",
+      "title": "The Relationship Between Psalm 22 and the Passion Narrative",
+      "author": "Harvey D. Lange",
+      "publisher": "Concordia Theological Monthly",
+      "url": "https://scholar.csl.edu/ctm/vol43/iss1/66/",
+      "locator": "garments and lots correspondence",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Treats the garments passage as a major passion correspondence."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:18; John 19:23–24",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Quotation and fulfilment formula checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6.2 Astra","date":"2026-11-24","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-086-adversarial-2026-11-24.md","raw_output_path":"editorial/reviews/prophecy-086-adversarial-2026-11-24-raw.md","objections":[{"objection":"Retrospective rereading must not exclude typological or prospective significance.","disposition":"accepted","reason":"The verdict describes what John demonstrably does and limits only what the quotation independently proves."},{"objection":"Calling the match exact and detailed overstates how the psalm's parallel clauses map to John's garments and tunic.","disposition":"accepted","reason":"The strongest case now identifies the two shared actions without treating every Johannine detail as predicted."},{"objection":"Historical occurrence and narrative shaping are compatible.","disposition":"accepted","reason":"The critical case explicitly says they can coexist and does not allege invention."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "They divided his clothes",
+    "scripture_excerpt": "They divide my garments … and cast lots for my clothing.",
+    "website": {
+      "description": "Did Psalm 22 predict the soldiers dividing Jesus's clothes?",
+      "summary": "John makes the connection explicit and quotes the psalm almost word for word.",
+      "christian_case": "The match is exceptionally strong: the soldiers both divide Jesus's garments and cast lots for his clothing. John says directly that this fulfilled Scripture.",
+      "critical_case": "There is no doubt that John applies the psalm to Jesus. But a later writer's explicit quotation does not by itself prove that the original lament was a future prediction.",
+      "verdict_label": "A later reading of the psalm",
+      "verdict": "This is exceptionally strong literary fulfilment. It demonstrates John's interpretation, not independent advance knowledge."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict the divided clothes?",
+        "body": "The psalm says enemies divide the sufferer’s garments and cast lots. John describes soldiers doing both to Jesus."
+      },
+      {
+        "heading": "John makes the link explicit",
+        "body": "He quotes Psalm 22 almost word for word and says the soldiers’ action fulfilled Scripture."
+      },
+      {
+        "heading": "The connection is certain",
+        "body": "What remains unproved is advance prediction. John knew the psalm and deliberately used it to explain Jesus’s death."
+      }
+    ]
+  }
+}

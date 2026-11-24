@@ -1,0 +1,48 @@
+{
+   "caption" : "Psalm 22 and Jesus’s final prayer share trust in mortal danger. But ‘Into Your hands I commit My Spirit’ directly quotes Psalm 31—not Psalm 22.",
+   "claim_id" : "prophecy-087",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Jesus’s final prayer? Psalm 22 asks God to rescue the sufferer. Luke says Jesus entrusted his spirit to the Father before dying.",
+         "body" : "Psalm 22 asks God to rescue the sufferer. Luke says Jesus entrusted his spirit to the Father before dying.",
+         "heading" : "Did Psalm 22 predict Jesus’s final prayer?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:20-21: Deliver my soul from the sword … Save me from the mouth of the lion.",
+         "body" : "Deliver my soul from the sword … Save me from the mouth of the lion.",
+         "heading" : "Ps 22:20-21",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Lk 23:46, BSB: Then Jesus called out in a loud voice, “Father, into Your hands I commit My Spirit.” And when He had said this, He breathed His last.",
+         "body" : "Then Jesus called out in a loud voice, “Father, into Your hands I commit My Spirit.” And when He had said this, He breathed His last.",
+         "heading" : "Claimed fulfilment · Lk 23:46",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: Both passages show trust Each speaker turns to God in mortal danger. That makes the comparison understandable.",
+         "body" : "Each speaker turns to God in mortal danger. That makes the comparison understandable.",
+         "heading" : "Both passages show trust",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But Luke quotes another psalm ‘Into Your hands I commit My Spirit’ comes from Psalm 31:5. Those words are not in Psalm 22.",
+         "body" : "‘Into Your hands I commit My Spirit’ comes from Psalm 31:5. Those words are not in Psalm 22.",
+         "heading" : "But Luke quotes another psalm",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-087/",
+   "title" : "Into Your hands",
+   "verdict_category" : "thematic_parallel_only"
+}

@@ -1,0 +1,48 @@
+{
+   "caption" : "Hebrews explicitly gives Psalm 22:22 to Jesus, and John shows the risen Jesus addressing his brothers. Strong typology—but the verse never states resurrection.",
+   "claim_id" : "prophecy-089",
+   "editorial_status" : "ready_to_publish",
+   "hashtags" : [
+      "#Bible",
+      "#Jesus",
+      "#Prophecy",
+      "#Christianity",
+      "#NonProphet"
+   ],
+   "schema_version" : 1,
+   "slides" : [
+      {
+         "alt_text" : "Editorial slide: Did Psalm 22 predict Jesus’s resurrection? The rescued psalmist promises to speak to his brothers. John shows the risen Jesus sending a message to his brothers.",
+         "body" : "The rescued psalmist promises to speak to his brothers. John shows the risen Jesus sending a message to his brothers.",
+         "heading" : "Did Psalm 22 predict Jesus’s resurrection?",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "The BSB text of Ps 22:22: I will proclaim Your name to my brothers.",
+         "body" : "I will proclaim Your name to my brothers.",
+         "heading" : "Ps 22:22",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "The claimed New Testament fulfilment in Jn 20:17, BSB: “ Do not cling to Me,” Jesus said, “for I have not yet ascended to the Father. But go and tell My brothers, ‘I am ascending to My Father and your Father, to My God and your God.’”",
+         "body" : "“ Do not cling to Me,” Jesus said, “for I have not yet ascended to the Father. But go and tell My brothers, ‘I am ascending to My Father and your Father, to My God and your God.’”",
+         "heading" : "Claimed fulfilment · Jn 20:17",
+         "type" : "scripture"
+      },
+      {
+         "alt_text" : "Editorial slide: The Christian link is strong Hebrews directly quotes this verse as Jesus’s words. Psalm 22 also turns here from suffering to praise.",
+         "body" : "Hebrews directly quotes this verse as Jesus’s words. Psalm 22 also turns here from suffering to praise.",
+         "heading" : "The Christian link is strong",
+         "type" : "editorial"
+      },
+      {
+         "alt_text" : "Editorial slide: But resurrection is not stated The speaker has been rescued and will praise God. The verse never says he died and returned to life.",
+         "body" : "The speaker has been rescued and will praise God. The verse never says he died and returned to life.",
+         "heading" : "But resurrection is not stated",
+         "type" : "editorial"
+      }
+   ],
+   "source_url" : "https://nonprophet.app/claims/prophecy-089/",
+   "title" : "The risen Jesus and his brothers",
+   "verdict_category" : "plausible_typology_not_prediction"
+}

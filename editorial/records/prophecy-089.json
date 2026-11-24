@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "claim_id": "prophecy-089",
+  "status": "ready_to_publish",
+  "claim": {
+    "precise": "Psalm 22:22 predicted Jesus's resurrection and declaration to His brothers, fulfilled in John 20:17.",
+    "type": "canonical_typology",
+    "scope_notes": "The verse follows the psalm's turn from danger to praise; Hebrews 2:12 explicitly places it on Jesus's lips, while John 20:17 supplies the post-resurrection brothers scene."
+  },
+  "context": {
+    "summary": "After answered prayer, Psalm 22's speaker promises to proclaim God's name to his brothers. The risen Jesus tells Mary to go to his brothers and announces his coming ascent.",
+    "shared_context_id": "psalms-16-22"
+  },
+  "strongest_case": {
+    "summary": "The canonical connection is substantial. Psalm 22 moves from near death to public praise, Hebrews explicitly quotes verse 22 as Jesus's words, and John records the risen Jesus calling the disciples brothers and sending them a message about his ascent to God.",
+    "reasoning": [
+      "Hebrews 2:12 explicitly applies Psalm 22:22 to Jesus.",
+      "The verse follows a dramatic turn from suffering to answered prayer.",
+      "John 20 combines the risen Jesus, his brothers and a message about ascent to their shared God."
+    ],
+    "source_ids": [
+      "src-janowski-ps22",
+      "src-gleason-hebrews",
+      "src-bsb-v59"
+    ]
+  },
+  "critical_case": {
+    "summary": "Psalm 22:22 itself says nothing about death, return to life or ascent. Its speaker promises praise after deliverance, which need not mean resurrection. John does not quote the verse; the direct Christian bridge comes from Hebrews, whose typological use is later than the psalm.",
+    "reasoning": [
+      "Resurrection is not stated in the verse.",
+      "Deliverance from danger can explain the transition.",
+      "John supplies no explicit Psalm 22 citation."
+    ],
+    "source_ids": [
+      "src-janowski-ps22",
+      "src-gleason-hebrews",
+      "src-bsb-v59"
+    ]
+  },
+  "textual_issues": [],
+  "verdict": {
+    "category": "plausible_typology_not_prediction",
+    "summary": "Hebrews explicitly gives Psalm 22:22 to Jesus, and John provides an attractive resurrection scene involving his brothers. This is strong Christian typology, but the psalmic verse itself predicts neither death nor resurrection.",
+    "confidence": "high"
+  },
+  "sources": [
+    {
+      "id": "src-janowski-ps22",
+      "tier": 2,
+      "stance": "both",
+      "type": "book_chapter",
+      "title": "From Death to Life: Psalm 22",
+      "author": "Bernd Janowski",
+      "publisher": "Arguing with God",
+      "url": "https://discere.pusc.it/pluginfile.php/131064/mod_folder/content/0/3.4.%20Sal%2022_Janowski%2C%20Arguing%20with%20God%2C%202013%2C%20pp.%20322-346.pdf?forcedownload=1",
+      "locator": "turn from petition to praise after v. 21",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Explains the literary transition without requiring literal resurrection."
+    },
+    {
+      "id": "src-gleason-hebrews",
+      "tier": 2,
+      "stance": "supportive",
+      "type": "journal_article",
+      "title": "Angels and the Eschatology of Hebrews 1–2",
+      "author": "Randall C. Gleason",
+      "publisher": "Bibliotheca Sacra",
+      "url": "https://www.marquette.edu/maqom/GleasonAngels.pdf",
+      "locator": "Psalm 22:22 in Hebrews 2:12",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Discusses Hebrews' Christological use of the psalm."
+    },
+    {
+      "id": "src-bsb-v59",
+      "tier": 1,
+      "stance": "primary_text",
+      "type": "biblical_text",
+      "title": "Berean Standard Bible v5.9",
+      "author": "BSB Publishing",
+      "publisher": "BSB Publishing",
+      "url": "https://github.com/BSB-publishing/bsb2usfm/releases/tag/v5.9",
+      "locator": "Psalm 22:21–22; John 20:17; Hebrews 2:12",
+      "accessed": "2026-11-24",
+      "checked": true,
+      "notes": "Psalm transition and both New Testament connections checked locally."
+    }
+  ],
+  "reviews": [{"reviewer":"adversarial_llm","model":"GPT-6.2 Astra","date":"2026-11-24","prompt_version":"2","prompt_path":"editorial/review-prompts/prophecy-089-adversarial-2026-11-24.md","raw_output_path":"editorial/reviews/prophecy-089-adversarial-2026-11-24-raw.md","objections":[{"objection":"John's message concerns ascent, not a declaration of resurrection or praise in an assembly.","disposition":"accepted","reason":"The strongest and critical cases now describe John's narrower correspondence precisely."},{"objection":"Hebrews' explicit application and the inferred link to John carry different evidential weights.","disposition":"accepted","reason":"The verdict calls the combined case plausible typology while treating Hebrews as the explicit bridge."},{"objection":"Saying the whole psalm never mentions resurrection exceeded the displayed evidence.","disposition":"accepted","reason":"The copy now confines the direct-content judgment to verse 22."}]}],
+  "human_review": {
+    "required": false,
+    "questions": []
+  },
+  "publication_copy": {
+    "title": "The risen Jesus and his brothers",
+    "scripture_excerpt": "I will proclaim Your name to my brothers.",
+    "website": {
+      "description": "Did Psalm 22 predict Jesus declaring His resurrection?",
+      "summary": "Hebrews explicitly applies this verse to Jesus, but the resurrection link comes from its later Christian setting.",
+      "christian_case": "Psalm 22 turns from suffering to praise, and Hebrews gives verse 22 to Jesus. John then shows the risen Jesus calling his disciples brothers and sending them a message.",
+      "critical_case": "Verse 22 says the rescued speaker will praise God. It does not state death or resurrection, and John's message concerns ascent rather than praise in an assembly.",
+      "verdict_label": "A plausible Christian pattern",
+      "verdict": "This is strong canonical typology: later New Testament texts connect the pieces. It is not a direct resurrection prediction in Psalm 22:22."
+    },
+    "carousel": [
+      {
+        "heading": "Did Psalm 22 predict Jesus’s resurrection?",
+        "body": "The rescued psalmist promises to speak to his brothers. John shows the risen Jesus sending a message to his brothers."
+      },
+      {
+        "heading": "The Christian link is strong",
+        "body": "Hebrews directly quotes this verse as Jesus’s words. Psalm 22 also turns here from suffering to praise."
+      },
+      {
+        "heading": "But resurrection is not stated",
+        "body": "The speaker has been rescued and will praise God. The psalm never says he died and returned to life."
+      }
+    ]
+  }
+}
