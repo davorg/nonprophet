@@ -27,13 +27,14 @@ permissions:
   id-token: write
 
 jobs:
-  publish:
+  prepare:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -64,6 +65,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/publication.json docs/_claims docs/_data/books.json docs/books docs/status.md
           git commit -m "Publish ${{ steps.publish.outputs.claim_id }}"
+          git pull --rebase origin main
           git push
 
       - uses: actions/configure-pages@v5
@@ -71,10 +73,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
       - name: Warn when publication queue is low
         if: steps.publish.outputs.low == 'true'
@@ -89,3 +87,27 @@ jobs:
               --title "Publication queue is running low" \
               --body "Only $REMAINING reviewed claims remain ready for daily publication. Please prepare another batch."
           fi
+
+  deploy:
+    needs: prepare
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
+    steps:
+      - name: Wait for Pages artifact indexing
+        run: sleep 15
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before retrying deployment
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - name: Retry deployment once
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4

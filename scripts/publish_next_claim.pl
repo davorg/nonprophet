@@ -37,7 +37,12 @@ my @eligible = sort {
     ($a->{claim_id} =~ /(\d+)$/)[0] <=> ($b->{claim_id} =~ /(\d+)$/)[0]
 } grep { ($_->{state} // '') eq 'withheld' && $ready{$_->{claim_id}} } @{$publication->{entries}};
 
-my $next = shift @eligible;
+my ($already_published) = grep {
+    ($_->{state} // '') eq 'published'
+        && ($_->{scheduled_date} // '') eq $date
+} @{$publication->{entries}};
+
+my $next = $already_published ? undef : shift @eligible;
 if ($next) {
     $next->{state} = 'published';
     $next->{scheduled_date} = $date;
@@ -55,6 +60,7 @@ if ($next) {
 my $remaining = scalar @eligible;
 my $low = $remaining < 5 ? 'true' : 'false';
 print 'claim_id=' . ($next ? $next->{claim_id} : '') . "\n";
+print 'already_published=' . ($already_published ? $already_published->{claim_id} : '') . "\n";
 print "remaining=$remaining\n";
 print "low=$low\n";
 print "dry_run=" . ($dry_run ? 'true' : 'false') . "\n";
