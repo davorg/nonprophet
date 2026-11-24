@@ -9,7 +9,7 @@ permalink: /status/
 robots: "noindex, nofollow"
 ---
 <div class="status-grid">
-  <section class="status-card"><span>Published</span><strong>82</strong><p>claims currently live</p></section>
-  <section class="status-card"><span>Queued</span><strong>3</strong><p>reviewed claims waiting</p></section>
+  <section class="status-card"><span>Published</span><strong>83</strong><p>claims currently live</p></section>
+  <section class="status-card"><span>Queued</span><strong>2</strong><p>reviewed claims waiting</p></section>
   <section class="status-card status-card-date"><span>Queue runs out</span><strong><time datetime="2026-11-26">26 November 2026</time></strong><p>assuming one publication each day</p></section>
 </div>
