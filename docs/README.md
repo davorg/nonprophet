@@ -17,7 +17,10 @@ jekyll build --unpublished --source docs --destination /tmp/nonprophet-preview
 ```
 
 Run the automated public/preview assertions with `scripts/check_site.sh` from the
-repository root. Editorial JSON remains the durable source of truth. Run
+repository root. The checks may regenerate local carousel images but never upload
+them to the private social-image archive. Set `NONPROPHET_SKIP_RENDER=1` when only
+the site assertions are needed and existing renders have already been validated.
+Editorial JSON remains the durable source of truth. Run
 `scripts/generate_publication_copy.pl` to regenerate claim Markdown and carousel
 scripts from every editorial record containing publication copy. Generated claim
 files say so in their front matter and should not be edited directly.

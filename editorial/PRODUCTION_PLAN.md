@@ -72,7 +72,8 @@ publication record should track:
 
 - scheduled date;
 - website publication status and URL;
-- carousel asset paths;
+- carousel asset paths in the private `s3://social.nonprophet.app/rendered/`
+  archive (generated JPEGs remain outside Git);
 - YouTube, TikTok, Instagram, and Bluesky publication identifiers;
 - corrections or post-publication notes.
 

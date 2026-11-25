@@ -8,7 +8,7 @@ trap 'rm -rf -- "$site_check_dir"' EXIT
 
 perl "$repo_dir/scripts/generate_publication_copy.pl"
 if [[ ${NONPROPHET_SKIP_RENDER:-0} != 1 ]]; then
-  perl "$repo_dir/scripts/render_carousels.pl"
+  NONPROPHET_SKIP_UPLOAD=1 perl "$repo_dir/scripts/render_carousels.pl"
 fi
 
 jekyll build --source "$repo_dir/docs" --destination "$site_check_dir/public"

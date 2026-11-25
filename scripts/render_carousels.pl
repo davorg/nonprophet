@@ -205,3 +205,12 @@ $supplement
 }
 
 print "Rendered " . scalar(@manifests) . " carousel sets\n";
+
+unless ($ENV{NONPROPHET_SKIP_UPLOAD}) {
+    my @claim_ids = map {
+        my $manifest = read_json($_);
+        $manifest->{claim_id};
+    } @manifests;
+    system("$root/scripts/upload_social_images.sh", @claim_ids) == 0
+        or die "Uploading rendered carousel images failed\n";
+}
