@@ -14,6 +14,8 @@ fi
 jekyll build --source "$repo_dir/docs" --destination "$site_check_dir/public"
 test -f "$site_check_dir/public/index.html"
 test -f "$site_check_dir/public/assets/css/site.css"
+test -f "$site_check_dir/public/assets/images/nonprophet-logo-96.webp"
+test -f "$site_check_dir/public/assets/images/nonprophet-logo-480.webp"
 test -f "$site_check_dir/public/claims/prophecy-001/index.html"
 test -f "$site_check_dir/public/status/index.html"
 for book_slug in $(jq -r '.[].slug' "$repo_dir/docs/_data/books.json"); do
@@ -81,6 +83,8 @@ rg -q '>Depends on disputed text or translation</a>' "$site_check_dir/public/cla
 test -f "$site_check_dir/public/verdicts/depends-on-disputed-text-or-translation/index.html"
 ! rg -q 'class="verdict-pill"' "$site_check_dir/public/verdicts/depends-on-disputed-text-or-translation/index.html"
 rg -Fq '<title>Did Jesus Fulfil Old Testament Prophecy? · Non-Prophet</title>' "$site_check_dir/public/index.html"
+rg -Fq 'class="wordmark-logo" src="/assets/images/nonprophet-logo-96.webp"' "$site_check_dir/public/index.html"
+rg -Fq 'class="home-logo" src="/assets/images/nonprophet-logo-480.webp"' "$site_check_dir/public/index.html"
 rg -Fq '<title>Did Psalm 22 predict that Jesus would thirst on the cross? · Non-Prophet</title>' "$site_check_dir/public/claims/prophecy-083/index.html"
 rg -q '<nav class="breadcrumbs" aria-label="Breadcrumb">' "$site_check_dir/public/claims/prophecy-001/index.html"
 rg -q 'href="/books/genesis/">Genesis</a>' "$site_check_dir/public/claims/prophecy-001/index.html"

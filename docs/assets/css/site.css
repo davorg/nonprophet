@@ -35,7 +35,8 @@ a { color: var(--accent); text-underline-offset: .18em; }
 .site-nav { display: flex; align-items: center; gap: clamp(.8rem, 2.4vw, 1.6rem); }
 .site-nav a { color: var(--ink); font-size: .86rem; font-weight: 650; text-decoration: none; }
 .site-nav a:hover { color: var(--accent); }
-.wordmark { color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 1.55rem; font-weight: 700; letter-spacing: -.035em; text-decoration: none; }
+.wordmark { display: inline-flex; align-items: center; gap: .65rem; color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 1.55rem; font-weight: 700; letter-spacing: -.035em; text-decoration: none; }
+.wordmark-logo { width: 2.4rem; height: 2.4rem; border-radius: 50%; box-shadow: 0 .25rem .7rem rgba(39,29,15,.12); }
 .claim-main { width: min(100%, 52rem); margin-inline: auto; padding: clamp(3rem, 8vw, 6rem) 0; }
 .breadcrumbs { margin-bottom: 1.5rem; color: var(--muted); font-size: .78rem; }
 .breadcrumbs ol { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0; padding: 0; list-style: none; }
@@ -71,9 +72,10 @@ blockquote { margin: 1.5rem 0 0; font-family: Georgia, "Times New Roman", serif;
 .sources { margin-top: clamp(3rem, 7vw, 5rem); padding-top: 2rem; border-top: 1px solid var(--line); }
 .sources li { margin-bottom: .9rem; font-size: .98rem; }
 .home-main, .content-main { padding: clamp(3rem, 7vw, 5.5rem) 0; }
-.home-intro { max-width: 58rem; margin-bottom: clamp(3rem, 7vw, 5rem); }
+.home-intro { display: grid; grid-template-columns: minmax(0, 1fr) clamp(11rem, 22vw, 17rem); align-items: center; gap: clamp(2rem, 6vw, 5rem); max-width: 70rem; margin-bottom: clamp(3rem, 7vw, 5rem); }
+.home-logo { display: block; width: 100%; height: auto; border-radius: 50%; box-shadow: 0 1.6rem 3.5rem rgba(39,29,15,.14); }
 .home-intro h1, .page-header h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.8rem, 7.5vw, 6.2rem); line-height: .96; letter-spacing: -.05em; }
-.home-intro > p:last-child, .page-header > p:last-child { max-width: 48rem; margin: 1.4rem 0 0; color: var(--muted); font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.1rem, 2.2vw, 1.35rem); line-height: 1.6; }
+.home-intro-copy > p:last-child, .page-header > p:last-child { max-width: 48rem; margin: 1.4rem 0 0; color: var(--muted); font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.1rem, 2.2vw, 1.35rem); line-height: 1.6; }
 .section-kicker { margin: 0 0 1rem; color: var(--accent); font-size: .78rem; letter-spacing: .15em; text-transform: uppercase; }
 .claim-card { display: flex; flex-direction: column; padding: 1.5rem; border: 1px solid var(--line); border-radius: 1rem; background: rgba(255,255,255,.68); box-shadow: 0 .8rem 2.2rem rgba(39,29,15,.05); }
 .claim-card-featured { padding: clamp(1.8rem, 5vw, 3.5rem); background: var(--ink); color: var(--white); }
@@ -131,6 +133,11 @@ blockquote { margin: 1.5rem 0 0; font-family: Georgia, "Times New Roman", serif;
   .site-header { align-items: flex-start; }
   .site-nav { flex-wrap: wrap; justify-content: flex-end; gap: .5rem .8rem; }
   .site-nav a { font-size: .78rem; }
+  .wordmark { gap: .45rem; font-size: 1.35rem; }
+  .wordmark-logo { width: 2rem; height: 2rem; }
+  .home-intro { grid-template-columns: 1fr; gap: 1.5rem; }
+  .home-intro-copy { grid-row: 2; }
+  .home-logo { grid-row: 1; width: 7.5rem; }
   .argument { grid-template-columns: 1fr; gap: .5rem; }
   .section-heading { align-items: flex-start; flex-direction: column; }
   .card-grid, .taxonomy-grid, .status-grid { grid-template-columns: 1fr; }
