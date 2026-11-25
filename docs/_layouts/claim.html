@@ -6,6 +6,15 @@ body_class: claim-page
   {% include site-header.html %}
   <main id="main-content" class="claim-main">
     <article>
+      {% assign book_slug = page.book | slugify %}
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/claims/' | relative_url }}">Claims</a></li>
+          <li><a href="{{ '/books/' | append: book_slug | append: '/' | relative_url }}">{{ page.book }}</a></li>
+          <li aria-current="page">{{ page.title }}</li>
+        </ol>
+      </nav>
       <header class="claim-header">
         <p class="eyebrow">Claim {{ page.claim_number }}</p>
         <h1>{{ page.title }}</h1>

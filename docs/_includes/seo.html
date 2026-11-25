@@ -1,8 +1,15 @@
-{% assign seo_title = page.title | default: site.title %}
-{% unless seo_title == site.title %}{% assign seo_title = seo_title | append: ' · ' | append: site.title %}{% endunless %}
+{% assign seo_name = page.seo_title | default: page.title | default: site.title %}
+{% assign seo_title = seo_name %}
+{% unless seo_name == site.title %}{% assign seo_title = seo_name | append: ' · ' | append: site.title %}{% endunless %}
 {% assign seo_description = page.description | default: site.description | strip_html | strip_newlines %}
 {% assign seo_image = page.og_image | default: site.og_image | absolute_url %}
 {% assign seo_url = page.url | absolute_url %}
+{% assign organization_id = site.url | append: '/#organization' %}
+{% assign website_id = site.url | append: '/#website' %}
+{% assign webpage_id = seo_url | append: '#webpage' %}
+{% assign logo_url = '/assets/images/nonprophet.png' | absolute_url %}
+{% if page.layout == 'claim' %}{% assign book_slug = page.book | slugify %}{% assign breadcrumb_id = seo_url | append: '#breadcrumb' %}{% endif %}
+<title>{{ seo_title | escape }}</title>
 <meta name="description" content="{{ seo_description | escape }}">
 {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
 <link rel="canonical" href="{{ seo_url }}">
@@ -22,4 +29,65 @@
 <meta name="twitter:image" content="{{ seo_image }}">
 <meta name="twitter:image:alt" content="The Non-Prophet logo over desert dunes">
 {% if page.layout == 'claim' and page.publication_date %}<meta property="article:published_time" content="{{ page.publication_date | date_to_xmlschema }}">{% endif %}
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"{% if page.layout == 'claim' %}Article{% else %}WebPage{% endif %}","headline":{{ page.title | default: site.title | jsonify }},"description":{{ seo_description | jsonify }},"url":{{ seo_url | jsonify }},"image":{{ seo_image | jsonify }}{% if page.layout == 'claim' and page.publication_date %},"datePublished":{{ page.publication_date | date_to_xmlschema | jsonify }}{% endif %},"publisher":{"@type":"Organization","name":{{ site.title | jsonify }},"url":{{ site.url | jsonify }}}}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": {{ organization_id | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "logo": {"@type": "ImageObject", "url": {{ logo_url | jsonify }}},
+      "sameAs": [
+        "https://www.youtube.com/@nonprophetapp",
+        "https://www.tiktok.com/@nonprophetapp",
+        "https://www.instagram.com/nonprophetapp/",
+        "https://bsky.app/profile/nonprophetapp.bsky.social"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ site.url | append: '/' | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "publisher": {"@id": {{ organization_id | jsonify }}}
+    },
+    {
+      "@type": "WebPage",
+      "@id": {{ webpage_id | jsonify }},
+      "url": {{ seo_url | jsonify }},
+      "name": {{ seo_name | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "isPartOf": {"@id": {{ website_id | jsonify }}},
+      "primaryImageOfPage": {"@type": "ImageObject", "url": {{ seo_image | jsonify }}}{% if page.layout == 'claim' %},
+      "breadcrumb": {"@id": {{ breadcrumb_id | jsonify }}}{% endif %}
+    }{% if page.layout == 'claim' %},
+    {
+      "@type": "Article",
+      "@id": {{ seo_url | append: '#article' | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "name": {{ seo_name | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "url": {{ seo_url | jsonify }},
+      "mainEntityOfPage": {"@id": {{ webpage_id | jsonify }}},
+      "isPartOf": {"@id": {{ website_id | jsonify }}},
+      "image": {{ seo_image | jsonify }},
+      "author": {"@id": {{ organization_id | jsonify }}},
+      "publisher": {"@id": {{ organization_id | jsonify }}}{% if page.publication_date %},
+      "datePublished": {{ page.publication_date | date_to_xmlschema | jsonify }}{% endif %}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": {{ breadcrumb_id | jsonify }},
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": {{ site.url | append: '/' | jsonify }}},
+        {"@type": "ListItem", "position": 2, "name": "Claims", "item": {{ '/claims/' | absolute_url | jsonify }}},
+        {"@type": "ListItem", "position": 3, "name": {{ page.book | jsonify }}, "item": {{ '/books/' | append: book_slug | append: '/' | absolute_url | jsonify }}},
+        {"@type": "ListItem", "position": 4, "name": {{ page.title | jsonify }}}
+      ]
+    }{% endif %}
+  ]
+}
+</script>

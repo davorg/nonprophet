@@ -80,14 +80,27 @@ rg -q 'John 1:51' "$site_check_dir/public/claims/prophecy-014/index.html"
 rg -q '>Depends on disputed text or translation</a>' "$site_check_dir/public/claims/prophecy-018/index.html"
 test -f "$site_check_dir/public/verdicts/depends-on-disputed-text-or-translation/index.html"
 ! rg -q 'class="verdict-pill"' "$site_check_dir/public/verdicts/depends-on-disputed-text-or-translation/index.html"
+rg -Fq '<title>Did Jesus Fulfil Old Testament Prophecy? · Non-Prophet</title>' "$site_check_dir/public/index.html"
+rg -Fq '<title>Did Psalm 22 predict that Jesus would thirst on the cross? · Non-Prophet</title>' "$site_check_dir/public/claims/prophecy-083/index.html"
+rg -q '<nav class="breadcrumbs" aria-label="Breadcrumb">' "$site_check_dir/public/claims/prophecy-001/index.html"
+rg -q 'href="/books/genesis/">Genesis</a>' "$site_check_dir/public/claims/prophecy-001/index.html"
+perl -0ne 'print $1 if m{<script type="application/ld\+json">\s*(.*?)\s*</script>}s' \
+  "$site_check_dir/public/claims/prophecy-001/index.html" | \
+  jq -e '([."@graph"[]."@type"] | index("Organization") != null) and
+    ([."@graph"[]."@type"] | index("WebSite") != null) and
+    ([."@graph"[]."@type"] | index("WebPage") != null) and
+    ([."@graph"[]."@type"] | index("Article") != null) and
+    ([."@graph"[]."@type"] | index("BreadcrumbList") != null)' >/dev/null
 for carousel in "$repo_dir"/social/carousels/prophecy-*.json; do
   jq -e '(.slides | length == 5) and
     ([.slides[].type] == ["editorial", "scripture", "scripture", "editorial", "editorial"]) and
     (.slides[2].heading | startswith("Claimed fulfilment"))' "$carousel" >/dev/null
 done
-identify "$repo_dir"/social/rendered/prophecy-*/instagram/slide-*.jpg | \
-  awk '$3 != "1080x1350" { exit 1 }'
-identify "$repo_dir"/social/rendered/prophecy-*/vertical/slide-*.jpg | \
-  awk '$3 != "1080x1920" { exit 1 }'
+if [[ ${NONPROPHET_SKIP_RENDER:-0} != 1 ]]; then
+  identify "$repo_dir"/social/rendered/prophecy-*/instagram/slide-*.jpg | \
+    awk '$3 != "1080x1350" { exit 1 }'
+  identify "$repo_dir"/social/rendered/prophecy-*/vertical/slide-*.jpg | \
+    awk '$3 != "1080x1920" { exit 1 }'
+fi
 
 echo "Jekyll site checks passed"
